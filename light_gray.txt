@@ -1,0 +1,195 @@
+3465 <span className="text-slate-400 sm:text-sm font-semibold">
+3541 <option value="" disabled className="text-slate-300">
+3823 <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest group-hover:text-indigo-500 transition-colors">
+3831 <span className={`font-bold ${rkjmStatus === 'Disetujui' ? 'text-emerald-600' : 'text-slate-400'}`}>{rkjmStatus}</span>
+3835 <span className={`font-bold ${rktStatus === 'Disetujui' ? 'text-emerald-600' : 'text-slate-400'}`}>{rktStatus}</span>
+3839 <span className={`font-bold ${getDocStatus('RKAS') === 'Disetujui' ? 'text-emerald-600' : 'text-slate-400'}`}>{getDocStatus('RKAS')}</span>
+3855 <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest group-hover:text-emerald-500 transition-colors">
+3862 <span className="text-xs font-bold text-slate-400 uppercase">
+3876 <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest">
+3910 <div className="text-slate-300 group-hover:text-indigo-400 transition-colors">
+4353 <UploadCloud className="w-4 h-4 mr-2 text-slate-400" />
+5029 <Database className="w-8 h-8 text-slate-400" />
+5445 <Search className="w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+5469 <Database className="w-8 h-8 text-slate-400" />
+5478 <div className="text-center p-6 text-slate-400">
+5692 <Search className="w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+5716 <Database className="w-8 h-8 text-slate-400" />
+5725 <div className="text-center p-6 text-slate-400">
+5933 <Database className="w-8 h-8 text-slate-400" />
+6940 <p className="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3">
+7393 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+7401 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+7468 className="opacity-0 group-hover:opacity-100 transition-opacity text-slate-400 h-7 text-xs"
+7507 <p className="text-[10px] text-slate-400 italic mt-3">
+7795 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2">
+7811 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+7835 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">
+7841 <div className="text-xs font-bold text-slate-400 mb-1">
+7858 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+7866 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+7874 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+7882 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+7967 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+7975 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+7984 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+7992 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+8003 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2">
+8017 <span className="text-[10px] font-medium text-slate-400 italic">
+8087 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+8095 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+8122 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+8130 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+8148 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2">
+8163 <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider">
+8240 className={`text-[9px] uppercase font-bold px-2 py-0.5 rounded-md border ${doc.status === "Disetujui" || doc.status === "Terkunci" ? "bg-emerald-50 border-emerald-200 text-emerald-600" : doc.status === "Perlu Revisi" ? "bg-rose-50 border-rose-200 text-rose-600" : doc.status === "Belum Dibuat" ? "bg-slate-50 border-slate-200 text-slate-400" : "bg-blue-50 border-blue-200 text-blue-600"}`}
+8310 <span className="text-xs font-medium text-slate-400">
+8322 <div className="text-center text-sm text-slate-400 font-medium py-8">
+8331 <BookOpen className="w-12 h-12 text-slate-300 mb-4" />
+8363 <p className="text-slate-300 text-lg max-w-2xl leading-relaxed">
+8450 <div className="w-24 h-16 mx-auto border-2 border-dashed border-slate-300 rounded-lg flex items-center justify-center text-slate-400 mb-8">
+8659 <p className="text-slate-300 text-lg max-w-2xl leading-relaxed">
+8792 <ShieldAlert className="w-12 h-12 text-slate-300 mb-4" />
+8848 className={`text-[10px] mt-1 font-medium ${activeChapter.id === chapter.id ? "text-indigo-200" : "text-slate-400"}`}
+8864 <span className="text-slate-400 font-medium block">
+8906 <span className="text-[10px] text-slate-400 font-bold uppercase block mb-1">
+8921 <span className="text-[10px] text-slate-400 font-bold uppercase block mb-1">
+8929 <span className="text-[10px] text-slate-400 font-bold uppercase block mb-1">
+9019 <span className="text-[10px] text-slate-400 font-bold uppercase block mb-2">
+9181 <span className="text-[10px] text-slate-400 font-mono hidden md:inline">
+9350 <p className="text-[10px] text-slate-400 font-bold uppercase">
+9365 <p className="text-[10px] text-slate-400 font-bold uppercase">
+9650 <div className="w-20 h-20 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto mb-6">
+9893 <p className="text-[10px] text-slate-400 font-sans font-medium">Dihasilkan oleh TAMPUYAK OS (School Operating System) v1.0.0</p>
+9925 <p className="text-[10px] font-bold text-slate-400 uppercase">Versi</p>
+9929 <p className="text-[10px] font-bold text-slate-400 uppercase">Tahun</p>
+9933 <p className="text-[10px] font-bold text-slate-400 uppercase">Terakhir Diubah</p>
+9953 <t.icon className={`w-4 h-4 mr-2 ${activeTab === t.id ? 'text-indigo-600' : 'text-slate-400'}`} />
+10203 <div className="absolute bottom-[15mm] w-full text-center text-slate-400 text-[10pt] font-serif">
+10228 <p className="text-slate-400 text-xs font-bold uppercase mb-1">Status Dokumen</p>
+10232 <p className="text-slate-400 text-xs font-bold uppercase mb-1">Versi</p>
+10236 <p className="text-slate-400 text-xs font-bold uppercase mb-1">Persetujuan</p>
+10240 <p className="text-slate-400 text-xs font-bold uppercase mb-1">Revisi Terakhir</p>
+10244 <p className="text-slate-400 text-xs font-bold uppercase mb-2">Dokumen Terkait</p>
+10263 <GitCompare className="w-10 h-10 mb-4 text-slate-300" />
+10283 <CheckCircle2 className="w-10 h-10 mb-4 text-slate-300" />
+10490 <button onClick={() => setShowDevMode(!showDevMode)} className="text-[10px] uppercase font-bold text-slate-400 hover:text-slate-600 bg-slate-100 px-2 py-1 rounded">Dev Mode</button>
+10507 {item.done ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-slate-300" />}
+10801 <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-2">
+10820 <button onClick={() => setShowDevMode(!showDevMode)} className="text-[10px] uppercase font-bold text-slate-400 hover:text-slate-600 bg-slate-100 px-2 py-1 rounded">Dev Mode</button>
+10868 <thead className="text-[10px] font-bold text-slate-400 uppercase tracking-wider border-b border-slate-100">
+10912 {readiness.school ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-slate-300" />}
+10916 {readiness.planning ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-slate-300" />}
+10920 {readiness.document ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-slate-300" />}
+10924 {readiness.print ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-slate-300" />}
+10928 {readiness.audit ? <CheckCircle2 className="w-5 h-5 text-emerald-600" /> : <XCircle className="w-5 h-5 text-slate-300" />}
+11129 <span className="text-sm font-bold text-slate-400">
+11290 <div className="flex justify-between text-[11px] font-bold text-slate-400 px-1">
+11333 className="w-full text-xl font-black px-2 py-1 rounded-lg border border-slate-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 outline-none text-slate-800 disabled:bg-slate-100 disabled:text-slate-400 transition-all bg-white"
+11403 <label className="block text-[9px] font-black text-slate-400 uppercase tracking-widest mb-1 text-center">
+11584 <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Developer</p>
+11588 <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Release Date</p>
+11592 <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Architecture</p>
+11596 <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Storage Engine</p>
+11600 <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Workflow Engine</p>
+11604 <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">License</p>
+11635 <GitCommit className="w-5 h-5 mr-3 text-slate-400" /> Status
+11642 <BookMarked className="w-5 h-5 mr-3 text-slate-400" /> Template
+11649 <Library className="w-5 h-5 mr-3 text-slate-400" /> Regulation
+11656 <FileCode className="w-5 h-5 mr-3 text-slate-400" /> Document
+11663 <FileSignature className="w-5 h-5 mr-3 text-slate-400" />{" "}
+11670 <ShieldAlert className="w-5 h-5 mr-3 text-slate-400" />{" "}
+11677 <Printer className="w-5 h-5 mr-3 text-slate-400" /> Print Diagnostic
+11683 <BrainCircuit className="w-5 h-5 mr-3 text-slate-400" /> Generation Diagnostic
+11995 <div className="text-[11px] text-slate-400 italic bg-white p-2 rounded-lg border border-slate-100 text-center">
+12019 <History className="w-5 h-5 mr-2 text-slate-400" />
+12222 <h3 className="text-[11px] font-black text-slate-400 uppercase tracking-widest px-4 mb-2 mt-2">{group.title}</h3>
+12235 className={`w-4 h-4 mr-3 transition-colors ${activeTab === tab.id ? "text-indigo-200" : "text-slate-400 group-hover:text-slate-600"}`}
+12368 <h2 className="text-[11px] font-black text-slate-400 uppercase tracking-widest px-4 mb-4 mt-2">
+12379 className={`w-4 h-4 mr-3 transition-colors ${activeTab === tab.id ? "text-indigo-200" : "text-slate-400 group-hover:text-slate-600"}`}
+12412 <button onClick={() => setIsOpen(false)} className="absolute top-4 right-4 text-slate-400 hover:text-slate-600">
+12460 <span className={`transition-colors ${checkedItems[i] ? 'text-slate-400 line-through' : 'text-slate-700'}`}>{item}</span>
+12678 <div className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center justify-between">
+12697 <button onClick={() => setShowDevMode(!showDevMode)} className="text-[10px] uppercase font-bold text-slate-400 hover:text-slate-600 bg-slate-100 px-2 py-1 rounded">Dev Mode</button>
+12870 <div className="w-20 h-20 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto mb-6">
+12943 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+12949 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+12955 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+12967 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+13158 <div className="absolute right-4 top-4 text-[10px] font-bold text-slate-400 uppercase tracking-widest flex items-center">
+13198 <div className="flex items-center gap-6 text-sm text-slate-400">
+13356 <div className="w-20 h-20 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto mb-6">
+13428 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+13434 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+13440 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+13448 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+13644 <div className="text-[10px] text-slate-400 font-normal mt-0.5 uppercase flex flex-col">
+13676 className="h-8 w-8 p-0 text-slate-400 hover:text-rose-600"
+13714 <div className="flex items-center gap-6 text-sm text-slate-400">
+13817 <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5" />
+13913 <span className="text-slate-400">•</span>
+13915 <span className="text-slate-400">•</span>
+14065 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+14071 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+14077 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+14083 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+14212 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+14255 <div className="text-[10px] text-slate-400">
+14266 <span className="text-slate-400 text-xs italic">
+14300 className="text-slate-400 hover:text-slate-600"
+14842 <div className="w-20 h-20 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto mb-6">
+14899 <ChevronRight className="w-4 h-4 text-slate-300" />
+15188 <QrCode className="w-4 h-4 mr-2 text-slate-400" /> Sertakan
+15200 <Link className="w-4 h-4 mr-2 text-slate-400" /> Sertakan
+15259 <ImageIcon className="w-8 h-8 text-slate-400" />
+15303 <FileArchive className="w-12 h-12 text-slate-400 mx-auto mb-4" />
+15326 <div className="text-slate-400 flex flex-col items-center justify-center pt-20">
+15457 <p className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-4">
+15548 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">
+16069 <p className="text-[10px] text-slate-400 font-sans font-medium">Dihasilkan oleh TAMPUYAK OS (School Operating System) v1.0.0</p>
+16094 <span className="text-slate-400">Sedang membuka {meta.title}</span>
+16116 <p className="text-[10px] font-bold text-slate-400 uppercase">Versi</p>
+16120 <p className="text-[10px] font-bold text-slate-400 uppercase">Tahun</p>
+16124 <p className="text-[10px] font-bold text-slate-400 uppercase">Terakhir Diubah</p>
+16138 <t.icon className={`w-4 h-4 mr-2 ${activeTab === t.id ? 'text-indigo-600' : 'text-slate-400'}`} />
+16210 <CheckCircle2 className="w-12 h-12 text-slate-300 mx-auto mb-4" />
+16220 <GitCompare className="w-10 h-10 mb-4 text-slate-300" />
+16306 <p className="text-slate-400 text-xs font-bold uppercase mb-1">Status</p>
+16310 <p className="text-slate-400 text-xs font-bold uppercase mb-1">Versi</p>
+16314 <p className="text-slate-400 text-xs font-bold uppercase mb-1">Persetujuan</p>
+16318 <p className="text-slate-400 text-xs font-bold uppercase mb-1">Revisi Terakhir</p>
+16322 <p className="text-slate-400 text-xs font-bold uppercase mb-1">Pemilik Dokumen</p>
+16326 <p className="text-slate-400 text-xs font-bold uppercase mb-2">Dokumen Terkait</p>
+16339 <div className={`p-2 rounded-lg text-xs font-bold flex items-center justify-center ${docId === "rkjm" ? "bg-indigo-100 text-indigo-700 border border-indigo-200" : "bg-slate-50 text-slate-400 cursor-pointer hover:bg-slate-100 border border-slate-100"}`} onClick={() => docId !== "rkjm" && navigateToView("documentDetail_rkjm")}>RKJM</div>
+16340 <div className="flex justify-center"><ArrowDown className="w-4 h-4 text-slate-300" /></div>
+16341 <div className={`p-2 rounded-lg text-xs font-bold flex items-center justify-center ${docId === "rkt" ? "bg-indigo-100 text-indigo-700 border border-indigo-200" : "bg-slate-50 text-slate-400 cursor-pointer hover:bg-slate-100 border border-slate-100"}`} onClick={() => docId !== "rkt" && navigateToView("documentDetail_rkt")}>RKT</div>
+16342 <div className="flex justify-center"><ArrowDown className="w-4 h-4 text-slate-300" /></div>
+16343 <div className={`p-2 rounded-lg text-xs font-bold flex items-center justify-center ${docId === "rkas" ? "bg-indigo-100 text-indigo-700 border border-indigo-200" : "bg-slate-50 text-slate-400 cursor-pointer hover:bg-slate-100 border border-slate-100"}`} onClick={() => docId !== "rkas" && navigateToView("documentDetail_rkas")}>RKAS</div>
+16502 <ChevronRight className={`w-4 h-4 mx-2 ${isCompleted ? 'text-emerald-300' : 'text-slate-300'}`} />
+16550 <div className="text-sm font-bold text-slate-400 uppercase tracking-widest">Langkah {step} dari 5</div>
+16755 className={`w-5 h-5 mr-3.5 ${currentView === "beranda" ? "text-slate-300" : "text-slate-400"}`}
+16765 className={`w-5 h-5 mr-3.5 ${currentView === "dataSekolah" ? "text-slate-300" : "text-slate-400"}`}
+16775 className={`w-5 h-5 mr-3.5 ${["analisis", "rapor", "diagnosis", "targetEngine"].includes(currentView) ? "text-slate-300" : "text-slate-400"}`}
+16785 className={`w-5 h-5 mr-3.5 ${["dokumenPerencanaan", "rkjmPipeline", "rkjmBlueprint", "rkjmOrchestrator", "rktDerivation", "rkasDerivation", "kspStudio", "documentEditor", "publishingCenter", "dqaEngine"].includes(currentView) ? "text-slate-300" : "text-slate-400"}`}
+16795 className={`w-5 h-5 mr-3.5 ${["monitoring"].includes(currentView) ? "text-slate-300" : "text-slate-400"}`}
+16805 className={`w-5 h-5 mr-3.5 ${["governance"].includes(currentView) ? "text-slate-300" : "text-slate-400"}`}
+16815 className={`w-5 h-5 mr-3.5 ${["productionReadiness"].includes(currentView) ? "text-slate-300" : "text-slate-400"}`}
+16825 className={`w-5 h-5 mr-3.5 ${currentView === "pengaturan" ? "text-slate-300" : "text-slate-400"}`}
+16834 className={`w-5 h-5 mr-3.5 ${currentView === "pusatPengetahuan" ? "text-slate-300" : "text-slate-400"}`}
+16882 <ChevronRight className="w-3 h-3 mx-1 text-slate-300" />
+16887 <ChevronRight className="w-3 h-3 mx-1 text-slate-300" />
+16892 : currentView === "rapor" ? <><span className="cursor-pointer hover:text-indigo-800 transition-colors" onClick={() => setCurrentView("analisis")}>Analisis Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-slate-300" /><span>Rapor Pendidikan</span></>
+16893 : currentView === "diagnosis" ? <><span className="cursor-pointer hover:text-indigo-800 transition-colors" onClick={() => setCurrentView("analisis")}>Analisis Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-slate-300" /><span>Analisis Prioritas</span></>
+16895 : currentView === "dokumenAdministrasi" ? <><span className="cursor-pointer hover:text-indigo-800 transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-slate-300" /><span>Administrasi</span></>
+16900 : currentView === "rkjmPipeline" ? <><span className="cursor-pointer hover:text-indigo-800 transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-slate-300" /><span>Penyusunan RKJM</span></>
+16901 : currentView === "rktDerivation" ? <><span className="cursor-pointer hover:text-indigo-800 transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-slate-300" /><span>Penyusunan RKT</span></>
+16902 : currentView === "rkasDerivation" ? <><span className="cursor-pointer hover:text-indigo-800 transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-slate-300" /><span>Penyusunan RKAS</span></>
+16903 : currentView === "kspStudio" ? <><span className="cursor-pointer hover:text-indigo-800 transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-slate-300" /><span>Penyusunan KSP</span></>
+16915 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-4 h-4" />
+16919 className="w-full bg-slate-100/50 border border-slate-200 text-sm rounded-full pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all font-medium text-slate-700 placeholder:text-slate-400"
+16921 <div className="absolute right-2 top-1/2 -translate-y-1/2 px-1.5 py-0.5 bg-white border border-slate-200 rounded text-[10px] font-bold text-slate-400">⌘K</div>
+16933 <button className="relative p-2.5 rounded-xl text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition-colors">
+17038 <a href="https://www.instagram.com/best_deny?igsh=MTdqYTJmcWsydGUwMw==" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-1 transition-transform text-slate-400 hover:text-pink-600" aria-label="Instagram">
+17041 <a href="https://www.tiktok.com/@denipositif" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-1 transition-transform text-slate-400 hover:text-black" aria-label="TikTok">
+17044 <a href="https://web.facebook.com/demian.renovtri.3?rdid=NebkE1tEAlxKk8ZM&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1FwSzyNwVW%2F%3F_rdc%3D1%26_rdr" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-1 transition-transform text-slate-400 hover:text-blue-600" aria-label="Facebook">
+17047 <a href="https://www.youtube.com/@DeniRanoptri" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-1 transition-transform text-slate-400 hover:text-red-600" aria-label="YouTube">

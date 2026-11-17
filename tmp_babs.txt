@@ -1,0 +1,29 @@
+1203:      nama: "BAB I: Pendahuluan",
+1247:      nama: "BAB II: Analisis Kondisi Sekolah",
+1290:      nama: "BAB III: Program Kerja",
+1322:      nama: "BAB IV: Rencana Anggaran",
+1343:          deskripsi: "Estimasi biaya program dari BAB III.",
+1344:          sumberData: ["BAB III", "Standar Biaya"],
+1365:          sumberData: ["BAB I - IV"],
+1443:    "Profil Sekolah": ["BAB Identitas", "KarakteristikSekolah"],
+8476:                  BAB I<br />
+8998:      content: "BAB I PENDAHULUAN",
+9005:        "BAB I PENDAHULUAN1.1 Latar Belakang[Isi latar belakang penyusunan dokumen. Jelaskan kondisi riil sekolah dan dasar hukum yang digunakan.]",
+9167:                  BAB I PENDAHULUAN 1.1 Latar Belakang Berdasarkan Rapor
+9180:                  BAB I PENDAHULUAN 1.1 Latar Belakang Berdasarkan Rapor
+14016:      chapter: "BAB I: Pendahuluan", 
+14024:      chapter: "BAB II: Analisis Kondisi", 
+14032:      chapter: "BAB III: Program Kerja",
+14040:      chapter: "BAB IV: Rencana Anggaran",
+14159:    { id: "bab1", label: "BAB I: Pendahuluan" },
+14160:    { id: "bab2", label: "BAB II: Analisis Kondisi" },
+14161:    { id: "bab3", label: "BAB III: Program Kerja" },
+14162:    { id: "bab4", label: "BAB IV: Rencana Anggaran" },
+14573:                   <div className="flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-6"><span>BAB I: PENDAHULUAN</span><span>1</span></div>
+14574:                   <div className="flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-6"><span>BAB II: ANALISIS KONDISI</span><span>4</span></div>
+14575:                   <div className="flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-6"><span>BAB III: PROGRAM KERJA</span><span>8</span></div>
+14576:                   <div className="flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-6"><span>BAB IV: RENCANA ANGGARAN</span><span>15</span></div>
+14584:                 <h3 className="text-2xl font-bold text-center mb-8 uppercase">BAB I<br/>PENDAHULUAN</h3>
+14607:                 <h3 className="text-2xl font-bold text-center mb-8 uppercase">BAB II<br/>ANALISIS KONDISI DAN LINGKUNGAN STRATEGIS</h3>
+14625:                 <h3 className="text-2xl font-bold text-center mb-8 uppercase">BAB III<br/>PROGRAM KERJA DAN STRATEGI IMPLEMENTASI</h3>
+14702:                  <h3 className="text-2xl font-bold text-center mb-8 uppercase">BAB IV<br/>RENCANA ANGGARAN BIAYA (RKAS)</h3>

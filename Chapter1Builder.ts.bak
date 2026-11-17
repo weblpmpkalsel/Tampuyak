@@ -1,0 +1,192 @@
+import { DocumentChapter } from '../DocumentModel';
+import { generateId } from '../utils';
+import { KnowledgeGraph } from '../../SPKG';
+
+export class Chapter1Builder {
+  public build(kg: KnowledgeGraph, settings: any = {}): DocumentChapter {
+
+    // 1.1 School Profile
+    const profileParagraphs = [
+      `Nama Sekolah: ${settings?.school?.name || '-'}`,
+      `NPSN: ${settings?.school?.npsn || '-'}`,
+      `Status Sekolah: ${settings?.school?.status || '-'}`,
+      `Jenjang Pendidikan: ${settings?.school?.level || '-'}`,
+      `Alamat: ${settings?.school?.address || '-'}`,
+      `Kecamatan: ${settings?.school?.district || '-'}`,
+      `Kabupaten/Kota: ${settings?.school?.regency || '-'}`,
+      `Provinsi: ${settings?.school?.province || '-'}`,
+      `Kepala Sekolah: ${settings?.principal?.name || '-'}`
+    ];
+
+    // 1.2 Vision
+    const visiParagraphs = [];
+    if (settings?.identitas?.visi) {
+      visiParagraphs.push(settings.identitas.visi);
+    } else {
+      visiParagraphs.push("Visi sekolah belum ditetapkan.");
+    }
+
+    // 1.3 Mission
+    const misiParagraphs = [];
+    if (settings?.identitas?.misi && Array.isArray(settings.identitas.misi) && settings.identitas.misi.length > 0) {
+      settings.identitas.misi.forEach((m: string, i: number) => {
+        if (m.trim()) misiParagraphs.push(`${i + 1}. ${m}`);
+      });
+      if (misiParagraphs.length === 0) misiParagraphs.push("Misi sekolah belum ditetapkan.");
+    } else {
+      misiParagraphs.push("Misi sekolah belum ditetapkan.");
+    }
+
+    // 1.4 School Goals
+    const tujuanParagraphs = [];
+    if (settings?.identitas?.tujuan && Array.isArray(settings.identitas.tujuan) && settings.identitas.tujuan.length > 0) {
+      settings.identitas.tujuan.forEach((t: string, i: number) => {
+        if (t.trim()) tujuanParagraphs.push(`${i + 1}. ${t}`);
+      });
+      if (tujuanParagraphs.length === 0) tujuanParagraphs.push("Tujuan sekolah belum ditetapkan.");
+    } else {
+      tujuanParagraphs.push("Tujuan sekolah belum ditetapkan.");
+    }
+
+    // 1.5 School Characteristics
+    const charsParagraphs = [];
+    charsParagraphs.push(`Satuan pendidikan ${settings?.school?.name || 'ini'} berada di lingkungan yang dinamis. Status Akreditasi saat ini adalah ${settings?.school?.akreditasi || 'Belum Terakreditasi'}.`);
+
+    if (settings?.pesertaDidik?.total) {
+       charsParagraphs.push(`Terdapat sejumlah ${settings.pesertaDidik.total} peserta didik aktif. ${settings?.karakteristik?.pesertaDidik || ''}`);
+    } else if (settings?.karakteristik?.pesertaDidik) {
+       charsParagraphs.push(`Karakteristik Peserta Didik: ${settings.karakteristik.pesertaDidik}`);
+    }
+
+    const totalGuru = settings?.guru?.length || 0;
+    if (totalGuru > 0) {
+       charsParagraphs.push(`Tenaga Pendidik: Didukung oleh ${totalGuru} guru. ${settings?.karakteristik?.guru || ''}`);
+    } else if (settings?.karakteristik?.guru) {
+       charsParagraphs.push(`Karakteristik Guru: ${settings.karakteristik.guru}`);
+    }
+
+    if (settings?.karakteristik?.orangTua) {
+       charsParagraphs.push(`Konteks Sosial Komunitas dan Orang Tua: ${settings.karakteristik.orangTua}`);
+    }
+
+    if (settings?.potensi?.daerah && settings.potensi.daerah.length > 0) {
+       charsParagraphs.push(`Potensi Daerah: ${settings.potensi.daerah.join(', ')}`);
+    }
+
+    if (settings?.potensi?.kearifanLokal && settings.potensi.kearifanLokal.length > 0) {
+       charsParagraphs.push(`Kearifan Lokal: ${settings.potensi.kearifanLokal.join(', ')}`);
+    }
+
+    if (charsParagraphs.length === 1) {
+       charsParagraphs.push(`Karakteristik lingkungan belajar dan komunitas dikelola secara kolaboratif guna mendukung iklim akademik yang kondusif.`);
+    }
+
+    // 1.3 Background of RKJM Preparation
+    const bgParagraphs = [
+      `Rencana Kerja Jangka Menengah (RKJM) ini disusun sebagai dokumen perencanaan strategis ${settings?.school?.name || 'sekolah'} untuk mengarahkan program perbaikan mutu pendidikan secara berkesinambungan.`,
+      `Penyusunan dokumen ini didasarkan pada analisis kondisi nyata satuan pendidikan, khususnya merujuk pada capaian Rapor Pendidikan resmi yang diterbitkan oleh Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi. Hasil asesmen nasional dan evaluasi diri menunjukkan sejumlah indikator kinerja yang memerlukan intervensi terstruktur.`,
+      `RKJM ini berfungsi sebagai instrumen tata kelola yang memastikan bahwa setiap perencanaan kegiatan dan penganggaran (termasuk Rencana Kerja Tahunan dan RKAS) bertumpu pada identifikasi akar masalah dan pemanfaatan bukti (evidence-based). Hal ini merupakan wujud komitmen strategis ${settings?.school?.name || 'sekolah'} dalam mewujudkan transformasi layanan pendidikan yang akuntabel.`
+    ];
+
+    if (settings?.analisis?.prioritas && settings.analisis.prioritas.length > 0) {
+        const prioritasText = settings.analisis.prioritas.map((p: any) => p.name || p.dimensi).slice(0, 3).join(", ");
+        bgParagraphs.push(`Secara khusus, dokumen ini dirancang untuk menjawab tantangan kinerja pada area prioritas berikut: ${prioritasText}. Penanganan isu-isu strategis tersebut menjadi landasan utama perumusan program dalam periode RKJM ini.`);
+    }
+
+    // 1.4 Legal Foundation
+    const rkjmLegalBasis = settings?.legalReferences?.rkjm || [
+      "Undang-Undang Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional.",
+      "Peraturan Pemerintah Nomor 57 Tahun 2021 tentang Standar Nasional Pendidikan sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 4 Tahun 2022.",
+      "Peraturan Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi Nomor 47 Tahun 2023 tentang Standar Pengelolaan pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar, dan Jenjang Pendidikan Menengah.",
+      "Peraturan Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi Nomor 9 Tahun 2022 tentang Evaluasi Sistem Pendidikan oleh Pemerintah Pusat dan Pemerintah Daerah Terhadap Pendidikan Anak Usia Dini, Pendidikan Dasar, dan Pendidikan Menengah.",
+      "Keputusan Kepala BSKAP Nomor 024/H/KR/2022 tentang Konsentrasi Keahlian SMK/MAK (apabila relevan).",
+      "Panduan Penyusunan Kurikulum Operasional di Satuan Pendidikan dan Panduan Perencanaan Berbasis Data."
+    ];
+
+    const legalParagraphs = rkjmLegalBasis.map((ref: string, idx: number) => `${idx + 1}. ${ref}`);
+
+    // 1.5 Objectives of RKJM
+    const objectivesParagraphs = [
+      "Tujuan utama penyusunan Rencana Kerja Jangka Menengah (RKJM) ini adalah:",
+      "• Memberikan arah strategis dan pedoman operasional bagi seluruh warga sekolah dalam melaksanakan program pendidikan selama empat tahun ke depan.",
+      "• Memastikan keselarasan antara visi, misi, dan tujuan sekolah dengan kondisi nyata berdasarkan Rapor Pendidikan.",
+      "• Menjadi instrumen dasar dalam penyusunan Rencana Kerja Tahunan (RKT) dan Rencana Kegiatan dan Anggaran Sekolah (RKAS) yang akuntabel dan berbasis data.",
+      "• Meningkatkan efektivitas dan efisiensi pemanfaatan sumber daya sekolah melalui perencanaan yang tepat sasaran.",
+      "• Memfasilitasi pengukuran dan evaluasi ketercapaian target mutu pendidikan secara berkala.",
+      "• Membangun partisipasi dan komitmen pemangku kepentingan (dewan guru, komite, dan orang tua) dalam transformasi mutu layanan.",
+      "• Memenuhi tuntutan regulasi terkait tata kelola dan penjaminan mutu pendidikan pada tingkat satuan pendidikan."
+    ];
+
+    // 1.6 RKJM Preparation Methodology
+    const methodologyParagraphs = [
+      "Penyusunan RKJM ini menggunakan pendekatan Metodologi Perencanaan Berbasis Data (PBD) yang partisipatif, transparan, dan akuntabel. Proses perencanaan diawali dengan analisis bukti kinerja (evidence analysis) yang bersumber dari Rapor Pendidikan serta evaluasi diri sekolah.",
+      "Tahapan operasional perencanaan meliputi:",
+      "• Identifikasi: Membedah profil satuan pendidikan untuk menemukan area kelemahan dan kekuatan prioritas.",
+      "• Refleksi: Menganalisis akar masalah yang menyebabkan belum optimalnya capaian indikator secara kolaboratif.",
+      "• Benahi: Merumuskan program intervensi spesifik dan menyelaraskannya dengan ketersediaan kapasitas serta sumber daya sekolah.",
+      "Penyusunan perumusan ini dilakukan melalui mekanisme Rapat Kerja Sekolah yang melibatkan partisipasi aktif seluruh dewan guru dan tenaga kependidikan. Seluruh proses perancangan juga telah melalui proses peninjauan (review) dan pertimbangan dari Komite Sekolah. Keterlibatan pemangku kepentingan ini diwujudkan guna memastikan bahwa setiap perencanaan mencerminkan aspirasi komunitas dan kebutuhan nyata peserta didik.",
+      "Hasil akhir dari metodologi ini menghasilkan dokumen perencanaan yang terstruktur, di mana sasaran strategis, program, kegiatan, dan proyeksi pembiayaan telah melalui proses verifikasi dan sinkronisasi dengan prinsip tata kelola pendidikan yang baik."
+    ];
+
+    return {
+      id: generateId('DocumentChapter'),
+      title: 'BAB I: Konteks Sekolah & Landasan Perencanaan',
+      sections: [
+        {
+          id: generateId('DocumentSection'),
+          title: '1.1 Profil Sekolah',
+          paragraphs: profileParagraphs,
+          references: []
+        },
+        {
+          id: generateId('DocumentSection'),
+          title: '1.2 Visi',
+          paragraphs: visiParagraphs,
+          references: []
+        },
+        {
+          id: generateId('DocumentSection'),
+          title: '1.3 Misi',
+          paragraphs: misiParagraphs,
+          references: []
+        },
+        {
+          id: generateId('DocumentSection'),
+          title: '1.4 Tujuan Sekolah',
+          paragraphs: tujuanParagraphs,
+          references: []
+        },
+        {
+          id: generateId('DocumentSection'),
+          title: '1.5 Karakteristik Sekolah',
+          paragraphs: charsParagraphs,
+          references: []
+        },
+        {
+          id: generateId('DocumentSection'),
+          title: '1.6 Latar Belakang Penyusunan RKJM',
+          paragraphs: bgParagraphs,
+          references: []
+        },
+        {
+          id: generateId('DocumentSection'),
+          title: '1.7 Landasan Hukum',
+          paragraphs: legalParagraphs,
+          references: []
+        },
+        {
+          id: generateId('DocumentSection'),
+          title: '1.8 Metodologi Penyusunan',
+          paragraphs: methodologyParagraphs,
+          references: []
+        }
+      ],
+      paragraphs: [],
+      tables: [],
+      figures: [],
+      references: [],
+      metadata: { generated: true }
+    };
+  }
+}
+

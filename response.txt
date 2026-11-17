@@ -1,0 +1,13 @@
+The intended navigation path for classroom observation is as follows:
+
+1. **How a Headmaster starts an observation after scheduling:**
+   After a teacher is scheduled, their supervision status becomes `SCHEDULED`. The Headmaster must first click the **"Mulai Pra Observasi"** button on that teacher's schedule row. This transitions the state to `PRE_OBSERVATION`. Once in the pre-observation state, the observation can be started.
+
+2. **Which button opens the observation instrument:**
+   The **"Mulai Observasi"** button. This button is conditionally rendered on the schedule row only when the teacher's schedule status is `PRE_OBSERVATION`.
+
+3. **Which route/component handles classroom observation:**
+   The observation is handled by the **`SupervisionObservationSession`** component. Clicking the button sets the active observation schedule ID in `SupervisionAcademicView`, which dynamically renders `<SupervisionObservationSession scheduleId={...} />`.
+
+**UX Workflow Issue Identified:**
+The buttons ("Mulai Pra Observasi" and "Mulai Observasi") are completely hidden from the UI. This occurs because the action buttons are wrapped in an `<OwnershipGuard>`, which expects a valid logged-in `userId`. However, in the current `SupervisionAuthContext`, the `userId` is statically initialized to `null` and never set. Consequently, the `OwnershipGuard` fails for all users, hiding the entry points and blocking the intended observation workflow.

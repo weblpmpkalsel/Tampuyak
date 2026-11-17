@@ -1,0 +1,23 @@
+export const EnterpriseConfigurationCenter = {
+  schoolName: 'SMP Negeri 1 Contoh',
+  npsn: '12345678',
+  address: 'Jl. Merdeka No. 1',
+  village: 'Sukajaya',
+  district: 'Sukamaju',
+  regencyOrCity: 'Kota Bandung',
+  province: 'Jawa Barat',
+  academicYear: '2023/2024',
+  schoolLogoUrl: 'https://placehold.co/100x100',
+  governmentLogoUrl: 'https://placehold.co/100x100',
+  schoolStatus: 'SEKOLAH PENGGERAK',
+  principalName: 'Budi Santoso, M.Pd.',
+  principalNip: '19700101 199512 1 001',
+  principalPosition: 'Kepala Sekolah',
+  supervisorName: 'Siti Aminah, M.Si.',
+  supervisorNip: '19650202 199003 2 002',
+  supervisorPosition: 'Pengawas Pembina',
+  headOfEducationOfficeName: 'Dr. H. Ahmad Yani',
+  headOfEducationOfficeNip: '19600303 198504 1 003',
+  headOfEducationOfficePosition: 'Kepala Dinas Pendidikan Kota Bandung',
+  schoolCommitteeName: 'Ir. Hendra Gunawan'
+};

@@ -1,0 +1,6786 @@
+react
+lucide-react
+tampuyak.settings
+LOCKED
+READY
+IN_PROGRESS
+COMPLETED
+masterData
+Pusat Data Sekolah
+Profil, GTK, & Inventaris
+Lengkapi Pusat Data
+raporPendidikan
+Rapor Pendidikan
+Input capaian Rapor Pendidikan
+Input Rapor Pendidikan
+aiDiagnosis
+AI Diagnosis
+Analisis kelemahan & rekomendasi
+Analisis Rapor Pendidikan
+rkjm
+RKJM
+Rencana Strategis 4 Tahun
+Susun RKJM
+rkt
+RKT
+Rencana Kerja 1 Tahun
+Susun RKT
+rkas
+RKAS
+Rencana Anggaran & Belanja
+Susun RKAS
+ksp
+KSP
+Kurikulum Satuan Pendidikan
+Susun KSP
+pelaksanaan
+Pelaksanaan
+Realisasi Program Sekolah
+Laksanakan Program
+supervisi
+Supervisi
+Supervisi Akademik & Manajerial
+Lakukan Supervisi
+evaluasi
+Evaluasi
+Evaluasi Program & Kinerja
+Lakukan Evaluasi
+lpj
+LPJ
+Laporan Akhir
+Buat LPJ
+Disetujui
+Selesai
+Ditinjau
+Draft
+Sedang Diproses
+ksp
+aiDiagnosis
+ksp
+ksp
+ksp
+ksp
+pelaksanaan
+rkas
+ksp
+pelaksanaan
+pelaksanaan
+pelaksanaan
+pelaksanaan
+permendikdasmen-13-2025
+Kurikulum pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar, dan Jenjang Pendidikan Menengah
+13
+Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen)
+BERLAKU_UTAMA
+2025.1
+2025-01-01
+ksp
+pelaksanaan
+supervisi
+panduan-ksp-2025
+Panduan Pengembangan Kurikulum Satuan Pendidikan (Edisi Revisi)
+-
+BSKAP Kemendikdasmen
+BERLAKU_UTAMA
+2025.1
+2025-02-01
+ksp
+evaluasi
+permendikbud-19-2007
+Standar Pengelolaan Pendidikan oleh Satuan Pendidikan Dasar dan Menengah
+19
+Kemendiknas
+BERLAKU
+2007.1
+2007-05-23
+rkjm
+rkt
+lpj
+permendikbudristek-63-2022
+Petunjuk Teknis Pengelolaan Dana BOSP
+63
+Kemendikbudristek
+BERLAKU
+2022.1
+2022-12-28
+rkas
+lpj
+logo
+namaDokumen
+namaSekolah
+tahunPelajaran
+alamat
+logoMini
+kopSekolah
+garisPembatas
+bab
+subBab
+paragraf
+tabel
+dokumenPendukung
+foto
+tanggal
+tandaTanganKepsek
+tandaTanganKomite
+tandaTanganPengawas
+nomorHalaman
+watermarkDokumen
+A4
+Times New Roman/Arial
+Master Data Satuan Pendidikan
+SISTEM
+Identitas baku institusi
+Profil
+Keuangan
+Pendidik
+Database Lokal
+Semua Dokumen
+Rapor Pendidikan
+DATA
+Hasil capaian nasional
+File Unduhan Kemdikbud
+Dataset Agregat
+masterData
+aiDiagnosis
+AI Diagnosis Rapor
+ANALISIS
+Menemukan akar masalah dan rekomendasi program
+raporPendidikan
+Analisis Kelemahan
+Rekomendasi Program
+raporPendidikan
+rkjm
+ksp
+Rencana Kerja Jangka Menengah
+PERENCANAAN
+Peta jalan sekolah 4 tahun
+aiDiagnosis
+Visi
+Misi
+Buku RKJM
+aiDiagnosis
+rkt
+REG-0001
+REG-0004
+Rencana Kerja Tahunan
+PERENCANAAN
+Target dan program 1 tahun berjalan
+rkjm
+Buku RKT
+rkjm
+rkas
+REG-0001
+REG-0004
+Rencana Kegiatan dan Anggaran Sekolah
+PENGANGGARAN
+Proyeksi pembiayaan BOS 1 tahun
+rkt
+Pagu Anggaran
+Kertas Kerja RKAS
+rkt
+pelaksanaan
+REG-0002
+Kurikulum Satuan Pendidikan
+KURIKULUM
+Panduan operasional penyelenggaraan pembelajaran
+masterData
+aiDiagnosis
+Buku KSP
+aiDiagnosis
+pelaksanaan
+REG-0003
+REG-0005
+Instrumen Supervisi
+SUPERVISI
+Kendali mutu pembelajaran dan manajerial
+pelaksanaan
+Laporan Supervisi
+pelaksanaan
+evaluasi
+REG-0006
+Laporan Pertanggungjawaban
+PELAPORAN
+Laporan akhir tahun
+evaluasi
+rkas
+Buku LPJ
+evaluasi
+REG-0001
+REG-0002
+Surat Keputusan
+ADMINISTRASI_UMUM
+Legalisasi kebijakan/tugas
+masterData
+Naskah SK
+masterData
+suratTugas
+Berita Acara
+ADMINISTRASI_UMUM
+Dokumentasi legal peristiwa
+masterData
+Naskah BA
+masterData
+notulen
+Struktur KSP Berdasarkan Panduan Revisi 2025
+bab1
+Analisis Karakteristik Satuan Pendidikan
+Analisis Lingkungan Belajar
+Analisis Kebutuhan Peserta Didik
+Analisis Pendidik & Tenaga Kependidikan
+bab2
+Visi, Misi, dan Tujuan
+Visi
+Misi
+Tujuan Satuan Pendidikan
+bab3
+Pengorganisasian Pembelajaran
+Intrakurikuler
+Kokurikuler (Proyek Penguatan Profil Pelajar Pancasila)
+Ekstrakurikuler
+Pendekatan Pembelajaran
+Kalender Pendidikan
+bab4
+Perencanaan Pembelajaran
+Ruang Lingkup Satuan Pendidikan
+Ruang Lingkup Kelas
+bab5
+Evaluasi, Pendampingan, dan Pengembangan Profesional
+Evaluasi Pembelajaran dan Kurikulum
+Pendampingan dan Pengembangan Profesional
+lampiran
+Lampiran
+Contoh Silabus/Alur Tujuan Pembelajaran
+Contoh Modul Ajar/RPP
+Contoh Panduan Proyek
+SK Tim Pengembang KSP
+masterData
+raporPendidikan
+aiDiagnosis
+rkjm
+rkt
+budgetParams
+masterData
+aiDiagnosis
+Karakteristik
+Visi
+Misi
+rkjm
+curriculumRegistry.v2025
+permendikdasmen-13-2025
+Permendikdasmen Nomor 13 Tahun 2025
+Kebijakan Kurikulum pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar, dan Jenjang Pendidikan Menengah.
+REG-0006
+AKTIF
+2025.1
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Kurikulum
+kurikulum
+pengorganisasian
+pembelajaran
+ksp
+mutu pembelajaran rendah
+keselarasan kurikulum
+ketertinggalan belajar
+Revisi KSP/KOSP
+Lokakarya Kurikulum
+In House Training Implementasi Kurikulum
+pembelajaran-mendalam
+Pembelajaran Mendalam
+Pendekatan pembelajaran dengan prinsip Berkesadaran, Bermakna, dan Menggembirakan.
+REG-0007
+AKTIF
+2025.1
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Pembelajaran
+berkesadaran
+bermakna
+menggembirakan
+pedagogi
+teknologi
+motivasi belajar rendah
+pembelajaran pasif
+capaian literasi numerasi rendah
+Pelatihan Guru Pembelajaran Mendalam
+Pemanfaatan Teknologi Pembelajaran
+Supervisi Akademik Berbasis Coaching
+Berkesadaran
+Bermakna
+Menggembirakan
+Praktik Pedagogis
+Lingkungan Pembelajaran
+Kemitraan
+Pemanfaatan Teknologi Digital
+profil-lulusan
+Delapan Dimensi Profil Lulusan
+Delapan dimensi karakteristik yang diharapkan dimiliki oleh setiap lulusan sekolah di Indonesia.
+REG-0008
+AKTIF
+2025.1
+SD
+SMP
+SMA
+SMK
+Karakter
+profil lulusan
+karakter
+kompetensi lulusan
+krisis karakter
+perilaku negatif siswa
+Integrasi Karakter dalam Pembelajaran
+Penilaian Sikap Berbasis Portofolio
+kokurikuler
+Kokurikuler
+Kegiatan pembelajaran di luar jam intrakurikuler untuk memperdalam dan memperkaya kompetensi atau karakter.
+REG-0006
+AKTIF
+2025.1
+SD
+SMP
+SMA
+SMK
+Kokurikuler
+kegiatan luar kelas
+pengayaan
+proyek karakter
+kurangnya aktualisasi siswa
+pengalaman belajar sempit
+Pengembangan Program Kokurikuler Berbasis Potensi Lokal
+Kunjungan Edukatif
+Memperdalam pembelajaran intrakurikuler dan mengembangkan karakter.
+Kunjungan lapangan
+Proyek kolaboratif
+Penelitian sederhana
+Sangat Kuat
+Kuat
+7-kebiasaan
+7 Kebiasaan Anak Indonesia Hebat
+Tujuh kebiasaan utama untuk menumbuhkan budaya positif dan karakter unggul pada peserta didik.
+REG-0009
+AKTIF
+2025.1
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Karakter
+7 kebiasaan
+anak hebat
+budaya positif
+karakter
+kedisiplinan rendah
+kurang kemandirian
+kurangnya tanggung jawab
+Kampanye 7 Kebiasaan
+Penghargaan Siswa Berkarakter
+Integrasi dalam Pembiasaan Pagi
+Bangun Pagi
+Disiplin waktu
+Disiplin
+SD
+SMP
+Hadir tepat waktu
+Beribadah
+Religius
+Religius
+SD
+SMP
+SMA
+SMK
+Sholat berjamaah di sekolah
+Berolahraga
+Kesehatan fisik
+Sehat
+SD
+SMP
+SMA
+SMK
+Senam pagi bersama
+Membaca
+Literasi
+Rasa Ingin Tahu
+SD
+SMP
+SMA
+SMK
+Membaca 15 menit sebelum belajar
+Makan Sehat
+Gizi seimbang
+Sehat
+PAUD
+SD
+Bawa bekal bergizi
+Membantu Orang Tua
+Empati dan bakti
+Peduli
+SD
+SMP
+Program pelaporan bakti anak
+Tidur Tepat Waktu
+Kesehatan dan fokus
+Disiplin
+SD
+SMP
+Penyuluhan kesehatan jam tidur
+pbd
+Perencanaan Berbasis Data (PBD)
+Pendekatan perencanaan sekolah yang bertumpu pada analisis Rapor Pendidikan.
+REG-0010
+AKTIF
+2025.1
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Perencanaan Berbasis Data
+pbd
+rapor pendidikan
+perencanaan
+rkjm
+rkt
+rkas
+perencanaan tidak tepat sasaran
+anggaran tidak efektif
+Bimtek PBD untuk Tim Manajemen Sekolah
+Evaluasi Diri Sekolah Berbasis Rapor
+koding-ai
+Koding & Kecerdasan Artifisial
+Integrasi kompetensi koding dan AI sebagai mata pelajaran pilihan atau ekstrakurikuler (mulai Kelas 4 SD, SMP, SMA).
+REG-0011
+AKTIF
+2025.1
+SD
+SMP
+SMA
+SMK
+Koding & Kecerdasan Artifisial
+koding
+ai
+kecerdasan artifisial
+digitalisasi
+komputasional
+kurangnya literasi digital
+rendahnya keterampilan abad 21
+Pengadaan Ekstrakurikuler Koding
+Pelatihan Guru TIK/Informatika
+Penyediaan Perangkat AI/Koding
+permendikdasmen-6-2026
+Permendikdasmen Nomor 6 Tahun 2026
+Kebijakan Lanjutan terkait Peningkatan Mutu dan Keselamatan Sekolah.
+REG-0012
+AKTIF
+2026.1
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Penjaminan Mutu
+mutu
+keselamatan
+standar
+akreditasi
+ketidaksesuaian standar
+kurangnya keselamatan sekolah
+Audit Internal Keselamatan Sekolah
+Pemenuhan Standar Sarana Prasarana Aman
+bsan
+Budaya Sekolah Aman dan Nyaman (BSAN)
+Program penciptaan iklim sekolah yang bebas dari kekerasan, perundungan, dan intoleransi.
+REG-0013
+AKTIF
+2025.1
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Budaya Sekolah
+aman
+nyaman
+anti perundungan
+iklim sekolah
+kesejahteraan psikologis
+iklim keamanan rendah
+kasus perundungan tinggi
+intoleransi
+kesejahteraan psikologis rendah
+Pembentukan TPPK
+Deklarasi Sekolah Anti Perundungan
+Pelatihan Resolusi Konflik
+Menciptakan lingkungan belajar yang aman, nyaman, dan inklusif.
+Pencegahan
+Penanganan Cepat
+Pemulihan
+Empati
+Toleransi
+Saling Menghargai
+Regulasi Sekolah
+Pendidikan Karakter
+Keterlibatan Orang Tua
+Kelas
+Lingkungan Sekolah
+Dunia Maya/Sosial Media
+2025.1.0
+ACTIVE
+font-serif
+text-xl
+text-lg
+text-base
+text-base
+text-sm
+leading-relaxed
+py-12 px-16
+text-black
+max-w-[210mm] min-h-[297mm] mx-auto bg-white shadow-xl
+Identitas Sekolah: Nama Sekolah belum diisi
+Identitas Sekolah: NPSN belum diisi
+Identitas Kepala Sekolah: Nama belum diisi
+Identitas Kepala Sekolah: NIP belum diisi
+Siswa
+Guru-guru
+Di mana
+Bikin
+Nggak
+Canggih
+Revolusioner
+Wow
+Keren
+Peserta Didik
+Dewan Guru
+Tempat
+Membuat
+Tidak
+Inovatif
+Pemutakhiran
+${term}
+${LanguageEngine.Dictionaries.preferred[idx] || 
+}
+Menggunakan pola BAB, Subbab, Analisis, Tujuan, Program, Indikator. Bahasa lugas, terukur, dan objektif.
+Menggunakan bahasa operasional kurikulum, berpusat pada peserta didik, selaras dengan panduan BSKAP.
+Mengikuti tata naskah surat resmi (Kop, Nomor, Lampiran, Hal, Pembuka, Isi, Penutup).
+Pola Konsiderans (Menimbang, Mengingat), Diktum (Memutuskan, Menetapkan), dan Penutup.
+Memuat waktu, tempat, pihak yang terlibat, hasil kesepakatan, dan pengesahan.
+Deskriptif analitis, berbasis data, berurutan dari pendahuluan hingga penutup/rekomendasi.
+Bahasa pembinaan, terukur, konstruktif, menggunakan instrumen penilaian baku.
+Kritis, berbasis indikator pencapaian, menyoroti gap, dan memberikan rekomendasi tindak lanjut.
+Identitas sekolah tidak lengkap.
+Lengkapi profil sekolah di Pusat Data.
+PERENCANAAN
+LAPORAN
+Identitas Kepala Sekolah tidak lengkap untuk pengesahan.
+Lengkapi data Kepala Sekolah di Pusat Data.
+Kaitkan program dengan kebijakan di menu Perencanaan.
+Layak Dicetak
+Belum Memenuhi
+Perlu Revisi
+1.0
+Perencanaan Berbasis Data (PBD) & Rapor Pendidikan
+bab1
+BAB I: Pendahuluan
+Memberikan gambaran umum, latar belakang, dan landasan hukum.
+Formal, Lugas, Landasan Hukum
+READY
+bab1-1
+A. Latar Belakang
+Menjelaskan alasan penyusunan RKJM
+Kondisi ideal vs kondisi nyata, serta urgensi RKJM.
+Pusat Data Sekolah
+Knowledge Base
+2-3 Paragraf
+Deskriptif Analitis
+bab1-2
+B. Landasan Hukum
+Dasar regulasi
+UU, PP, Permendikbudristek terkait Standar Nasional Pendidikan dan PBD.
+Knowledge Base Regulasi
+List Point
+Legal Formal
+bab1-3
+C. Visi, Misi, dan Tujuan Sekolah
+Menjabarkan arah kebijakan
+Visi, Misi, dan Tujuan dari Data Sekolah.
+Pusat Data Sekolah
+List Point
+Deklaratif, Terukur
+bab2
+BAB II: Analisis Kondisi Sekolah
+Menyajikan potret kondisi sekolah berbasis data yang valid.
+Objektif, Berbasis Data
+READY
+bab2-1
+A. Profil Sekolah
+Karakteristik umum
+Data GTK, Siswa, Sarpras.
+Pusat Data Sekolah
+Tabel + Deskripsi Singkat
+Deskriptif Objektif
+bab2-2
+B. Capaian Rapor Pendidikan
+Hasil asesmen nasional
+Ringkasan Rapor Pendidikan.
+Rapor Pendidikan Center
+Tabel Data & Poin
+Analitis, Evaluatif
+bab2-3
+C. Identifikasi Masalah & Akar Masalah
+IRB (Identifikasi, Refleksi, Benahi)
+Akar masalah utama dari Rapor Pendidikan.
+Mesin Analisis Cerdas
+Matriks IRB
+Kritis, Analitis
+bab3
+BAB III: Program Kerja
+Merumuskan program strategis (Benahi) selama 4 tahun.
+Operasional, Terukur
+READY
+bab3-1
+A. Sasaran Strategis
+Target yang ingin dicapai
+Target 4 tahun berdasarkan Kebijakan Nasional.
+Knowledge Base
+AI Diagnosis
+List Terukur
+Terukur, Optimis
+bab3-2
+B. Program dan Kegiatan (4 Tahun)
+Daftar program
+Pembenahan berkelanjutan untuk menutupi gap capaian.
+Asistenerator RKJM/RKT
+Kebijakan Nasional
+Tabel Program per Tahun
+Operasional
+bab4
+BAB IV: Rencana Anggaran
+Estimasi kebutuhan biaya program jangka menengah.
+Finansial, Kalkulatif
+READY
+bab4-1
+A. Proyeksi Penerimaan
+Estimasi dana
+Proyeksi dana BOS dan sumber lainnya.
+Pusat Data Sekolah
+Tabel Proyeksi
+Kalkulatif
+bab4-2
+B. Proyeksi Pengeluaran
+Estimasi biaya kegiatan
+Estimasi biaya program dari BAB III.
+BAB III
+Standar Biaya
+Tabel Estimasi
+Finansial
+bab5
+BAB V: Penutup
+Memberikan kesimpulan, harapan, dan tindak lanjut.
+Formal, Optimis
+READY
+bab5-1
+A. Kesimpulan
+Intisari dokumen
+Ringkasan urgensi dan sasaran RKJM.
+BAB I - IV
+2 Paragraf
+Ringkas
+bab5-2
+B. Saran dan Harapan
+Pesan penutup
+Ajakan kolaborasi seluruh stakeholder.
+Prompt System
+1 Paragraf
+Persuasif
+Diambil langsung. Tidak boleh diubah AI.
+Dihasilkan AI.
+Dihitung sistem.
+Dibuat Document Engine.
+Belum Dibuat
+Draft
+Direview
+Disetujui
+Terkunci
+DOCUMENT
+Document Engine
+DOCUMENT
+Document Engine
+DOCUMENT
+Document Engine
+STATIC
+Pusat Data Sekolah
+STATIC
+Pusat Data Sekolah
+DYNAMIC
+Mesin Analisis
+DYNAMIC
+AI + Knowledge Base
+DYNAMIC
+AI
+DOCUMENT
+Document Engine
+Rapor Pendidikan
+AnalisisKondisi
+ProgramStrategis
+Target Sekolah
+ProgramStrategis
+IndikatorKeberhasilan
+Profil Sekolah
+BAB Identitas
+KarakteristikSekolah
+
+
+
+
+
+1.0
+Context-Aware Priority Engine
+Membaca Data Sekolah
+Membaca Rapor Pendidikan
+Mengidentifikasi Gap
+Mengelompokkan Prioritas
+Mencocokkan dengan Kebijakan Nasional
+Menghasilkan Rekomendasi
+Menunggu Persetujuan Kepala Sekolah
+Jenjang
+Status
+Lokasi
+Jumlah Peserta Didik
+Jumlah GTK
+Kondisi Sarpras
+Karakteristik Lingkungan
+1.0
+SMART Target & Strategy Generator
+Sangat Sulit
+Sulit
+Sedang
+Mudah
+1.0
+BPM Document Lifecycle
+Belum Dibuat
+Draft
+Sedang Direview
+Perlu Revisi
+Siap Disetujui
+Disetujui
+Terkunci
+Siap Dicetak
+Diarsipkan
+Disetujui
+Disetujui
+Data Sekolah Belum Lengkap
+Rapor Pendidikan Belum Divalidasi
+Analisis Prioritas Belum Disetujui
+Target & Performance Belum Disetujui
+1.0
+National Policy & Guideline Registry
+REG-0001
+Standar Pengelolaan Pendidikan pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar, dan Jenjang Pendidikan Menengah
+Permendikbudristek No. 47 Tahun 2023
+Peraturan Menteri
+Kemendikbudristek
+Aktif
+2023-08-04
+Mengatur standar pengelolaan sekolah termasuk perencanaan program (RKJM, RKT, RKAS) berbasis Rapor Pendidikan.
+RKJM
+RKT
+RKAS
+Pengelolaan
+Perencanaan
+PAUD
+SD
+SMP
+SMA
+SMK
+Manajemen Sekolah
+https://jdih.kemdikbud.go.id/
+Menggantikan Permendikbud No. 19 Tahun 2007
+REG-0002
+Petunjuk Teknis Pengelolaan Dana Bantuan Operasional Satuan Pendidikan
+Permendikbudristek No. 63 Tahun 2022
+Peraturan Menteri
+Kemendikbudristek
+Aktif
+2022-12-28
+Juknis BOS/BOSP yang menjadi pedoman penyusunan RKAS.
+BOS
+BOSP
+RKAS
+Keuangan
+PAUD
+SD
+SMP
+SMA
+SMK
+Keuangan
+https://jdih.kemdikbud.go.id/
+Diperbarui setiap tahun, tetapi regulasi dasar tetap
+REG-0003
+Kurikulum pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar, dan Jenjang Pendidikan Menengah
+Permendikbudristek No. 12 Tahun 2024
+Peraturan Menteri
+Kemendikbudristek
+Aktif
+2024-03-26
+Penerapan Kurikulum Merdeka secara nasional yang menjadi dasar penyusunan KSP/KOSP.
+KSP
+KOSP
+Kurikulum Merdeka
+Pembelajaran
+PAUD
+SD
+SMP
+SMA
+SMK
+Kurikulum
+https://jdih.kemdikbud.go.id/
+Menggantikan Kepmendikbudristek No. 262/M/2022
+REG-0004
+Buku Saku Perencanaan Berbasis Data
+Pedoman Kemendikbudristek 2024
+Pedoman/Panduan
+Kemendikbudristek
+Aktif
+2024-01-01
+Panduan praktis melakukan IRB (Identifikasi, Refleksi, Benahi) dari Rapor Pendidikan ke dalam RKJM dan RKT.
+PBD
+Rapor Pendidikan
+IRB
+RKJM
+RKT
+PAUD
+SD
+SMP
+SMA
+SMK
+Perencanaan
+https://pusmendik.kemdikbud.go.id/
+Versi pembaruan 2024
+REG-0005
+Panduan Pengembangan Kurikulum Satuan Pendidikan
+Pedoman BSKAP 2024
+Pedoman/Panduan
+BSKAP Kemendikbudristek
+Aktif
+2024-05-01
+Langkah teknis menyusun dokumen KSP sesuai Permendikbudristek No 12 Tahun 2024.
+KSP
+KOSP
+Panduan KSP
+PAUD
+SD
+SMP
+SMA
+SMK
+Kurikulum
+https://kurikulum.kemdikbud.go.id/
+Penyesuaian pedoman KOSP sebelumnya
+REG-0006
+Kebijakan Kurikulum pada PAUD, Dikdas, dan Dikmen
+Permendikdasmen No. 13 Tahun 2025
+Peraturan Menteri
+Kemendikdasmen
+Aktif
+2025-01-01
+Kebijakan Kurikulum 2025
+Kurikulum
+Dikdas
+Dikmen
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Kurikulum
+
+
+REG-0007
+Panduan Pembelajaran dan Asesmen 2025
+Panduan 2025
+Pedoman/Panduan
+Kemendikdasmen
+Aktif
+2025-01-01
+Panduan untuk Deep Learning
+Pembelajaran
+Asesmen
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Pembelajaran
+
+
+REG-0008
+Kebijakan Nasional Karakter Anak 2025
+Kebijakan Karakter 2025
+Kebijakan
+Kemendikdasmen
+Aktif
+2025-01-01
+Kebijakan Nasional Karakter Anak
+Karakter
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Karakter
+
+
+REG-0009
+Kebijakan Pembinaan Karakter 2025
+Kebijakan Pembinaan 2025
+Kebijakan
+Kemendikdasmen
+Aktif
+2025-01-01
+7 Kebiasaan Anak Indonesia Hebat
+Karakter
+Kebiasaan
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Karakter
+
+
+REG-0010
+Pedoman Perencanaan Berbasis Data
+Pedoman PBD Kemendikdasmen
+Pedoman/Panduan
+Kemendikdasmen
+Aktif
+2025-01-01
+Pedoman PBD
+PBD
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Perencanaan
+
+
+REG-0011
+Kebijakan Digitalisasi dan AI
+Kebijakan AI 2025/2026
+Kebijakan
+Kemendikdasmen
+Aktif
+2025-01-01
+Integrasi Koding & AI
+AI
+Koding
+SD
+SMP
+SMA
+Digitalisasi
+
+
+REG-0012
+Peningkatan Mutu dan Keselamatan Sekolah
+Permendikdasmen No. 6 Tahun 2026
+Peraturan Menteri
+Kemendikdasmen
+Aktif
+2026-01-01
+Kebijakan Lanjutan
+Mutu
+Keselamatan
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Mutu
+
+
+REG-0013
+Pencegahan dan Penanganan Kekerasan di Lingkungan Satuan Pendidikan
+Permendikbudristek No. 46 Tahun 2023
+Peraturan Menteri
+Kemendikbudristek
+Aktif
+2023-08-04
+Budaya Sekolah Aman dan Nyaman (diperkuat 2025/2026)
+Kekerasan
+Aman
+PAUD
+SD
+SMP
+SMA
+SMK
+SLB
+Budaya Sekolah
+
+Diperkuat di 2025/2026
+Digantikan
+Tidak Aktif
+Arsip
+Gunakan 
+
+1.0
+Dynamic Document Structure Mapper
+rkjm
+Rencana Kerja Jangka Menengah (RKJM)
+RKJM
+REG-0001
+REG-0004
+2026.1
+2024-2028
+Aktif
+Bab I: Pendahuluan
+Bab II: Analisis Kondisi Sekolah
+Bab III: Program Kerja Strategis
+Bab IV: Rencana Anggaran (Proyeksi)
+Bab V: Penutup
+Bab I
+Bab II
+Bab III
+Bab IV
+Bab V
+Lampiran
+Glosarium
+Formal, Analitis, Strategis
+Standard Kemendikbud
+WorkflowEngine.States
+Strategic_Plan_A4
+rkt
+Rencana Kerja Tahunan (RKT)
+RKT
+REG-0001
+REG-0004
+2026.1
+Tahunan
+Aktif
+Bab I: Pendahuluan
+Bab II: Evaluasi Pelaksanaan RKT Tahun Sebelumnya
+Bab III: Rencana Kerja Tahun Berjalan
+Bab IV: Rencana Anggaran Pendapatan dan Belanja
+Bab V: Penutup
+Bab I
+Bab II
+Bab III
+Bab IV
+Bab V
+Matriks Kegiatan
+Jadwal Pelaksanaan
+Formal, Taktis, Terukur
+Standard Kemendikbud
+WorkflowEngine.States
+Operational_Plan_A4
+rkas
+Rencana Kegiatan dan Anggaran Sekolah (RKAS)
+RKAS
+REG-0001
+REG-0002
+2026.1
+Tahunan
+Aktif
+Pendapatan
+Belanja Pegawai
+Belanja Barang dan Jasa
+Belanja Modal
+Rekapitulasi
+Pendapatan
+Belanja Barang dan Jasa
+Rekapitulasi
+Belanja Modal
+Belanja Pegawai
+Finansial, Rigid
+Tabel RKAS ARKAS
+WorkflowEngine.States
+Budget_Spreadsheet_Landscape
+ksp
+Kurikulum Satuan Pendidikan (KSP/KOSP)
+KSP
+REG-0003
+REG-0005
+2026.1
+Tahunan
+Aktif
+Karakteristik Satuan Pendidikan
+Visi, Misi, dan Tujuan
+Pengorganisasian Pembelajaran
+Perencanaan Pembelajaran
+Pendampingan, Evaluasi, dan Pengembangan Profesional
+Karakteristik Satuan Pendidikan
+Visi, Misi, dan Tujuan
+Pengorganisasian Pembelajaran
+Perencanaan Pembelajaran
+Lampiran Silabus/Alur Tujuan Pembelajaran
+Akademis, Pedagogis
+Standard Kurikulum Merdeka
+WorkflowEngine.States
+Curriculum_A4
+Template tidak ditemukan
+Aktif
+Template sudah tidak aktif (Diarsipkan)
+Template tidak terhubung dengan Status Dokumen
+Template tidak memiliki panduan style
+12.0
+Template-Driven Document Generator
+load_template
+Tahap 1: Memuat Template RKJM
+system
+Sistem memuat kerangka standar dokumen RKJM berdasarkan pedoman terbaru.
+Mencari template aktif
+Memuat struktur bab
+Validasi format margin dan kertas
+validate_template
+Tahap 2: Validasi Template
+system
+Pemeriksaan integritas template dan komponen penyusunnya.
+Pemeriksaan kompatibilitas
+Pemetaan section dokumen
+Pengecekan versi gaya bahasa
+load_school
+Tahap 3: Memuat Data Sekolah
+system
+Menarik data profil sekolah, nama kepsek, dan atribut institusi lainnya.
+Sinkronisasi Data Pokok Pendidikan
+Mengisi placeholder identitas
+Mengatur tahun ajaran
+load_decision
+Tahap 4: Memuat Analisis Prioritas
+system
+Menyiapkan hasil analisis kondisi untuk dirangkai ke dalam dokumen.
+Memuat capaian Rapor Pendidikan
+Memetakan akar masalah utama
+Menyusun rekapitulasi evaluasi diri
+load_target
+Tahap 5: Memuat Target Sekolah
+system
+Memasukkan target indikator yang telah disepakati ke dalam kerangka program.
+Menarik data indikator keberhasilan
+Menyusun matriks program kerja
+Memvalidasi kelogisan target waktu
+load_knowledge
+Tahap 6: Memuat Panduan Regulasi
+system
+Melampirkan referensi perundang-undangan dan pedoman teknis yang berlaku.
+Menghubungkan Knowledge Base PBD
+Memuat standar operasional
+Menyiapkan konsideran landasan hukum
+fill_placeholder
+Tahap 7: Menyusun Struktur Teks
+system_generation
+Menggabungkan kerangka template dengan data spesifik sekolah menjadi paragraf utuh.
+Merangkai narasi analisis
+Mengonversi matriks program menjadi teks
+Mengisi semua placeholder dokumen
+run_language
+Tahap 8: Pemeriksaan Tata Bahasa
+system
+Pemeriksaan gaya penulisan agar sesuai dengan laras bahasa pemerintahan dan PUEBI.
+Pemeriksaan ejaan dan tanda baca
+Penyesuaian diksi formal
+Pengecekan kejelasan kalimat
+run_compliance
+Tahap 9: Pemeriksaan Kepatuhan
+system
+Memastikan seluruh konten dokumen tidak melanggar ketentuan hukum dan pedoman dinas.
+Validasi struktur dokumen minimum
+Pemeriksaan keselarasan regulasi
+Pemeriksaan kelengkapan tanda tangan
+merge
+Tahap 10: Penggabungan Dokumen
+system
+Menyatukan cover, daftar isi, bab utama, dan lampiran ke dalam satu file utuh.
+Pengaturan nomor halaman
+Pembuatan daftar isi otomatis
+Finalisasi layout halaman
+preview
+Tahap 11: Pratinjau
+user_interaction
+Peninjauan dokumen hasil susunan oleh pengguna sebelum direview.
+Tampilkan mode baca
+Aktifkan fitur edit manual
+Simpan ke Document Workspace
+review
+Tahap 12: Review
+user_interaction
+workflow
+Tahap 13: Workflow Approval
+user_interaction
+print
+Tahap 14: Print
+system
+Belum Dibuat
+Sedang Diproses
+Draft
+Direview
+Disetujui
+Terkunci
+AUTO
+AI
+TARGET_ENGINE
+REGULATION
+DOCUMENT_ENGINE
+12.5
+Enterprise Document Editor
+AUTO
+AUTO
+🟢
+Diambil dari sistem. Tidak boleh diedit langsung.
+AI
+AI
+🤖
+Dihasilkan AI. Dapat diedit, diregenerasi, disetujui.
+MANUAL
+MANUAL
+✍️
+Ditulis sepenuhnya oleh pengguna. Tidak ditimpa AI.
+Heading 1
+Heading 2
+Bold
+Italic
+Underline
+Align Left
+Align Center
+Align Right
+Bullet
+Numbering
+Table
+Indent
+Page Break
+Ctrl + S
+Simpan Versi
+Ctrl + F
+Pencarian Dokumen
+Ctrl + Z
+Undo
+Ctrl + Y
+Redo
+Ctrl + P
+Print Preview
+view_final
+view_original
+side_by_side
+review_mode
+13.0
+Automatic Derivation from RKJM
+RKJM Final
+Decision Engine
+Target Sekolah
+Workflow
+Template Registry
+Regulation Registry
+Target Extraction
+Takes target for the active academic year from Target Engine.
+Program Inheritance
+Programs in RKT MUST originate from RKJM Strategic Programs. No new programs allowed.
+Activity Expansion
+AI expands Programs into operational annual activities based on RKJM Programs.
+Smart Update
+Marks RKT as 
+ if RKJM changes.
+RKT Program
+RKJM Program
+Target
+Decision
+Regulation
+Knowledge Base
+Program Sinkron
+Program Berubah
+Program Baru
+Program Dihapus
+14.0
+Automatic Budget Structure Derivation from RKT
+RKT Final
+Target Sekolah
+Decision Engine
+Status Dokumen
+Template Registry
+Regulation Registry
+Knowledge Base
+Program
+Kegiatan
+Sub Kegiatan
+Komponen Belanja
+Volume
+Satuan
+Harga Satuan
+Total
+Sumber Dana
+Penanggung Jawab
+no_auto_value
+Assistant does not calculate monetary values. It only prepares the structure.
+strict_hierarchy
+Every budget item must trace back to an RKT activity.
+smart_sync
+Marks RKAS as 
+ if RKT changes, user decides when to sync.
+All activities derived from RKT
+Targets from Target Engine
+Complete budget structure
+Workflow complete
+Compliance passed
+14.5
+Implementation & Monitoring Engine
+RKJM Final
+RKT Final
+RKAS Final
+Target Sekolah
+Status Dokumen
+not_started
+Belum Dimulai
+slate
+in_progress
+Sedang Berjalan
+blue
+completed
+Selesai
+emerald
+delayed
+Tertunda
+amber
+cancelled
+Dibatalkan
+rose
+Foto
+Dokumen
+Berita Acara
+Notulen
+SK
+Tautan
+Target Terlambat
+Kegiatan Belum Dimulai (Overdue)
+Realisasi Jauh Di Bawah Target
+Dimensi A: Mutu dan Relevansi Hasil Belajar Murid
+A.1
+Kemampuan Literasi
+Persentase peserta didik berdasarkan kemampuan dalam memahami, menggunakan, merefleksi, dan mengevaluasi beragam jenis teks.
+A.2
+Kemampuan Numerasi
+Persentase peserta didik berdasarkan kemampuan dalam berpikir menggunakan konsep, prosedur, fakta, dan alat matematika.
+A.3
+Karakter
+Kecenderungan peserta didik dalam bersikap dan berperilaku berdasarkan nilai-nilai Pancasila.
+Dimensi D: Mutu dan Relevansi Pembelajaran
+D.1
+Kualitas Pembelajaran
+Kualitas pengelolaan kelas dan penyelenggaraan pembelajaran interaktif yang sesuai dengan tujuan.
+D.2
+Refleksi dan Perbaikan Pembelajaran oleh Guru
+Tingkat aktivitas refleksi dan perbaikan praktik pembelajaran yang dilakukan oleh guru.
+D.3
+Kepemimpinan Instruksional
+Tingkat kepemimpinan kepala sekolah dalam mendukung guru melakukan refleksi dan perbaikan pembelajaran.
+D.4
+Iklim Keamanan Sekolah
+Kondisi lingkungan sekolah yang aman dari perundungan, hukuman fisik, kekerasan seksual, dan narkoba.
+D.8
+Iklim Kebinekaan
+Kondisi lingkungan sekolah yang menghargai keragaman agama maupun sosial-budaya dan dukungan kesetaraan hak.
+D.10
+Iklim Inklusivitas
+Kondisi lingkungan sekolah yang mendukung pembelajaran siswa dengan disabilitas maupun cerdas istimewa bakat istimewa.
+
+Belum Dimulai
+
+
+
+
+SD
+Negeri
+Belum Terakreditasi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kepala Sekolah
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024/2025
+Ganjil
+
+
+
+
+
+
+Reguler
+indigo
+amber
+
+
+
+
+
+
+
+
+
+2024/2025
+Ganjil
+gemini-1.5-pro-latest
+id
+medium
+light
+6.6.0
+rkjm
+Rencana Kerja Jangka Menengah (RKJM)
+RKJM
+1.0
+Belum Dibuat
+
+
+
+rkt
+Rencana Kerja Tahunan (RKT)
+RKT
+1.0
+Belum Dibuat
+
+
+
+rkas
+Rencana Kegiatan dan Anggaran Sekolah (RKAS)
+RKAS
+1.0
+Belum Dibuat
+
+
+
+ksp
+Kurikulum Satuan Pendidikan (KSP/KOSP)
+KSP
+1.0
+Belum Dibuat
+
+
+
+school
+name
+Nama Sekolah
+school
+npsn
+NPSN
+branding
+logoUrl
+Logo Institusi
+principal
+name
+Kepala Sekolah
+guru
+length
+Data Guru
+pesertaDidik
+total
+Jumlah Peserta Didik
+2024/2025
+Ganjil
+Error loading settings
+saved
+id-ID
+2-digit
+2-digit
+Knowledge Base V2025 Aktif.
+info
+id-ID
+2-digit
+2-digit
+saving
+saved
+error
+Failed to save
+
+success
+
+school
+status
+Negeri
+budget
+studentCount
+bosRate
+studentCount
+bosRate
+Data diimpor dari file JSON.
+Data Sekolah
+Rapor
+RKJM
+RKT
+RKAS
+KSP
+6.6.0
+Sistem direset sepenuhnya.
+Backup sistem berhasil.
+
+bg-emerald-400
+bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.5)]
+bg-amber-400 shadow-[0_0_8px_rgba(251,191,36,0.5)]
+bg-red-400 shadow-[0_0_8px_rgba(248,113,113,0.5)]
+fixed inset-0 z-[200] flex items-center justify-center p-4
+absolute inset-0 bg-slate-900/40 backdrop-blur-sm animate-in fade-in duration-300
+relative bg-white rounded-3xl p-8 max-w-sm w-full text-center shadow-2xl border border-emerald-100 animate-in zoom-in-95 slide-in-from-bottom-10 duration-500
+w-20 h-20 bg-emerald-100 text-emerald-500 rounded-full flex items-center justify-center mx-auto mb-6 relative
+absolute inset-0 bg-emerald-400 rounded-full animate-ping opacity-20
+w-10 h-10
+text-2xl font-black text-slate-800 mb-3
+text-slate-600 mb-6
+w-full h-1.5 bg-emerald-100 rounded-full overflow-hidden
+h-full bg-emerald-500 rounded-full w-full origin-left animate-[shrink_5s_linear_forwards]
+error
+warning
+bg-red-50 text-red-800 border-red-200 shadow-red-500/20
+bg-amber-50 text-amber-800 border-amber-200 shadow-amber-500/20
+bg-emerald-50 text-emerald-800 border-emerald-200 shadow-emerald-500/20
+w-5 h-5 mr-3 text-red-500
+w-5 h-5 mr-3 text-amber-500
+w-5 h-5 mr-3 text-emerald-500
+font-bold text-sm tracking-wide
+
+
+p-7
+p-7 pb-2 mb-0
+
+flex items-center
+p-2 bg-slate-50 rounded-xl mr-3
+w-5 h-5 text-indigo-600
+text-[1.15rem] font-bold text-slate-800 tracking-tight
+text-[13px] text-slate-500 mt-1 font-medium leading-relaxed
+relative inline-block ml-3
+w-8 h-8 rounded-full bg-slate-100 text-slate-500 hover:bg-indigo-100 hover:text-indigo-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2
+Bantuan Konteks
+w-4 h-4
+fixed inset-0 z-40
+absolute right-0 top-10 w-80 bg-white rounded-2xl shadow-xl border border-slate-200 z-50 overflow-hidden animate-in fade-in zoom-in-95 duration-200 text-left
+bg-indigo-50 p-4 border-b border-indigo-100
+font-bold text-indigo-900 text-sm flex items-center
+w-4 h-4 mr-2 text-indigo-600
+ 
+p-4 space-y-4 text-sm
+font-bold text-slate-800 block mb-1
+text-slate-600 leading-relaxed
+font-bold text-slate-800 block mb-1
+text-slate-600 leading-relaxed
+font-bold text-slate-800 block mb-1
+text-slate-600 leading-relaxed
+text
+space-y-2 w-full group
+block text-[13px] font-bold text-slate-700 tracking-wide
+text-red-500 ml-1
+relative transition-all duration-200
+absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none
+text-slate-400 sm:text-sm font-semibold
+
+pl-12
+px-4
+border-amber-200 bg-amber-50/30 focus:border-amber-400 focus:ring-4 focus:ring-amber-500/10
+border-slate-100 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10
+opacity-60 cursor-not-allowed bg-slate-100/50 border-transparent
+hover:border-slate-200
+space-y-2 w-full
+block text-[13px] font-bold text-slate-700 tracking-wide
+text-red-500 ml-1
+
+border-amber-200 bg-amber-50/30 focus:border-amber-400 focus:ring-4 focus:ring-amber-500/10
+border-slate-100 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 hover:border-slate-200
+space-y-2 w-full
+block text-[13px] font-bold text-slate-700 tracking-wide
+text-red-500 ml-1
+
+border-amber-200 bg-amber-50/30 focus:border-amber-400 focus:ring-4 focus:ring-amber-500/10
+border-slate-100 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 hover:border-slate-200
+data:image/svg+xml,%3csvg xmlns=
+ fill=
+ viewBox=
+%3e%3cpath stroke=
+ stroke-linecap=
+ stroke-linejoin=
+ stroke-width=
+ d=
+/%3e%3c/svg%3e
+right 0.5rem center
+no-repeat
+1.5em 1.5em
+2.5rem
+
+
+text-slate-300
+primary
+
+inline-flex items-center justify-center px-5 py-3 text-sm font-bold rounded-2xl transition-all duration-300 active:scale-[0.98] outline-none
+bg-indigo-600 text-white shadow-[0_4px_14px_0_rgb(79,70,229,0.39)] hover:shadow-[0_6px_20px_rgba(79,70,229,0.23)] hover:bg-indigo-700 hover:-translate-y-0.5
+bg-white text-slate-700 border border-slate-200 shadow-sm hover:border-slate-300 hover:bg-slate-50 hover:-translate-y-0.5
+bg-red-50 text-red-600 hover:bg-red-100 hover:text-red-700 font-semibold border border-red-100
+border-2 border-slate-200 text-slate-700 hover:border-indigo-500 hover:text-indigo-600 hover:bg-indigo-50/30
+w-4 h-4 mr-2.5
+fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-md animate-in fade-in duration-200
+bg-white rounded-[24px] shadow-2xl w-full max-w-md overflow-hidden animate-in zoom-in-95 duration-300
+p-8 text-center
+bg-red-50
+bg-amber-50
+bg-red-100
+bg-amber-100
+text-red-500
+text-amber-500
+text-red-500
+text-amber-500
+text-2xl font-black text-slate-900 mb-3 tracking-tight
+text-slate-500 text-sm font-medium leading-relaxed
+bg-slate-50 p-6 flex gap-4 justify-end border-t border-slate-100
+secondary
+flex-1
+danger
+primary
+flex-1
+COMPLETED
+Prioritas Tinggi
+rose
+Sangat Baik
+emerald
+Perlu Perhatian
+amber
+bg-emerald-500/20 text-emerald-300 border-emerald-500/30
+bg-amber-500/20 text-amber-300 border-amber-500/30
+bg-rose-500/20 text-rose-300 border-rose-500/30
+RKAS perlu sinkronisasi
+Ada perubahan target pada RKT yang belum masuk RKAS.
+warning
+rkasDerivation
+Target Literasi tertinggal
+Realisasi baru mencapai 40% dari target semester.
+danger
+monitoring
+Dokumen RKJM belum disetujui
+Masih dalam status Draft.
+info
+rkjmPipeline
+Kegiatan Numerasi belum dimulai
+Melewati jadwal minggu ke-2.
+warning
+monitoring
+Bukti dukung Program B belum diunggah
+1 Kegiatan selesai tanpa bukti.
+danger
+monitoring
+space-y-8 pb-12 animate-in fade-in slide-in-from-bottom-4 duration-700
+bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.5)] text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[500px] h-[500px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-70 animate-pulse transform translate-x-1/3 -translate-y-1/3
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+text-4xl md:text-5xl font-black tracking-tight mb-3
+Sekolah Belum Diatur
+text-indigo-100/80 text-xl font-medium mb-8
+ 
+2024/2025
+flex flex-wrap gap-3
+school
+bg-white text-slate-900 hover:bg-slate-100 font-bold border-none h-10 px-5
+rkjmPipeline
+outline
+border-indigo-400/30 bg-white/5 text-indigo-100 hover:bg-white/10 hover:border-indigo-400/50 font-bold h-10 px-5 backdrop-blur-sm
+rktDerivation
+outline
+border-indigo-400/30 bg-white/5 text-indigo-100 hover:bg-white/10 hover:border-indigo-400/50 font-bold h-10 px-5 backdrop-blur-sm
+rkasDerivation
+outline
+border-indigo-400/30 bg-white/5 text-indigo-100 hover:bg-white/10 hover:border-indigo-400/50 font-bold h-10 px-5 backdrop-blur-sm
+monitoring
+outline
+border-indigo-400/30 bg-white/5 text-indigo-100 hover:bg-white/10 hover:border-indigo-400/50 font-bold h-10 px-5 backdrop-blur-sm
+documentEditor
+outline
+border-indigo-400/30 bg-white/5 text-indigo-100 hover:bg-white/10 hover:border-indigo-400/50 font-bold h-10 px-5 backdrop-blur-sm
+relative z-10 bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-[32px] text-center w-full md:w-80 shadow-2xl shrink-0
+text-sm font-bold text-indigo-200 uppercase tracking-widest mb-4
+relative w-40 h-40 mx-auto mb-4 flex items-center justify-center
+w-full h-full transform -rotate-90 absolute inset-0
+0 0 36 36
+M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831
+none
+rgba(255,255,255,0.1)
+3
+M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831
+none
+#34d399
+#fbbf24
+#f43f5e
+3
+text-5xl font-black
+grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6
+bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between cursor-pointer hover:border-indigo-300 transition-colors group
+rkjmPipeline
+flex items-center justify-between mb-4
+text-xs font-bold text-slate-400 uppercase tracking-widest group-hover:text-indigo-500 transition-colors
+w-5 h-5 text-indigo-400
+space-y-3
+flex justify-between items-center text-sm
+text-slate-600 font-medium
+font-bold text-emerald-600
+flex justify-between items-center text-sm
+text-slate-600 font-medium
+font-bold text-amber-600
+flex justify-between items-center text-sm
+text-slate-600 font-medium
+font-bold text-slate-400
+flex justify-between items-center text-sm
+text-slate-600 font-medium
+font-bold text-emerald-600
+bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between cursor-pointer hover:border-emerald-300 transition-colors group
+targetEngine
+flex items-center justify-between mb-4
+text-xs font-bold text-slate-400 uppercase tracking-widest group-hover:text-emerald-500 transition-colors
+w-5 h-5 text-emerald-400
+flex items-baseline gap-2 mb-4
+text-4xl font-black text-slate-800
+text-xs font-bold text-slate-400 uppercase
+flex gap-1 h-2 rounded-full overflow-hidden bg-slate-100 mb-3
+bg-emerald-500 w-[20%]
+bg-amber-500 w-[50%]
+bg-rose-500 w-[30%]
+flex justify-between text-xs font-bold text-slate-500
+text-emerald-600
+text-amber-600
+text-rose-600
+bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between cursor-pointer hover:border-blue-300 transition-colors group
+monitoring
+flex items-center justify-between mb-4
+text-xs font-bold text-slate-400 uppercase tracking-widest group-hover:text-blue-500 transition-colors
+w-5 h-5 text-blue-400
+flex items-baseline gap-2 mb-4
+text-4xl font-black text-slate-800
+text-xs font-bold text-slate-400 uppercase
+space-y-2 text-sm
+flex justify-between
+text-slate-600
+font-bold
+flex justify-between
+text-slate-600
+font-bold
+flex justify-between
+text-slate-600
+font-bold text-amber-600
+flex justify-between
+text-slate-600
+font-bold text-rose-600
+bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between cursor-pointer hover:border-amber-300 transition-colors group
+monitoring
+flex items-center justify-between mb-4
+text-xs font-bold text-slate-400 uppercase tracking-widest group-hover:text-amber-500 transition-colors
+w-5 h-5 text-amber-400
+flex items-baseline gap-2 mb-4
+text-4xl font-black text-slate-800
+text-xs font-bold text-slate-400 uppercase
+space-y-3
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+font-bold text-slate-700
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+font-bold text-slate-700
+grid grid-cols-1 lg:grid-cols-3 gap-6
+lg:col-span-2 bg-white rounded-2xl p-8 border border-slate-200 shadow-sm
+font-bold text-xl text-slate-800 mb-8 flex items-center
+w-5 h-5 mr-3 text-indigo-500
+relative flex justify-between overflow-x-auto pb-4 custom-scrollbar
+absolute top-4 left-4 right-4 h-1 bg-slate-100 -z-10 min-w-[600px]
+Data Sekolah
+done
+Rapor
+done
+Analisis
+done
+RKJM
+done
+RKT
+progress
+RKAS
+wait
+Pelaksanaan
+progress
+Monitoring
+progress
+Evaluasi
+wait
+flex flex-col items-center group cursor-default min-w-[80px]
+done
+border-emerald-500 text-emerald-500 shadow-sm
+progress
+border-amber-500 text-amber-500 shadow-sm
+border-slate-200 text-slate-300
+done
+w-4 h-4
+progress
+w-3 h-3 bg-amber-500 rounded-full animate-pulse
+w-2 h-2 bg-slate-200 rounded-full
+done
+text-slate-800
+progress
+text-amber-700
+text-slate-400
+bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col h-full
+font-bold text-xl text-slate-800 mb-6 flex items-center
+w-5 h-5 mr-3 text-rose-500
+space-y-3 flex-1 overflow-y-auto max-h-[300px] custom-scrollbar pr-2
+danger
+bg-rose-50 border-rose-100 hover:bg-rose-100
+warning
+bg-amber-50 border-amber-100 hover:bg-amber-100
+bg-indigo-50 border-indigo-100 hover:bg-indigo-100
+shrink-0 mt-0.5
+danger
+w-5 h-5 text-rose-500 group-hover:scale-110 transition-transform
+warning
+w-5 h-5 text-amber-500 group-hover:scale-110 transition-transform
+info
+w-5 h-5 text-indigo-500 group-hover:scale-110 transition-transform
+danger
+text-rose-800
+warning
+text-amber-800
+text-indigo-800
+danger
+text-rose-600
+warning
+text-amber-700
+text-indigo-600
+
+academicYear
+school
+name
+npsn
+level
+status
+akreditasi
+address
+district
+regency
+province
+phone
+email
+pejabat
+principal
+name
+nip
+position
+phone
+guru
+tendik
+pesertaDidik
+total
+lakiLaki
+perempuan
+jumlahRombel
+rombel
+sarpras
+ruangKelas
+perpustakaan
+laboratorium
+toilet
+ruangGuru
+komite
+ketua
+sekretaris
+bendahara
+pengawas
+nama
+nip
+wilayah
+hp
+identitas
+visi
+motto
+karakteristik
+potensi
+programUnggulan
+academicYear
+Tahun Pelajaran
+Belum diatur
+identitas
+Identitas Sekolah
+Visi & Misi Terisi
+Belum diisi
+karakteristik
+Karakteristik Sekolah
+Terkonfigurasi
+Belum diisi
+potensi
+Potensi Daerah & Lokal
+Terkonfigurasi
+Belum diisi
+programUnggulan
+Program Unggulan
+school
+Profil Sekolah
+Belum diisi
+principal
+Kepala Sekolah
+Belum diisi
+guru
+Guru
+tendik
+Tenaga Kependidikan
+pesertaDidik
+Peserta Didik
+rombel
+Rombongan Belajar
+sarpras
+Sarana Prasarana
+komite
+Komite Sekolah
+Belum diisi
+pengawas
+Pengawas Pembina
+Belum diisi
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500
+bg-gradient-to-br from-indigo-900 to-blue-900 rounded-[24px] p-8 text-white flex items-center justify-between shadow-xl
+text-3xl font-black mb-2 tracking-tight
+text-indigo-200
+text-center
+w-20 h-20 rounded-full border-4 border-indigo-400 flex items-center justify-center mb-2 mx-auto
+text-2xl font-black
+text-xs font-bold uppercase tracking-widest text-indigo-300
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6
+bg-white rounded-[24px] p-6 border border-slate-200 shadow-sm hover:shadow-md transition-all cursor-pointer group hover:-translate-y-1
+flex justify-between items-start mb-4
+p-3 bg-indigo-50 rounded-xl text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white transition-colors
+w-6 h-6
+bg-emerald-100 text-emerald-700
+bg-amber-100 text-amber-700
+text-lg font-bold text-slate-800 mb-1
+text-sm text-slate-500 font-medium truncate
+kepalaDinas
+principal
+komite
+pengawas
+space-y-6
+Kepala Sekolah
+Data Kepala Sekolah Definitif / PLT.
+grid grid-cols-1 md:grid-cols-2 gap-4 mt-4
+Nama Lengkap
+name
+Cth: Budi Santoso, S.Pd., M.Pd.
+NIP
+nip
+Status
+status
+Definitif
+PLT
+Pangkat/Golongan
+group
+Cth: Pembina / IV.a
+Nomor SK
+noSk
+Tanggal SK
+date
+tglSk
+Ketua Komite
+Data Ketua Komite Sekolah.
+grid grid-cols-1 md:grid-cols-2 gap-4 mt-4
+Nama Ketua Komite
+name
+Nomor Telepon
+phone
+Pekerjaan
+pekerjaan
+Alamat
+address
+Nomor SK
+noSk
+Tanggal Mulai
+date
+tglMulai
+Pengawas Pembina
+Data Pengawas Sekolah.
+grid grid-cols-1 md:grid-cols-2 gap-4 mt-4
+Nama Pengawas
+name
+NIP
+nip
+Pangkat/Golongan
+pangkat
+Instansi
+instansi
+Kepala Dinas
+Data Kepala Dinas Pendidikan terkait.
+grid grid-cols-1 md:grid-cols-2 gap-4 mt-4
+Nama Kepala Dinas
+
+name
+NIP
+
+nip
+Jabatan
+
+jabatan
+Cth: Kepala Dinas Pendidikan Kota Banjarmasin
+Instansi
+
+instansi
+Nomor SK (Opsional)
+
+noSk
+Tanggal Mulai (Opsional)
+date
+
+tglMulai
+Tanggal Berakhir (Opsional)
+date
+
+tglSelesai
+Status Aktif
+false
+true
+statusAktif
+true
+Aktif
+true
+Tidak Aktif
+false
+
+Ganjil
+
+Ganjil
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500
+Tahun Pelajaran
+Kelola Tahun Pelajaran dan Semester aktif.
+mb-8 p-6 bg-slate-50 rounded-2xl border-2 border-slate-200
+text-lg font-bold text-slate-800 mb-4
+Edit Tahun Pelajaran
+Tahun Pelajaran Baru
+grid grid-cols-1 md:grid-cols-2 gap-4 mb-4
+Tahun Pelajaran
+Contoh: 2025 / 2026
+Semester
+Ganjil
+Genap
+mb-6 space-y-4
+flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-200
+checkbox
+isActive
+w-5 h-5 accent-indigo-600 rounded
+isActive
+font-bold text-slate-700 cursor-pointer
+p-4 bg-white rounded-xl border border-slate-200
+font-bold text-slate-800 mb-3 text-sm
+grid grid-cols-2 md:grid-cols-3 gap-3
+Profil Sekolah
+Kepala Sekolah
+Guru
+Tendik
+Komite
+Pengawas
+Sarpras
+Program Unggulan
+Kearifan Lokal
+Identitas Sekolah
+Karakteristik
+Branding & Logo
+flex items-center gap-2
+checkbox
+w-4 h-4 accent-indigo-600 rounded
+text-sm font-medium text-slate-600 cursor-pointer
+flex justify-end gap-3
+danger
+space-y-4
+bg-indigo-50 border-indigo-200
+bg-white border-slate-100
+flex items-center gap-3 mb-1
+font-bold text-slate-800 text-lg
+px-2 py-0.5 bg-indigo-600 text-white text-xs font-bold rounded-md
+px-2 py-0.5 bg-slate-200 text-slate-600 text-xs font-bold rounded-md
+text-sm font-medium text-slate-500
+ 
+id-ID
+flex gap-2
+outline
+sm
+p-2 text-indigo-500 hover:bg-indigo-100 rounded-lg
+w-5 h-5
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500
+Identitas Sekolah
+Visi, Misi, Tujuan, dan Nilai-nilai sekolah.
+space-y-6
+Visi Sekolah
+visi
+Motto Sekolah
+motto
+Misal: Cerdas, Terampil, Berakhlak Mulia
+space-y-3
+block text-[13px] font-bold text-slate-700 tracking-wide
+flex gap-2
+text
+misi
+flex-1 px-4 py-2 bg-slate-50 border-2 border-slate-100 rounded-xl text-sm focus:outline-none focus:border-indigo-500
+misi
+p-2 text-red-500 hover:bg-red-50 rounded-xl
+w-5 h-5
+misi
+
+outline
+sm
+space-y-3
+block text-[13px] font-bold text-slate-700 tracking-wide
+flex gap-2
+text
+tujuan
+flex-1 px-4 py-2 bg-slate-50 border-2 border-slate-100 rounded-xl text-sm focus:outline-none focus:border-indigo-500
+tujuan
+p-2 text-red-500 hover:bg-red-50 rounded-xl
+w-5 h-5
+tujuan
+
+outline
+sm
+space-y-3
+block text-[13px] font-bold text-slate-700 tracking-wide
+flex flex-wrap gap-2
+px-3 py-1 bg-indigo-50 text-indigo-700 rounded-lg text-sm font-semibold flex items-center gap-2 border border-indigo-100
+ 
+nilai
+hover:text-red-500
+w-4 h-4
+flex gap-2 max-w-sm
+text
+add-nilai
+Ketik nilai baru...
+flex-1 px-4 py-2 bg-slate-50 border-2 border-slate-100 rounded-xl text-sm focus:outline-none focus:border-indigo-500
+Enter
+nilai
+
+add-nilai
+nilai
+
+Perkotaan
+Pedesaan
+Pegunungan
+Pesisir
+Kepulauan
+Perbatasan
+Kawasan Industri
+Kawasan Pertanian
+Kawasan Perkebunan
+Kawasan Tambang
+Kawasan Hutan
+lokasi
+lokasi
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500
+Karakteristik Sekolah
+Kondisi lingkungan dan karakteristik civitas akademika.
+space-y-6
+space-y-3
+block text-[13px] font-bold text-slate-700 tracking-wide
+flex flex-wrap gap-2
+bg-indigo-600 text-white border-indigo-600
+bg-slate-50 text-slate-600 border-slate-100 hover:border-slate-300
+Kondisi Lingkungan
+lingkungan
+Lingkungan sekitar sekolah, potensi wilayah, kondisi sosial, dll.
+Karakteristik Peserta Didik
+pesertaDidik
+Karakteristik Guru
+guru
+Karakteristik Orang Tua
+orangTua
+Pertanian
+Perkebunan
+Peternakan
+Perikanan
+Pariwisata
+UMKM
+Industri
+Pertambangan
+Kerajinan
+Jasa
+Lainnya
+daerah
+daerah
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500
+Potensi & Kearifan Lokal
+Potensi unggulan dan kearifan lokal di sekitar sekolah.
+space-y-6
+space-y-3
+block text-[13px] font-bold text-slate-700 tracking-wide
+flex flex-wrap gap-2
+bg-amber-500 text-white border-amber-500
+bg-slate-50 text-slate-600 border-slate-100 hover:border-slate-300
+space-y-3
+block text-[13px] font-bold text-slate-700 tracking-wide
+flex gap-2
+text
+kearifanLokal
+flex-1 px-4 py-2 bg-slate-50 border-2 border-slate-100 rounded-xl text-sm focus:outline-none focus:border-indigo-500
+Misal: Tarian Tradisional, Makanan Khas, dll
+kearifanLokal
+p-2 text-red-500 hover:bg-red-50 rounded-xl
+w-5 h-5
+kearifanLokal
+
+outline
+sm
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500
+Program Unggulan Sekolah
+Daftar program unggulan yang dimiliki sekolah.
+space-y-3
+text-center p-8 text-slate-400
+flex gap-2
+text
+
+flex-1 px-4 py-2 bg-slate-50 border-2 border-slate-100 rounded-xl text-sm font-bold focus:outline-none focus:border-indigo-500
+Misal: Sekolah Adiwiyata, Robotik, Literasi
+
+p-2 text-red-500 hover:bg-red-50 rounded-xl
+w-5 h-5
+
+
+outline
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500
+Profil Institusi
+Identitas utama satuan pendidikan Anda yang akan tertera pada seluruh dokumen.
+grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6
+Nama Sekolah
+name
+NPSN
+npsn
+Jenjang
+level
+SD
+SMP
+SMA
+SMK
+SLB
+Status
+status
+Negeri
+Swasta
+Akreditasi
+akreditasi
+A
+B
+C
+Belum Terakreditasi
+md:col-span-2
+Alamat Lengkap
+address
+Desa/Kelurahan
+village
+Kecamatan
+district
+Kabupaten/Kota
+regency
+Provinsi
+province
+Kode Pos
+zip
+Nomor Telepon
+phone
+Email Sekolah
+email
+email
+Website
+website
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Data Kepala Sekolah
+Informasi pimpinan satuan pendidikan untuk penandatanganan dokumen.
+grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6
+Nama Lengkap
+name
+Gelar
+gelar
+Misal: S.Pd., M.Pd.
+NIP
+nip
+NUPTK
+nuptk
+Pangkat
+rank
+Misal: Pembina Tk. I
+Golongan/Ruang
+group
+Misal: IV/b
+Jabatan
+position
+Nomor SK
+noSk
+Tanggal SK
+tglSk
+date
+Mulai Menjabat
+mulaiMenjabat
+date
+Email
+email
+email
+Nomor HP/WA
+phone
+
+
+
+
+
+
+L
+
+
+
+
+Guru Kelas
+PNS
+
+
+
+
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Data Guru
+Daftar pendidik di satuan pendidikan Anda.
+flex gap-4 mb-6
+flex-1 relative
+w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400
+text
+Cari nama atau NIP...
+w-full pl-10 pr-4 py-2 border-2 border-slate-100 rounded-xl focus:border-indigo-500 outline-none text-sm font-medium transition-all
+border-2 border-slate-100 rounded-xl px-4 py-2 text-sm font-medium outline-none focus:border-indigo-500
+
+PNS
+PPPK
+Honorer
+text-center p-8 text-slate-400
+text-center p-8 text-slate-400
+space-y-4
+p-4 border border-slate-200 rounded-xl bg-slate-50 relative group
+space-y-4
+grid grid-cols-1 md:grid-cols-2 gap-4
+Nama Lengkap
+nama
+Gelar
+gelar
+NIP
+nip
+NUPTK
+nuptk
+Jenis Kelamin
+jk
+L
+Laki-laki
+P
+Perempuan
+grid grid-cols-2 gap-2
+Tempat Lahir
+tmptLahir
+Tanggal Lahir
+date
+tglLahir
+Pendidikan Terakhir
+pendidikan
+Mata Pelajaran
+mapel
+Jabatan
+jabatan
+Status
+status
+PNS
+PPPK
+Honorer
+Pangkat
+pangkat
+Golongan
+golongan
+Nomor HP
+hp
+Email
+email
+email
+flex justify-end gap-2 mt-4 pt-4 border-t border-slate-200
+danger
+flex justify-between items-start
+font-bold text-slate-800 text-lg
+Tanpa Nama
+ 
+text-sm font-normal text-slate-500
+text-sm text-slate-500 mt-1
+Belum ada NIP
+ 
+text-sm text-slate-600 mt-1 font-medium
+p-2 text-indigo-500 hover:bg-indigo-50 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity
+w-5 h-5
+
+
+
+
+
+
+L
+
+
+
+Tata Usaha
+PNS
+
+
+
+
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Data Tenaga Kependidikan
+Daftar staf TU, Pustakawan, Laboran, dll.
+flex gap-4 mb-6
+flex-1 relative
+w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400
+text
+Cari nama atau NIP...
+w-full pl-10 pr-4 py-2 border-2 border-slate-100 rounded-xl focus:border-indigo-500 outline-none text-sm font-medium transition-all
+border-2 border-slate-100 rounded-xl px-4 py-2 text-sm font-medium outline-none focus:border-indigo-500
+
+PNS
+PPPK
+Honorer
+text-center p-8 text-slate-400
+text-center p-8 text-slate-400
+space-y-4
+p-4 border border-slate-200 rounded-xl bg-slate-50 relative group
+space-y-4
+grid grid-cols-1 md:grid-cols-2 gap-4
+Nama Lengkap
+nama
+Gelar
+gelar
+NIP
+nip
+NUPTK
+nuptk
+Jenis Kelamin
+jk
+L
+Laki-laki
+P
+Perempuan
+grid grid-cols-2 gap-2
+Tempat Lahir
+tmptLahir
+Tanggal Lahir
+date
+tglLahir
+Pendidikan Terakhir
+pendidikan
+Jabatan
+jabatan
+Status
+status
+PNS
+PPPK
+Honorer
+Pangkat
+pangkat
+Golongan
+golongan
+Nomor HP
+hp
+Email
+email
+email
+flex justify-end gap-2 mt-4 pt-4 border-t border-slate-200
+danger
+flex justify-between items-start
+font-bold text-slate-800 text-lg
+Tanpa Nama
+ 
+text-sm font-normal text-slate-500
+text-sm text-slate-500 mt-1
+Belum ada NIP
+ 
+text-sm text-slate-600 mt-1 font-medium
+p-2 text-indigo-500 hover:bg-indigo-50 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity
+w-5 h-5
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Peserta Didik
+Rekapitulasi jumlah siswa.
+grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6
+Total Peserta Didik
+total
+number
+Laki-laki
+lakiLaki
+number
+Perempuan
+perempuan
+number
+Jumlah Rombel
+jumlahRombel
+number
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Rombongan Belajar
+Daftar kelas dan wali kelas.
+
+
+text-center p-8 text-slate-400
+space-y-4
+p-4 border border-slate-200 rounded-xl flex gap-4 items-start bg-slate-50 relative
+flex-1 grid grid-cols-3 gap-4
+Nama Kelas
+Wali Kelas
+Jumlah Siswa
+number
+p-2 text-red-500 hover:bg-red-50 rounded-lg mt-6
+w-5 h-5
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Sarana Prasarana
+Rekapitulasi jumlah ruang.
+grid grid-cols-2 md:grid-cols-4 gap-4
+Ruang Kelas
+ruangKelas
+number
+Perpustakaan
+perpustakaan
+number
+Laboratorium
+laboratorium
+number
+Ruang UKS
+uks
+number
+Toilet
+toilet
+number
+Mushola
+mushola
+number
+Ruang Guru
+ruangGuru
+number
+Ruang Kepsek
+ruangKepsek
+number
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Komite Sekolah
+Susunan pengurus komite sekolah.
+grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6
+Ketua Komite
+ketua
+Sekretaris
+sekretaris
+Bendahara
+bendahara
+Anggota
+anggota
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Pengawas Pembina
+Data pengawas sekolah binaan.
+grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6
+Nama Pengawas
+nama
+NIP Pengawas
+nip
+Wilayah Binaan
+wilayah
+Nomor HP
+hp
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Profil Akademik & Filosofi
+Konteks utama pendidikan sebagai nyawa bagi penyusunan narasi dokumen oleh AI.
+grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6
+md:col-span-2 space-y-6 mt-2
+p-4 bg-indigo-50 text-indigo-700 rounded-xl text-sm font-semibold flex items-center gap-2
+Visi Sekolah
+vision
+Misi Sekolah (Gunakan penomoran)
+mission
+Tujuan Sekolah
+goals
+Karakteristik Lingkungan Belajar (Konteks Sosial/Budaya)
+characteristics
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Parameter Anggaran BOS
+Data dasar otomatisasi perhitungan Rencana Kegiatan dan Anggaran Sekolah (RKAS).
+grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6
+Jumlah Siswa (Dapodik)
+number
+studentCount
+Satuan Dana BOS per Siswa
+number
+bosRate
+Rp
+md:col-span-2 p-8 bg-gradient-to-br from-indigo-500 to-blue-600 rounded-[24px] shadow-lg shadow-indigo-500/20 text-white relative overflow-hidden group hover:scale-[1.01] transition-transform
+absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-20 -mt-20 transition-transform group-hover:scale-110 duration-700
+relative z-10 flex items-center justify-between
+block text-sm font-bold text-indigo-100 mb-1 tracking-wider uppercase
+text-4xl font-black tracking-tight drop-shadow-sm
+id-ID
+p-4 bg-white/10 rounded-2xl backdrop-blur-md
+w-10 h-10 text-white
+md:col-span-2 relative py-2
+flex items-center
+pr-4 bg-white/80 text-sm font-bold text-indigo-900 tracking-wider uppercase
+px-3 py-1 bg-indigo-50 text-indigo-600 text-xs font-bold rounded-full border border-indigo-100
+Maks. Honorarium
+number
+honorariumLimit
+%
+Maks. Pembelian Buku
+number
+bookLimit
+%
+Maks. Pemeliharaan Sarpras
+number
+sarprasLimit
+%
+Tarif PPN Berlaku
+number
+ppn
+%
+Ukuran maksimal 5MB.
+error
+w-full aspect-video border-2 border-dashed border-slate-300 rounded-[24px] flex flex-col items-center justify-center bg-slate-50/50 hover:bg-slate-50 hover:border-indigo-400 cursor-pointer relative overflow-hidden group
+file
+image/*
+hidden
+w-full h-full object-cover p-2 bg-white/50
+text-center p-6
+w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4
+w-8 h-8 text-indigo-400
+text-sm font-bold text-slate-700
+
+absolute top-4 right-4 p-2 bg-white/80 hover:bg-red-50 text-red-500 rounded-xl shadow-sm
+w-5 h-5
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500
+Identitas Visual & Galeri Sekolah
+Logo institusi dan dokumentasi foto profil sekolah.
+grid grid-cols-1 md:grid-cols-2 gap-8
+space-y-4
+block text-[13px] font-bold text-slate-700 tracking-wide
+logoUrl
+Logo
+space-y-4
+block text-[13px] font-bold text-slate-700 tracking-wide
+fotoSekolahUrl
+Foto Sekolah
+space-y-4
+block text-[13px] font-bold text-slate-700 tracking-wide
+fotoKepsekUrl
+Foto Kepala Sekolah
+Optional
+writingAssistant
+mode
+animate-in fade-in slide-in-from-bottom-4 duration-500
+Konfigurasi Writing Assistant
+Pengaturan asisten penulisan.
+p-6
+text-sm font-bold text-slate-700 mb-4 uppercase tracking-widest
+grid grid-cols-1 md:grid-cols-3 gap-4
+Disabled
+Disabled
+border-rose-500 bg-rose-50
+border-slate-200 hover:border-slate-300
+font-bold text-slate-800 mb-1
+text-xs text-slate-500 leading-relaxed
+Optional
+Optional
+border-indigo-500 bg-indigo-50
+border-slate-200 hover:border-slate-300
+font-bold text-slate-800 mb-1
+text-xs text-slate-500 leading-relaxed
+Automatic
+Automatic
+border-emerald-500 bg-emerald-50
+border-slate-200 hover:border-slate-300
+font-bold text-slate-800 mb-1
+text-xs text-slate-500 leading-relaxed
+px-6 py-4 bg-amber-50 border-t border-amber-100 text-amber-800 text-xs leading-relaxed
+block mb-1
+data:application/json;charset=utf-8,
+0
+0
+a
+Backup berhasil diunduh.
+success
+Data direstore.
+success
+File tidak valid.
+error
+space-y-6
+Manajemen Local Storage
+Amankan data Anda.
+flex gap-4 mt-4
+flex-1
+file
+.json
+hidden
+outline
+flex-1 bg-white
+mt-10 p-6 bg-red-50 rounded-2xl flex items-center justify-between
+text-red-700 font-bold mb-1
+text-sm text-red-600
+danger
+Reset Sistem?
+Tindakan permanen.
+Ya, Reset
+
+
+Hijau
+Kuning
+Merah
+Belum Dimulai
+
+
+Pembelajaran
+Karakter
+Budaya Sekolah
+Anda
+Mempertahankan tren positif capaian sekolah
+Metode pembelajaran belum sepenuhnya berdiferensiasi dan pemanfaatan teknologi digital belum optimal di semua kelas.
+Belum ada data cukup
+Belum ada data cukup
+Dukungan komite sekolah yang aktif
+Potensi kemitraan dengan instansi pendidikan lokal
+Terbatasnya sarana pendukung digitalisasi
+Partisipasi aktif orang tua masih perlu ditingkatkan
+k1
+Pelatihan guru tentang pembelajaran berdiferensiasi
+k2
+Workshop penyusunan perangkat ajar kolaboratif
+k3
+Sosialisasi budaya disiplin positif dan kesepakatan kelas
+analisis
+status
+Sedang Diproses
+analisis
+data
+analisis
+status
+Selesai
+analisis
+lastUpdated
+analisis
+data
+analisis
+status
+
+bg-slate-50 p-5 rounded-2xl border border-slate-100
+text-sm font-bold text-slate-800 flex items-center gap-2 mb-3
+w-4 h-4 text-indigo-500
+ 
+space-y-2
+w-full px-3 py-2 text-sm border border-slate-200 rounded-lg outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500
+sm
+outline
+w-full mt-2
+space-y-2
+text-sm text-slate-600 flex gap-2
+text-indigo-400 mt-0.5
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-100/80 text-lg max-w-2xl leading-relaxed mb-8
+flex gap-4
+lg
+bg-white text-indigo-900 hover:bg-indigo-50 font-bold border-none
+w-5 h-5 mr-2 animate-spin
+ 
+w-5 h-5 mr-2
+relative z-10 w-full md:w-auto min-w-[280px]
+bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl
+text-[11px] font-bold text-indigo-200 uppercase tracking-widest mb-4
+space-y-4
+Belum Dimulai
+bg-slate-800/50 border-slate-700 text-slate-300
+bg-white/5 border-white/10 text-white/50
+Belum Dimulai
+bg-slate-400
+bg-white/20
+font-bold text-sm
+Selesai
+Draft
+bg-amber-500/20 border-amber-500/30 text-amber-100
+bg-white/5 border-white/10 text-white/50
+Selesai
+Draft
+bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.5)]
+bg-white/20
+font-bold text-sm
+Ditinjau
+bg-blue-500/20 border-blue-500/30 text-blue-100
+bg-white/5 border-white/10 text-white/50
+Ditinjau
+bg-blue-400 shadow-[0_0_10px_rgba(96,165,250,0.5)]
+bg-white/20
+font-bold text-sm
+Disetujui
+bg-emerald-500/20 border-emerald-500/30 text-emerald-100
+bg-white/5 border-white/10 text-white/50
+Disetujui
+bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.5)]
+bg-white/20
+font-bold text-sm
+Belum Dimulai
+Sedang Diproses
+space-y-6
+flex justify-between items-center bg-white p-4 rounded-2xl border border-slate-200 shadow-sm
+flex items-center gap-4
+text-sm font-bold text-slate-600
+flex gap-2
+sm
+Draft
+Selesai
+default
+outline
+Draft
+sm
+Ditinjau
+default
+outline
+Ditinjau
+sm
+Disetujui
+default
+outline
+Disetujui
+Disetujui
+bg-emerald-600 hover:bg-emerald-700 border-emerald-600
+hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-200
+w-4 h-4 mr-2
+sm
+bg-indigo-600
+w-4 h-4 mr-2
+sm
+outline
+w-4 h-4 mr-2
+grid grid-cols-1 lg:grid-cols-3 gap-6
+lg:col-span-2 space-y-6
+Kondisi & Prioritas Sekolah
+mb-6
+block text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-2
+w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm outline-none focus:border-indigo-500 h-[100px] resize-none
+p-4 bg-slate-50 rounded-xl border border-slate-100 text-sm text-slate-700 leading-relaxed
+-
+mb-6
+block text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-2
+w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm outline-none focus:border-indigo-500 h-[80px] resize-none
+p-4 bg-rose-50/50 rounded-xl border border-rose-100 text-sm text-rose-800 leading-relaxed flex items-start gap-3
+w-5 h-5 text-rose-500 shrink-0 mt-0.5
+-
+Prioritas Pembenahan Utama
+prioritas
+Rekomendasi Program (Kebijakan Nasional)
+bg-indigo-50/30 border-indigo-100/50
+space-y-4
+bg-white p-5 rounded-2xl border border-indigo-100 shadow-sm relative overflow-hidden group
+absolute top-0 left-0 w-1 h-full bg-indigo-500
+flex justify-between items-start mb-3
+font-bold text-slate-800 text-lg
+px-2.5 py-1 bg-indigo-50 text-indigo-700 rounded-lg text-[10px] font-bold uppercase tracking-wider border border-indigo-100
+mt-4 pt-4 border-t border-slate-100
+text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3
+space-y-2
+flex gap-3 text-sm text-slate-600 bg-slate-50 p-2.5 rounded-lg border border-slate-100
+w-4 h-4 text-indigo-400 shrink-0 mt-0.5
+ 
+p-8 text-center text-slate-500
+space-y-6
+Analisis SWOT Sekolah
+space-y-4
+Kekuatan (Strengths)
+kekuatan
+Kelemahan (Weaknesses)
+kelemahan
+Peluang (Opportunities)
+peluang
+Tantangan (Threats)
+tantangan
+Tujuan & Indikator
+space-y-4
+Tujuan Perbaikan
+tujuan
+Indikator Keberhasilan
+indikator
+
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 to-indigo-800 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-200 text-lg max-w-2xl leading-relaxed
+grid grid-cols-1 lg:grid-cols-2 gap-6
+space-y-6
+Aturan Tata Naskah (Style)
+space-y-3
+p-4 rounded-xl border border-slate-100 bg-slate-50
+text-xs font-bold text-slate-800 mb-1
+text-xs text-slate-600
+space-y-6
+Uji Validasi Bahasa Resmi
+space-y-4
+text-xs text-slate-500
+w-full h-32 p-3 text-sm border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 bg-white
+Contoh: Para siswa merasa sangat wow dengan kurikulum yang canggih ini...
+w-full
+mt-4
+p-4 bg-emerald-50 rounded-xl border border-emerald-100 flex items-start gap-3
+w-5 h-5 text-emerald-500 shrink-0
+text-sm font-bold text-emerald-800
+text-xs text-emerald-600 mt-1
+p-4 bg-amber-50 rounded-xl border border-amber-100 space-y-3
+flex items-center gap-2 mb-2
+w-4 h-4 text-amber-600
+text-sm font-bold text-amber-800
+text-xs text-amber-700 space-y-2
+flex items-start
+w-1.5 h-1.5 rounded-full bg-amber-400 mt-1.5 mr-2 shrink-0
+flex flex-col items-center justify-center p-12 text-center h-[60vh] animate-in fade-in zoom-in-95 duration-500
+w-20 h-20 bg-amber-100 text-amber-500 rounded-full flex items-center justify-center mb-6 border border-amber-200
+w-10 h-10
+text-2xl font-black text-slate-800 mb-3
+text-slate-600 mb-8 max-w-md leading-relaxed
+rapor
+bg-indigo-600 hover:bg-indigo-700
+Belum Dimulai
+Perencanaan Berbasis Data (PBD)
+Draft
+
+Pembelajaran
+Karakter
+Budaya Sekolah
+Program Peningkatan
+Draft
+Program
+Draft
+Program
+Draft
+prio-1
+Kualitas Pembelajaran
+Mempertahankan dan meningkatkan kualitas
+Belum ada gap, fokus pada continuous improvement
+PBD
+Draft
+
+decisionEngine
+status
+Sedang Diproses
+decisionEngine
+data
+decisionEngine
+status
+Menunggu Persetujuan
+decisionEngine
+lastUpdated
+Disetujui
+decisionEngine
+data
+decisionEngine
+status
+Disetujui
+Disetujui
+Disetujui
+Disetujui
+decisionEngine
+data
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-100/80 text-lg max-w-2xl leading-relaxed mb-8
+flex gap-4
+lg
+bg-white text-indigo-900 hover:bg-indigo-50 font-bold border-none
+w-5 h-5 mr-2 animate-spin
+w-5 h-5 mr-2
+Belum Dimulai
+Sedang Diproses
+space-y-6
+flex justify-between items-center bg-white p-4 rounded-2xl border border-slate-200 shadow-sm
+flex items-center gap-4
+text-sm font-bold text-slate-600
+Disetujui
+bg-emerald-100 text-emerald-700
+bg-amber-100 text-amber-700
+sm
+bg-emerald-600 hover:bg-emerald-700 text-white
+w-4 h-4 mr-2
+grid grid-cols-1 lg:grid-cols-3 gap-6
+lg:col-span-2 space-y-6
+space-y-4
+bg-white p-5 rounded-2xl border border-slate-200 shadow-sm relative overflow-hidden group
+flex justify-between items-start mb-3
+flex items-center gap-3
+w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-black
+font-bold text-slate-800 text-lg
+Disetujui
+bg-emerald-50 text-emerald-700 border-emerald-100
+bg-amber-50 text-amber-700 border-amber-100
+mt-4 pt-4 border-t border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-4
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-sm text-slate-700
+bg-slate-50 p-3 rounded-xl border border-slate-100
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-xs text-slate-600 font-mono mb-1
+text-xs text-indigo-600 font-bold
+text-xs text-emerald-600 mt-1 flex items-center gap-1
+w-3 h-3
+ 
+mt-4 flex gap-2 justify-end
+sm
+outline
+text-slate-500 h-8
+w-3 h-3 mr-1
+sm
+outline
+text-rose-500 h-8
+w-3 h-3 mr-1
+Disetujui
+sm
+bg-emerald-50 text-emerald-600 border-emerald-200 hover:bg-emerald-100 h-8
+w-3 h-3 mr-1
+space-y-3
+p-4 bg-slate-50 rounded-xl border border-slate-100 flex justify-between items-center group
+font-bold text-slate-700 text-sm
+text-[10px] text-slate-500 mt-1 uppercase tracking-wider font-bold
+sm
+outline
+opacity-0 group-hover:opacity-100 transition-opacity text-slate-400 h-7 text-xs
+lg:col-span-1 space-y-6
+Konteks Sekolah
+space-y-3
+flex justify-between items-center text-sm border-b border-slate-100 pb-2
+text-slate-500
+font-bold text-slate-700
+SD
+flex justify-between items-center text-sm border-b border-slate-100 pb-2
+text-slate-500
+font-bold text-slate-700
+Negeri
+flex justify-between items-center text-sm border-b border-slate-100 pb-2
+text-slate-500
+font-bold text-slate-700
+flex justify-between items-center text-sm border-b border-slate-100 pb-2
+text-slate-500
+font-bold text-slate-700
+text-[10px] text-slate-400 italic mt-3
+space-y-2
+text-xs text-slate-600 flex items-start gap-2 p-2 bg-indigo-50/50 rounded-lg border border-indigo-50
+w-4 h-4 rounded-full bg-indigo-100 text-indigo-500 flex items-center justify-center shrink-0 font-bold mt-0.5
+leading-relaxed
+Belum Dimulai
+Rapor Pendidikan
+Tahunan
+Kepala Sekolah
+Perlu Peningkatan
+Tercapai
+targetEngine
+status
+Sedang Diproses
+targetEngine
+data
+targetEngine
+status
+Menunggu Persetujuan
+targetEngine
+lastUpdated
+targetEngine
+status
+Disetujui
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-100/80 text-lg max-w-2xl leading-relaxed mb-8
+flex gap-4
+lg
+bg-white text-indigo-900 hover:bg-indigo-50 font-bold border-none
+w-5 h-5 mr-2 animate-spin
+w-5 h-5 mr-2
+Belum Dimulai
+Sedang Diproses
+space-y-6
+flex justify-between items-center bg-white p-4 rounded-2xl border border-slate-200 shadow-sm
+flex items-center gap-4
+text-sm font-bold text-slate-600
+Disetujui
+bg-emerald-100 text-emerald-700
+bg-amber-100 text-amber-700
+sm
+bg-emerald-600 hover:bg-emerald-700 text-white
+w-4 h-4 mr-2
+space-y-4
+bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative overflow-hidden group
+flex justify-between items-start mb-6
+flex items-center gap-3 mb-2
+font-black text-slate-800 text-xl
+px-2 py-1 bg-rose-100 text-rose-700 rounded text-[10px] font-bold uppercase
+text-sm text-slate-500 font-medium max-w-2xl
+flex flex-col items-end gap-2
+Sangat Sulit
+bg-rose-50 text-rose-700 border-rose-100
+Sulit
+bg-orange-50 text-orange-700 border-orange-100
+Sedang
+bg-amber-50 text-amber-700 border-amber-100
+bg-emerald-50 text-emerald-700 border-emerald-100
+Tercapai
+bg-emerald-50 text-emerald-700 border-emerald-100
+bg-amber-50 text-amber-700 border-amber-100
+grid grid-cols-2 md:grid-cols-8 gap-4 mb-6
+col-span-2 bg-slate-50 p-4 rounded-xl border border-slate-100 flex flex-col justify-center
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2
+flex items-center gap-3
+text-3xl font-black text-slate-700
+flex-1 h-2 bg-slate-200 rounded-full overflow-hidden
+bg-emerald-500
+bg-amber-500
+bg-rose-500
+bg-slate-50 p-4 rounded-xl border border-slate-100 text-center
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-2xl font-black text-slate-700
+bg-indigo-50 p-4 rounded-xl border border-indigo-100 text-center
+text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-1
+text-2xl font-black text-indigo-700
+bg-emerald-50 p-4 rounded-xl border border-emerald-100 text-center
+text-[10px] font-bold text-emerald-500 uppercase tracking-widest mb-1
+text-2xl font-black text-emerald-700
+col-span-2 md:col-span-3 bg-slate-50 p-4 rounded-xl border border-slate-100
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3
+flex items-center justify-between text-center gap-2
+flex-1 relative
+text-xs font-bold text-slate-400 mb-1
+text-sm font-black text-slate-700 bg-white border border-slate-200 py-1.5 rounded-lg
+absolute top-8 -right-2 w-4 border-t-2 border-dashed border-slate-200 hidden md:block
+bg-slate-50 p-4 rounded-xl border border-slate-100 grid grid-cols-1 md:grid-cols-4 gap-4
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-xs text-slate-700 font-medium
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-xs text-slate-700 font-medium
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-xs text-slate-700 font-medium
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-xs text-slate-700 font-medium
+mt-4 flex gap-2 justify-end
+sm
+outline
+text-slate-500 h-8
+w-3 h-3 mr-1
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-100/80 text-lg max-w-2xl leading-relaxed
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6
+bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative overflow-hidden group
+Aktif
+bg-emerald-500
+bg-slate-300
+flex justify-between items-start mb-4
+flex items-center gap-3
+w-10 h-10 rounded-xl bg-slate-50 flex items-center justify-center text-slate-600
+w-5 h-5
+font-bold text-slate-800 leading-tight
+text-xs font-medium text-slate-500
+Aktif
+bg-emerald-50 border-emerald-200 text-emerald-600
+bg-slate-50 border-slate-200 text-slate-600
+space-y-4 mb-6
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-sm text-slate-700 font-medium line-clamp-2
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-sm text-slate-700 font-bold
+grid grid-cols-2 gap-3
+bg-slate-50 p-3 rounded-lg border border-slate-100
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-xs text-slate-700 font-bold
+id-ID
+bg-slate-50 p-3 rounded-lg border border-slate-100
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-xs text-slate-700 font-bold truncate
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2
+flex flex-wrap gap-2
+text-[10px] font-bold bg-indigo-50 text-indigo-700 px-2 py-1 rounded border border-indigo-100
+text-[10px] font-medium text-slate-400 italic
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-100/80 text-lg max-w-2xl leading-relaxed
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6
+bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative overflow-hidden group
+bg-emerald-500
+bg-rose-500
+flex justify-between items-start mb-4
+flex items-center gap-3
+w-10 h-10 rounded-xl bg-indigo-50 flex items-center justify-center text-indigo-600
+w-5 h-5
+font-bold text-slate-800 leading-tight
+text-xs font-medium text-slate-500
+Aktif
+bg-emerald-50 border-emerald-200 text-emerald-600
+bg-slate-50 border-slate-200 text-slate-600
+space-y-4 mb-6
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-sm text-slate-700 font-medium
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+flex flex-col gap-1
+flex flex-col text-sm text-slate-700 font-medium
+flex items-center gap-1
+w-3 h-3 text-indigo-500
+ 
+text-xs text-slate-500 truncate
+Regulasi tidak ditemukan
+grid grid-cols-2 gap-3
+bg-slate-50 p-3 rounded-lg border border-slate-100
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-xs text-slate-700 font-bold
+bg-slate-50 p-3 rounded-lg border border-slate-100 col-span-2
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-emerald-600
+text-rose-600
+Siap Digunakan
+Perlu Perbaikan
+text-[10px] text-rose-500 mt-1 line-clamp-2
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2
+flex flex-col gap-1.5 h-32 overflow-y-auto pr-2 custom-scrollbar
+text-xs text-slate-600 bg-slate-50 border border-slate-100 p-2 rounded flex items-center justify-between
+truncate
+text-[9px] font-bold text-indigo-500 uppercase tracking-wider
+text-[9px] font-bold text-slate-400 uppercase tracking-wider
+Sistem
+documents
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-100/80 text-lg max-w-2xl leading-relaxed
+grid grid-cols-1 md:grid-cols-3 gap-6
+col-span-1 space-y-4
+bg-white p-4 rounded-2xl border border-slate-200 shadow-sm sticky top-6
+font-black text-slate-800 text-lg mb-4 flex items-center gap-2
+w-5 h-5 text-indigo-600
+space-y-2
+border-indigo-500 bg-indigo-50 shadow-md
+border-slate-200 hover:border-indigo-300
+flex justify-between items-start mb-2
+font-bold text-slate-700 text-sm
+Disetujui
+Terkunci
+bg-emerald-50 border-emerald-200 text-emerald-600
+Perlu Revisi
+bg-rose-50 border-rose-200 text-rose-600
+Belum Dibuat
+bg-slate-50 border-slate-200 text-slate-400
+bg-blue-50 border-blue-200 text-blue-600
+text-xs text-slate-500 font-medium truncate
+col-span-2 space-y-6
+bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-6
+flex justify-between items-center pb-4 border-b border-slate-100
+text-2xl font-black text-slate-800
+flex gap-4 text-sm font-medium text-slate-500 mt-2
+flex items-center gap-1
+w-4 h-4
+ 
+flex items-center gap-1
+w-4 h-4
+ 
+-
+font-bold text-slate-700 mb-3 text-sm uppercase tracking-wider
+flex flex-wrap gap-3
+bg-slate-800 text-white border-slate-800
+bg-white text-slate-600 border-slate-200 hover:bg-slate-50
+font-bold text-slate-700 mb-3 text-sm uppercase tracking-wider
+space-y-4 relative before:absolute before:inset-0 before:ml-4 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-200 before:to-transparent
+relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active
+flex items-center justify-center w-8 h-8 rounded-full border-4 border-white bg-indigo-500 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2
+w-3.5 h-3.5
+w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-xl border border-slate-100 shadow-sm
+flex items-center justify-between mb-1
+font-bold text-slate-800 text-sm
+text-xs font-medium text-slate-400
+id-ID
+text-xs text-slate-500 font-medium
+text-center text-sm text-slate-400 font-medium py-8
+bg-slate-50/50 p-12 rounded-2xl border border-slate-200 border-dashed text-center flex flex-col items-center justify-center
+w-12 h-12 text-slate-300 mb-4
+text-lg font-bold text-slate-600 mb-2
+text-slate-500 text-sm max-w-sm
+preview
+print
+pdf
+word
+preview
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-slate-900 to-slate-800 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-slate-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-slate-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-slate-300 text-lg max-w-2xl leading-relaxed
+grid grid-cols-1 lg:grid-cols-4 gap-6
+lg:col-span-1 space-y-6
+Status Validasi Dokumen
+space-y-4
+p-4 bg-emerald-50 rounded-xl border border-emerald-100 flex items-start gap-3
+w-5 h-5 text-emerald-500 shrink-0
+text-sm font-bold text-emerald-800
+text-xs text-emerald-600 mt-1
+p-4 bg-rose-50 rounded-xl border border-rose-100 flex items-start gap-3
+w-5 h-5 text-rose-500 shrink-0
+text-sm font-bold text-rose-800
+text-xs text-rose-600 mt-1 mb-2
+text-xs text-rose-700 space-y-1 list-disc pl-4
+Aksi & Ekspor
+space-y-3
+preview
+default
+outline
+w-full justify-start
+preview
+w-4 h-4 mr-3
+print
+default
+outline
+w-full justify-start
+print
+w-4 h-4 mr-3
+pdf
+default
+outline
+w-full justify-start
+pdf
+w-4 h-4 mr-3
+word
+default
+outline
+w-full justify-start
+word
+w-4 h-4 mr-3
+lg:col-span-3
+bg-slate-100 p-8 rounded-3xl border border-slate-200 overflow-x-auto flex justify-center
+text-center space-y-6 mt-12 mb-32
+w-24 h-24 mx-auto border-2 border-dashed border-slate-300 rounded-lg flex items-center justify-center text-slate-400 mb-8
+pt-32
+page-break-before
+always
+4rem
+
+ 
+flex justify-between items-end mt-20
+text-center
+
+text-center
+ 
+id-ID
+numeric
+long
+numeric
+
+page-break-before
+always
+4rem
+w-full border-collapse border border-black mb-8
+border border-black p-2 bg-gray-100 font-bold text-center w-12
+border border-black p-2 bg-gray-100 font-bold text-center
+border border-black p-2 bg-gray-100 font-bold text-center
+border border-black p-2 text-center
+border border-black p-2
+border border-black p-2
+Dalam rangka meningkatkan mutu peserta didik, kami akan bikin program baru.
+Pelatihan Guru
+PERENCANAAN
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-950 to-slate-900 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-red-500/10 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-slate-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-slate-300 text-lg max-w-2xl leading-relaxed
+grid grid-cols-1 lg:grid-cols-3 gap-6
+lg:col-span-1 space-y-6
+Panel Uji Kepatuhan
+space-y-4
+text-xs text-slate-500
+w-full bg-indigo-600 hover:bg-indigo-700
+w-4 h-4 mr-2
+lg:col-span-2 space-y-6
+Hasil Pemeriksaan Kepatuhan
+space-y-6
+flex items-center gap-6 p-6 rounded-2xl border border-slate-100 bg-slate-50
+relative w-24 h-24 flex items-center justify-center shrink-0
+w-full h-full transform -rotate-90
+48
+48
+40
+currentColor
+8
+transparent
+text-slate-200
+48
+48
+40
+currentColor
+8
+transparent
+text-emerald-500 transition-all duration-1000 ease-out
+text-amber-500 transition-all duration-1000 ease-out
+text-red-500 transition-all duration-1000 ease-out
+absolute flex flex-col items-center justify-center
+text-2xl font-black text-slate-800
+text-lg font-bold text-slate-800 mb-1
+text-sm text-slate-600 mb-2
+Layak Dicetak
+bg-emerald-100 text-emerald-700
+Perlu Revisi
+bg-amber-100 text-amber-700
+bg-red-100 text-red-700
+space-y-3
+text-sm font-bold text-slate-800
+space-y-2
+flex items-start gap-3 p-3 rounded-xl bg-red-50 border border-red-100
+w-4 h-4 text-red-500 mt-0.5 shrink-0
+text-xs text-red-800
+space-y-3
+text-sm font-bold text-slate-800
+space-y-2
+flex items-start gap-3 p-3 rounded-xl bg-indigo-50 border border-indigo-100
+w-4 h-4 text-indigo-500 mt-0.5 shrink-0
+text-xs text-indigo-800
+Menunggu Pemeriksaan
+flex flex-col items-center justify-center h-64 text-center
+w-12 h-12 text-slate-300 mb-4
+text-slate-500 text-sm max-w-sm
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 to-blue-900 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-blue-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-blue-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-blue-200 text-lg max-w-2xl leading-relaxed
+mt-6 inline-flex items-center gap-2 bg-white/10 px-4 py-2 rounded-xl text-sm border border-white/10
+w-4 h-4 text-blue-300
+text-blue-100
+ 
+text-white
+grid grid-cols-1 lg:grid-cols-3 gap-6
+lg:col-span-1 space-y-4
+Struktur RKJM
+space-y-2
+bg-indigo-600 text-white shadow-md shadow-indigo-200
+bg-slate-50 text-slate-600 hover:bg-slate-100 border border-slate-200
+text-indigo-200
+text-slate-400
+lg:col-span-2 space-y-6
+mb-6 pb-6 border-b border-slate-100 space-y-3
+text-slate-600 text-sm
+flex gap-4
+bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-200 text-xs
+text-slate-400 font-medium block
+font-bold text-slate-700
+space-y-6
+font-bold text-slate-800 text-sm flex items-center gap-2
+w-4 h-4 text-indigo-500
+space-y-4
+p-4 rounded-2xl border border-slate-200 bg-white shadow-sm
+flex justify-between items-start mb-2
+font-bold text-slate-800
+flex gap-1
+px-2 py-0.5 bg-emerald-50 text-emerald-600 text-[10px] font-bold rounded uppercase tracking-wider
+px-2 py-0.5 bg-blue-50 text-blue-600 text-[10px] font-bold rounded uppercase tracking-wider
+text-sm text-slate-600 mb-4
+grid grid-cols-2 md:grid-cols-3 gap-3
+bg-slate-50 p-2.5 rounded-xl border border-slate-100
+text-[10px] text-slate-400 font-bold uppercase block mb-1
+flex flex-wrap gap-1
+text-[10px] bg-slate-200 text-slate-700 px-1.5 py-0.5 rounded
+bg-slate-50 p-2.5 rounded-xl border border-slate-100
+text-[10px] text-slate-400 font-bold uppercase block mb-1
+text-xs font-medium text-slate-700
+bg-slate-50 p-2.5 rounded-xl border border-slate-100
+text-[10px] text-slate-400 font-bold uppercase block mb-1
+text-xs font-medium text-slate-700
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-slate-900 to-indigo-900 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-200 text-lg max-w-2xl leading-relaxed
+grid grid-cols-1 lg:grid-cols-3 gap-6
+lg:col-span-2 space-y-6
+Content Source Map & Tipe Data
+space-y-4
+p-4 rounded-xl border border-slate-200 bg-white shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4
+font-bold text-slate-800
+ $1
+text-xs text-slate-500 mt-1
+flex gap-2
+STATIC
+bg-slate-100 text-slate-600
+DYNAMIC
+bg-indigo-100 text-indigo-600
+bg-emerald-100 text-emerald-600
+px-2 py-1 text-[10px] font-bold uppercase rounded tracking-wider bg-purple-100 text-purple-600
+lg:col-span-1 space-y-6
+Smart Refresh & Dependency
+space-y-4
+text-sm text-slate-600
+space-y-3
+bg-slate-50 p-3 rounded-xl border border-slate-100
+text-[10px] text-slate-400 font-bold uppercase block mb-2
+flex flex-wrap gap-1.5
+text-[10px] bg-amber-100 text-amber-700 px-2 py-0.5 rounded font-medium border border-amber-200
+Dashboard Status Konten
+grid grid-cols-2 gap-3
+bg-slate-50 p-3 rounded-xl border border-slate-100
+text-xs text-slate-500 mb-1
+text-xl font-black text-slate-800
+bg-emerald-50 p-3 rounded-xl border border-emerald-100
+text-xs text-emerald-600 mb-1
+text-xl font-black text-emerald-700
+bg-amber-50 p-3 rounded-xl border border-amber-100
+text-xs text-amber-600 mb-1
+text-xl font-black text-amber-700
+bg-indigo-50 p-3 rounded-xl border border-indigo-100
+text-xs text-indigo-600 mb-1
+text-xl font-black text-indigo-700
+edit
+review
+history
+edit
+b1
+AUTO
+RENCANA KERJA JANGKA MENENGAH (RKJM)\nTAHUN 2024 - 2028
+Template Registry
+b2
+AUTO
+SDN Contoh Terpadu
+12345678
+Pusat Data Sekolah
+b3
+MANUAL
+BAB I PENDAHULUAN
+Manual Entry
+b4
+AI
+1.1 Latar Belakang\nBerdasarkan Rapor Pendidikan tahun terakhir, sekolah kami memiliki beberapa kekuatan dan kelemahan yang perlu ditindaklanjuti. Kelemahan utama berada pada kemampuan numerasi siswa kelas 5.
+Analisis Prioritas & Knowledge Base
+b5
+AI
+1.2 Tujuan Strategis\nMeningkatkan skor numerasi sebesar 15% pada tahun ajaran berikutnya melalui program-program inovatif dan peningkatan kapasitas pendidik.
+Target Sekolah
+AI
+MANUAL
+AI
+Manual Edit
+
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-100/80 text-lg max-w-2xl leading-relaxed
+bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col min-h-[800px]
+bg-slate-50 border-b border-slate-200 p-2 flex flex-col gap-2
+flex justify-between items-center px-2
+flex items-center gap-1
+edit
+default
+ghost
+sm
+edit
+h-8 text-xs
+w-3.5 h-3.5 mr-1.5
+review
+default
+ghost
+sm
+review
+h-8 text-xs
+w-3.5 h-3.5 mr-1.5
+history
+default
+ghost
+sm
+history
+h-8 text-xs
+w-3.5 h-3.5 mr-1.5
+flex items-center gap-2
+text-[10px] text-slate-400 font-mono hidden md:inline
+text-xs text-slate-500 font-medium ml-2
+sm
+bg-indigo-600 hover:bg-indigo-700 h-8 text-xs ml-2
+w-3.5 h-3.5 mr-1.5
+edit
+flex items-center flex-wrap gap-1 px-2 py-1 bg-white border border-slate-200 rounded-lg
+text-xs border-r border-slate-200 pr-2 py-1 outline-none bg-transparent
+text-xs border-r border-slate-200 px-2 py-1 outline-none bg-transparent
+flex items-center border-r border-slate-200 px-1
+p-1.5 hover:bg-slate-100 rounded text-slate-700 font-bold
+p-1.5 hover:bg-slate-100 rounded text-slate-700 italic
+p-1.5 hover:bg-slate-100 rounded text-slate-700 underline
+flex items-center border-r border-slate-200 px-1
+p-1.5 hover:bg-slate-100 rounded text-slate-700
+w-3.5 h-3.5
+p-1.5 hover:bg-slate-100 rounded text-slate-700
+w-3.5 h-3.5
+p-1.5 hover:bg-slate-100 rounded text-slate-700
+w-3.5 h-3.5
+p-1.5 hover:bg-slate-100 rounded text-slate-700
+w-3.5 h-3.5
+flex items-center px-1
+p-1.5 hover:bg-slate-100 rounded text-slate-700
+w-3.5 h-3.5
+flex-1 flex bg-slate-200/50 p-8 overflow-y-auto justify-center
+flex gap-4 w-full max-w-6xl
+flex-1 bg-white shadow-md p-10 font-serif
+bg-slate-100 text-slate-500 text-xs font-sans font-bold px-3 py-1 mb-6 rounded inline-block
+text-slate-800 whitespace-pre-wrap leading-relaxed opacity-60
+ 
+bg-rose-200 text-rose-900 px-1 line-through
+flex-1 bg-white shadow-md p-10 font-serif
+bg-indigo-100 text-indigo-700 text-xs font-sans font-bold px-3 py-1 mb-6 rounded inline-block
+text-slate-800 whitespace-pre-wrap leading-relaxed
+ 
+bg-emerald-200 text-emerald-900 px-1
+w-[210mm] min-h-[297mm] bg-white shadow-md p-16 font-serif
+edit
+hover:border-indigo-100 hover:bg-indigo-50/30
+
+ring-2 ring-indigo-200 bg-indigo-50/10
+
+edit
+absolute -left-10 top-2 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col gap-1
+text-lg
+edit
+AI
+absolute -top-10 left-0 bg-white shadow border border-slate-200 rounded-lg p-1 flex gap-1 z-10
+sm
+ghost
+h-7 text-[10px] text-indigo-600
+w-3 h-3 mr-1
+AUTO
+whitespace-pre-wrap text-slate-800 cursor-not-allowed select-none
+w-full bg-transparent resize-none outline-none whitespace-pre-wrap text-slate-800 font-serif leading-relaxed
+\n
+edit
+w-64 ml-6 space-y-4
+bg-white border border-slate-200 shadow-sm rounded-xl p-4 sticky top-4
+font-bold text-xs uppercase tracking-widest text-slate-500 mb-4 border-b border-slate-100 pb-2
+space-y-3
+text-[10px] text-slate-400 font-bold uppercase
+flex items-center gap-1.5 mt-1
+text-sm
+text-sm font-bold text-slate-700
+text-[10px] text-slate-400 font-bold uppercase
+text-xs text-slate-600 mt-1 font-medium
+AI
+pt-3 border-t border-slate-100
+sm
+outline
+w-full text-xs h-7 border-indigo-200 text-indigo-600 hover:bg-indigo-50
+MANUAL
+pt-3 border-t border-slate-100
+text-[10px] text-amber-600 bg-amber-50 p-2 rounded
+mt-3 bg-rose-50 border border-rose-100 p-2 rounded
+text-[10px] font-bold text-rose-800 uppercase flex items-center
+w-3 h-3 mr-1
+text-[10px] text-rose-600 mt-1
+ 
+mt-2 text-[10px] bg-white border border-rose-200 text-rose-600 px-2 py-1 rounded w-full font-bold
+review
+w-64 ml-6 space-y-4
+bg-white border border-slate-200 shadow-sm rounded-xl p-4 sticky top-4
+font-bold text-xs uppercase tracking-widest text-slate-500 mb-4 border-b border-slate-100 pb-2
+space-y-4
+bg-emerald-50 border border-emerald-100 p-3 rounded-lg
+text-xs text-emerald-800 font-medium
+mt-2 flex gap-1
+text-[10px] font-bold bg-white border border-emerald-200 text-emerald-600 px-2 py-1 rounded
+text-[10px] font-bold bg-white border border-rose-200 text-rose-600 px-2 py-1 rounded
+sm
+outline
+w-full text-xs
+w-3.5 h-3.5 mr-1.5
+history
+w-64 ml-6 space-y-4
+bg-white border border-slate-200 shadow-sm rounded-xl p-4 sticky top-4
+font-bold text-xs uppercase tracking-widest text-slate-500 mb-4 border-b border-slate-100 pb-2
+space-y-3 relative before:absolute before:inset-y-0 before:left-2 before:w-0.5 before:bg-slate-100
+relative pl-6
+absolute left-1 top-1.5 w-2 h-2 rounded-full bg-indigo-500 ring-4 ring-white
+text-sm font-bold text-slate-800
+text-[10px] text-slate-500
+relative pl-6
+absolute left-1 top-1.5 w-2 h-2 rounded-full bg-slate-300 ring-4 ring-white
+text-sm font-medium text-slate-600
+text-[10px] text-slate-500
+text-[10px] text-indigo-600 mt-1 hover:underline
+Tutup Perbandingan
+Bandingkan
+relative pl-6
+absolute left-1 top-1.5 w-2 h-2 rounded-full bg-slate-300 ring-4 ring-white
+text-sm font-medium text-slate-600
+text-[10px] text-slate-500
+text-[10px] text-indigo-600 mt-1 hover:underline
+Tutup Perbandingan
+Bandingkan
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 max-w-4xl pb-12
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+text-3xl font-black tracking-tight text-slate-800 mb-2 flex items-center
+w-8 h-8 mr-4 text-indigo-600
+text-slate-500
+Diagnostic Report
+p-6 space-y-4 font-mono text-sm
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-amber-200 bg-amber-50
+font-bold text-slate-700
+px-3 py-1 bg-amber-100 text-amber-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 max-w-4xl pb-12
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+text-3xl font-black tracking-tight text-slate-800 mb-2 flex items-center
+w-8 h-8 mr-4 text-indigo-600
+text-slate-500
+Diagnostic Report
+p-6 space-y-4 font-mono text-sm
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-rose-200 bg-rose-50
+font-bold text-slate-700
+px-3 py-1 bg-rose-100 text-rose-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-slate-200 bg-slate-50
+font-bold text-slate-700
+px-3 py-1 bg-slate-200 text-slate-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-slate-200 bg-slate-50
+font-bold text-slate-700
+px-3 py-1 bg-slate-200 text-slate-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-slate-200 bg-slate-50
+font-bold text-slate-700
+px-3 py-1 bg-slate-200 text-slate-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-emerald-200 bg-emerald-50
+font-bold text-slate-700
+px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold
+flex justify-between items-center p-3 rounded-xl border border-slate-200 bg-slate-50
+font-bold text-slate-700
+px-3 py-1 bg-slate-200 text-slate-700 rounded-full font-bold
+mt-8 p-4 bg-rose-50 border border-rose-200 rounded-xl text-rose-800
+font-bold mb-2
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+flex items-center text-sm font-bold text-slate-500 mb-6
+cursor-pointer hover:text-indigo-600 transition-colors
+dokumenPerencanaan
+w-4 h-4 mr-1 inline
+bg-white rounded-[32px] p-12 text-center shadow-sm border border-slate-200
+w-20 h-20 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto mb-6
+w-10 h-10
+text-3xl font-black text-slate-800 mb-4
+bg-amber-50 border border-amber-200 rounded-2xl p-6 max-w-lg mx-auto mb-8 text-left
+font-bold text-amber-800 mb-2 flex items-center
+w-5 h-5 mr-2
+text-amber-700
+bg-indigo-600 hover:bg-indigo-700 text-white
+diagnosis
+pratinjau
+cover
+penyusunan
+Penyusunan
+pratinjau
+Preview
+review
+Review
+bandingkan
+Bandingkan Versi
+riwayat
+Riwayat
+cetak
+Cetak & Ekspor
+arsipkan
+Arsipkan
+cover
+Cover RKJM
+pengesahan
+Lembar Pengesahan
+daftar_isi
+Daftar Isi
+bab1
+BAB I: Pendahuluan
+bab2
+BAB II: Analisis Kondisi
+bab3
+BAB III: Program Kerja
+bab4
+BAB IV: Rencana Anggaran
+bab5
+BAB V: Penutup
+lampiran
+Lampiran
+
+Data Sekolah: Nama Sekolah belum diisi.
+
+Data Sekolah: Nama Kepala Sekolah belum diisi (untuk bagian Lembar Pengesahan).
+<html xmlns:o=
+ xmlns:w=
+ xmlns=
+><head><meta charset=
+><title>Export HTML To Doc</title></head><body>
+</body></html>
+printable-rkjm
+data:application/vnd.ms-word;charset=utf-8,
+a
+Sekolah
+.doc
+fixed inset-0 z-[100] bg-slate-900 flex flex-col items-center
+w-full h-16 bg-white/10 backdrop-blur-md border-b border-white/10 flex items-center justify-between px-6 shrink-0 print:hidden text-white shadow-sm
+flex items-center space-x-4
+font-bold text-lg
+h-6 w-px bg-white/20 mx-2
+outline
+bg-transparent border-white/20 text-white hover:bg-white/10 hover:text-white h-9
+w-4 h-4 mr-2
+outline
+bg-transparent border-white/20 text-white hover:bg-white/10 hover:text-white h-9
+Gunakan opsi Save as PDF pada browser
+w-4 h-4 mr-2
+outline
+bg-transparent border-white/20 text-white hover:bg-white/10 hover:text-white h-9
+w-4 h-4 mr-2
+flex items-center space-x-2
+outline
+bg-transparent border-white/20 text-white hover:bg-white/10 w-9 h-9 p-0
+Zoom In
+w-4 h-4
+outline
+bg-transparent border-white/20 text-white hover:bg-white/10 w-9 h-9 p-0
+Zoom Out
+w-4 h-4
+outline
+bg-transparent border-white/20 text-white hover:bg-rose-500/20 hover:border-rose-500/50 hover:text-rose-100 h-9 transition-colors
+w-full flex-1 overflow-auto p-8 print:p-0
+printable-rkjm
+bg-white max-w-[210mm] mx-auto min-h-[297mm] shadow-2xl print:shadow-none p-16 print:p-0 font-serif text-black relative space-y-24
+text-center pt-24 pb-32
+text-4xl font-bold mb-4 uppercase
+RKJM
+Rencana Kerja Jangka Menengah
+text-2xl mb-12
+2024/2025
+mt-32 text-xl font-bold
+Nama Sekolah
+-
+page-break-before
+always
+text-2xl font-bold text-center mb-12
+text-justify mb-12 leading-relaxed
+Rencana Kerja Jangka Menengah
+grid grid-cols-2 gap-8 text-center mt-16
+mb-24
+font-bold underline
+Belum diatur
+-
+mb-24
+font-bold underline
+Belum diatur
+page-break-before
+always
+text-2xl font-bold text-center mb-12 uppercase
+space-y-4 max-w-2xl mx-auto
+flex justify-between border-b border-dotted border-slate-300 pb-1
+flex justify-between border-b border-dotted border-slate-300 pb-1
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 pl-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 pl-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+font-bold text-lg mb-4
+text-justify mb-6 leading-relaxed indent-8
+Sekolah ini
+font-bold text-lg mb-4
+text-justify mb-6 leading-relaxed indent-8
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+text-justify mb-6 leading-relaxed indent-8
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+w-full border-collapse border border-slate-800 text-sm mb-6
+bg-slate-100
+border border-slate-800 p-2
+border border-slate-800 p-2
+border border-slate-800 p-2
+border border-slate-800 p-2
+border border-slate-800 p-2 text-center
+border border-slate-800 p-2
+border border-slate-800 p-2 text-center
+border border-slate-800 p-2
+border border-slate-800 p-2 text-center
+border border-slate-800 p-2
+border border-slate-800 p-2 text-center
+border border-slate-800 p-2
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+text-justify mb-6 leading-relaxed indent-8
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+text-justify mb-6 leading-relaxed indent-8
+Rencana Kerja Jangka Menengah
+Sekolah
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+list-disc pl-8 space-y-2
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+flex flex-col md:flex-row justify-between items-start md:items-center mb-6
+text-3xl font-black tracking-tight text-slate-800 mb-1 flex items-center
+ml-4 px-3 py-1 bg-amber-100 text-amber-700 text-xs font-bold rounded-full border border-amber-200 uppercase
+text-slate-500 font-medium
+flex gap-4 mt-4 md:mt-0 text-right
+text-[10px] font-bold text-slate-400 uppercase
+text-sm font-bold text-slate-700
+text-[10px] font-bold text-slate-400 uppercase
+text-sm font-bold text-slate-700
+2024/2025
+text-[10px] font-bold text-slate-400 uppercase
+text-sm font-bold text-slate-700
+flex overflow-x-auto gap-2 border-b border-slate-100 pb-0
+border-indigo-600 text-indigo-700
+border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300
+text-indigo-600
+text-slate-400
+penyusunan
+Tahapan Penyusunan
+Tahapan penyusunan Rencana Kerja Jangka Menengah.
+mb-8
+flex justify-between items-center mb-2
+text-sm font-bold text-slate-600
+text-sm font-bold text-indigo-600
+w-full bg-slate-100 rounded-full h-3
+bg-indigo-500 h-3 rounded-full transition-all duration-500
+bg-slate-50 border border-slate-200 rounded-2xl p-6
+text-xl font-bold text-slate-800 mb-2 flex items-center
+text-slate-600 mb-6
+space-y-3 mb-8
+flex items-center text-sm font-medium text-slate-700 bg-white border border-slate-200 p-3 rounded-xl
+w-4 h-4 text-emerald-500 mr-3
+flex justify-between border-t border-slate-200 pt-6
+outline
+bg-emerald-600 hover:bg-emerald-700 text-white
+pratinjau
+bg-indigo-600 hover:bg-indigo-700
+pratinjau
+grid grid-cols-1 xl:grid-cols-12 gap-6 items-start
+xl:col-span-9 bg-slate-100 rounded-2xl border border-slate-200 p-6 flex flex-col items-center custom-scrollbar overflow-x-auto min-h-[800px]
+bg-white border border-slate-200 shadow-sm rounded-xl px-4 py-2 mb-6 flex items-center justify-between sticky top-0 z-10 w-full max-w-[210mm]
+flex items-center gap-2
+px-3 py-1 bg-slate-100 rounded-md text-xs font-bold text-slate-600
+h-4 w-px bg-slate-200 mx-1
+p-1.5 hover:bg-slate-100 rounded text-slate-500
+w-4 h-4
+text-xs font-bold text-slate-600 w-12 text-center
+p-1.5 hover:bg-slate-100 rounded text-slate-500
+w-4 h-4
+flex items-center gap-2
+bg-amber-100 text-amber-700
+hover:bg-slate-100 text-slate-600
+w-3.5 h-3.5 mr-1.5
+bg-white shadow-xl transition-all duration-300 relative
+210mm
+297mm
+top center
+absolute top-4 right-4 bg-amber-50 border border-amber-200 px-3 py-1.5 rounded-lg text-[10px] text-amber-700 font-bold uppercase tracking-widest shadow-sm
+p-[25mm] font-serif text-slate-800 leading-relaxed text-[11pt]
+cover
+text-center pt-24 h-full flex flex-col items-center
+text-2xl font-bold mb-4
+text-xl mb-16
+2024/2025
+mt-32
+text-xl font-bold uppercase
+NAMA SEKOLAH
+mt-2 text-sm text-slate-600
+-
+mt-4 text-sm max-w-sm mx-auto
+Alamat sekolah belum diatur.
+pengesahan
+text-center font-bold text-lg mb-12 uppercase
+text-justify mb-16
+Sekolah
+grid grid-cols-2 gap-8 text-center text-sm
+mb-20
+font-bold underline
+Belum diatur
+-
+mb-20
+font-bold underline
+Belum diatur
+bab1
+text-center font-bold text-lg mb-6 uppercase
+font-bold mb-2
+text-justify mb-4
+bg-amber-100 border-b-2 border-amber-400
+Berdasarkan hasil analisis Rapor Pendidikan tahun sebelumnya, ditemukan beberapa area yang membutuhkan intervensi strategis.
+satuan pendidikan
+font-bold mb-2 mt-6
+list-decimal pl-5 space-y-1 text-justify
+daftar_isi
+text-center font-bold text-lg mb-12 uppercase
+space-y-4 max-w-2xl mx-auto
+flex justify-between border-b border-dotted border-slate-300 pb-1
+flex justify-between border-b border-dotted border-slate-300 pb-1
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 pl-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 pl-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+bab2
+text-center font-bold text-lg mb-6 uppercase
+font-bold mb-2
+text-justify mb-4 leading-relaxed indent-8
+font-bold mb-2 mt-6
+text-justify mb-4 leading-relaxed indent-8
+bab3
+text-center font-bold text-lg mb-6 uppercase
+font-bold mb-2
+text-justify mb-4 leading-relaxed indent-8
+w-full border-collapse border border-slate-800 text-sm mt-6
+bg-slate-100
+border border-slate-800 p-2
+border border-slate-800 p-2
+border border-slate-800 p-2
+border border-slate-800 p-2 text-center
+border border-slate-800 p-2
+border border-slate-800 p-2
+border border-slate-800 p-2 text-center
+border border-slate-800 p-2
+border border-slate-800 p-2
+bab4
+text-center font-bold text-lg mb-6 uppercase
+text-justify mb-4 leading-relaxed indent-8
+font-bold mb-2 mt-6
+list-disc pl-5 space-y-1 text-justify
+bab5
+text-center font-bold text-lg mb-6 uppercase
+text-justify mb-4 leading-relaxed indent-8
+lampiran
+text-center font-bold text-lg mb-6 uppercase
+list-disc pl-5 space-y-2 text-justify
+absolute bottom-[15mm] w-full text-center text-slate-400 text-[10pt] font-serif
+cover
+
+pengesahan
+i
+daftar_isi
+ii
+1
+xl:col-span-3 space-y-4 sticky top-4
+bg-white rounded-2xl border border-slate-200 p-4 shadow-sm
+font-bold text-slate-700 mb-4 px-2
+space-y-1
+bg-indigo-50 text-indigo-700 font-bold
+text-slate-600 hover:bg-slate-50
+bg-white rounded-2xl border border-slate-200 p-4 shadow-sm
+font-bold text-slate-700 mb-4 px-2
+space-y-3 px-2 text-sm
+text-slate-400 text-xs font-bold uppercase mb-1
+font-medium text-amber-600
+text-slate-400 text-xs font-bold uppercase mb-1
+font-medium text-slate-700
+text-slate-400 text-xs font-bold uppercase mb-1
+font-medium text-slate-700
+text-slate-400 text-xs font-bold uppercase mb-1
+font-medium text-slate-700
+pt-2 border-t border-slate-100
+text-slate-400 text-xs font-bold uppercase mb-2
+flex gap-2
+px-2 py-1 bg-slate-100 text-slate-600 text-xs rounded-md
+px-2 py-1 bg-slate-100 text-slate-600 text-xs rounded-md
+bandingkan
+Bandingkan Versi
+Lihat perbedaan antar versi dokumen.
+flex flex-col items-center justify-center h-64 border-2 border-dashed border-slate-200 rounded-2xl bg-slate-50 text-slate-500
+w-10 h-10 mb-4 text-slate-300
+font-bold
+text-sm
+arsipkan
+Arsipkan Dokumen
+Simpan dokumen ke dalam arsip sekolah.
+p-6 border-2 border-slate-200 rounded-2xl
+font-bold text-slate-800 text-lg mb-2
+text-sm text-slate-500 mb-6
+outline
+text-rose-600 border-rose-200 hover:bg-rose-50
+review
+Review & Approval
+Beri catatan dan setujui draf RKJM.
+flex flex-col items-center justify-center h-64 border-2 border-dashed border-slate-200 rounded-2xl bg-slate-50 text-slate-500
+w-10 h-10 mb-4 text-slate-300
+font-bold
+text-sm
+riwayat
+Riwayat Aktivitas Dokumen
+Lacak semua perubahan dan persetujuan.
+space-y-6 pl-4 border-l-2 border-slate-100 ml-4 mt-4
+relative
+absolute w-3 h-3 bg-indigo-500 rounded-full -left-[23px] top-1.5 ring-4 ring-white
+text-sm font-bold text-slate-800
+text-xs text-slate-500 mt-1
+relative
+absolute w-3 h-3 bg-blue-500 rounded-full -left-[23px] top-1.5 ring-4 ring-white
+text-sm font-bold text-slate-800
+text-xs text-slate-500 mt-1
+relative
+absolute w-3 h-3 bg-slate-300 rounded-full -left-[23px] top-1.5 ring-4 ring-white
+text-sm font-bold text-slate-800
+text-xs text-slate-500 mt-1
+cetak
+space-y-6
+Cetak & Ekspor
+Pilih format untuk mengunduh dokumen resmi.
+grid grid-cols-1 md:grid-cols-2 gap-6
+border border-slate-200 rounded-2xl p-6 hover:border-indigo-300 bg-white
+w-10 h-10 text-rose-500 mb-4
+font-bold text-slate-800 text-lg mb-2
+text-sm text-slate-500 mb-6
+w-full bg-rose-600 hover:bg-rose-700 text-white
+border border-slate-200 rounded-2xl p-6 hover:border-indigo-300 bg-white
+w-10 h-10 text-blue-500 mb-4
+font-bold text-slate-800 text-lg mb-2
+text-sm text-slate-500 mb-6
+outline
+w-full text-blue-600 border-blue-200 hover:bg-blue-50
+Riwayat Pencetakan
+Log pencetakan dan ekspor dokumen.
+overflow-x-auto
+w-full text-sm text-left
+bg-slate-50 text-slate-500
+px-4 py-3 font-bold rounded-tl-xl
+px-4 py-3 font-bold
+px-4 py-3 font-bold
+px-4 py-3 font-bold rounded-tr-xl
+divide-y divide-slate-100
+hover:bg-slate-50
+px-4 py-3 text-slate-700
+px-4 py-3 font-medium text-slate-800
+px-4 py-3 text-slate-600
+px-4 py-3
+px-2 py-1 bg-rose-100 text-rose-700 rounded text-xs font-bold
+hover:bg-slate-50
+px-4 py-3 text-slate-700
+px-4 py-3 font-medium text-slate-800
+px-4 py-3 text-slate-600
+px-4 py-3
+px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs font-bold
+ringkasan
+lengkap
+impor
+ringkasan
+Terkunci
+Final
+Draft
+
+
+
+nilai
+rapor
+data
+rapor
+target
+Masukkan alasan membuka kunci Rapor Pendidikan:
+rapor
+isLocked
+rapor
+history
+UNLOCK
+Lengkapi semua data terlebih dahulu.
+Saya menyatakan data telah sesuai dengan Rapor Pendidikan. Kunci data sekarang?
+rapor
+isLocked
+rapor
+lockDate
+rapor
+history
+LOCK
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+flex justify-between items-center bg-white p-6 rounded-2xl shadow-sm border border-slate-200
+text-2xl font-black text-slate-800
+text-slate-500 font-medium
+flex gap-3 items-center
+Terkunci
+bg-indigo-100 text-indigo-700
+Final
+bg-emerald-100 text-emerald-700
+bg-slate-100 text-slate-700
+outline
+default
+Buka Kunci
+Validasi & Kunci
+flex gap-2 border-b border-slate-200
+ringkasan
+ringkasan
+border-indigo-600 text-indigo-600
+border-transparent text-slate-500 hover:text-slate-800
+lengkap
+lengkap
+border-indigo-600 text-indigo-600
+border-transparent text-slate-500 hover:text-slate-800
+impor
+impor
+border-indigo-600 text-indigo-600
+border-transparent text-slate-500 hover:text-slate-800
+ringkasan
+space-y-6
+grid grid-cols-2 md:grid-cols-4 gap-4
+bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-center
+text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-1
+flex items-baseline space-x-2
+text-3xl font-black text-slate-800
+text-sm font-bold text-slate-400
+bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-center
+text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-1
+flex items-baseline space-x-2
+text-3xl font-black text-indigo-600
+md:col-span-2 bg-white p-5 rounded-xl border border-slate-200 shadow-sm
+text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-3
+flex h-4 rounded-full overflow-hidden mb-3 bg-slate-100
+bg-emerald-500
+bg-amber-500
+bg-rose-500
+flex justify-between text-xs font-bold text-slate-600
+flex items-center gap-1.5
+w-2.5 h-2.5 rounded-full bg-emerald-500
+ 
+flex items-center gap-1.5
+w-2.5 h-2.5 rounded-full bg-amber-500
+ 
+flex items-center gap-1.5
+w-2.5 h-2.5 rounded-full bg-rose-500
+ 
+space-y-6
+
+Belum Diset
+bg-slate-100 text-slate-500 border-slate-200
+bg-slate-400
+Target Tercapai
+bg-emerald-50 text-emerald-700 border-emerald-200
+bg-emerald-500
+Hampir Tercapai
+bg-amber-50 text-amber-700 border-amber-200
+bg-amber-500
+Belum Tercapai
+bg-rose-50 text-rose-700 border-rose-200
+bg-rose-500
+Hijau
+bg-emerald-50 text-emerald-700 border-emerald-200
+Kuning
+bg-amber-50 text-amber-700 border-amber-200
+Merah
+bg-rose-50 text-rose-700 border-rose-200
+bg-slate-50 text-slate-500 border-slate-200
+Hijau
+bg-emerald-500
+Kuning
+bg-amber-500
+Merah
+bg-rose-500
+bg-slate-300
+bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col hover:shadow-md transition-shadow
+p-6 border-b border-slate-100
+flex flex-col lg:flex-row justify-between gap-6
+flex-1
+flex items-center gap-3 mb-2
+font-black text-slate-800 text-xl leading-tight
+BELUM DIISI
+text-slate-500 text-sm mb-6 max-w-2xl
+relative h-6 bg-slate-100 rounded-full mb-2 overflow-hidden border border-slate-200
+absolute top-0 bottom-0 w-1 bg-indigo-900 z-10 shadow-[0_0_4px_rgba(0,0,0,0.5)] transition-all duration-1000
+flex justify-between text-[11px] font-bold text-slate-400 px-1
+absolute text-indigo-700
+flex flex-row lg:flex-col gap-4 min-w-[200px] shrink-0
+flex-1 bg-slate-50 p-3 rounded-xl border border-slate-200
+block text-[10px] font-black text-slate-500 uppercase tracking-widest mb-1
+text-2xl font-black text-slate-800
+-
+flex-1 bg-slate-50 p-3 rounded-xl border border-slate-200
+flex justify-between items-center mb-1
+block text-[10px] font-black text-slate-500 uppercase tracking-widest
+number
+
+w-full text-xl font-black px-2 py-1 rounded-lg border border-slate-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 outline-none text-slate-800 disabled:bg-slate-100 disabled:text-slate-400 transition-all bg-white
+Set Target
+p-4 bg-slate-50 flex justify-between items-center rounded-b-2xl border-t border-slate-100
+flex items-center gap-2
+sm
+outline
+Tutup Detail
+Lihat Detail
+p-6 border-t border-slate-200 bg-white grid grid-cols-1 md:grid-cols-2 gap-6 rounded-b-2xl
+
+
+
+Hijau
+text-emerald-700 bg-emerald-50
+Kuning
+text-amber-700 bg-amber-50
+Merah
+text-rose-700 bg-rose-50
+text-slate-500 bg-slate-50
+flex flex-col gap-3 p-4 border border-slate-100 rounded-xl hover:border-slate-300 transition-colors bg-slate-50/50
+flex justify-between items-start gap-4
+font-bold text-slate-800 text-sm flex items-center gap-2 mb-1
+px-1.5 py-0.5 bg-indigo-100 text-indigo-700 rounded text-[10px]
+text-[11px] text-slate-500 leading-relaxed
+w-20 shrink-0
+block text-[9px] font-black text-slate-400 uppercase tracking-widest mb-1 text-center
+number
+nilai
+-
+catatan
+w-full px-3 py-2 rounded-lg border border-slate-200 bg-white text-xs font-medium outline-none focus:border-indigo-500 resize-none h-[40px] disabled:bg-slate-100
+Catatan indikator...
+lengkap
+space-y-4
+bg-indigo-50 text-indigo-700 p-4 rounded-xl text-sm font-bold flex items-center gap-2 mb-6 border border-indigo-100
+sm
+outline
+Tutup
+Buka
+mt-4 space-y-4
+
+
+
+p-4 bg-slate-50 rounded-xl border border-slate-200
+flex flex-col md:flex-row gap-4 mb-4
+flex-1
+font-bold text-slate-800 flex items-center gap-2
+px-2 py-0.5 bg-indigo-100 text-indigo-700 rounded text-xs
+text-sm text-slate-500 mt-1
+flex gap-3 md:w-[350px]
+flex-1
+block text-[11px] font-bold text-slate-500 uppercase mb-1
+number
+nilai
+w-full px-3 py-2 rounded-lg border border-slate-300 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none text-sm font-bold bg-white disabled:bg-slate-100
+0 - 100
+flex-1
+block text-[11px] font-bold text-slate-500 uppercase mb-1
+Hijau
+bg-emerald-50 text-emerald-700 border-emerald-200
+Kuning
+bg-amber-50 text-amber-700 border-amber-200
+Merah
+bg-rose-50 text-rose-700 border-rose-200
+bg-slate-50 text-slate-500 border-slate-200
+Hijau
+🟢
+Kuning
+🟡
+🔴
+-
+text
+catatan
+w-full px-4 py-2 rounded-lg border border-slate-200 bg-white text-sm outline-none focus:border-indigo-500 disabled:bg-slate-100
+Catatan Kepala Sekolah (Opsional)...
+impor
+flex flex-col items-center justify-center p-16 bg-white rounded-3xl border-2 border-dashed border-slate-200
+w-24 h-24 bg-indigo-50 rounded-full flex items-center justify-center mb-6 shadow-inner
+w-12 h-12 text-indigo-500
+text-3xl font-black text-slate-800 mb-3 text-center
+text-slate-500 text-center max-w-lg mb-10 text-lg font-medium
+flex flex-wrap gap-4 justify-center
+outline
+opacity-60 cursor-not-allowed
+outline
+opacity-60 cursor-not-allowed
+outline
+opacity-60 cursor-not-allowed
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 max-w-4xl
+Tentang Tampuyak OS
+p-6 text-center space-y-4
+w-24 h-24 bg-gradient-to-br from-indigo-600 to-blue-600 rounded-[24px] flex items-center justify-center shadow-xl shadow-indigo-500/20 mx-auto mb-6 transform hover:scale-105 transition-transform cursor-pointer
+w-12 h-12 text-white
+text-3xl font-black text-slate-900 tracking-tight
+text-slate-500 text-lg font-medium
+inline-block bg-indigo-50 border border-indigo-100 px-4 py-2 rounded-full mt-4
+text-sm font-bold text-indigo-700
+text-sm text-slate-500 max-w-xl mx-auto mt-6 leading-relaxed
+Mode Pengembang (Akses Terbatas)
+border-rose-200
+p-4 space-y-4
+bg-rose-50 text-rose-700 p-4 rounded-xl border border-rose-100 flex items-start gap-3
+w-5 h-5 flex-shrink-0 mt-0.5
+font-bold text-sm
+text-xs mt-1
+grid grid-cols-1 md:grid-cols-2 gap-3
+workflowEngine
+w-5 h-5 mr-3 text-slate-400
+templateRegistry
+w-5 h-5 mr-3 text-slate-400
+regulationRegistry
+w-5 h-5 mr-3 text-slate-400
+docStandard
+w-5 h-5 mr-3 text-slate-400
+docLanguage
+w-5 h-5 mr-3 text-slate-400
+ 
+complianceEngine
+w-5 h-5 mr-3 text-slate-400
+ 
+printDiagnostic
+w-5 h-5 mr-3 text-slate-400
+generationDiagnostic
+w-5 h-5 mr-3 text-slate-400
+dashboard
+dashboard
+Ringkasan
+school
+Profil Sekolah
+identitas
+Identitas
+karakteristik
+Karakteristik
+potensi
+Potensi
+programUnggulan
+Program Unggulan
+pejabat
+Pejabat Penandatangan
+guru
+Guru
+tendik
+Tenaga Kependidikan
+pesertaDidik
+Peserta Didik
+rombel
+Rombel
+sarpras
+Sarpras
+academicYear
+Tahun Pelajaran
+education
+Data Pendukung (Pendidikan)
+budget
+Data Pendukung (BOS)
+dashboard
+academicYear
+school
+school
+identitas
+identitas
+karakteristik
+karakteristik
+potensi
+potensi
+programUnggulan
+programUnggulan
+principal
+principal
+guru
+guru
+
+tendik
+tendik
+
+pesertaDidik
+pesertaDidik
+rombel
+rombel
+
+sarpras
+sarpras
+komite
+komite
+pengawas
+pengawas
+education
+education
+budget
+budget
+branding
+branding
+flex flex-col md:flex-row gap-8 items-start h-full pb-12
+w-full md:w-64 flex-shrink-0 sticky top-28 bg-white/80 backdrop-blur-xl rounded-[24px] border border-slate-200/60 p-4 shadow-sm max-h-[calc(100vh-140px)] overflow-y-auto custom-scrollbar
+text-[11px] font-black text-slate-400 uppercase tracking-widest px-4 mb-4 mt-2
+space-y-1
+bg-indigo-600 text-white shadow-md
+text-slate-600 hover:bg-slate-100 hover:text-slate-900
+text-indigo-200
+text-slate-400 group-hover:text-slate-600
+ml-auto
+flex-1 w-full min-w-0
+storage
+dashboard
+school
+storage
+profile
+Profil Pengguna
+theme
+Tema & Tampilan
+storage
+Penyimpanan & Backup
+notification
+Notifikasi
+about
+Tentang Tampuyak
+ai
+Mode Pengembang (AI)
+profile
+theme
+notification
+flex flex-col items-center justify-center p-12 text-center h-[60vh] animate-in fade-in zoom-in-95 duration-500 bg-slate-50 rounded-2xl border border-slate-200
+w-16 h-16 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mb-4 border border-slate-200
+w-8 h-8
+text-xl font-bold text-slate-700 mb-2
+text-slate-500 max-w-sm
+ai
+storage
+about
+flex flex-col md:flex-row gap-8 items-start h-full pb-12
+w-full md:w-64 flex-shrink-0 sticky top-28 bg-white/80 backdrop-blur-xl rounded-[24px] border border-slate-200/60 p-4 shadow-sm max-h-[calc(100vh-140px)] overflow-y-auto custom-scrollbar
+text-[11px] font-black text-slate-400 uppercase tracking-widest px-4 mb-4 mt-2
+space-y-1
+bg-indigo-600 text-white shadow-md
+text-slate-600 hover:bg-slate-100 hover:text-slate-900
+text-indigo-200
+text-slate-400 group-hover:text-slate-600
+flex-1 w-full min-w-0
+id-ID
+long
+numeric
+long
+numeric
+
+Data Sekolah Lengkap
+Profil dan identitas telah diisi
+Lengkapi Data Sekolah
+Dasar sistem memerlukan profil sekolah Anda.
+school
+slate
+Rapor Pendidikan Dimuat
+Analisis sistem menggunakan rapor terbaru
+Isi Rapor Pendidikan
+Unggah atau sinkronisasikan rapor sekolah Anda.
+rapor
+blue
+Analisis Prioritas Selesai
+Akar masalah telah teridentifikasi
+Lakukan Analisis Prioritas
+Identifikasi program strategis sekolah.
+diagnosis
+indigo
+RKJM
+Disetujui
+Terkunci
+Diarsipkan
+RKJM Disetujui
+Rencana Kerja Jangka Menengah versi 
+1.0
+Review
+RKJM Menunggu Review
+Periksa catatan dari Kepala Sekolah
+documentDetail_rkjm
+Draft RKJM Belum Selesai
+Lanjutkan penyusunan RKJM.
+documentDetail_rkjm
+Mulai Susun RKJM
+Kerangka dasar rencana kerja sekolah.
+rkjmPipeline
+amber
+RKT
+Disetujui
+Terkunci
+Diarsipkan
+RKT Disetujui
+Rencana Kerja Tahunan versi 
+1.0
+Disetujui
+Terkunci
+Diarsipkan
+Review
+RKT Menunggu Review
+Periksa catatan dari Kepala Sekolah
+documentDetail_rkt
+Draft RKT Belum Selesai
+Lanjutkan penyusunan RKT.
+documentDetail_rkt
+Mulai Susun RKT
+Turunkan program strategis ke Rencana Tahunan.
+rktDerivation
+emerald
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+text-4xl md:text-5xl font-black tracking-tight mb-2
+Bapak/Ibu Kepala Sekolah
+text-indigo-100/80 text-xl font-medium mb-6
+Sekolah Belum Diatur
+flex flex-wrap gap-4 text-sm
+flex items-center text-indigo-200
+w-4 h-4 mr-2
+-
+flex items-center text-indigo-200
+w-4 h-4 mr-2
+grid grid-cols-1 lg:grid-cols-3 gap-6
+lg:col-span-2 space-y-6
+bg-white rounded-3xl p-8 border border-slate-200 shadow-sm
+flex items-center justify-between mb-6
+text-xl font-black text-slate-800 flex items-center
+w-6 h-6 mr-3 text-indigo-500
+space-y-4
+flex flex-col md:flex-row items-center gap-6 p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-indigo-200 transition-colors
+flex-1 text-center md:text-left
+font-bold text-slate-800 text-lg mb-1
+text-slate-500 text-sm
+w-full md:w-auto bg-indigo-600 hover:bg-indigo-700 text-white shrink-0
+p-8 text-center bg-emerald-50 rounded-2xl border border-emerald-100
+w-12 h-12 text-emerald-500 mx-auto mb-4
+text-lg font-bold text-emerald-800 mb-2
+text-emerald-700
+bg-white rounded-3xl p-8 border border-slate-200 shadow-sm
+flex items-center justify-between mb-6
+text-xl font-black text-slate-800 flex items-center
+w-6 h-6 mr-3 text-emerald-500
+grid grid-cols-1 md:grid-cols-2 gap-4
+flex items-center p-4 rounded-xl border border-slate-100 bg-white shadow-sm
+w-5 h-5 text-emerald-500 mr-3 shrink-0
+font-bold text-slate-700 text-sm
+text-xs text-slate-500 mt-0.5
+text-slate-500 text-sm italic text-center py-4
+space-y-6
+bg-white rounded-3xl p-6 border border-slate-200 shadow-sm
+text-lg font-black text-slate-800 mb-4 flex items-center
+w-5 h-5 mr-2 text-amber-500
+space-y-3
+p-4 rounded-xl bg-amber-50 border border-amber-100 cursor-pointer hover:bg-amber-100 transition-colors
+font-bold text-amber-800 text-sm mb-1
+text-xs text-amber-700 mb-3
+text-xs font-bold text-amber-600 flex items-center
+w-3 h-3 ml-1
+text-center py-8
+w-10 h-10 text-slate-200 mx-auto mb-3
+text-sm font-medium text-slate-500
+bg-slate-50 rounded-3xl p-6 border border-slate-200
+font-bold text-slate-700 mb-4 flex items-center
+w-4 h-4 mr-2
+space-y-3
+flex items-center justify-between p-3 rounded-xl bg-white border border-slate-100 shadow-sm cursor-pointer hover:border-indigo-200
+flex items-center
+w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center mr-3 font-bold text-xs
+font-bold text-slate-700 text-sm
+1.0
+text-[10px] text-slate-500 uppercase font-bold
+w-4 h-4 text-slate-300
+text-xs text-slate-500 italic text-center
+RKJM
+Disetujui
+Terkunci
+Diarsipkan
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+flex items-center text-sm font-bold text-slate-500 mb-6
+cursor-pointer hover:text-indigo-600 transition-colors
+dokumenPerencanaan
+w-4 h-4 mr-1 inline
+bg-white rounded-[32px] p-12 text-center shadow-sm border border-slate-200
+w-20 h-20 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto mb-6
+w-10 h-10
+text-3xl font-black text-slate-800 mb-4
+bg-amber-50 border border-amber-200 rounded-2xl p-6 max-w-lg mx-auto mb-8 text-left
+font-bold text-amber-800 mb-2 flex items-center
+w-5 h-5 mr-2
+text-amber-700
+bg-indigo-600 hover:bg-indigo-700 text-white
+documentDetail_rkjm
+2024/2025
+RKJM
+Disetujui
+Terkunci
+Siap Dicetak
+Selesai
+Final
+flex flex-col items-center justify-center p-12 text-center h-[60vh] animate-in fade-in zoom-in-95 duration-500
+w-20 h-20 bg-amber-100 text-amber-500 rounded-full flex items-center justify-center mb-6 border border-amber-200
+w-10 h-10
+text-2xl font-black text-slate-800 mb-3
+text-slate-600 mb-8 max-w-md leading-relaxed
+rkjmPipeline
+bg-indigo-600 hover:bg-indigo-700
+synced
+needs_sync
+syncing
+needs_sync
+Peningkatan Kemampuan Numerasi
+65 (Tahun 1)
+Pelatihan Guru Matematika Terapan
+Pengadaan Alat Peraga Numerasi
+Bimbingan Belajar Tambahan
+synced
+RKJM Bab III, Strategi 1.2
+Digitalisasi Pembelajaran
+80% Ruang Kelas (Tahun 1)
+Instalasi Proyektor Interaktif
+Langganan Platform Belajar Digital
+changed
+RKJM Bab III, Strategi 2.1
+Pembinaan Karakter & Profil Pelajar Pancasila
+90% Keikutsertaan (Tahun 1)
+Kegiatan Ekstrakurikuler Wajib
+Perkemahan Sabtu Minggu (Persami)
+new
+RKJM Bab III, Strategi 3.3
+syncing
+synced
+synced
+undefined
+Luar Biasa!
+RKT berhasil disinkronkan dengan RKJM. Mari lanjutkan menyusun RKAS.
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+text-3xl font-black tracking-tight text-slate-800 mb-6 flex items-center
+RKT (Rencana Kerja Tahunan)
+Menurunkan program dari RKJM menjadi rincian kegiatan tahun ini.
+Memastikan setiap langkah tahunan sesuai dengan visi jangka menengah sekolah.
+Lakukan sinkronisasi dari RKJM, sesuaikan target, lalu simpan.
+grid grid-cols-2 md:grid-cols-4 gap-6
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-black text-blue-600
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-bold text-slate-700
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+synced
+text-emerald-600
+text-amber-600
+synced
+Tersinkronisasi
+Perlu Sinkronisasi
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-bold text-slate-700
+flex flex-wrap gap-3 pb-4 border-b border-slate-200
+bg-blue-600 hover:bg-blue-700 text-white rounded-xl
+syncing
+synced
+syncing
+animate-spin
+
+syncing
+Menyinkronkan...
+Sinkronisasi RKJM
+outline
+rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50
+w-4 h-4 mr-2
+outline
+rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50
+w-4 h-4 mr-2
+outline
+rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50
+w-4 h-4 mr-2
+grid grid-cols-1 md:grid-cols-4 gap-6
+bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-center justify-between col-span-1 md:col-span-4
+text-sm font-bold text-slate-500 uppercase tracking-widest mb-1
+flex items-center gap-3
+needs_sync
+text-rose-600 font-bold text-xl flex items-center
+w-6 h-6 mr-2
+syncing
+text-amber-600 font-bold text-xl flex items-center
+w-6 h-6 mr-2 animate-spin
+ 
+text-emerald-600 font-bold text-xl flex items-center
+w-6 h-6 mr-2
+needs_sync
+text-sm text-slate-500 ml-4 border-l border-slate-200 pl-4
+needs_sync
+bg-blue-600 hover:bg-blue-700
+bg-emerald-50 border border-emerald-100 p-6 rounded-2xl flex items-center gap-4
+w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center
+w-6 h-6
+text-2xl font-black text-emerald-700
+synced
+text-xs font-bold text-emerald-600 uppercase
+bg-amber-50 border border-amber-100 p-6 rounded-2xl flex items-center gap-4
+w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center
+w-6 h-6
+text-2xl font-black text-amber-700
+changed
+text-xs font-bold text-amber-600 uppercase
+bg-blue-50 border border-blue-100 p-6 rounded-2xl flex items-center gap-4
+w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center
+w-6 h-6
+text-2xl font-black text-blue-700
+new
+text-xs font-bold text-blue-600 uppercase
+bg-rose-50 border border-rose-100 p-6 rounded-2xl flex items-center gap-4
+w-12 h-12 bg-rose-100 text-rose-600 rounded-xl flex items-center justify-center
+w-6 h-6
+text-2xl font-black text-rose-700
+text-xs font-bold text-rose-600 uppercase
+bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden
+p-6 border-b border-slate-100 flex justify-between items-center bg-slate-50
+text-xl font-bold text-slate-800
+text-sm text-slate-500
+outline
+text-indigo-600 border-indigo-200 hover:bg-indigo-50
+documentEditor
+w-4 h-4 mr-2
+p-6 space-y-6
+border border-slate-200 rounded-xl overflow-hidden
+bg-slate-50 p-4 border-b border-slate-200 flex justify-between items-start
+flex items-center gap-2 mb-2
+bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-widest border border-indigo-200
+text-[10px] text-slate-500 font-medium font-mono
+changed
+bg-amber-100 text-amber-700 px-2 py-0.5 rounded text-[10px] font-bold
+new
+bg-blue-100 text-blue-700 px-2 py-0.5 rounded text-[10px] font-bold
+font-bold text-lg text-slate-800
+flex items-center gap-2 mt-2 text-sm text-slate-600
+w-4 h-4 text-emerald-600
+ 
+sm
+ghost
+text-indigo-600
+w-4 h-4
+p-4 bg-white relative
+absolute right-4 top-4 text-[10px] font-bold text-slate-400 uppercase tracking-widest flex items-center
+w-3 h-3 mr-1
+text-xs font-bold uppercase text-slate-500 mb-3
+space-y-3
+flex items-start gap-3
+w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center flex-shrink-0 mt-0.5
+text-xs font-bold text-slate-500
+text-sm text-slate-700 leading-relaxed
+mt-4 pt-4 border-t border-slate-100
+sm
+outline
+text-xs border-dashed
+w-3 h-3 mr-1
+bg-slate-900 rounded-2xl p-8 flex items-center justify-between text-white shadow-xl
+font-bold text-xl mb-2
+flex items-center gap-6 text-sm text-slate-400
+flex items-center
+w-4 h-4 text-emerald-400 mr-2
+flex items-center
+w-4 h-4 text-emerald-400 mr-2
+flex items-center
+w-4 h-4 text-emerald-400 mr-2
+ 
+bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8
+RKT
+Disetujui
+Terkunci
+Diarsipkan
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+flex items-center text-sm font-bold text-slate-500 mb-6
+cursor-pointer hover:text-indigo-600 transition-colors
+dokumenPerencanaan
+w-4 h-4 mr-1 inline
+bg-white rounded-[32px] p-12 text-center shadow-sm border border-slate-200
+w-20 h-20 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto mb-6
+w-10 h-10
+text-3xl font-black text-slate-800 mb-4
+bg-amber-50 border border-amber-200 rounded-2xl p-6 max-w-lg mx-auto mb-8 text-left
+font-bold text-amber-800 mb-2 flex items-center
+w-5 h-5 mr-2
+text-amber-700
+bg-indigo-600 hover:bg-indigo-700 text-white
+documentDetail_rkt
+2024/2025
+RKT
+Disetujui
+Terkunci
+Siap Dicetak
+Selesai
+Final
+flex flex-col items-center justify-center p-12 text-center h-[60vh] animate-in fade-in zoom-in-95 duration-500
+w-20 h-20 bg-amber-100 text-amber-500 rounded-full flex items-center justify-center mb-6 border border-amber-200
+w-10 h-10
+text-2xl font-black text-slate-800 mb-3
+text-slate-600 mb-8 max-w-md leading-relaxed
+rktDerivation
+bg-indigo-600 hover:bg-indigo-700
+synced
+needs_sync
+syncing
+needs_sync
+Pelatihan Guru Matematika Terapan
+10 Guru (Tahun 1)
+Honor Narasumber
+Kegiatan
+
+BOS Reguler
+Konsumsi Peserta
+Orang
+
+BOS Reguler
+Sertifikat
+Lembar
+
+BOS Reguler
+synced
+RKT Bab II, Program Numerasi
+Langganan Platform Belajar Digital
+1 Tahun (Semua Siswa)
+Platform Literasi Digital
+Bulan
+
+BOS Kinerja
+changed
+RKT Bab II, Digitalisasi
+syncing
+synced
+synced
+undefined
+Sukses!
+RKAS berhasil disinkronkan dengan RKT. Silakan lengkapi rincian anggaran.
+
+0
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+text-3xl font-black tracking-tight text-slate-800 mb-6 flex items-center
+RKAS (Rencana Kegiatan dan Anggaran Sekolah)
+Menentukan alokasi dana dan sumber biaya untuk kegiatan dalam RKT.
+Menjamin agar anggaran sesuai kebutuhan prioritas dan mengikuti regulasi BOS/dana lain.
+Tambahkan komponen anggaran untuk setiap kegiatan RKT dan validasi.
+grid grid-cols-2 md:grid-cols-4 gap-6
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-black text-emerald-600
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-bold text-slate-700
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-bold text-slate-700
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-bold text-slate-700
+ 
+id-ID
+flex flex-wrap gap-3 pb-4 border-b border-slate-200
+bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl
+w-4 h-4 mr-2
+outline
+rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50
+w-4 h-4 mr-2
+outline
+rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50
+w-4 h-4 mr-2
+outline
+rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50
+w-4 h-4 mr-2
+grid grid-cols-1 md:grid-cols-4 gap-6
+bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-center justify-between col-span-1 md:col-span-4
+text-sm font-bold text-slate-500 uppercase tracking-widest mb-1
+flex items-center gap-3
+needs_sync
+text-rose-600 font-bold text-xl flex items-center
+w-6 h-6 mr-2
+syncing
+text-amber-600 font-bold text-xl flex items-center
+w-6 h-6 mr-2 animate-spin
+ 
+text-emerald-600 font-bold text-xl flex items-center
+w-6 h-6 mr-2
+needs_sync
+text-sm text-slate-500 ml-4 border-l border-slate-200 pl-4
+needs_sync
+bg-emerald-600 hover:bg-emerald-700
+bg-emerald-50 border border-emerald-100 p-6 rounded-2xl flex flex-col justify-center
+text-3xl font-black text-emerald-700
+text-xs font-bold text-emerald-600 uppercase mt-1
+bg-indigo-50 border border-indigo-100 p-6 rounded-2xl flex flex-col justify-center
+text-3xl font-black text-indigo-700
+text-xs font-bold text-indigo-600 uppercase mt-1
+bg-amber-50 border border-amber-100 p-6 rounded-2xl flex flex-col justify-center col-span-2
+text-3xl font-black text-amber-700
+ 
+id-ID
+text-xs font-bold text-amber-600 uppercase mt-1
+bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden
+p-6 border-b border-slate-100 flex justify-between items-center bg-slate-50
+text-xl font-bold text-slate-800
+text-sm text-slate-500
+outline
+text-emerald-600 border-emerald-200 hover:bg-emerald-50
+documentEditor
+w-4 h-4 mr-2
+p-6 space-y-8
+border border-slate-200 rounded-xl overflow-hidden
+bg-slate-50 p-4 border-b border-slate-200 flex flex-col gap-2
+flex items-center gap-2 mb-1
+bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-widest border border-indigo-200
+text-[10px] text-slate-500 font-medium font-mono
+w-3 h-3 inline mr-1
+changed
+bg-amber-100 text-amber-700 px-2 py-0.5 rounded text-[10px] font-bold
+font-bold text-lg text-slate-800 flex items-center justify-between
+text-sm font-bold text-emerald-600 bg-emerald-100 px-3 py-1 rounded-lg
+ 
+id-ID
+flex items-center gap-2 text-sm text-slate-600
+w-4 h-4 text-emerald-600
+ 
+p-0 bg-white overflow-x-auto
+w-full text-sm text-left text-slate-600
+text-xs text-slate-500 uppercase bg-slate-50 border-b border-slate-200
+px-4 py-3 font-bold
+px-4 py-3 font-bold text-center
+px-4 py-3 font-bold text-center
+px-4 py-3 font-bold
+px-4 py-3 font-bold
+px-4 py-3 font-bold
+px-4 py-3 font-bold text-center
+border-b border-slate-100 hover:bg-slate-50 transition-colors
+px-4 py-3 font-medium text-slate-800
+text-[10px] text-slate-400 font-normal mt-0.5 uppercase flex items-center
+w-3 h-3 mr-1
+px-4 py-3 text-center
+px-4 py-3 text-center
+px-4 py-3
+text
+Isi harga...
+w-32 px-2 py-1.5 border border-slate-300 rounded text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500
+px-4 py-3 font-bold text-slate-800
+id-ID
+-
+px-4 py-3 text-xs
+px-4 py-3 text-center
+sm
+ghost
+h-8 w-8 p-0 text-slate-400 hover:text-rose-600
+w-4 h-4
+p-4 bg-slate-50 border-t border-slate-200
+sm
+outline
+text-xs border-dashed text-slate-600
+w-3 h-3 mr-1
+bg-slate-900 rounded-2xl p-8 flex items-center justify-between text-white shadow-xl
+font-bold text-xl mb-2
+flex items-center gap-6 text-sm text-slate-400
+flex items-center
+w-4 h-4 text-emerald-400 mr-2
+ 
+flex items-center
+w-4 h-4 text-emerald-400 mr-2
+flex items-center
+w-4 h-4 text-emerald-400 mr-2
+ 
+flex items-center
+w-4 h-4 text-amber-400 mr-2
+bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8
+
+Semua
+rkjm
+RKJM
+Rencana Kerja Jangka Menengah (4 Tahun)
+Draft
+1.2
+12 Juni 2026
+Buka
+documentDetail_rkjm
+indigo
+rkt
+RKT
+Rencana Kerja Tahunan (1 Tahun)
+Review
+1.0
+15 Juni 2026
+Buka
+documentDetail_rkt
+blue
+rkas
+RKAS
+Rencana Kegiatan dan Anggaran Sekolah
+Belum Dibuat
+-
+-
+Buat
+documentDetail_rkas
+emerald
+ksp
+KSP
+Kurikulum Operasional Satuan Pendidikan
+Disetujui
+2.0
+10 Juni 2026
+Buka
+documentDetail_ksp
+purple
+Semua
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8
+text-3xl font-black tracking-tight text-slate-800 mb-2
+text-slate-500 font-medium
+flex flex-col md:flex-row gap-4
+relative flex-1
+absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5
+text
+Cari dokumen, nomor, atau status...
+w-full pl-12 pr-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all font-medium text-sm
+flex gap-2
+px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:border-indigo-500 font-medium text-sm text-slate-600 bg-white
+Semua
+Draft
+Review
+Disetujui
+Belum Dibuat
+grid grid-cols-1 md:grid-cols-2 gap-6
+space-y-4
+text-lg font-bold text-slate-800 flex items-center px-2
+w-5 h-5 mr-2 text-amber-500
+bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center justify-between group
+flex items-center gap-4
+font-bold text-slate-800
+text-xs text-slate-500
+sm
+outline
+space-y-4
+text-lg font-bold text-slate-800 flex items-center px-2
+w-5 h-5 mr-2 text-blue-500
+bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center justify-between group
+flex items-center gap-4
+font-bold text-slate-800
+text-xs text-slate-500
+sm
+outline
+space-y-6 pt-4
+text-xl font-black text-slate-800 px-2
+grid grid-cols-1 gap-4
+bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row md:items-center justify-between gap-6
+flex items-start gap-4 flex-1
+text-lg font-bold text-slate-800 mb-1
+text-sm text-slate-500 mb-3
+flex flex-wrap items-center gap-3 text-xs
+Draft
+bg-amber-100 text-amber-800
+Review
+bg-blue-100 text-blue-800
+Disetujui
+bg-emerald-100 text-emerald-800
+bg-slate-100 text-slate-500
+text-slate-400
+font-medium text-slate-600
+text-slate-400
+font-medium text-slate-600
+flex shrink-0 w-full md:w-auto border-t md:border-t-0 border-slate-100 pt-4 md:pt-0
+w-full md:w-auto
+Belum Dibuat
+default
+outline
+text-center py-12 bg-slate-50 rounded-2xl border border-dashed border-slate-200
+text-slate-500 font-medium
+2024/2025
+Peningkatan Kemampuan Numerasi
+65 (Tahun 1)
+62
+in_progress
+Pelatihan Guru Matematika Terapan
+completed
+Pengadaan Alat Peraga Numerasi
+in_progress
+Bimbingan Belajar Tambahan
+not_started
+Digitalisasi Pembelajaran
+80% Ruang Kelas (Tahun 1)
+40%
+delayed
+Instalasi Proyektor Interaktif
+delayed
+Langganan Platform Belajar Digital
+completed
+completed
+emerald
+in_progress
+blue
+delayed
+amber
+not_started
+slate
+cancelled
+rose
+slate
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+text-3xl font-black tracking-tight text-slate-800 mb-6 flex items-center
+Pelaksanaan & Monitoring
+Melacak pelaksanaan kegiatan, capaian target, dan serapan anggaran secara real-time.
+Mencegah keterlambatan program dan mengontrol realisasi agar tidak meleset dari RKAS.
+Tambahkan bukti dukung untuk aktivitas dan tinjau laporan evaluasi.
+grid grid-cols-2 md:grid-cols-4 gap-6
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-black text-indigo-600
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-bold text-slate-700
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-bold text-slate-700
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-bold text-slate-700
+flex flex-wrap gap-3 pb-4 border-b border-slate-200
+bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl
+w-4 h-4 mr-2
+outline
+rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50
+w-4 h-4 mr-2
+outline
+rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50
+w-4 h-4 mr-2
+outline
+rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50
+w-4 h-4 mr-2
+grid grid-cols-1 md:grid-cols-2 gap-6
+bg-rose-50 border border-rose-200 rounded-2xl p-6 shadow-sm
+font-bold text-rose-800 flex items-center mb-4
+w-5 h-5 mr-2
+space-y-3
+bg-white p-3 rounded-xl border border-rose-100 flex items-start gap-3
+bg-rose-100 text-rose-600 p-2 rounded-lg mt-0.5
+w-4 h-4
+font-bold text-sm text-slate-800
+text-xs text-slate-600 mt-1
+Digitalisasi Pembelajaran
+bg-white p-3 rounded-xl border border-amber-100 flex items-start gap-3
+bg-amber-100 text-amber-600 p-2 rounded-lg mt-0.5
+w-4 h-4
+font-bold text-sm text-slate-800
+text-xs text-slate-600 mt-1
+bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col justify-center relative overflow-hidden
+absolute top-0 right-0 w-32 h-32 bg-emerald-50 rounded-bl-full -z-10
+font-bold text-slate-700 mb-6 uppercase text-xs tracking-widest
+flex items-end gap-4 mb-4
+text-4xl font-black text-slate-800
+pb-1 text-sm font-medium text-slate-500
+id-ID
+ 
+id-ID
+w-full bg-slate-100 rounded-full h-3
+bg-emerald-500 h-3 rounded-full
+bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden
+p-6 border-b border-slate-100 bg-slate-50
+text-xl font-bold text-slate-800
+text-sm text-slate-500 mt-1
+p-6 space-y-8
+border border-slate-200 rounded-xl overflow-hidden
+bg-slate-50 p-5 border-b border-slate-200 flex flex-col md:flex-row md:items-center justify-between gap-4
+font-bold text-lg text-slate-800 mb-2
+flex flex-wrap items-center gap-4 text-sm
+flex items-center text-slate-600
+w-4 h-4 mr-1.5 text-indigo-500
+ 
+flex items-center text-slate-600
+w-4 h-4 mr-1.5 text-emerald-500
+ 
+flex items-center gap-4
+text-right
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+text-emerald-600
+text-amber-500
+text-rose-500
+p-0
+w-full text-sm text-left
+bg-white border-b border-slate-100 text-xs uppercase font-bold text-slate-500 tracking-wider
+px-5 py-3
+px-5 py-3 text-center
+px-5 py-3 text-right
+px-5 py-3 text-center
+px-5 py-3 text-center
+divide-y divide-slate-100
+hover:bg-slate-50 transition-colors
+px-5 py-4 font-medium text-slate-700
+px-5 py-4 text-center
+px-5 py-4 text-right
+font-bold text-slate-700
+id-ID
+text-[10px] text-slate-400
+id-ID
+px-5 py-4 text-center
+inline-flex items-center bg-indigo-50 text-indigo-600 px-2.5 py-1 rounded-lg text-xs font-bold border border-indigo-100
+w-3.5 h-3.5 mr-1
+ 
+text-slate-400 text-xs italic
+px-5 py-4 text-center
+sm
+outline
+h-8 text-xs font-medium
+fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/50 backdrop-blur-sm animate-in fade-in duration-200
+bg-white rounded-2xl shadow-xl w-full max-w-2xl overflow-hidden animate-in zoom-in-95 duration-200
+px-6 py-4 border-b border-slate-100 flex justify-between items-center bg-slate-50
+font-bold text-lg text-slate-800
+text-slate-400 hover:text-slate-600
+w-5 h-5
+p-6 space-y-6
+text-xs font-bold text-slate-500 uppercase mb-1
+font-medium text-slate-800
+grid grid-cols-2 gap-6
+block text-xs font-bold text-slate-500 uppercase mb-2
+w-full border border-slate-200 rounded-lg px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-indigo-500
+block text-xs font-bold text-slate-500 uppercase mb-2
+text
+w-full border border-slate-200 rounded-lg px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-indigo-500
+id-ID
+block text-xs font-bold text-slate-500 uppercase mb-2
+border-2 border-dashed border-slate-200 rounded-xl p-8 text-center hover:bg-slate-50 transition-colors cursor-pointer flex flex-col items-center justify-center
+w-8 h-8 text-indigo-400 mb-3
+text-sm font-bold text-indigo-600 mb-1
+text-xs text-slate-500 max-w-xs mx-auto
+block text-xs font-bold text-slate-500 uppercase mb-2
+w-full border border-slate-200 rounded-lg px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-indigo-500 h-24 resize-none
+Isi catatan evaluasi jika ada kendala...
+px-6 py-4 bg-slate-50 border-t border-slate-100 flex justify-end gap-3
+outline
+bg-indigo-600 hover:bg-indigo-700 text-white
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+text-3xl font-black tracking-tight text-slate-800 mb-6 flex items-center
+Dokumen Administrasi
+Menyimpan arsip dokumen dan laporan kegiatan dalam satu pusat data.
+Membantu pengarsipan yang rapi sebagai bukti dukung saat pengawasan atau akreditasi.
+Unggah dokumen terbaru ke dalam folder yang sesuai.
+grid grid-cols-2 md:grid-cols-4 gap-6
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-black text-amber-600
+text-xs font-bold text-slate-400 uppercase tracking-wider mb-1
+text-sm font-bold text-slate-700
+flex flex-wrap gap-3 pb-4 border-b border-slate-200
+bg-amber-600 hover:bg-amber-700 text-white rounded-xl
+w-4 h-4 mr-2
+grid grid-cols-1 md:grid-cols-3 gap-6
+Program Sekolah
+Supervisi Akademik
+LPJ Keuangan
+Laporan Evaluasi
+bg-white p-6 rounded-2xl border border-slate-200 text-center opacity-70 grayscale hover:grayscale-0 transition-all cursor-pointer
+w-10 h-10 text-slate-400 mx-auto mb-4
+font-bold text-slate-700
+text-xs text-slate-400 mt-2
+SD Negeri
+SD
+Negeri
+Kepala Sekolah
+Ketua Komite
+Kepala Dinas
+SD Swasta
+SD
+Swasta
+Kepala Sekolah
+Ketua Komite
+Kepala Dinas
+Ketua Yayasan
+SMP Negeri
+SMP
+Negeri
+Kepala Sekolah
+Ketua Komite
+Kepala Dinas
+SMP Swasta
+SMP
+Swasta
+Kepala Sekolah
+Ketua Komite
+Kepala Dinas
+Ketua Yayasan
+SMA
+Umum
+Kepala Sekolah
+Ketua Komite
+Kepala Cabang Dinas
+SMK
+Vokasi
+Kepala Sekolah
+Ketua Komite
+Kepala Cabang Dinas
+Mitra DUDI
+SLB
+Khusus
+Kepala Sekolah
+Ketua Komite
+Kepala Bidang PKLK
+TK
+Umum
+Kepala Sekolah
+Ketua Komite
+Pengawas Pembina
+karakteristik
+Karakteristik Satuan Pendidikan
+Karakteristik PD, GTK, Sarpras, Budaya.
+visi
+Visi
+Cita-cita bersama di masa depan.
+misi
+Misi
+Cara mencapai Visi.
+tujuan
+Tujuan
+Fokus jangka menengah/pendek.
+pengorganisasian
+Pengorganisasian Pembelajaran
+Intra, Koku, Ekstra, Muatan Lokal.
+perencanaan
+Perencanaan Pembelajaran
+Prinsip, Asesmen, Berdiferensiasi.
+evaluasi
+Evaluasi Implementasi
+Refleksi, Pendampingan, PPG.
+review
+Review & Validasi
+Pemeriksaan DQA (Dokumen Quality Assurance).
+penetapan
+Penetapan
+Nomor Dokumen, Keputusan, Masa Berlaku.
+pengesahan
+Lembar Pengesahan
+Penandatanganan Pejabat.
+
+Disabled
+visi
+Mewujudkan lulusan yang berakhlak mulia, bernalar kritis, dan berwawasan lingkungan alam sekitar.
+Menjadi komunitas belajar sepanjang hayat yang unggul dalam teknologi dan berakar pada budaya lokal.
+tujuan
+Meningkatkan literasi dan numerasi siswa sebesar 20% dalam 2 tahun ke depan.
+Membentuk lingkungan sekolah yang bebas perundungan (zero bullying) dan ramah anak.
+misi
+1. Menyelenggarakan pembelajaran berbasis proyek yang mengintegrasikan nilai-nilai Pancasila.\n2. Memfasilitasi pengembangan minat dan bakat melalui kegiatan ekstrakurikuler yang beragam.
+karakteristik
+space-y-6
+bg-indigo-50 border border-indigo-100 p-4 rounded-xl flex items-start
+w-5 h-5 text-indigo-600 mt-0.5 mr-3 flex-shrink-0
+text-sm text-indigo-800
+grid grid-cols-1 md:grid-cols-2 gap-4 text-sm
+p-4 border border-slate-200 rounded-xl bg-slate-50
+font-bold text-slate-700 mb-2
+space-y-1 text-slate-600
+Belum diisi
+w-full h-40 p-4 border border-slate-300 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none text-sm
+Sempurnakan narasi karakteristik sekolah di sini...
+w-full bg-indigo-600 hover:bg-indigo-700
+visi
+misi
+tujuan
+space-y-6
+bg-slate-50 border border-slate-200 p-4 rounded-xl
+font-bold text-slate-700 mb-2
+w-full h-24 p-4 border border-slate-300 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none text-sm mb-3
+outline
+w-full
+Menganalisis...
+visi
+Visi
+misi
+Misi
+Tujuan
+space-y-3 animate-in fade-in slide-in-from-bottom-2
+font-bold text-indigo-800 text-sm
+p-4 bg-white border border-indigo-200 rounded-xl cursor-pointer hover:bg-indigo-50 transition-colors
+text-sm text-slate-700
+mt-3 text-xs font-bold text-indigo-600 flex items-center
+w-4 h-4 mr-1
+w-full bg-indigo-600 hover:bg-indigo-700
+pengorganisasian
+perencanaan
+evaluasi
+space-y-6
+bg-amber-50 border border-amber-100 p-4 rounded-xl flex items-start
+w-5 h-5 text-amber-600 mt-0.5 mr-3 flex-shrink-0
+text-sm text-amber-800
+w-full h-64 p-4 border border-slate-300 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none text-sm font-mono
+Ketik konten dokumen di sini...
+w-full bg-indigo-600 hover:bg-indigo-700
+review
+space-y-6
+p-6 bg-white border border-slate-200 rounded-2xl text-center
+w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4
+w-8 h-8 text-emerald-600
+text-lg font-bold text-slate-800 mb-2
+text-sm text-slate-600 text-left max-w-md mx-auto space-y-2 mb-6
+flex items-center
+w-4 h-4 text-emerald-500 mr-2
+flex items-center
+w-4 h-4 text-emerald-500 mr-2
+flex items-center
+w-4 h-4 text-emerald-500 mr-2
+flex items-center
+w-4 h-4 text-emerald-500 mr-2
+flex items-center
+w-4 h-4 text-emerald-500 mr-2
+flex items-center
+w-4 h-4 text-emerald-500 mr-2
+flex items-center
+w-4 h-4 text-emerald-500 mr-2
+w-full bg-indigo-600 hover:bg-indigo-700
+penetapan
+pengesahan
+penetapan
+Negeri
+SD Negeri
+SD Negeri
+space-y-6
+bg-white p-6 rounded-2xl border border-slate-200
+text-lg font-bold text-slate-800 mb-4
+Data Penetapan Dokumen
+Konfigurasi Lembar Pengesahan
+grid grid-cols-1 md:grid-cols-2 gap-4
+Nomor Dokumen
+Cth: 421.2/001/SD-XYZ/2025
+Nomor Keputusan
+Cth: 800/002/SK/2025
+Tanggal Penetapan
+date
+Tempat Penetapan
+Cth: Banjarmasin
+Tahun Pelajaran
+
+Semester
+
+Versi Dokumen
+1.0
+Status Dokumen
+Draft
+Draft
+Final
+Disahkan
+Masa Berlaku
+Cth: 1 Tahun
+Catatan Revisi
+Kosongkan jika bukan dokumen revisi
+space-y-4
+p-4 bg-indigo-50 border border-indigo-100 rounded-xl text-sm text-indigo-800
+space-y-3
+Kepala Sekolah
+Ketua Komite
+Kepala Dinas
+Belum diatur
+Kepala Sekolah
+Belum diatur
+Ketua Komite
+Belum diatur
+Kepala Dinas
+Belum diatur
+Pengawas Pembina
+Belum diatur
+flex justify-between items-center p-3 border border-slate-200 rounded-lg bg-white
+font-bold text-slate-700
+text-slate-500 text-sm
+w-full bg-indigo-600 hover:bg-indigo-700
+Lanjut ke Pengesahan
+Selesaikan KSP
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+flex items-center text-sm font-bold text-slate-500 mb-6
+cursor-pointer hover:text-indigo-600 transition-colors
+dokumenPerencanaan
+w-4 h-4 mr-1 inline
+bg-white rounded-[32px] p-12 text-center shadow-sm border border-slate-200
+w-20 h-20 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto mb-6
+w-10 h-10
+text-3xl font-black text-slate-800 mb-4
+bg-amber-50 border border-amber-200 rounded-2xl p-6 max-w-lg mx-auto mb-8 text-left
+font-bold text-amber-800 mb-2 flex items-center
+w-5 h-5 mr-2
+text-amber-700
+bg-indigo-600 hover:bg-indigo-700 text-white
+diagnosis
+publishingCenter
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+text-3xl font-black tracking-tight text-slate-800 mb-2 flex items-center
+ml-4 px-3 py-1 bg-indigo-100 text-indigo-700 text-xs font-bold rounded-full border border-indigo-200
+text-slate-500
+mt-8 flex items-center gap-2 overflow-x-auto custom-scrollbar pb-4
+flex items-center gap-2 flex-shrink-0
+bg-indigo-600 text-white shadow-md
+bg-emerald-50 text-emerald-600 border border-emerald-200
+bg-slate-50 text-slate-400 border border-slate-200 hover:bg-slate-100
+w-3.5 h-3.5 mr-1.5
+w-4 h-4 text-slate-300
+grid grid-cols-1 lg:grid-cols-12 gap-6
+lg:col-span-8 space-y-6
+bg-white rounded-3xl p-8 border border-slate-200 shadow-sm min-h-[500px]
+text-2xl font-black text-slate-800 mb-2
+text-sm text-slate-500 mb-8
+lg:col-span-4 space-y-6
+bg-white rounded-3xl border border-slate-200 p-6 sticky top-28
+flex items-center text-indigo-600 mb-4
+w-6 h-6 mr-3
+font-bold text-lg
+space-y-4 text-sm text-slate-600
+p-4 bg-slate-50 rounded-xl border border-slate-100
+font-bold text-slate-700 mb-1
+text-xs
+p-4 bg-slate-50 rounded-xl border border-slate-100
+font-bold text-slate-700 mb-1
+list-disc pl-4 text-xs space-y-1
+p-4 bg-slate-50 rounded-xl border border-slate-100
+font-bold text-slate-700 mb-1
+text-xs text-indigo-600 font-medium
+ 
+SD Negeri
+Disetujui
+flex flex-col items-center justify-center p-12 text-center h-[60vh] animate-in fade-in zoom-in-95 duration-500
+w-20 h-20 bg-amber-100 text-amber-500 rounded-full flex items-center justify-center mb-6 border border-amber-200
+w-10 h-10
+text-2xl font-black text-slate-800 mb-3
+text-slate-600 mb-8 max-w-md leading-relaxed
+targetEngine
+bg-indigo-600 hover:bg-indigo-700
+rkt
+pdf
+Draft
+rkjm
+RKJM (Rencana Kerja Jangka Menengah)
+2024-2028
+Draft
+rkt
+RKT (Rencana Kerja Tahunan)
+2025
+Selesai
+rkas
+RKAS (Rencana Kegiatan & Anggaran)
+2025
+Selesai
+ksp
+KSP/KOSP (Kurikulum Satuan Pendidikan)
+2025/2026
+Sedang Dikerjakan
+sk_pembagian
+SK Pembagian Tugas Mengajar
+2025
+Selesai
+PUB-003
+RKAS 2025
+25 Jun 2026
+Kepala Sekolah
+PDF
+Berhasil
+PUB-002
+RKT 2025
+24 Jun 2026
+Kepala Sekolah
+PDF
+Berhasil
+PUB-001
+Draft KSP
+20 Jun 2026
+Tim Kurikulum
+DOCX
+Berhasil
+Dokumen berhasil diexport!
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-100/80 text-lg max-w-2xl leading-relaxed
+grid grid-cols-1 lg:grid-cols-12 gap-6
+lg:col-span-4 space-y-6
+Pilih Dokumen
+space-y-2 max-h-[400px] overflow-y-auto custom-scrollbar pr-2
+bg-indigo-50 border-indigo-200 shadow-sm
+bg-white border-slate-200 hover:bg-slate-50
+flex items-start gap-3
+bg-indigo-600 border-indigo-600 text-white
+border-slate-300
+w-3 h-3
+text-sm font-bold text-slate-800 leading-tight
+flex gap-2 mt-1
+text-[10px] font-mono text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded
+Selesai
+bg-emerald-100 text-emerald-700
+bg-amber-100 text-amber-700
+mt-4 p-3 bg-indigo-50 text-indigo-700 rounded-lg text-xs font-medium border border-indigo-100 flex items-center
+w-4 h-4 mr-2 shrink-0
+Print Settings
+space-y-5
+block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2
+grid grid-cols-2 gap-2
+pdf
+PDF
+docx
+DOCX
+html
+HTML
+json
+JSON
+backup
+Backup
+template
+Template Package
+bg-slate-800 text-white border-slate-800
+bg-white text-slate-600 border-slate-200 hover:bg-slate-50
+w-4 h-4
+block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2
+w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-indigo-500 outline-none
+Draft
+Internal
+Confidential
+Final
+None
+space-y-3 pt-3 border-t border-slate-100
+flex items-center gap-3 cursor-pointer
+checkbox
+w-4 h-4 text-indigo-600 rounded border-slate-300
+text-sm font-medium text-slate-700 flex items-center
+w-4 h-4 mr-2 text-slate-400
+flex items-center gap-3 cursor-pointer
+checkbox
+w-4 h-4 text-indigo-600 rounded border-slate-300
+text-sm font-medium text-slate-700 flex items-center
+w-4 h-4 mr-2 text-slate-400
+lg:col-span-8 space-y-6
+Print Preview (A4)
+bg-slate-100 border-slate-200
+p-4 border-b border-slate-200 flex justify-between items-center bg-white rounded-t-2xl
+flex gap-2
+text-xs font-mono bg-slate-100 px-2 py-1 rounded text-slate-600
+text-xs font-mono bg-slate-100 px-2 py-1 rounded text-slate-600
+bg-indigo-600 hover:bg-indigo-700 text-white px-6 shadow-md
+flex items-center gap-2
+w-4 h-4 animate-spin
+flex items-center gap-2
+w-4 h-4
+ 
+ZIP Archive
+Dokumen
+p-8 flex justify-center bg-slate-200/50 min-h-[600px] overflow-y-auto
+bg-white w-[210mm] min-h-[297mm] shadow-lg p-12 relative flex flex-col scale-[0.6] sm:scale-[0.8] md:scale-90 lg:scale-100 origin-top transform-gpu
+None
+absolute inset-0 pointer-events-none flex items-center justify-center overflow-hidden z-0
+text-[120px] font-black text-slate-100 transform -rotate-45 opacity-50 whitespace-nowrap
+border-b-2 border-slate-800 pb-4 mb-8 flex items-center justify-between relative z-10
+flex items-center gap-4
+w-16 h-16 bg-slate-200 rounded-full flex items-center justify-center
+w-8 h-8 text-slate-400
+text-xl font-bold text-center uppercase
+NAMA SEKOLAH
+text-sm text-center
+Alamat Sekolah
+w-16 h-16 border-2 border-slate-800 p-1 flex flex-wrap gap-0.5
+bg-slate-800
+bg-transparent
+flex-1 relative z-10
+text-2xl font-black text-center uppercase mb-12
+Dokumen
+space-y-4
+h-4 bg-slate-200 rounded w-full
+h-4 bg-slate-200 rounded w-11/12
+h-4 bg-slate-200 rounded w-full
+h-4 bg-slate-200 rounded w-4/5
+h-4 bg-slate-200 rounded w-full
+h-4 bg-slate-200 rounded w-full
+h-4 bg-slate-200 rounded w-9/12
+mt-12 p-6 border-2 border-dashed border-slate-300 rounded-xl text-center bg-slate-50
+w-12 h-12 text-slate-400 mx-auto mb-4
+font-bold text-slate-700
+text-sm text-slate-500
+ 
+mt-8 pt-4 border-t border-slate-200 flex justify-between items-center text-[10px] text-slate-500 font-mono relative z-10
+text-slate-400 flex flex-col items-center justify-center pt-20
+w-16 h-16 mb-4 opacity-50
+Publishing History
+overflow-x-auto
+w-full text-sm text-left
+text-xs text-slate-500 uppercase bg-slate-50 border-b border-slate-200
+px-4 py-3
+px-4 py-3
+px-4 py-3
+px-4 py-3
+px-4 py-3
+border-b border-slate-100 last:border-0 hover:bg-slate-50
+px-4 py-3 font-mono text-xs text-slate-500
+px-4 py-3 font-medium text-slate-800
+px-4 py-3 text-slate-600
+px-4 py-3
+bg-slate-100 px-2 py-1 rounded text-[10px] font-bold
+px-4 py-3
+text-emerald-600 font-medium flex items-center gap-1
+w-3.5 h-3.5
+dqa
+pengawas
+dqa
+Sangat Baik
+Perlu Perbaikan
+Tidak Layak Dicetak
+bg-emerald-100 text-emerald-700
+bg-amber-100 text-amber-700
+bg-rose-100 text-rose-700
+warning
+BAB III
+Program Strategis belum sinkron dengan RKJM.
+Membuka BAB III...
+danger
+RKT
+Target Tahun 2 belum sinkron.
+targetEngine
+warning
+Format
+Penomoran tabel tidak konsisten.
+Perbaiki otomatis...
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10
+absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60
+relative z-10 flex-1
+inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200
+w-3.5 h-3.5 mr-2
+text-4xl md:text-5xl font-black tracking-tight mb-4
+text-indigo-100/80 text-lg max-w-2xl leading-relaxed
+flex gap-4 border-b border-slate-200 pb-1 overflow-x-auto custom-scrollbar
+dqa
+DQA Report
+pengawas
+Review Pengawas
+bg-white text-indigo-600 border-t border-l border-r border-slate-200 shadow-[0_-4px_6px_-2px_rgba(0,0,0,0.05)]
+text-slate-500 hover:bg-slate-50
+w-4 h-4 mr-2
+dqa
+grid grid-cols-1 lg:grid-cols-12 gap-8
+lg:col-span-4 space-y-6
+bg-white rounded-2xl border border-slate-200 shadow-sm p-8 text-center
+text-sm font-bold text-slate-400 uppercase tracking-widest mb-4
+relative w-40 h-40 mx-auto mb-4 flex items-center justify-center
+w-full h-full transform -rotate-90 absolute inset-0
+0 0 36 36
+M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831
+none
+rgba(0,0,0,0.05)
+3
+M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831
+none
+#10b981
+#f59e0b
+#ef4444
+3
+text-5xl font-black text-slate-800
+Quality Report
+space-y-4
+flex justify-between items-center py-2 border-b border-slate-100
+text-sm font-medium text-slate-600
+font-bold text-slate-800 text-lg
+flex justify-between items-center py-2 border-b border-slate-100
+text-sm font-medium text-slate-600 flex items-center gap-2
+w-2 h-2 rounded-full bg-emerald-500
+ 
+font-bold text-emerald-600 text-lg
+flex justify-between items-center py-2 border-b border-slate-100
+text-sm font-medium text-slate-600 flex items-center gap-2
+w-2 h-2 rounded-full bg-amber-500
+ 
+font-bold text-amber-600 text-lg
+flex justify-between items-center py-2
+text-sm font-medium text-slate-600 flex items-center gap-2
+w-2 h-2 rounded-full bg-rose-500
+ 
+font-bold text-rose-600 text-lg
+lg:col-span-8 space-y-6
+Daftar Temuan
+Hasil pemeriksaan otomatis dari Pemeriksaan Dokumen.
+space-y-4
+bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-4
+flex items-start gap-3
+warning
+bg-amber-100 text-amber-600
+bg-rose-100 text-rose-600
+w-4 h-4
+text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1
+font-medium text-slate-700 text-sm
+flex gap-2 self-end md:self-auto shrink-0
+Format
+sm
+outline
+text-indigo-600 border-indigo-200 hover:bg-indigo-50
+w-3.5 h-3.5 mr-1.5
+sm
+warning
+bg-amber-100 text-amber-700 hover:bg-amber-200
+bg-rose-100 text-rose-700 hover:bg-rose-200
+Quality Checklist
+grid grid-cols-2 gap-4
+Struktur
+Bahasa
+Tata Naskah
+Regulasi
+Target
+Program
+Anggaran
+Workflow
+Monitoring
+flex items-center gap-3 bg-white border border-slate-200 p-3 rounded-lg
+w-5 h-5 rounded-md bg-emerald-500 text-white flex items-center justify-center shrink-0
+w-3.5 h-3.5
+font-medium text-slate-700 text-sm
+pengawas
+Review Pengawas
+Mode pemeriksaan untuk Pengawas Sekolah.
+bg-amber-50 border border-amber-200 p-6 rounded-xl mb-6 flex items-start gap-4
+w-6 h-6 text-amber-500 shrink-0
+font-bold text-amber-800 mb-1
+text-amber-700/80 text-sm
+space-y-6
+block text-sm font-bold text-slate-700 mb-2
+grid grid-cols-1 md:grid-cols-2 gap-3
+Kesesuaian dengan Visi Misi
+Kelayakan Program
+Kewajaran Anggaran
+Kepatuhan Regulasi Terkini
+flex items-center gap-3 p-3 border border-slate-200 rounded-lg cursor-not-allowed opacity-60 bg-slate-50
+checkbox
+w-4 h-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-600
+text-sm font-medium text-slate-700
+block text-sm font-bold text-slate-700 mb-2
+w-full border border-slate-200 rounded-xl p-4 h-32 bg-slate-50 cursor-not-allowed opacity-60 resize-none
+Masukkan catatan dan rekomendasi perbaikan...
+block text-sm font-bold text-slate-700 mb-2
+flex gap-3
+outline
+opacity-60 bg-slate-50 text-slate-500
+outline
+opacity-60 bg-slate-50 text-slate-500
+outline
+opacity-60 bg-slate-50 text-slate-500
+space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+text-3xl font-black tracking-tight text-slate-800 mb-2 flex items-center
+Analisis Sekolah
+Mengolah data Rapor Pendidikan dan kondisi internal menjadi prioritas program.
+Analisis yang baik mencegah perencanaan yang mengarang bebas dan salah sasaran.
+Lengkapi Rapor, jalankan Analisis Prioritas, dan tentukan Target.
+text-slate-500
+grid grid-cols-1 md:grid-cols-3 gap-6
+rapor
+Rapor Pendidikan
+Integrasi data pencapaian sekolah
+blue
+Tersedia
+diagnosis
+Analisis Prioritas
+Rekomendasi PBD dan prioritas program
+indigo
+Tersedia
+targetEngine
+Target Sekolah
+Penyusunan target kinerja
+purple
+Tersedia
+bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all cursor-pointer group flex flex-col
+flex justify-between items-start mb-4
+px-3 py-1 text-xs font-bold rounded-full bg-emerald-100 text-emerald-700
+text-xl font-black text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors
+text-sm text-slate-500 mb-6 flex-1
+w-full mt-auto
+pratinjau
+Draft
+1.0
+Disetujui
+Terkunci
+Diarsipkan
+Telah Disetujui
+Belum Disetujui
+Tadi
+Belum Dibuat
+-
+-
+-
+rkjm
+Rencana Kerja Jangka Menengah
+RKT
+RKAS
+Tim Pengembang Sekolah
+Kepala Sekolah, Komite
+diagnosis
+Analisis Prioritas
+documentDetail_rkt
+RKT
+rkt
+Rencana Kerja Tahunan
+RKJM
+RKAS
+Tim Pengembang Sekolah
+Kepala Sekolah
+documentDetail_rkjm
+RKJM
+documentDetail_rkas
+RKAS
+rkas
+Rencana Kegiatan dan Anggaran
+RKT
+Bendahara BOS
+Kepala Sekolah
+documentDetail_rkt
+RKT
+monitoring
+Monitoring
+ksp
+Kurikulum Satuan Pendidikan
+RKJM
+Tim Kurikulum
+Pengawas Sekolah
+documentDetail_rkjm
+RKJM
+Belum Dibuat
+Draft
+Perlu Revisi
+rkt
+rktDerivation
+rkas
+rkasDerivation
+ksp
+kspStudio
+rkjmPipeline
+Review
+Lihat Catatan Review
+review
+Disetujui
+Terkunci
+Cetak Dokumen
+cetak
+Disetujui
+Terkunci
+Siap Dicetak
+Final
+
+Data Sekolah: Nama Sekolah belum diisi.
+
+Data Sekolah: Nama Kepala Sekolah belum diisi (untuk bagian Lembar Pengesahan).
+pratinjau
+Preview
+review
+Review
+bandingkan
+Bandingkan Versi
+riwayat
+Riwayat
+cetak
+Cetak & Ekspor
+arsipkan
+Arsipkan
+<html xmlns:o=
+ xmlns:w=
+ xmlns=
+><head><meta charset=
+><title>Export HTML To Doc</title></head><body>
+</body></html>
+printable-doc
+data:application/vnd.ms-word;charset=utf-8,
+a
+Sekolah
+.doc
+fixed inset-0 z-[100] bg-slate-900 flex flex-col items-center
+w-full h-16 bg-white/10 backdrop-blur-md border-b border-white/10 flex items-center justify-between px-6 shrink-0 print:hidden text-white shadow-sm
+flex items-center space-x-4
+font-bold text-lg
+h-6 w-px bg-white/20 mx-2
+outline
+bg-transparent border-white/20 text-white hover:bg-white/10 hover:text-white h-9
+w-4 h-4 mr-2
+outline
+bg-transparent border-white/20 text-white hover:bg-white/10 hover:text-white h-9
+Gunakan opsi Save as PDF pada browser
+w-4 h-4 mr-2
+outline
+bg-transparent border-white/20 text-white hover:bg-white/10 hover:text-white h-9
+w-4 h-4 mr-2
+flex items-center space-x-2
+outline
+bg-transparent border-white/20 text-white hover:bg-white/10 w-9 h-9 p-0
+Zoom In
+w-4 h-4
+outline
+bg-transparent border-white/20 text-white hover:bg-white/10 w-9 h-9 p-0
+Zoom Out
+w-4 h-4
+outline
+bg-transparent border-white/20 text-white hover:bg-rose-500/20 hover:border-rose-500/50 hover:text-rose-100 h-9 transition-colors
+w-full flex-1 overflow-auto p-8 print:p-0
+printable-doc
+bg-white max-w-[210mm] mx-auto min-h-[297mm] shadow-2xl print:shadow-none p-16 print:p-0 font-serif text-black relative
+text-center pt-24 pb-32
+text-4xl font-bold mb-4 uppercase
+text-2xl mb-12
+2024/2025
+mt-32 text-xl font-bold
+Nama Sekolah
+-
+page-break-before
+always
+text-2xl font-bold text-center mb-12
+text-justify mb-12 leading-relaxed
+grid grid-cols-2 gap-8 text-center mt-16
+mb-24
+font-bold underline
+Belum diatur
+-
+mb-24
+font-bold underline
+Belum diatur
+page-break-before
+always
+text-2xl font-bold text-center mb-12 uppercase
+space-y-4 max-w-2xl mx-auto
+flex justify-between border-b border-dotted border-slate-300 pb-1
+flex justify-between border-b border-dotted border-slate-300 pb-1
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 pl-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 pl-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+flex justify-between border-b border-dotted border-slate-300 pb-1 font-bold mt-4
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+font-bold text-lg mb-4
+text-justify mb-6 leading-relaxed indent-8
+Sekolah ini
+font-bold text-lg mb-4
+text-justify mb-6 leading-relaxed indent-8
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+text-justify mb-6 leading-relaxed indent-8
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+w-full border-collapse border border-slate-800 text-sm mb-6
+bg-slate-100
+border border-slate-800 p-2
+border border-slate-800 p-2
+border border-slate-800 p-2
+border border-slate-800 p-2
+border border-slate-800 p-2 text-center
+border border-slate-800 p-2
+border border-slate-800 p-2 text-center
+border border-slate-800 p-2
+border border-slate-800 p-2 text-center
+border border-slate-800 p-2
+border border-slate-800 p-2 text-center
+border border-slate-800 p-2
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+text-justify mb-6 leading-relaxed indent-8
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+text-justify mb-6 leading-relaxed indent-8
+Sekolah
+page-break-before
+always
+text-2xl font-bold text-center mb-8 uppercase
+list-disc pl-8 space-y-2
+space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12
+flex items-center justify-between text-sm font-bold
+cursor-pointer text-slate-500 hover:text-indigo-600 flex items-center transition-colors
+w-4 h-4 mr-1
+text-slate-400
+cursor-pointer text-slate-500 hover:text-indigo-600 flex items-center transition-colors
+w-4 h-4 ml-1
+bg-white rounded-[32px] p-8 shadow-sm border border-slate-200
+flex flex-col md:flex-row justify-between items-start md:items-center mb-6
+text-3xl font-black tracking-tight text-slate-800 mb-1 flex items-center
+Draft
+Belum Dibuat
+bg-amber-100 text-amber-700 border-amber-200
+Review
+bg-blue-100 text-blue-700 border-blue-200
+Disetujui
+Terkunci
+Siap Dicetak
+Final
+bg-emerald-100 text-emerald-700 border-emerald-200
+bg-slate-100 text-slate-500 border-slate-200
+text-slate-500 font-medium
+flex gap-4 mt-4 md:mt-0 text-right
+text-[10px] font-bold text-slate-400 uppercase
+text-sm font-bold text-slate-700
+text-[10px] font-bold text-slate-400 uppercase
+text-sm font-bold text-slate-700
+2024/2025
+text-[10px] font-bold text-slate-400 uppercase
+text-sm font-bold text-slate-700
+flex overflow-x-auto gap-2 border-b border-slate-100 pb-0 no-scrollbar
+border-indigo-600 text-indigo-700
+border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300
+text-indigo-600
+text-slate-400
+grid grid-cols-1 xl:grid-cols-12 gap-6 items-start
+xl:col-span-9 space-y-6
+pratinjau
+bg-indigo-50 border border-indigo-100 rounded-2xl p-6 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4
+font-bold text-indigo-900 flex items-center
+w-4 h-4 mr-2 text-amber-500
+text-sm text-indigo-700 mt-1
+bg-indigo-600 hover:bg-indigo-700 whitespace-nowrap w-full sm:w-auto
+bg-white rounded-[32px] border border-slate-200 p-8 shadow-sm min-h-[600px]
+max-w-[210mm] mx-auto space-y-12
+text-center pt-12 pb-16 border-b border-slate-200
+text-3xl font-serif font-bold text-slate-800 mb-4 uppercase
+text-slate-500 font-medium
+2024/2025
+Belum Dibuat
+text-center py-20
+w-16 h-16 text-slate-300 mx-auto mb-4
+text-slate-500 mb-6 font-medium
+bg-indigo-600 hover:bg-indigo-700
+rkt
+rktDerivation
+rkas
+rkasDerivation
+ksp
+kspStudio
+rkjmPipeline
+text-center py-20
+w-16 h-16 text-indigo-200 mx-auto mb-4
+text-slate-500 mb-6 font-medium
+Disetujui
+Terkunci
+Siap Dicetak
+Final
+outline
+text-indigo-600 border-indigo-200
+review
+Review Dokumen
+Sesi pemeriksaan dan pemberian catatan oleh tim reviewer.
+Review
+space-y-4
+bg-amber-50 border border-amber-200 rounded-xl p-4
+font-bold text-amber-800 mb-1
+text-sm text-amber-700
+text-xs text-amber-600 mt-2
+rkt
+rktDerivation
+rkas
+rkasDerivation
+ksp
+kspStudio
+rkjmPipeline
+w-full bg-indigo-600
+text-center py-12
+w-12 h-12 text-slate-300 mx-auto mb-4
+text-slate-500 font-medium
+bandingkan
+Bandingkan Versi
+Lihat perbedaan antar versi dokumen.
+flex flex-col items-center justify-center h-64 border-2 border-dashed border-slate-200 rounded-2xl bg-slate-50 text-slate-500
+w-10 h-10 mb-4 text-slate-300
+font-bold
+text-sm
+riwayat
+Riwayat Aktivitas Dokumen
+Lacak semua perubahan dan persetujuan.
+Belum Dibuat
+space-y-6 pl-4 border-l-2 border-slate-100 ml-4 mt-4
+relative
+absolute w-3 h-3 bg-indigo-500 rounded-full -left-[23px] top-1.5 ring-4 ring-white
+text-sm font-bold text-slate-800
+text-xs text-slate-500 mt-1
+relative
+absolute w-3 h-3 bg-slate-300 rounded-full -left-[23px] top-1.5 ring-4 ring-white
+text-sm font-bold text-slate-800
+text-xs text-slate-500 mt-1
+text-center py-12 text-slate-500 italic
+cetak
+space-y-6
+Cetak & Ekspor
+Pilih format untuk mengunduh dokumen resmi.
+grid grid-cols-1 md:grid-cols-2 gap-6
+border border-slate-200 rounded-2xl p-6 hover:border-indigo-300 bg-white
+w-10 h-10 text-rose-500 mb-4
+font-bold text-slate-800 text-lg mb-2
+text-sm text-slate-500 mb-6
+w-full bg-rose-600 hover:bg-rose-700 text-white
+border border-slate-200 rounded-2xl p-6 hover:border-indigo-300 bg-white
+w-10 h-10 text-blue-500 mb-4
+font-bold text-slate-800 text-lg mb-2
+text-sm text-slate-500 mb-6
+outline
+w-full text-blue-600 border-blue-200 hover:bg-blue-50
+Riwayat Pencetakan
+Log pencetakan dan ekspor dokumen.
+overflow-x-auto
+w-full text-sm text-left
+bg-slate-50 text-slate-500
+px-4 py-3 font-bold rounded-tl-xl
+px-4 py-3 font-bold
+px-4 py-3 font-bold
+px-4 py-3 font-bold rounded-tr-xl
+divide-y divide-slate-100
+px-4 py-8 text-center text-slate-500 italic
+arsipkan
+Arsipkan Dokumen
+Simpan dokumen ke dalam arsip sekolah.
+p-6 border-2 border-slate-200 rounded-2xl
+font-bold text-slate-800 text-lg mb-2
+text-sm text-slate-500 mb-6
+outline
+text-rose-600 border-rose-200 hover:bg-rose-50
+Disetujui
+Terkunci
+Siap Dicetak
+Final
+xl:col-span-3 space-y-4 sticky top-28
+bg-white rounded-2xl border border-slate-200 p-4 shadow-sm
+font-bold text-slate-700 mb-4 px-2
+space-y-3 px-2 text-sm
+text-slate-400 text-xs font-bold uppercase mb-1
+Disetujui
+Terkunci
+Siap Dicetak
+Final
+text-emerald-600
+Review
+text-blue-600
+Belum Dibuat
+text-slate-500
+text-amber-600
+text-slate-400 text-xs font-bold uppercase mb-1
+font-medium text-slate-700
+text-slate-400 text-xs font-bold uppercase mb-1
+font-medium text-slate-700
+text-slate-400 text-xs font-bold uppercase mb-1
+font-medium text-slate-700
+text-slate-400 text-xs font-bold uppercase mb-1
+font-medium text-slate-700
+pt-2 border-t border-slate-100
+text-slate-400 text-xs font-bold uppercase mb-2
+flex flex-wrap gap-2
+documentDetail_
+cursor-pointer hover:bg-indigo-50 hover:text-indigo-600 px-2 py-1 bg-slate-100 border border-slate-200 text-slate-600 text-xs rounded-md font-bold transition-colors
+bg-white rounded-2xl border border-slate-200 p-4 shadow-sm
+font-bold text-slate-700 mb-3 px-2
+px-2 space-y-2
+rkjm
+bg-indigo-100 text-indigo-700 border border-indigo-200
+bg-slate-50 text-slate-400 cursor-pointer hover:bg-slate-100 border border-slate-100
+rkjm
+documentDetail_rkjm
+flex justify-center
+w-4 h-4 text-slate-300
+rkt
+bg-indigo-100 text-indigo-700 border border-indigo-200
+bg-slate-50 text-slate-400 cursor-pointer hover:bg-slate-100 border border-slate-100
+rkt
+documentDetail_rkt
+flex justify-center
+w-4 h-4 text-slate-300
+rkas
+bg-indigo-100 text-indigo-700 border border-indigo-200
+bg-slate-50 text-slate-400 cursor-pointer hover:bg-slate-100 border border-slate-100
+rkas
+documentDetail_rkas
+fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/50 backdrop-blur-sm animate-in fade-in duration-300
+bg-white rounded-3xl w-full max-w-lg shadow-2xl overflow-hidden
+p-8
+w-12 h-12 bg-rose-100 text-rose-600 rounded-full flex items-center justify-center mb-6
+w-6 h-6
+text-2xl font-black text-slate-800 mb-2
+text-slate-600 mb-6 font-medium
+bg-rose-50 border border-rose-200 rounded-xl p-4 mb-8
+space-y-3
+flex items-start text-sm text-rose-700
+w-4 h-4 mr-2 shrink-0 mt-0.5
+flex justify-end
+bg-rose-600 hover:bg-rose-700 text-white
+fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/50 backdrop-blur-sm animate-in fade-in duration-300
+bg-white rounded-3xl w-full max-w-lg shadow-2xl overflow-hidden
+p-8
+w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mb-6
+w-6 h-6
+text-2xl font-black text-slate-800 mb-2
+text-slate-600 mb-6 font-medium
+bg-amber-50 border border-amber-200 rounded-xl p-4 mb-8
+text-sm font-bold text-amber-800 mb-3
+space-y-2
+flex items-center text-sm text-amber-700
+w-4 h-4 mr-2
+flex gap-3 justify-end
+outline
+bg-amber-600 hover:bg-amber-700 text-white
+rkt
+rktDerivation
+rkas
+rkasDerivation
+ksp
+kspStudio
+rkjmPipeline
+dataSekolah
+Data Sekolah
+
+rapor
+Rapor Pendidikan
+diagnosis
+Analisis Prioritas
+rkjm
+RKJM
+RKJM
+Disetujui
+Terkunci
+Diarsipkan
+Siap Dicetak
+Final
+rkt
+RKT
+RKT
+Disetujui
+Terkunci
+Diarsipkan
+Siap Dicetak
+Final
+rkas
+RKAS
+RKAS
+Disetujui
+Terkunci
+Diarsipkan
+Siap Dicetak
+Final
+monitoring
+Monitoring
+dataSekolah
+rapor
+diagnosis
+analisis
+rkjmPipeline
+rktDerivation
+rkasDerivation
+monitoring
+kspStudio
+dokumenPerencanaan
+dataSekolah
+dataSekolah
+rapor
+rapor
+diagnosis
+diagnosis
+analisis
+diagnosis
+rkjmPipeline
+rkjm
+documentDetail_rkjm
+rkjm
+rktDerivation
+rkt
+documentDetail_rkt
+rkt
+rkasDerivation
+rkas
+documentDetail_rkas
+rkas
+monitoring
+monitoring
+kspStudio
+rkt
+documentDetail_ksp
+rkt
+dataSekolah
+documentDetail_
+bg-white border-b border-slate-200 px-8 py-4 overflow-x-auto sticky top-20 z-10 shadow-sm
+flex items-center space-x-2 min-w-max text-sm
+flex items-center
+rkjm
+documentDetail_rkjm
+rkt
+documentDetail_rkt
+rkas
+documentDetail_rkas
+bg-indigo-50 border-indigo-200 text-indigo-700 font-bold
+bg-emerald-50 border-emerald-200 text-emerald-700 font-medium hover:bg-emerald-100
+bg-slate-50 border-slate-200 text-slate-500 hover:bg-slate-100 font-medium
+w-4 h-4 mr-1.5
+w-2 h-2 rounded-full bg-indigo-500 mr-2 animate-pulse
+w-1.5 h-1.5 rounded-full bg-slate-300 mr-2
+text-emerald-300
+text-slate-300
+beranda
+tampuyak.currentView
+beranda
+dashboard
+tampuyak.currentView
+dataSekolah
+Mode Pengembang Diaktifkan!
+min-h-screen bg-[#f8fafc] text-slate-900 font-sans selection:bg-indigo-500/20 selection:text-indigo-900 flex overflow-hidden
+w-[280px] bg-white border-r border-slate-200/80 flex flex-col fixed h-full z-30 shadow-[4px_0_24px_rgba(0,0,0,0.02)] transition-all
+h-24 flex items-center px-8 border-b border-slate-100/80 cursor-pointer
+beranda
+w-12 h-12 bg-gradient-to-br from-indigo-600 to-blue-600 rounded-[16px] flex items-center justify-center shadow-lg shadow-indigo-500/20 mr-4
+w-6 h-6 text-white
+font-black text-[22px] tracking-tighter text-slate-900 leading-none
+text-[10px] font-black text-indigo-600 tracking-[0.2em] uppercase
+flex-1 px-5 py-6 space-y-1.5 overflow-y-auto custom-scrollbar
+beranda
+beranda
+bg-slate-900 text-white shadow-md shadow-slate-900/10
+text-slate-500 hover:bg-slate-100
+beranda
+text-slate-300
+text-slate-400
+dataSekolah
+dataSekolah
+bg-slate-900 text-white shadow-md shadow-slate-900/10
+text-slate-500 hover:bg-slate-100
+dataSekolah
+text-slate-300
+text-slate-400
+analisis
+analisis
+rapor
+diagnosis
+targetEngine
+bg-slate-900 text-white shadow-md shadow-slate-900/10
+text-slate-500 hover:bg-slate-100
+analisis
+rapor
+diagnosis
+targetEngine
+text-slate-300
+text-slate-400
+dokumenPerencanaan
+dokumenPerencanaan
+rkjmPipeline
+rkjmBlueprint
+rkjmOrchestrator
+rktDerivation
+rkasDerivation
+kspStudio
+dokumenAdministrasi
+documentEditor
+publishingCenter
+dqaEngine
+bg-slate-900 text-white shadow-md shadow-slate-900/10
+text-slate-500 hover:bg-slate-100
+dokumenPerencanaan
+rkjmPipeline
+rkjmBlueprint
+rkjmOrchestrator
+rktDerivation
+rkasDerivation
+kspStudio
+dokumenAdministrasi
+documentEditor
+publishingCenter
+dqaEngine
+text-slate-300
+text-slate-400
+monitoring
+monitoring
+bg-slate-900 text-white shadow-md shadow-slate-900/10
+text-slate-500 hover:bg-slate-100
+monitoring
+text-slate-300
+text-slate-400
+pengaturan
+pengaturan
+bg-slate-900 text-white shadow-md shadow-slate-900/10
+text-slate-500 hover:bg-slate-100
+pengaturan
+text-slate-300
+text-slate-400
+flex-1 ml-[280px] flex flex-col min-h-screen relative
+bg-indigo-600 text-white px-6 py-3 flex items-center justify-between shadow-md relative z-50 animate-in slide-in-from-top-2
+flex items-center
+w-5 h-5 mr-3 text-amber-300
+text-sm font-medium
+flex gap-2
+px-3 py-1.5 text-xs font-bold text-indigo-200 hover:text-white transition-colors
+px-4 py-1.5 bg-white text-indigo-600 text-xs font-bold rounded-full hover:bg-indigo-50 shadow-sm transition-colors
+absolute top-0 left-0 w-full h-[300px] bg-gradient-to-b from-indigo-50/50 to-transparent pointer-events-none z-0
+h-20 bg-white/70 backdrop-blur-xl border-b border-slate-200/60 sticky top-0 z-20 px-8 flex items-center justify-between shadow-sm
+flex flex-col flex-1
+flex items-center text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-2
+cursor-pointer hover:text-indigo-600 transition-colors
+beranda
+beranda
+w-3 h-3 mx-1 text-slate-300
+flex items-center text-indigo-600
+documentDetail_
+cursor-pointer hover:text-indigo-800 transition-colors
+dokumenPerencanaan
+w-3 h-3 mx-1 text-slate-300
+_
+dataSekolah
+Data Sekolah
+analisis
+Analisis Sekolah
+rapor
+cursor-pointer hover:text-indigo-800 transition-colors
+analisis
+w-3 h-3 mx-1 text-slate-300
+diagnosis
+cursor-pointer hover:text-indigo-800 transition-colors
+analisis
+w-3 h-3 mx-1 text-slate-300
+dokumenPerencanaan
+Dokumen Sekolah
+dokumenAdministrasi
+cursor-pointer hover:text-indigo-800 transition-colors
+dokumenPerencanaan
+w-3 h-3 mx-1 text-slate-300
+monitoring
+Pelaksanaan & Monitoring
+pengaturan
+Pengaturan
+rkjmPipeline
+cursor-pointer hover:text-indigo-800 transition-colors
+dokumenPerencanaan
+w-3 h-3 mx-1 text-slate-300
+rktDerivation
+cursor-pointer hover:text-indigo-800 transition-colors
+dokumenPerencanaan
+w-3 h-3 mx-1 text-slate-300
+rkasDerivation
+cursor-pointer hover:text-indigo-800 transition-colors
+dokumenPerencanaan
+w-3 h-3 mx-1 text-slate-300
+kspStudio
+cursor-pointer hover:text-indigo-800 transition-colors
+dokumenPerencanaan
+w-3 h-3 mx-1 text-slate-300
+Tampuyak OS
+flex-1 max-w-md mx-4 relative hidden md:block
+absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-4 h-4
+text
+Cari dokumen, nomor, program, tahun...
+w-full bg-slate-100/50 border border-slate-200 text-sm rounded-full pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all font-medium text-slate-700 placeholder:text-slate-400
+absolute right-2 top-1/2 -translate-y-1/2 px-1.5 py-0.5 bg-white border border-slate-200 rounded text-[10px] font-bold text-slate-400
+flex items-center space-x-3 flex-1 justify-end
+hidden md:block text-right mr-2
+text-xs font-bold text-slate-800
+Nama Sekolah
+text-[10px] text-slate-500 uppercase tracking-wider font-bold
+2024/2025
+relative p-2.5 rounded-xl text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition-colors
+w-5 h-5
+Review
+Perlu Revisi
+absolute top-2.5 right-2.5 w-2 h-2 bg-rose-500 rounded-full border border-white
+h-10 w-10 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-600 text-white flex items-center justify-center font-bold text-sm shadow-sm cursor-pointer hover:shadow-md transition-all
+p-8 md:p-10 flex-1 overflow-x-hidden relative z-10
+max-w-[1300px] mx-auto h-full
+beranda
+dataSekolah
+pengaturan
+dashboard
+school
+storage
+analisis
+dokumenPerencanaan
+dokumenAdministrasi
+monitoring
+dashboard
+settings
+rapor
+diagnosis
+targetEngine
+workflowEngine
+templateRegistry
+regulationRegistry
+docStandard
+docLanguage
+complianceEngine
+printDiagnostic
+generationDiagnostic
+rkjmPipeline
+documentDetail_
+_
+rkjmBlueprint
+rkjmOrchestrator
+rktDerivation
+rkasDerivation
+documentEditor
+kspStudio
+publishingCenter
+dqaEngine

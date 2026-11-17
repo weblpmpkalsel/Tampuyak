@@ -1,0 +1,32 @@
+1:import { PlanningAssignmentService } from "./planning/PlanningAssignmentService";
+2:import { OperationalPlanningMapper } from "./planning/OperationalPlanningMapper";
+4:import { PlanningSnapshotService } from "./planning/PlanningSnapshotService";
+5:import { PlanningDistribution } from "./planning/PlanningDistribution";
+6:import { PlanningDistributionService } from "./planning/PlanningDistributionService";
+2508:    const hasRkjmObjectives = (settings.planning?.rkjm && settings.planning.rkjm.length > 0) || (settings.relationalPlanning?.objectives && settings.relationalPlanning.objectives.length > 0);
+2532:    const hasRktActivities = (settings.planning?.rkt && settings.planning.rkt.length > 0) || (settings.relationalPlanning?.annualPlans?.Y1?.rkt && settings.relationalPlanning.annualPlans.Y1.rkt.length > 0);
+2556:    const hasRkasBudget = (settings.planning?.rkas && settings.planning.rkas.length > 0) || (settings.relationalPlanning?.annualPlans?.Y1?.rkas && settings.relationalPlanning.annualPlans.Y1.rkas.length > 0);
+2726:    "planning.rkjm.status": settings.documents?.find((d: any) => d.type === "RKJM")?.status || "Belum Ada",
+2727:    "planning.rkt.status": settings.documents?.find((d: any) => d.type === "RKT")?.status || "Belum Ada",
+2728:    "planning.rkas.status": settings.documents?.find((d: any) => d.type === "RKAS")?.status || "Belum Ada",
+3180:  planning: PlanningEngine.createInitialState(),
+3301:            planning: parsed.planning || PlanningEngine.createInitialState(),
+3533:    const currentPlanning = settings.planning;
+3543:      setSettings((prev: any) => ({ ...prev, planning: evaluatedPlanning }));
+3598:      data.planning || PlanningEngine.createInitialState();
+3602:      planning: planningMigrated,
+9993:  const planning = React.useMemo(() => {
+10185:    const snapshot = snapshotService.createSnapshot(planning);
+10216:        {planning.objectives.map((obj: any, idx: number) => (
+10266:  const currentYearPlan = (planning.annualPlans as any)["Y" + activeYear] || { rkt: [], rkas: [], monitoring: [], evaluation: [] };
+10284:             const parentObj = planning.objectives.find((o:any) => o.id === act.rkjmObjectiveId);
+10345:             const rkjmObj = planning.objectives.find((o:any) => o.id === parentRkt?.rkjmObjectiveId);
+10491:               const parentObj = planning.objectives.find((o:any) => o.id === ev.objectiveId);
+10753:    planning: rkjmDoc && rktDoc && rkasDoc ? "Sesuai" : (rkjmDoc ? "Perlu Perhatian" : "Tidak Sesuai"),
+10831:    planning: !!rkjmDoc && !!rktDoc,
+10880:              {key === "planning" ? "Perencanaan" : key === "documentation" ? "Dokumentasi" : key === "workflow" ? "Alur Kerja" : key === "dataSekolah" ? "Data Sekolah" : key === "budget" ? "Anggaran" : "Evaluasi"}
+10994:                {readiness.planning ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-[var(--color-eds-text-secondary)]" />}
+11142:                if (vr.moduleId === 'planning' && isPlanningEmpty) status = 'empty';
+11219:      planning: updates.planning,
+12232:import { usePlanningContext } from './planning/PlanningContextService';
+13276:  // Let's determine if we are in a planning view to show this

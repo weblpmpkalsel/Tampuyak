@@ -1,0 +1,2 @@
+sed -i '/organization: { principal: metadata.principalName, vicePrincipal: '\''Bapak Wakil, S.Pd.'\'' } as any/a \
+    },\n    students: {\n      totalStudents: 320,\n      genderDistribution: { male: 150, female: 170 },\n      generalCharacteristics: ["Aktif", "Kreatif", "Memiliki rasa ingin tahu tinggi"],\n      dominantLearningNeeds: ["Pembelajaran visual dan kinestetik", "Bimbingan membaca awal"]\n    }' src/enterprise/document/ksp/KspDocumentAssembler.ts

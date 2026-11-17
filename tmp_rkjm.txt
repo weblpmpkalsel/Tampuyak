@@ -1,0 +1,115 @@
+277:    title: "RKJM",
+280:    action: "Susun RKJM",
+393:      // Special case for KSP - parallel to RKJM/RKT/RKAS, depends only on Diagnosis/Rapor
+609:    output: ["Buku RKJM"],
+751:  RKJM_GENERATION_RULE: {
+765:    forbidden: ["rkjm"], // KSP murni dari Rapor & Karakteristik, tidak terikat RKJM secara struktural
+1297: * Phase 9.5: MESIN KERANGKA RKJM
+1298: * Cetak biru struktur RKJM berdasarkan pedoman Kemendikdasmen (Perencanaan Berbasis Data)
+1300:const RKJMKerangkaEngine = {
+1315:          tujuan: "Menjelaskan alasan penyusunan RKJM",
+1316:          deskripsi: "Kondisi ideal vs kondisi nyata, serta urgensi RKJM.",
+1415:          sumberData: ["Sistem Pembuat Dokumen RKJM/RKT", "Kebijakan Nasional"],
+1467:          deskripsi: "Ringkasan urgensi dan sasaran RKJM.",
+1491: * Phase 9.6: RKJM CONTENT ORCHESTRATOR ENGINE
+1492: * Engine penentu sumber data, tipe, dan dependensi konten RKJM
+1494:const RKJMContentOrchestratorEngine = {
+1676:  RKJM: {
+1781:        "Mengatur standar pengelolaan sekolah termasuk perencanaan program (RKJM, RKT, RKAS) berbasis Rapor Pendidikan.",
+1782:      kataKunci: ["RKJM", "RKT", "RKAS", "Pengelolaan", "Perencanaan"],
+1839:        "Panduan praktis melakukan IRB (Identifikasi, Refleksi, Benahi) dari Rapor Pendidikan ke dalam RKJM dan RKT.",
+1840:      kataKunci: ["PBD", "Rapor Pendidikan", "IRB", "RKJM", "RKT"],
+2051:      namaDokumen: "Rencana Kerja Jangka Menengah (RKJM)",
+2052:      jenisDokumen: "RKJM",
+2202: * Phase 12: RKJM GENERATOR PROFESSIONAL
+2205:const RKJMPipelineEngine = {
+2211:      title: "Tahap 1: Memuat Template RKJM",
+2213:      description: "Sistem memuat kerangka standar dokumen RKJM berdasarkan pedoman terbaru.",
+2399:      requirement: "Sasaran Strategis RKJM",
+2400:      sourceModule: "Perencanaan > RKJM",
+2403:      reason: hasRkjmObjectives ? "Sasaran strategis RKJM telah disusun." : "Belum ada program strategis yang disusun.",
+2404:      fixAction: "Susun program kerja di menu RKJM.",
+2408:    const isRkjmApproved = settings.documents?.find((d: any) => d.type === "RKJM")?.status === "Disetujui" || settings.documents?.find((d: any) => d.type === "RKJM")?.status === "Final" || settings.documents?.find((d: any) => d.type === "RKJM")?.status === "Siap Dicetak";
+2411:      requirement: "Dokumen RKJM Disetujui",
+2412:      sourceModule: "Perencanaan > RKJM",
+2415:      reason: isRkjmApproved ? "Dokumen RKJM siap diturunkan." : "Dokumen RKJM belum mencapai status Disetujui.",
+2416:      fixAction: "Setujui dokumen RKJM sebelum menyusun RKT.",
+2428:      fixAction: "Turunkan RKT dari RKJM.",
+2509:        { id: "bab1", chapter: "BAB I: Pendahuluan", sources: ["Data Master Sekolah", "Visi Misi"], module: "Pengaturan & KSP", stage: "Persiapan RKJM", regulation: "Permendikdasmen No. 47 Tahun 2023", coverage: b1.coverage, missing: b1.missing, status: b1.status },
+2519:        { id: "bab1", chapter: "BAB I: Pendahuluan", sources: ["RKJM Disetujui", "Data Master Sekolah"], module: "RKJM", stage: "Persiapan RKT", regulation: "Permendikdasmen No. 47 Tahun 2023", coverage: b1.coverage, missing: b1.missing, status: b1.status },
+2520:        { id: "bab2", chapter: "BAB II: Program dan Kegiatan Tahunan", sources: ["RKJM Disetujui", "Sasaran Strategis Tahunan"], module: "RKJM", stage: "Penjabaran Program Tahunan", regulation: "Permendikdasmen No. 47 Tahun 2023", coverage: b2.coverage, missing: b2.missing, status: b2.status }
+2614:    "planning.rkjm.status": settings.documents?.find((d: any) => d.type === "RKJM")?.status || "Belum Ada",
+2715: * Mesin Penurunan Rencana Kerja Tahunan dari RKJM
+2719:  Core: "Automatic Derivation from RKJM",
+2721:    "RKJM Final",
+2737:        "Programs in RKT MUST originate from RKJM Strategic Programs. No new programs allowed.",
+2742:        "Sistem merinci Program menjadi kegiatan operasional tahunan berdasarkan Program RKJM.",
+2746:      description: "Marks RKT as 'Perlu Sinkronisasi' if RKJM changes.",
+2751:    "RKJM Program",
+2826:    "RKJM Final",
+3072:      name: "Rencana Kerja Jangka Menengah (RKJM)",
+3073:      type: "RKJM",
+3507:      } else if (["RKJM", "RKT", "RKAS", "KSP"].includes(moduleName)) {
+4066:  const rkjmStatus = getDocStatus("RKJM");
+4069:      title: "Dokumen RKJM belum disetujui",
+4080:      desc: "RKJM telah disetujui, segera turunkan ke program tahunan.",
+4120:              Buka RKJM
+4191:                <span className="text-[var(--color-eds-text-primary)] font-medium">RKJM</span>
+4828:        <PageHelp title="Identitas Visual" description="Pusat pengaturan aset visual resmi sekolah. Diunggah sekali, otomatis digunakan di seluruh dokumen cetak (RKJM, RKT, RKAS, KSP)." importance="Memastikan seluruh dokumen resmi memiliki kop, stempel, dan tanda tangan yang sah dan seragam." nextStep="Unggah logo sekolah dan stempel resmi." />
+6821:                <span className="font-bold text-sm">Disetujui (Siap RKJM)</span>
+7326:    // SECTION 3, 4, 5: AUTOMATIC RKJM, RKT, RKAS, Implementation, Monitoring, Evaluation GENERATION
+7445:    showSuccess("Relational Planning Engine berhasil men-generate struktur RKJM, RKT, RKAS, Implementation, Monitoring, & Evaluation.");
+7469:            seluruh dokumen (RKJM, RKT, RKAS, KSP).
+7959:            tahun. Semua dokumen seperti RKJM, RKT, dan RKAS akan menggunakan
+8090:                        Lini Masa Target RKJM (4 Tahun)
+8710:                  Rencana Kerja Jangka Menengah (RKJM)
+8758:                  Menengah (RKJM)
+8887:    // Simulasi mengecek draf RKJM (dengan asumsi ada program kosong)
+8927:                disiapkan. (Simulasi pada Draf RKJM).
+9060:const RKJMKerangkaView = () => {
+9062:    RKJMKerangkaEngine.Chapters[0],
+9072:          <h1 className="text-4xl md:text-5xl font-black tracking-tight mb-4">Struktur Perencanaan RKJM</h1>
+9074:            Struktur dan cetak biru penyusunan RKJM berdasarkan pedoman
+9083:                {RKJMKerangkaEngine.Pedoman}
+9092:          <Card title="Struktur RKJM" icon={Layers}>
+9094:              {RKJMKerangkaEngine.Chapters.map((chapter) => (
+9202:const RKJMOrchestratorView = () => {
+9225:              {Object.entries(RKJMContentOrchestratorEngine.SourceMap).map(
+9267:                {Object.entries(RKJMContentOrchestratorEngine.Dependencies).map(
+9298:                  {Object.keys(RKJMContentOrchestratorEngine.SourceMap).length}
+9334:      content: "RENCANA KERJA JANGKA MENENGAH (RKJM)TAHUN 2024 - 2028",
+9936:      showSuccess("Siklus Perencanaan Berhasil Disinkronkan", "Semua data RKJM, RKT, dan RKAS terhubung dalam satu jalur.");
+9940:  const renderRKJM = () => (
+9944:          <h3 className="font-bold text-blue-900 text-lg">Master Plan RKJM (4 Tahun)</h3>
+9949:          Sinkronisasi RKJM
+10011:          <p className="text-blue-700 text-sm">Diturunkan secara otomatis dari RKJM.</p>
+10027:                        <span className="text-xs font-bold text-blue-500 uppercase tracking-wider mb-1 flex items-center"><Link2 className="w-3 h-3 mr-1" /> Induk RKJM: {parentObj?.strategicObjective}</span>
+10214:            <p className="text-purple-700 text-sm">Kesimpulan capaian target strategis tahunan RKJM.</p>
+10234:                          <span className="text-xs font-bold text-purple-600 uppercase tracking-wider mb-1 flex items-center"><Link2 className="w-3 h-3 mr-1" /> Induk RKJM: {parentObj?.strategicObjective}</span>
+10267:             <p className="text-[var(--color-eds-text-primary)] font-medium">Sistem Perencanaan Terpadu (RKJM → RKT → RKAS → Evaluasi)</p>
+10284:           <button onClick={() => setActiveTab("rkjm")} className={"pb-3 text-sm font-bold border-b-2 transition-all whitespace-nowrap " + (activeTab === "rkjm" ? "border-blue-600 text-blue-700" : "border-transparent text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-primary)]")}>Master RKJM</button>
+10291:        {activeTab === "rkjm" && renderRKJM()}
+10308:           return <div className="h-full min-h-[800px] -mx-8 -mb-8"><EnterpriseDocumentViewer title="Dokumen RKJM Terpadu SD Negeri 1 Tampuyak" nodes={allNodes} generatedBy="Kepala Sekolah" /></div>;
+10325:          Trace progres pembuatan dokumen RKJM.
+10366:             <p>Proses penyusunan dokumen terhenti di tahap penulisan manual. RKJM ditampilkan tanpa deskripsi naratif (hanya placeholder).</p>
+10474:  const rkjmDoc = docs.find((d: any) => d.type === "RKJM");
+10529:      addFinding("High", "Analisis Prioritas Belum Disetujui", "Dokumen RKJM membutuhkan dasar Analisis Prioritas.", "COMP_003B", "Decision not approved", "Perencanaan", "Buat Analisis", () => navigateToView("diagnosis"));
+10531:      addFinding("Critical", "RKJM Tidak Ditemukan", "Rencana Kerja Jangka Menengah wajib ada sebagai dasar perencanaan.", "COMP_004", "RKJM Tidak Ditemukan", "Perencanaan", "Buat RKJM", () => navigateToView("rkjmPipeline"));
+10534:    addFinding("Medium", "RKJM Belum Disetujui", "Dokumen RKJM membutuhkan persetujuan final.", "COMP_005", "RKJM status != Disetujui", "Workflow", "Persetujuan", () => navigateToView("documentDetail_rkjm"));
+10536:    // If RKJM is approved, RKT should exist
+10538:      addFinding("Critical", "RKT Tidak Sinkron", "RKJM telah disetujui, namun turunan Rencana Kerja Tahunan belum dibuat.", "COMP_006", "Missing RKT with Approved RKJM", "Perencanaan", "Susun RKT", () => navigateToView("rktDerivation"));
+10690:                    <td className=" font-bold text-[var(--color-eds-text-primary)]">RKJM</td>
+10961:• Program RKJM Disusun: ${updates.syncReport.rkjmProgramsCreated}
+11324:        importance="RPIE memetakan indikator secara otomatis ke dokumen hilir (KSP, RKJM, RKT, RKAS)." 
+11586:      title: "RKJM",
+11996:      related: ["RKJM", "RKAS"],
+11999:      prev: { id: "documentDetail_rkjm", label: "RKJM" },
+12014:      related: ["RKJM"],
+12017:      prev: { id: "documentDetail_rkjm", label: "RKJM" },
+12026:  const rkjmDoc = docs.find((d: any) => d.type === "RKJM");
+12115:           issues.push({ type: "Validation Error", message: "Sasaran Strategis kosong. RKJM membutuhkan Sasaran Strategis." });
+12125:           issues.push({ type: "Validation Error", message: "Strategi Pendanaan kosong. RKJM membutuhkan kerangka pendanaan (RKAS)." });
+12863:    { id: "rkjm", label: "RKJM", check: () => docs.some((d: any) => d.type === "RKJM" && ["Disetujui", "Terkunci", "Diarsipkan", "Siap Dicetak", "Final"].includes(d.status)) },
+13456:                    : currentView === "rkjmPipeline" ? <><span className="cursor-pointer hover:text-[var(--color-eds-primary)] font-bold transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-[var(--color-eds-text-secondary)]" /><span>Penyusunan RKJM</span></>
+13569:            {currentView === "rkjmKerangka" && <RKJMKerangkaView />}
+13570:            {currentView === "rkjmOrchestrator" && <RKJMOrchestratorView />}

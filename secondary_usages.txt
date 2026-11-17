@@ -1,0 +1,346 @@
+3397:        <p className="text-[var(--color-eds-text-secondary)] font-medium animate-pulse">Memuat Database...</p>
+3445:        <p className="text-[var(--color-eds-text-secondary)] mb-6">{message}</p>
+3504:              <p className="text-sm text-[var(--color-eds-text-secondary)] mt-1 font-medium leading-relaxed">
+3527:        className="w-8 h-8 rounded bg-slate-100 text-[var(--color-eds-text-secondary)] hover:bg-blue-100 hover:text-[var(--color-eds-text-primary)] font-bold flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+3632:            <span className="text-[var(--color-eds-text-secondary)] text-sm font-semibold">
+3710:        <option value="" disabled className="text-[var(--color-eds-text-secondary)]">
+3757:    draft: "bg-[#F1F3F4] text-[var(--color-eds-text-secondary)] border border-[var(--color-eds-border)]",
+3804:          <p className="text-[var(--color-eds-text-secondary)] text-sm font-medium leading-relaxed">
+3910:          <p className="text-[var(--color-eds-text-secondary)] text-lg mb-6 font-medium">
+3965:              <span className="text-sm font-semibold text-[var(--color-eds-text-secondary)]">/ 100</span>
+3997:                <span className={`font-semibold ${rkjmStatus === 'Disetujui' ? 'text-emerald-700' : 'text-[var(--color-eds-text-secondary)]'}`}>{rkjmStatus}</span>
+4001:                <span className={`font-semibold ${rktStatus === 'Disetujui' ? 'text-emerald-700' : 'text-[var(--color-eds-text-secondary)]'}`}>{rktStatus}</span>
+4005:                <span className={`font-semibold ${getDocStatus('RKAS') === 'Disetujui' ? 'text-emerald-700' : 'text-[var(--color-eds-text-secondary)]'}`}>{getDocStatus('RKAS')}</span>
+4028:              <span className="text-sm font-semibold text-[var(--color-eds-text-secondary)]">
+4032:            <div className="text-sm font-medium text-[var(--color-eds-text-secondary)] leading-relaxed">
+4054:                <p className="text-sm text-[var(--color-eds-text-secondary)] font-normal">Tidak ada peringatan khusus saat ini.</p>
+4073:                      <p className="text-sm font-medium text-[var(--color-eds-text-secondary)] mt-1">
+4077:                    <div className="text-[var(--color-eds-text-secondary)] flex items-center group-hover:text-blue-700 transition-colors">
+4115:                <span className="text-xs font-bold uppercase tracking-wider text-[var(--color-eds-text-secondary)]">{a.label} {a.required && <span className="text-rose-500">*</span>}</span>
+4116:                {isUploaded ? <CheckCircle2 className="w-4 h-4 text-emerald-500" /> : (a.required ? <XCircle className="w-4 h-4 text-rose-500" /> : <XCircle className="w-4 h-4 text-[var(--color-eds-text-secondary)]" />)}
+4118:              <div className={`font-bold ${isUploaded ? 'text-emerald-700' : (a.required ? 'text-rose-700' : 'text-[var(--color-eds-text-secondary)]')}`}>
+4362:              <p className="text-sm text-[var(--color-eds-text-secondary)] font-medium truncate">
+4467:        <p className="text-sm text-[var(--color-eds-text-secondary)] mb-2">{desc}</p>
+4468:        <p className="text-xs text-[var(--color-eds-text-secondary)]">Format: PNG/JPG • Maks. 5MB</p>
+4472:             <span className="text-xs text-[var(--color-eds-text-secondary)] bg-slate-100 px-2 py-1 rounded border border-[var(--color-eds-border)]">{formatSize(asset.size)}</span>
+4473:             <span className="text-xs text-[var(--color-eds-text-secondary)] bg-slate-100 px-2 py-1 rounded border border-[var(--color-eds-border)]" title={asset.name}>{asset.name.length > 20 ? asset.name.substring(0, 20) + '...' : asset.name}</span>
+4474:             <span className="text-xs text-[var(--color-eds-text-secondary)] bg-slate-100 px-2 py-1 rounded border border-[var(--color-eds-border)]">{formatDate(asset.uploadedAt)}</span>
+4494:            <UploadCloud className="w-4 h-4 mr-2 text-[var(--color-eds-text-secondary)]" />
+4592:                  <p className="text-sm text-[var(--color-eds-text-secondary)]">{y.semester}</p>
+4721:                    className={`px-4 py-2 rounded-xl text-sm font-bold border-2 transition-all ${data.lokasi?.includes(opt) ? "bg-blue-600 text-white border-blue-600" : "bg-[var(--color-eds-bg)] text-[var(--color-eds-text-secondary)] border-slate-200 hover:border-[var(--color-eds-border)]"}`}
+4797:                    className={`px-4 py-2 rounded-xl text-sm font-bold border-2 transition-all ${data.daerah?.includes(opt) ? "bg-amber-500 text-white border-amber-500" : "bg-[var(--color-eds-bg)] text-[var(--color-eds-text-secondary)] border-slate-200 hover:border-[var(--color-eds-border)]"}`}
+4864:                  <Database className="w-8 h-8 text-[var(--color-eds-text-secondary)]" />
+4867:                <p className="text-sm text-[var(--color-eds-text-secondary)] mb-6 max-w-sm mx-auto">Daftarkan program unggulan sekolah Anda untuk diintegrasikan secara otomatis ke dalam dokumen KSP.</p>
+5271:              <Search className="w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2 text-[var(--color-eds-text-secondary)]" />
+5295:                  <Database className="w-8 h-8 text-[var(--color-eds-text-secondary)]" />
+5298:                <p className="text-sm text-[var(--color-eds-text-secondary)] mb-6 max-w-sm mx-auto">Tambahkan data pendidik di sekolah Anda. Data ini akan digunakan dalam penyusunan KSP dan SK Pembagian Tugas.</p>
+5304:            <div className="text-center p-6 text-[var(--color-eds-text-secondary)]">
+5431:                            <span className="text-sm font-normal text-[var(--color-eds-text-secondary)]">
+5436:                        <p className="text-sm text-[var(--color-eds-text-secondary)] mt-1">
+5440:                        <p className="text-sm text-[var(--color-eds-text-secondary)] mt-1 font-medium">
+5518:              <Search className="w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2 text-[var(--color-eds-text-secondary)]" />
+5542:                  <Database className="w-8 h-8 text-[var(--color-eds-text-secondary)]" />
+5545:                <p className="text-sm text-[var(--color-eds-text-secondary)] mb-6 max-w-sm mx-auto">Tambahkan data tenaga kependidikan. Data ini penting untuk melengkapi profil sekolah.</p>
+5551:            <div className="text-center p-6 text-[var(--color-eds-text-secondary)]">
+5673:                            <span className="text-sm font-normal text-[var(--color-eds-text-secondary)]">
+5678:                        <p className="text-sm text-[var(--color-eds-text-secondary)] mt-1">
+5682:                        <p className="text-sm text-[var(--color-eds-text-secondary)] mt-1 font-medium">
+5759:                  <Database className="w-8 h-8 text-[var(--color-eds-text-secondary)]" />
+5762:                <p className="text-sm text-[var(--color-eds-text-secondary)] mb-6 max-w-sm mx-auto">Atur jumlah rombongan belajar. Data ini digunakan untuk merencanakan kapasitas dan kebutuhan sarana prasarana.</p>
+6187:                <div className="text-xs text-[var(--color-eds-text-secondary)] leading-relaxed">
+6197:                <div className="text-xs text-[var(--color-eds-text-secondary)] leading-relaxed">
+6207:                <div className="text-xs text-[var(--color-eds-text-secondary)] leading-relaxed">
+6540:              <li key={idx} className="text-sm text-[var(--color-eds-text-secondary)] flex gap-2">
+6597:                className={`p-4 rounded-xl border ${analisis.status === "Belum Dimulai" ? "bg-slate-800/50 border-slate-700 text-[var(--color-eds-text-secondary)]" : "bg-white/5 border-white/10 text-white/50"} flex items-center gap-3`}
+6638:                <span className="text-sm font-bold text-[var(--color-eds-text-secondary)]">
+6704:                    <label className="block text-sm font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-2">
+6726:                    <label className="block text-sm font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-2">
+6777:                          <p className="text-sm font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-3">
+6786:                                  className="flex gap-3 text-sm text-[var(--color-eds-text-secondary)] bg-[var(--color-eds-bg)] p-2.5 rounded-xl border border-slate-200"
+6797:                      <div className="p-6 text-center text-[var(--color-eds-text-secondary)]">
+6894:                  <p className="text-xs text-[var(--color-eds-text-secondary)]">{desc}</p>
+6904:              <p className="text-xs text-[var(--color-eds-text-secondary)]">
+6974:        <p className="text-[var(--color-eds-text-secondary)] mb-8 max-w-md leading-relaxed">
+7297:                <span className="text-sm font-bold text-[var(--color-eds-text-secondary)]">
+7348:                            <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+7356:                            <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+7359:                            <p className="text-xs text-[var(--color-eds-text-secondary)] font-mono mb-1">
+7376:                            className="text-[var(--color-eds-text-secondary)] h-8"
+7416:                          <p className="text-xs text-[var(--color-eds-text-secondary)] mt-1 uppercase tracking-wider font-bold">
+7423:                          className="opacity-100 transition-opacity text-[var(--color-eds-text-secondary)] h-7 text-xs"
+7437:                      <span className="text-[var(--color-eds-text-secondary)]">Jenjang</span>
+7443:                      <span className="text-[var(--color-eds-text-secondary)]">Status</span>
+7449:                      <span className="text-[var(--color-eds-text-secondary)]">
+7457:                      <span className="text-[var(--color-eds-text-secondary)]">Total GTK</span>
+7462:                    <p className="text-xs text-[var(--color-eds-text-secondary)] italic mt-3">
+7477:                        className="text-xs text-[var(--color-eds-text-secondary)] flex items-start gap-2 p-2 bg-blue-50/50 rounded-xl border border-blue-50"
+7504:    <p className="text-base text-[var(--color-eds-text-secondary)] max-w-md mb-8 leading-relaxed">
+7534:          <button onClick={() => setIsOpen(false)} className="absolute top-4 right-4 text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-secondary)]">
+7555:                      <p className="italic text-[var(--color-eds-text-secondary)] bg-white/50 p-2 rounded-xl">{regulation}</p>
+7582:                            <span className={`transition-colors ${checkedItems[i] ? 'text-[var(--color-eds-text-secondary)] line-through' : 'text-[var(--color-eds-text-primary)]'}`}>{item}</span>
+7788:                <span className="text-sm font-bold text-[var(--color-eds-text-secondary)]">
+7827:                      <p className="text-sm text-[var(--color-eds-text-secondary)] font-medium max-w-2xl">
+7847:                      <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-2">
+7863:                      <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+7887:                      <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-3">
+7893:                            <div className="text-xs font-bold text-[var(--color-eds-text-secondary)] mb-1">
+7910:                      <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+7918:                      <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+7926:                      <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+7934:                      <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+7947:                      className="text-[var(--color-eds-text-secondary)] h-8"
+7998:                  <div className="w-10 h-10 rounded-xl bg-[var(--color-eds-bg)] flex items-center justify-center text-[var(--color-eds-text-secondary)]">
+8005:                    <span className="text-xs font-medium text-[var(--color-eds-text-secondary)]">
+8011:                  className={`px-2 py-1 text-xs font-bold uppercase rounded-xl border ${reg.status === "Aktif" ? "bg-emerald-50 border-emerald-200 text-emerald-600" : "bg-[var(--color-eds-bg)] border-[var(--color-eds-border)] text-[var(--color-eds-text-secondary)]"}`}
+8019:                  <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+8027:                  <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+8036:                    <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+8044:                    <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+8055:                <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-2">
+8069:                    <span className="text-xs font-medium text-[var(--color-eds-text-secondary)] italic">
+8125:                    <span className="text-xs font-medium text-[var(--color-eds-text-secondary)]">
+8131:                  className={`px-2 py-1 text-xs font-bold uppercase rounded-xl border ${t.status === "Aktif" ? "bg-emerald-50 border-emerald-200 text-emerald-600" : "bg-[var(--color-eds-bg)] border-[var(--color-eds-border)] text-[var(--color-eds-text-secondary)]"}`}
+8139:                  <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+8147:                  <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+8164:                          <span className="text-xs text-[var(--color-eds-text-secondary)] truncate">
+8174:                    <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+8182:                    <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">
+8200:                <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-2">
+8207:                      className="text-xs text-[var(--color-eds-text-secondary)] bg-[var(--color-eds-bg)] border border-slate-200 p-2 rounded flex items-center justify-between"
+8215:                        <span className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">
+8292:                      className={`text-xs uppercase font-bold px-2 py-0.5 rounded-xl border ${doc.status === "Disetujui" || doc.status === "Terkunci" ? "bg-emerald-50 border-emerald-200 text-emerald-600" : doc.status === "Perlu Revisi" ? "bg-rose-50 border-rose-200 text-rose-600" : doc.status === "Belum Dibuat" ? "bg-[var(--color-eds-bg)] border-[var(--color-eds-border)] text-[var(--color-eds-text-secondary)]" : "bg-blue-50 border-blue-200 text-[var(--color-eds-text-primary)] font-bold"}`}
+8297:                  <p className="text-xs text-[var(--color-eds-text-secondary)] font-medium truncate">
+8314:                  <div className="flex gap-4 text-sm font-medium text-[var(--color-eds-text-secondary)] mt-2">
+8336:                      className={`px-4 py-2 rounded-xl text-xs font-bold border transition-colors ${selectedDoc.status === state ? "bg-slate-800 text-white border-slate-800" : "bg-white text-[var(--color-eds-text-secondary)] border-[var(--color-eds-border)] hover:bg-[var(--color-eds-bg)]"}`}
+8362:                          <span className="text-xs font-medium text-[var(--color-eds-text-secondary)]">
+8366:                        <p className="text-xs text-[var(--color-eds-text-secondary)] font-medium">
+8374:                    <div className="text-center text-sm text-[var(--color-eds-text-secondary)] font-medium py-8">
+8383:              <BookOpen className="w-12 h-12 text-[var(--color-eds-text-secondary)] mb-4" />
+8384:              <h3 className="text-lg font-bold text-[var(--color-eds-text-secondary)] mb-2">
+8387:              <p className="text-[var(--color-eds-text-secondary)] text-sm max-w-sm">
+8415:          <p className="text-[var(--color-eds-text-secondary)] text-lg max-w-2xl leading-relaxed">
+8502:                <div className="w-24 h-16 mx-auto border-2 border-dashed border-[var(--color-eds-border)] rounded-xl flex items-center justify-center text-[var(--color-eds-text-secondary)] mb-8">
+8711:          <p className="text-[var(--color-eds-text-secondary)] text-lg max-w-2xl leading-relaxed">
+8723:              <p className="text-xs text-[var(--color-eds-text-secondary)]">
+8784:                    <p className="text-sm text-[var(--color-eds-text-secondary)] mb-2">
+8844:                <ShieldAlert className="w-12 h-12 text-[var(--color-eds-text-secondary)] mb-4" />
+8845:                <p className="text-[var(--color-eds-text-secondary)] text-sm max-w-sm">
+8896:                  className={`w-full text-left px-3 py-2.5 rounded-xl text-sm font-bold transition-all flex flex-col ${activeChapter.id === chapter.id ? "bg-blue-600 text-white shadow-md shadow-blue-200" : "bg-[var(--color-eds-bg)] text-[var(--color-eds-text-secondary)] hover:bg-slate-100 border border-[var(--color-eds-border)]"}`}
+8900:                    className={`text-xs mt-1 font-medium ${activeChapter.id === chapter.id ? "text-blue-200" : "text-[var(--color-eds-text-secondary)]"}`}
+8913:              <p className="text-[var(--color-eds-text-secondary)] text-sm">{activeChapter.tujuan}</p>
+8916:                  <span className="text-[var(--color-eds-text-secondary)] font-medium block">
+8952:                    <p className="text-sm text-[var(--color-eds-text-secondary)] mb-4">
+8958:                        <span className="text-xs text-[var(--color-eds-text-secondary)] font-bold uppercase block mb-1">
+8973:                        <span className="text-xs text-[var(--color-eds-text-secondary)] font-bold uppercase block mb-1">
+8981:                        <span className="text-xs text-[var(--color-eds-text-secondary)] font-bold uppercase block mb-1">
+9033:                      <p className="text-xs text-[var(--color-eds-text-secondary)] mt-1">
+9039:                        className={`px-2 py-1 text-xs font-bold uppercase rounded tracking-wider ${val.type === "STATIC" ? "bg-slate-100 text-[var(--color-eds-text-secondary)]" : val.type === "DYNAMIC" ? "bg-blue-100 text-[var(--color-eds-text-primary)] font-bold" : "bg-emerald-100 text-emerald-600"}`}
+9059:              <p className="text-sm text-[var(--color-eds-text-secondary)]">
+9071:                      <span className="text-xs text-[var(--color-eds-text-secondary)] font-bold uppercase block mb-2">
+9094:                <p className="text-xs text-[var(--color-eds-text-secondary)] mb-1">Total Bagian</p>
+9233:              <span className="text-xs text-[var(--color-eds-text-secondary)] font-mono hidden md:inline">
+9236:              <span className="text-xs text-[var(--color-eds-text-secondary)] font-medium ml-2">
+9309:                <div className="bg-slate-100 text-[var(--color-eds-text-secondary)] text-xs font-sans font-bold px-3 py-1 mb-6 rounded inline-block">
+9396:                <h4 className="font-bold text-xs uppercase tracking-widest text-[var(--color-eds-text-secondary)] mb-4 border-b border-slate-200 pb-2">
+9402:                      <p className="text-xs text-[var(--color-eds-text-secondary)] font-bold uppercase">
+9417:                      <p className="text-xs text-[var(--color-eds-text-secondary)] font-bold uppercase">
+9420:                      <p className="text-xs text-[var(--color-eds-text-secondary)] mt-1 font-medium">
+9472:                <h4 className="font-bold text-xs uppercase tracking-widest text-[var(--color-eds-text-secondary)] mb-4 border-b border-slate-200 pb-2">
+9508:                <h4 className="font-bold text-xs uppercase tracking-widest text-[var(--color-eds-text-secondary)] mb-4 border-b border-slate-200 pb-2">
+9517:                    <p className="text-xs text-[var(--color-eds-text-secondary)]">
+9523:                    <p className="text-sm font-medium text-[var(--color-eds-text-secondary)]">
+9526:                    <p className="text-xs text-[var(--color-eds-text-secondary)]">
+9538:                    <p className="text-sm font-medium text-[var(--color-eds-text-secondary)]">
+9541:                    <p className="text-xs text-[var(--color-eds-text-secondary)]">
+9572:        <p className="text-[var(--color-eds-text-secondary)]">
+9756:                <span className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider mb-1 block">ID: {obj.id} • {obj.associatedSnp}</span>
+9758:                <p className="text-sm text-[var(--color-eds-text-secondary)] font-medium">{obj.originatingPriority}</p>
+9765:                <span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Kondisi Awal</span>
+9769:                <span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Target Tahun 1</span>
+9773:                <span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Target Tahun 2</span>
+9777:                <span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Target Tahun 3 & 4</span>
+9782:            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs text-[var(--color-eds-text-secondary)]">
+9784:                <Users className="w-4 h-4 text-[var(--color-eds-text-secondary)] shrink-0" />
+9815:            <p className="text-[var(--color-eds-text-secondary)]">Belum ada turunan program RKT untuk Tahun {activeYear}.</p>
+9827:                        <p className="text-sm text-[var(--color-eds-text-secondary)]">Sub-Kegiatan: {act.subActivity || act.activity}</p>
+9833:                    <div className="bg-[var(--color-eds-bg)] p-3 rounded-xl"><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider mb-1">Target</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{act.successTarget || act.target}</span></div>
+9834:                    <div className="bg-[var(--color-eds-bg)] p-3 rounded-xl"><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider mb-1">Jadwal</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{act.schedule || 'Semester 1'}</span></div>
+9835:                    <div className="bg-[var(--color-eds-bg)] p-3 rounded-xl"><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider mb-1">Output</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{act.output || '-'}</span></div>
+9836:                    <div className="bg-[var(--color-eds-bg)] p-3 rounded-xl"><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider mb-1">Outcome</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{act.outcome || '-'}</span></div>
+9839:                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-[var(--color-eds-text-secondary)] border-t border-slate-200 pt-3">
+9841:                        <div className="flex items-start gap-2"><Users className="w-4 h-4 text-[var(--color-eds-text-secondary)] shrink-0" /><span><strong>Penanggung Jawab:</strong> {act.personResponsible || parentObj?.responsibleUnit}</span></div>
+9842:                        <div className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-[var(--color-eds-text-secondary)] shrink-0" /><span><strong>Bukti:</strong> {act.evidence || 'Dokumentasi'}</span></div>
+9849:                  <div className="mt-3 text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider bg-[var(--color-eds-bg)] p-2 rounded inline-block">
+9888:                        <p className="text-sm text-[var(--color-eds-text-secondary)] font-medium">Kategori: {item.budgetCategory || 'Operasional'}</p>
+9894:                    <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Volume</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{item.quantity || 1} {item.unit || 'Paket'}</span></div>
+9895:                    <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Harga Satuan</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">Rp {(item.price || item.amount).toLocaleString('id-ID')}</span></div>
+9896:                    <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Kode Rekening</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{item.accountCode}</span></div>
+9900:                  <div className="flex flex-wrap gap-4 text-xs text-[var(--color-eds-text-secondary)]">
+9901:                    <span className="flex items-center"><Database className="w-3.5 h-3.5 mr-1 text-[var(--color-eds-text-secondary)]" /> Sumber: <strong>{item.fundingSource}</strong></span>
+9902:                    <span className="flex items-center"><Calendar className="w-3.5 h-3.5 mr-1 text-[var(--color-eds-text-secondary)]" /> Waktu: <strong>{item.implementationMonth || 'Semester 1'}</strong></span>
+9903:                    <span className="flex items-center"><Users className="w-3.5 h-3.5 mr-1 text-[var(--color-eds-text-secondary)]" /> PJ: <strong>{item.responsiblePerson || 'Bendahara'}</strong></span>
+9948:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Biaya Aktual</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">Rp {(impl.actualCost || 0).toLocaleString('id-ID')}</span></div>
+9949:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Tanggal Selesai</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{impl.completionDate}</span></div>
+9950:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Penanggung Jawab</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{impl.responsibleOfficer}</span></div>
+9951:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Bukti/Foto</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)] font-bold underline cursor-pointer">{impl.evidence}</span></div>
+9953:                    <p className="text-sm text-[var(--color-eds-text-secondary)]"><strong className="text-[var(--color-eds-text-primary)]">Catatan Pelaksanaan:</strong> {impl.notes}</p>
+9992:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Capaian</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{mon.achievement}</span></div>
+9993:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Variansi (Kendala)</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{mon.variance}</span></div>
+9994:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Rekomendasi</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{mon.recommendation}</span></div>
+9996:                    <div className="text-sm text-[var(--color-eds-text-secondary)] space-y-1">
+10038:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Capaian Kinerja</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{ev.achievement}</span></div>
+10039:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Realisasi Anggaran</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{ev.budgetRealization}</span></div>
+10040:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Lesson Learned</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{ev.lessonsLearned}</span></div>
+10041:                      <div><span className="block text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Rencana Perbaikan</span><span className="font-medium text-sm text-[var(--color-eds-text-primary)]">{ev.improvementPlan}</span></div>
+10043:                    <div className="text-sm text-[var(--color-eds-text-secondary)] bg-purple-50 p-3 rounded-xl border border-purple-100">
+10065:             <p className="text-[var(--color-eds-text-secondary)] font-medium">Sistem Perencanaan Terpadu (RKJM → RKT → RKAS → Evaluasi)</p>
+10073:                 className={"px-4 py-2 rounded-xl text-sm font-bold transition-all " + (activeYear === y ? 'bg-white text-[var(--color-eds-text-primary)] shadow-sm' : 'text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-primary)]')}
+10082:           <button onClick={() => setActiveTab("rkjm")} className={"pb-3 text-sm font-bold border-b-2 transition-all " + (activeTab === "rkjm" ? "border-blue-600 text-blue-700" : "border-transparent text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-primary)]")}>Master RKJM</button>
+10083:           <button onClick={() => setActiveTab("rkt")} className={"pb-3 text-sm font-bold border-b-2 transition-all " + (activeTab === "rkt" ? "border-blue-600 text-blue-700" : "border-transparent text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-primary)]")}>RKT Tahun {activeYear}</button>
+10084:           <button onClick={() => setActiveTab("rkas")} className={"pb-3 text-sm font-bold border-b-2 transition-all " + (activeTab === "rkas" ? "border-emerald-600 text-emerald-700" : "border-transparent text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-primary)]")}>RKAS Tahun {activeYear}</button>
+10085:           <button onClick={() => setActiveTab("monitoring")} className={"pb-3 text-sm font-bold border-b-2 transition-all " + (activeTab === "monitoring" ? "border-amber-500 text-amber-700" : "border-transparent text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-primary)]")}>Pelaksanaan & Evaluasi</button>
+10106:        <p className="text-[var(--color-eds-text-secondary)]">
+10161:      <p className="text-[var(--color-eds-text-secondary)]">Modul sedang dalam pengembangan...</p>
+10170:      <p className="text-[var(--color-eds-text-secondary)]">Modul sedang dalam pengembangan...</p>
+10179:      <p className="text-[var(--color-eds-text-secondary)]">Modul sedang dalam pengembangan...</p>
+10310:              <button onClick={() => setShowDevMode(!tampilkanLanjutan)} className="text-xs uppercase font-bold text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-secondary)] bg-slate-100 px-2 py-1 rounded">Pengaturan Lanjutan</button>
+10327:                    {item.done ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-[var(--color-eds-text-secondary)]" />}
+10348:                           <p className="text-sm text-[var(--color-eds-text-secondary)]">{blocker}</p>
+10357:                           <p className="text-sm text-[var(--color-eds-text-secondary)]">{warn}</p>
+10363:                  <div className="p-6 text-center text-[var(--color-eds-text-secondary)] flex flex-col items-center justify-center">
+10379:                  <span className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">{d.name}</span>
+10393:              <Terminal className="w-5 h-5 text-[var(--color-eds-text-secondary)]" />
+10398:                <span className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Versi Aplikasi</span>
+10402:                <span className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Nomor Pembaruan</span>
+10406:                <span className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Skema Data</span>
+10410:                <span className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Template Acuan</span>
+10414:                <span className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Status Aplikasi</span>
+10464:                  <span className="text-[var(--color-eds-text-secondary)]">{item.label}</span>
+10622:            <div className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider mb-2">
+10641:              <button onClick={() => setShowDevMode(!tampilkanLanjutan)} className="text-xs uppercase font-bold text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-secondary)] bg-slate-100 px-2 py-1 rounded">Pengaturan Lanjutan</button>
+10653:                        <p className="text-sm text-[var(--color-eds-text-secondary)] mb-3">{finding.desc}</p>
+10662:                          <Button size="sm" variant="ghost" onClick={() => navigateToSettings("pusatPengetahuan")} className="text-xs text-[var(--color-eds-text-secondary)] flex items-center gap-1">
+10676:                  <p className="text-[var(--color-eds-text-secondary)]">Seluruh dokumen dan profil sekolah mematuhi regulasi.</p>
+10700:                    <td className=" text-[var(--color-eds-text-secondary)]">{rkjmDoc ? "Lengkap" : "Belum Dibuat"}</td>
+10705:                    <td className=" text-[var(--color-eds-text-secondary)]">{rktDoc ? "Lengkap" : "Belum Dibuat"}</td>
+10710:                    <td className=" text-[var(--color-eds-text-secondary)]">{kspDoc ? "Lengkap" : "Belum Dibuat"}</td>
+10733:                {readiness.school ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-[var(--color-eds-text-secondary)]" />}
+10737:                {readiness.planning ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-[var(--color-eds-text-secondary)]" />}
+10741:                {readiness.document ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-[var(--color-eds-text-secondary)]" />}
+10745:                {readiness.print ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-[var(--color-eds-text-secondary)]" />}
+10749:                {readiness.audit ? <CheckCircle2 className="w-5 h-5 text-emerald-600" /> : <XCircle className="w-5 h-5 text-[var(--color-eds-text-secondary)]" />}
+10754:              <p className="text-sm text-[var(--color-eds-text-secondary)] mt-4 leading-relaxed bg-[var(--color-eds-bg)] p-2 rounded-xl border border-slate-200">
+11061:              <p className="text-[var(--color-eds-text-secondary)] text-sm font-medium mb-4">
+11170:          <p className="text-[var(--color-eds-text-secondary)] font-medium">Analisis cerdas capaian Rapor Pendidikan Nasional.</p>
+11198:          <button key={tab} onClick={() => setViewMode(tab as any)} className={`px-6 py-4 font-bold border-b-2 transition-colors capitalize ${viewMode === tab ? "border-blue-600 text-[var(--color-eds-text-primary)] font-bold" : "border-transparent text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-primary)]"}`}>
+11236:              {topPriorities.length === 0 && <div className="text-[var(--color-eds-text-secondary)] italic p-4 text-center">Belum ada prioritas terdeteksi. Silakan lengkapi data Rapor.</div>}
+11253:                       <div className="text-sm font-bold text-[var(--color-eds-text-secondary)] mb-1">Identifikasi (I)</div>
+11257:                       <div className="text-sm font-bold text-[var(--color-eds-text-secondary)] mb-1">Refleksi (R)</div>
+11261:                       <div className="text-sm font-bold text-[var(--color-eds-text-secondary)] mb-1">Benahi (B)</div>
+11263:                       <div className="text-xs text-[var(--color-eds-text-secondary)] mt-2 italic border-t border-slate-200 pt-2">Reasoning: {irb.rationale}</div>
+11268:             {irbActions.length === 0 && <div className="p-12 text-center text-[var(--color-eds-text-secondary)] italic">Data IRB akan dihasilkan otomatis setelah isu prioritas ditarik.</div>}
+11305:                      <td className=" font-mono text-[var(--color-eds-text-secondary)]">{ind.id}</td>
+11320:                        ) : <span className="text-[var(--color-eds-text-secondary)]">-</span>}
+11467:            <p className="text-[var(--color-eds-text-secondary)] font-medium">
+11475:            <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-[var(--color-eds-text-secondary)] w-5 h-5" />
+11488:               className="px-3 py-2.5 rounded-xl border border-[var(--color-eds-border)] focus:outline-none focus:border-blue-500 font-medium text-sm text-[var(--color-eds-text-secondary)] bg-white"
+11524:            <p className="text-sm text-[var(--color-eds-text-secondary)] mb-6 flex-1 line-clamp-2" title={doc.subtitle}>{doc.subtitle}</p>
+11526:            <div className="text-xs text-[var(--color-eds-text-secondary)] mb-4 flex justify-between items-center">
+11553:        <p className="text-[var(--color-eds-text-secondary)]">
+11599:            <p className="text-sm text-[var(--color-eds-text-secondary)] mb-6 flex-1">{doc.subtitle}</p>
+11670:             <div className="text-[var(--color-eds-text-secondary)] uppercase font-bold text-xs">Diperiksa</div>
+11674:             <div className="text-[var(--color-eds-text-secondary)] uppercase font-bold text-xs">Sisa</div>
+11697:            <label className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase mb-2 block">Status</label>
+11708:                <label className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase mb-2 block">Severity</label>
+11718:                <label className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase mb-2 block">Findings & Comments</label>
+11730:            <div className="text-xs text-[var(--color-eds-text-secondary)] italic p-3 bg-slate-100 rounded border border-slate-200">
+12143:            <ChevronLeft className="w-5 h-5 text-[var(--color-eds-text-secondary)]" />
+12152:            <div className="flex items-center text-xs text-[var(--color-eds-text-secondary)] gap-2">
+12184:                  <span className={isPrintReady ? "text-emerald-600" : "text-[var(--color-eds-text-secondary)]"}>{isPrintReady ? "✓ CERTIFIED PDF/DOCX READY" : "CERTIFICATION PENDING"}</span>
+12192:          <Button variant="ghost" className="w-9 h-9 p-0 text-[var(--color-eds-text-secondary)] hover:bg-slate-100" onClick={() => showToast("Draf berhasil disimpan", "success")} title="Simpan Draf"><Save className="w-5 h-5" /></Button>
+12193:          <Button variant="ghost" className="w-9 h-9 p-0 text-[var(--color-eds-text-secondary)] hover:bg-slate-100" onClick={() => showToast("Fungsi Undo", "info")} title="Undo"><Undo className="w-5 h-5" /></Button>
+12194:          <Button variant="ghost" className="w-9 h-9 p-0 text-[var(--color-eds-text-secondary)] hover:bg-slate-100" onClick={() => showToast("Fungsi Redo", "info")} title="Redo"><Redo className="w-5 h-5" /></Button>
+12198:          <Button variant="ghost" className={`w-9 h-9 p-0 ${activeTab === 'coverage' ? 'bg-blue-100 text-blue-700' : 'text-[var(--color-eds-text-secondary)] hover:bg-slate-100'}`} onClick={() => setActiveTab('coverage')} title="Cek Kelengkapan Data">
+12202:          <Button variant="ghost" className={`w-9 h-9 p-0 ${mode === 'edit' && activeTab === 'pratinjau' ? 'bg-blue-100 text-blue-700' : 'text-[var(--color-eds-text-secondary)] hover:bg-slate-100'}`} onClick={() => { setActiveTab("pratinjau"); setMode(mode === 'edit' ? 'preview' : 'edit'); }} title="Edit Mode">
+12205:          <Button variant="ghost" className="w-9 h-9 p-0 text-[var(--color-eds-text-secondary)] hover:bg-slate-100" onClick={() => showToast("Fungsi Cari", "info")} title="Cari di Dokumen">
+12211:          <Button variant="outline" className="h-9 px-3 gap-2 text-[var(--color-eds-text-secondary)] hover:bg-slate-100 ml-2" onClick={handlePrintClick} disabled={!isDraftReady} title="Cetak Draft">
+12219:          <Button variant="ghost" className="w-9 h-9 p-0 text-[var(--color-eds-text-secondary)] hover:bg-slate-100 ml-2" onClick={handlePrintClick} title="Ekspor PDF" disabled={!isPrintReady}>
+12223:          <Button variant="ghost" className="w-9 h-9 p-0 text-[var(--color-eds-text-secondary)] hover:bg-slate-100 ml-2" onClick={handleExportDocx} title="Ekspor DOCX" disabled={!isPrintReady}>
+12230:            <Button variant="ghost" className="w-7 h-7 p-0 text-[var(--color-eds-text-secondary)] hover:bg-slate-200" onClick={() => setZoom(Math.max(50, zoom - 25))}><ZoomOut className="w-4 h-4" /></Button>
+12232:            <Button variant="ghost" className="w-7 h-7 p-0 text-[var(--color-eds-text-secondary)] hover:bg-slate-200" onClick={() => setZoom(Math.min(200, zoom + 25))}><ZoomIn className="w-4 h-4" /></Button>
+12236:             <Search className="w-4 h-4 absolute left-3 top-2.5 text-[var(--color-eds-text-secondary)]" />
+12240:          <Button variant="ghost" className="w-9 h-9 p-0 text-[var(--color-eds-text-secondary)] hover:bg-slate-100 ml-2 transition-all" onClick={toggleFullscreen} title={isFullscreen ? "Keluar Fullscreen" : "Fullscreen"}>
+12246:          <Button variant="ghost" className={`w-9 h-9 p-0 ${qaMode ? 'bg-purple-100 text-purple-700' : 'text-[var(--color-eds-text-secondary)] hover:bg-slate-100'} transition-all`} onClick={() => setQaMode(!qaMode)} title="Mode Inspeksi QA (GM-UAT)">
+12256:            <h3 className="font-black text-xs text-[var(--color-eds-text-secondary)] uppercase tracking-wider">Navigasi</h3>
+12261:                className={`w-full text-left px-3 py-2 rounded-xl text-sm font-medium transition-colors mb-4 ${activeTab === 'coverage' ? 'bg-blue-50 text-blue-700 border border-blue-200' : 'text-[var(--color-eds-text-secondary)] hover:bg-slate-100 border border-transparent'}`}
+12290:                       <p className="text-[var(--color-eds-text-secondary)] text-sm">Validasi sumber data untuk setiap bab pada dokumen {meta.title}.</p>
+12296:                       <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-wider mb-1">Total Bab Mandatory</p>
+12314:                               <h3 className="font-bold text-lg text-[var(--color-eds-text-primary)]">{cov.chapter}</h3>                               <div className="mt-2 space-y-1">                                 <p className="text-xs text-[var(--color-eds-text-secondary)] flex items-center">                                   <Database className="w-3 h-3 mr-1" /> <span className="w-16 font-medium">Sumber:</span> {cov.sources.join(", ")}                                 </p>                                 <p className="text-xs text-[var(--color-eds-text-secondary)] flex items-center">                                   <Library className="w-3 h-3 mr-1" /> <span className="w-16 font-medium">Modul:</span> {cov.module}                                 </p>                                 <p className="text-xs text-[var(--color-eds-text-secondary)] flex items-center">                                   <Milestone className="w-3 h-3 mr-1" /> <span className="w-16 font-medium">Tahap:</span> {cov.stage}                                 </p>                                 <p className="text-xs text-[var(--color-eds-text-secondary)] flex items-center">                                   <ShieldCheck className="w-3 h-3 mr-1" /> <span className="w-16 font-medium">Regulasi:</span> {cov.regulation}                                 </p>                               </div>
+12322:                            <div className="flex justify-between text-xs font-bold text-[var(--color-eds-text-secondary)] mb-1">
+12341:                                     <div><span className="text-[var(--color-eds-text-secondary)] font-medium text-xs uppercase tracking-wider block">Data Belum Lengkap</span><span className="font-semibold text-[var(--color-eds-text-primary)]">{m.dataset}</span></div>
+12342:                                     <div><span className="text-[var(--color-eds-text-secondary)] font-medium text-xs uppercase tracking-wider block">Modul Sumber</span><span className="font-semibold text-[var(--color-eds-text-primary)]">{m.module}</span></div>
+12345:                                     <span className="text-[var(--color-eds-text-secondary)] font-medium text-xs uppercase tracking-wider block">Rekomendasi Tindakan</span>
+12374:                         <p className="text-[var(--color-eds-text-secondary)] font-medium">Pemeriksaan dan Sertifikasi Mutu Terpadu</p>
+12379:                         <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">DRE Score</p>
+12385:                         <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">Status</p>
+12398:                           <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Tahap 1</p>
+12405:                           <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Tahap 2</p>
+12412:                           <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Tahap 3</p>
+12422:                           <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Tahap 4</p>
+12429:                           <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Tahap 5</p>
+12436:                           <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Tahap 6</p>
+12446:                           <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Tahap 7</p>
+12453:                           <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Tahap 8</p>
+12460:                           <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase">Tahap 9</p>
+12517:                     <div className="flex items-center text-sm text-[var(--color-eds-text-secondary)]">
+12518:                        <Info className="w-4 h-4 mr-2 text-[var(--color-eds-text-secondary)]" />
+12524:                       className={`font-bold ${isDraftReady ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-slate-200 text-[var(--color-eds-text-secondary)] cursor-not-allowed'}`}
+12539:                  <div className="text-[15rem] font-black text-[var(--color-eds-text-secondary)] transform -rotate-45 select-none tracking-widest whitespace-nowrap">DRAF</div>
+12618:          <p className="text-[var(--color-eds-text-secondary)] mb-8 leading-relaxed">
+12621:          <div className="bg-[var(--color-eds-bg)] border border-[var(--color-eds-border)] rounded-xl p-4 mb-8 flex items-center justify-center gap-3 text-sm text-[var(--color-eds-text-secondary)] font-medium">
+12641:             <div className="text-sm font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest">Langkah {step} dari 5</div>
+12642:             <Button variant="outline" size="sm" onClick={onComplete} className="text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-primary)]">Lewati</Button>
+12650:                  <p className="text-[var(--color-eds-text-secondary)] mb-8 text-lg">Lengkapi informasi dasar satuan pendidikan Anda. Data ini akan digunakan di seluruh dokumen yang dihasilkan.</p>
+12660:                  <p className="text-[var(--color-eds-text-secondary)] mb-8 text-lg">Siapa yang menandatangani dokumen-dokumen resmi di sekolah Anda?</p>
+12663:                    <Button variant="outline" onClick={() => setStep(1)} className="h-12 px-6 rounded-xl text-[var(--color-eds-text-secondary)]">Kembali</Button>
+12671:                  <p className="text-[var(--color-eds-text-secondary)] mb-8 text-lg">Atur tahun akademik yang sedang berjalan.</p>
+12674:                    <Button variant="outline" onClick={() => setStep(2)} className="h-12 px-6 rounded-xl text-[var(--color-eds-text-secondary)]">Kembali</Button>
+12682:                  <p className="text-[var(--color-eds-text-secondary)] mb-8 text-lg">Unggah logo sekolah Anda untuk mempercantik sampul dokumen.</p>
+12685:                    <Button variant="outline" onClick={() => setStep(3)} className="h-12 px-6 rounded-xl text-[var(--color-eds-text-secondary)]">Kembali</Button>
+12696:                  <p className="text-[var(--color-eds-text-secondary)] mb-10 text-lg leading-relaxed max-w-md mx-auto">Tampuyak OS kini siap digunakan. Mari mulai merencanakan program dan anggaran sekolah dengan lebih mudah.</p>
+12729:          <p className="text-xs text-[var(--color-eds-text-secondary)]">Enterprise Pre-Print Validation</p>
+12878:          <p className="text-xs text-[var(--color-eds-text-secondary)] mt-1">Master Data Sekolah</p>
+12918:          <p className="text-[var(--color-eds-text-secondary)] text-lg font-bold">
+12921:          <p className="text-sm text-[var(--color-eds-text-secondary)] max-w-md mx-auto mb-6 font-medium">
+12932:               <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">Pengembang</p>
+12936:               <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">Tanggal Pembaruan</p>
+12940:               <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">Tipe Aplikasi</p>
+12944:               <p className="text-xs font-bold text-[var(--color-eds-text-secondary)] uppercase tracking-widest mb-1">Penyimpanan</p>
+12983:          <p className="text-sm text-[var(--color-eds-text-secondary)] mb-6">Pusat pengaturan stabilitas arsitektur dokumen dan kepatuhan regulasi.</p>
+12988:            <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${isFrozen ? 'bg-rose-100 text-rose-600' : 'bg-slate-100 text-[var(--color-eds-text-secondary)]'}`}>
+12993:              <p className="text-sm text-[var(--color-eds-text-secondary)]">Kunci perubahan format dan aturan baku dokumen. Hanya edit teks dokumen yang diizinkan.</p>
+12997:          <div className="bg-[var(--color-eds-bg)] p-4 rounded-xl border border-slate-200 mb-6 text-sm text-[var(--color-eds-text-secondary)]">
+13049:        <h2 className="text-sm font-black text-[var(--color-eds-text-secondary)] uppercase tracking-widest px-4 mb-4 mt-2">
+13057:              className={`w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold transition-all duration-200 group ${activeTab === tab.id ? "bg-blue-600 text-white shadow-md" : "text-[var(--color-eds-text-secondary)] hover:bg-slate-100 hover:text-slate-900"}`}
+13060:                className={`w-4 h-4 mr-3 transition-colors ${activeTab === tab.id ? "text-blue-200" : "text-[var(--color-eds-text-secondary)] group-hover:text-[var(--color-eds-text-secondary)]"}`}
+13171:            <span className="text-xs font-bold text-[var(--color-eds-text-secondary)] leading-tight">
+13313:            <div className="flex items-center text-[13px] font-medium text-[var(--color-eds-text-secondary)] tracking-wide mb-1">
+13322:                  <ChevronRight className="w-3 h-3 mx-1 text-[var(--color-eds-text-secondary)]" />
+13327:                        <ChevronRight className="w-3 h-3 mx-1 text-[var(--color-eds-text-secondary)]" />
+13332:                    : currentView === "rapor" ? <><span className="cursor-pointer hover:text-[var(--color-eds-primary)] font-bold transition-colors" onClick={() => setCurrentView("analisis")}>Analisis Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-[var(--color-eds-text-secondary)]" /><span>Rapor Pendidikan</span></>
+13333:                    : currentView === "diagnosis" ? <><span className="cursor-pointer hover:text-[var(--color-eds-primary)] font-bold transition-colors" onClick={() => setCurrentView("analisis")}>Analisis Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-[var(--color-eds-text-secondary)]" /><span>Analisis Prioritas</span></>
+13335:                    : currentView === "dokumenAdministrasi" ? <><span className="cursor-pointer hover:text-[var(--color-eds-primary)] font-bold transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-[var(--color-eds-text-secondary)]" /><span>Administrasi</span></>
+13340:                    : currentView === "rkjmPipeline" ? <><span className="cursor-pointer hover:text-[var(--color-eds-primary)] font-bold transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-[var(--color-eds-text-secondary)]" /><span>Penyusunan RKJM</span></>
+13341:                    : currentView === "rktDerivation" ? <><span className="cursor-pointer hover:text-[var(--color-eds-primary)] font-bold transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-[var(--color-eds-text-secondary)]" /><span>Penyusunan RKT</span></>
+13342:                    : currentView === "rkasDerivation" ? <><span className="cursor-pointer hover:text-[var(--color-eds-primary)] font-bold transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-[var(--color-eds-text-secondary)]" /><span>Penyusunan RKAS</span></>
+13343:                    : currentView === "kspStudio" ? <><span className="cursor-pointer hover:text-[var(--color-eds-primary)] font-bold transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-[var(--color-eds-text-secondary)]" /><span>Penyusunan KSP</span></>
+13357:            <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-[var(--color-eds-text-secondary)] w-4 h-4" />
+13361:              className="w-full bg-[var(--color-eds-bg)] border border-[var(--color-eds-border)] text-[14px] rounded-full pl-10 pr-4 py-2 focus:outline-none focus:ring-4 focus:ring-[var(--color-eds-primary)]/10 focus:border-[var(--color-eds-primary)] transition-all font-medium text-[var(--color-eds-text-primary)] placeholder:text-[var(--color-eds-text-secondary)]"
+13363:            <div className="absolute right-3 top-1/2 -translate-y-1/2 px-2 py-0.5 bg-white border border-[var(--color-eds-border)] rounded-xl text-xs font-bold text-[var(--color-eds-text-secondary)] shadow-sm">⌘K</div>
+13371:              <p className="text-xs text-[var(--color-eds-text-secondary)] uppercase tracking-wider font-bold">
+13375:            <button className="relative p-2.5 rounded-full text-[var(--color-eds-text-secondary)] hover:bg-[var(--color-eds-bg)] hover:text-[var(--color-eds-text-primary)] transition-colors">
+13471:        <footer className="w-full text-center py-8 text-[var(--color-eds-text-secondary)] text-sm mt-auto border-t border-[var(--color-eds-border)] bg-[var(--color-eds-bg)]">
+13477:            <a href="https://www.instagram.com/best_deny?igsh=MTdqYTJmcWsydGUwMw==" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-1 transition-transform text-[var(--color-eds-text-secondary)] hover:text-pink-600" aria-label="Instagram">
+13480:            <a href="https://www.tiktok.com/@denipositif" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-1 transition-transform text-[var(--color-eds-text-secondary)] hover:text-black" aria-label="TikTok">
+13483:            <a href="https://web.facebook.com/demian.renovtri.3?rdid=NebkE1tEAlxKk8ZM&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1FwSzyNwVW%2F%3F_rdc%3D1%26_rdr" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-1 transition-transform text-[var(--color-eds-text-secondary)] hover:text-[var(--color-eds-text-primary)] font-bold" aria-label="Facebook">
+13486:            <a href="https://www.youtube.com/@DeniRanoptri" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-1 transition-transform text-[var(--color-eds-text-secondary)] hover:text-red-600" aria-label="YouTube">

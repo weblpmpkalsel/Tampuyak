@@ -1,0 +1,94 @@
+9950-              }}
+9951:              className={`flex items-center px-5 py-3 font-bold text-sm transition-all border-b-2 ${activeTab === t.id ? 'border-indigo-600 text-indigo-700' : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'}`}
+9952-            >
+9953:              <t.icon className={`w-4 h-4 mr-2 ${activeTab === t.id ? 'text-indigo-600' : 'text-slate-400'}`} />
+9954-              {t.label}
+--
+9963-      
+9964:      {activeTab === "penyusunan" && (
+9965-        <Card title="Tahapan Penyusunan" icon={GitCommit} description="Tahapan penyusunan Rencana Kerja Jangka Menengah.">
+--
+10013-
+10014:      {activeTab === "pratinjau" && (
+10015-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+--
+10259-
+10260:      {activeTab === "bandingkan" && (
+10261-        <Card title="Bandingkan Versi" icon={GitCompare} description="Lihat perbedaan antar versi dokumen.">
+--
+10269-
+10270:      {activeTab === "arsipkan" && (
+10271-        <Card title="Arsipkan Dokumen" icon={Archive} description="Simpan dokumen ke dalam arsip sekolah.">
+--
+10279-
+10280:      {activeTab === "review" && (
+10281-        <Card title="Review & Approval" icon={CheckCircle2} description="Beri catatan dan setujui draf RKJM.">
+--
+10289-
+10290:      {activeTab === "riwayat" && (
+10291-        <Card title="Riwayat Aktivitas Dokumen" icon={History} description="Lacak semua perubahan dan persetujuan.">
+--
+10311-
+10312:                {activeTab === "cetak" && (
+10313-            <div className="space-y-4">
+--
+12231-                      onClick={() => setActiveTab(tab.id)}
+12232:                      className={`w-full flex items-center px-3 py-2.5 rounded-lg text-sm font-bold transition-all duration-200 group ${activeTab === tab.id ? "bg-indigo-600 text-white shadow-md" : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"}`}
+12233-                    >
+12234-                      <tab.icon
+12235:                        className={`w-4 h-4 mr-3 transition-colors ${activeTab === tab.id ? "text-indigo-200" : "text-slate-400 group-hover:text-slate-600"}`}
+12236-                      />
+--
+12341-            icon={Clock}
+12342:            title={activeTab === "theme" ? "Pengaturan Tema" : "Pusat Notifikasi"}
+12343:            description={activeTab === "theme" ? "Kostumisasi tampilan aplikasi sedang dalam tahap penyempurnaan untuk memastikan konsistensi antarmuka pengguna pada versi stabil." : "Sistem pemberitahuan terintegrasi sedang disiapkan untuk rilis mendatang guna memastikan Anda tidak ketinggalan informasi penting."}
+12344-            ctaText="Kembali ke Dashboard"
+--
+12375-              onClick={() => setActiveTab(tab.id)}
+12376:              className={`w-full flex items-center px-3 py-2.5 rounded-lg text-sm font-bold transition-all duration-200 group ${activeTab === tab.id ? "bg-indigo-600 text-white shadow-md" : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"}`}
+12377-            >
+12378-              <tab.icon
+12379:                className={`w-4 h-4 mr-3 transition-colors ${activeTab === tab.id ? "text-indigo-200" : "text-slate-400 group-hover:text-slate-600"}`}
+12380-              />
+--
+15444-            onClick={() => setActiveTab(t.id as any)}
+15445:            className={`flex items-center px-6 py-3 rounded-t-xl font-bold text-sm transition-all whitespace-nowrap ${activeTab === t.id ? "bg-white text-indigo-600 border-t border-l border-r border-slate-200 shadow-[0_-4px_6px_-2px_rgba(0,0,0,0.05)]" : "text-slate-500 hover:bg-slate-50"}`}
+15446-          >
+--
+15452-
+15453:      {activeTab === "dqa" && (
+15454-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+--
+15614-
+15615:      {activeTab === "pengawas" && (
+15616-        <Card
+--
+16135-              onClick={() => setActiveTab(t.id)}
+16136:              className={`flex items-center px-5 py-3 font-bold text-sm transition-all border-b-2 whitespace-nowrap ${activeTab === t.id ? 'border-indigo-600 text-indigo-700' : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'}`}
+16137-            >
+16138:              <t.icon className={`w-4 h-4 mr-2 ${activeTab === t.id ? 'text-indigo-600' : 'text-slate-400'}`} />
+16139-              {t.label}
+--
+16146-        <div className="xl:col-span-9 space-y-4">
+16147:          {activeTab === "pratinjau" && (
+16148-            <>
+--
+16196-
+16197:          {activeTab === "review" && (
+16198-            <Card title="Review Dokumen" icon={CheckCircle2} description="Sesi pemeriksaan dan pemberian catatan oleh tim reviewer.">
+--
+16216-
+16217:          {activeTab === "bandingkan" && (
+16218-            <Card title="Bandingkan Versi" icon={GitCompare} description="Lihat perbedaan antar versi dokumen.">
+--
+16226-
+16227:          {activeTab === "riwayat" && (
+16228-            <Card title="Riwayat Aktivitas Dokumen" icon={History} description="Lacak semua perubahan dan persetujuan.">
+--
+16247-
+16248:          {activeTab === "cetak" && (
+16249-            <div className="space-y-4">
+--
+16288-
+16289:          {activeTab === "arsipkan" && (
+16290-            <Card title="Arsipkan Dokumen" icon={Archive} description="Simpan dokumen ke dalam arsip sekolah.">

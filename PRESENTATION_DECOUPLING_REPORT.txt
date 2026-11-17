@@ -1,0 +1,31 @@
+# PRESENTATION DECOUPLING REPORT
+
+## 1. Domain Layer Refactoring
+All presentation-related attributes have been successfully purged from `DocumentModel.ts`:
+- `orientation` is removed.
+- `pageBreak` is removed.
+- `layout` config references are removed.
+The Domain Model is now purely a semantic structure of business content.
+
+## 2. Canonical Builders Cleansed
+Removed hardcoded `orientation: "landscape"` logic from all Canonical Builders:
+- `src/RKASDocument/Chapter2Builder.ts`
+- `src/RKTDocument/BudgetBuilder.ts`
+- `src/RKTDocument/ActivityBuilder.ts`
+- `src/RKTDocument/MonitoringBuilder.ts`
+Canonical Builders now exclusively build data models without concern for print layouts.
+
+## 3. Enterprise Layout Registry Enhancement
+The `EnterpriseLayoutRegistry` (`LayoutEngine.ts`) has been upgraded to act as the single source of truth for all layout operations. It now parses the document context (e.g. `title` identifying 'RKAS' or 'RKT') alongside the `fixedId` to dynamically return layout profiles:
+- **RKAS Bab 2**: Automatically resolved to `landscape`.
+- **RKT Bab 3, 4, 5**: Automatically resolved to `landscape`.
+- **Other Documents**: Resolved to default `portrait`.
+
+## 4. Presentation Output Parity
+- `EnterpriseDocumentViewer.tsx` updated to fetch properties dynamically from the Layout Engine:
+  - Orientation (`portrait` vs `landscape` section wrappers).
+  - Signature block sizes and `keepTogether` logic.
+  - Page breaks before chapters and specific sections.
+- `DocumentExportEngine.ts` updated to determine PDF print dimensions and jsPDF formats exclusively through generated CSS wrappers and the Layout Registry without touching the Domain Model.
+
+**Conclusion**: The Enterprise Architecture Layer separation has been perfectly restored. No presentation logic leaks into the domain layer. All print outputs visually remain 100% identical.

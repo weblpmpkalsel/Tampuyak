@@ -1,0 +1,39 @@
+Print Draft
+1. Toolbar Component: `<Button>` containing "Print Draft" (with Printer icon).
+2. Click Handler: `handlePrintClick`
+3. Function called: `setPrintMode({ id: docId, isPrintReady, exportDocx: false })`
+4. Execution pipeline: Evaluates `getValidationIssues()`. If issues exist, it sets `showPrintValidation(true)` to display a blocking modal. If no issues, it calls `setPrintMode` which mounts `PrintDocumentRenderer` to generate the document.
+5. Disabled condition: `!isDraftReady` (True when mandatory checks fail).
+6. Validation condition: `getValidationIssues().length === 0` must be true.
+7. Current runtime status: Accessible when mandatory checks pass. Performs strict validation on click before opening the export modal.
+8. Root cause if the action does not execute: The button is disabled because `isDraftReady` is false, or execution is blocked by the validation modal because `getValidationIssues()` detected missing data (e.g., missing school name, principal data).
+
+Certified Print
+1. Toolbar Component: `<Button>` containing "Certified Print" (with ShieldCheck icon).
+2. Click Handler: `handlePrintClick`
+3. Function called: `setPrintMode({ id: docId, isPrintReady, exportDocx: false })`
+4. Execution pipeline: Evaluates `getValidationIssues()`. If issues exist, it shows a blocking modal. If no issues, it calls `setPrintMode` which mounts `PrintDocumentRenderer` to generate the document.
+5. Disabled condition: `!isPrintReady` (True when mandatory, recommended, or certification checks fail, or if document status is not "Disetujui", "Terkunci", "Siap Dicetak", or "Final").
+6. Validation condition: `getValidationIssues().length === 0` must be true.
+7. Current runtime status: Accessible only when all strict certification requirements are met. Performs validation on click before opening the export modal.
+8. Root cause if the action does not execute: The button is disabled because `isPrintReady` is false (missing recommended/certification checks or invalid status). If clicked, execution can be blocked by `getValidationIssues()` displaying the validation modal.
+
+DOCX Export
+1. Toolbar Component: `<Button>` with Download icon (title="Ekspor DOCX").
+2. Click Handler: Inline arrow function `() => setPrintMode({ id: docId, isPrintReady: true, exportDocx: true })`
+3. Function called: `setPrintMode({ id: docId, isPrintReady: true, exportDocx: true })`
+4. Execution pipeline: Bypasses `handlePrintClick` and validation. Directly calls `setPrintMode` and mounts `PrintDocumentRenderer`, defaulting the view to the Word tab and starting parallel DOCX/PDF generation in the background.
+5. Disabled condition: `!isPrintReady`
+6. Validation condition: None (bypasses `getValidationIssues()` entirely).
+7. Current runtime status: Accessible when `isPrintReady` is true. Bypasses the pre-flight validation modal and forces the document generator to run. Note: The `handleExportDocx` function is defined in the file but is never attached or executed.
+8. Root cause if the action does not execute: The button is disabled because `!isPrintReady`. If generation fails inside the modal, it's due to missing data that wasn't caught because the validation pipeline was bypassed.
+
+PDF Export
+1. Toolbar Component: `<Button>` with FileDown icon (title="Ekspor PDF").
+2. Click Handler: Inline arrow function `() => setPrintMode({ id: docId, isPrintReady: true, exportDocx: false })`
+3. Function called: `setPrintMode({ id: docId, isPrintReady: true, exportDocx: false })`
+4. Execution pipeline: Bypasses `handlePrintClick` and validation. Directly calls `setPrintMode` and mounts `PrintDocumentRenderer`, defaulting the view to the PDF tab and starting parallel DOCX/PDF generation.
+5. Disabled condition: `!isPrintReady`
+6. Validation condition: None (bypasses `getValidationIssues()` entirely).
+7. Current runtime status: Accessible when `isPrintReady` is true. Bypasses the pre-flight validation modal and forces the document generator to run.
+8. Root cause if the action does not execute: The button is disabled because `!isPrintReady`. If generation fails, it's due to missing data that bypassed validation.

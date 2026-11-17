@@ -1,0 +1,315 @@
+=== 1. settings.rombel ===
+[
+  {
+    "nama": "Class 1",
+    "siswa": 23
+  },
+  {
+    "nama": "Class 2",
+    "siswa": 24
+  },
+  {
+    "nama": "Class 3",
+    "siswa": 18
+  }
+]
+
+=== 2. Metadata Adapter (rawRombel) ===
+[
+  {
+    "nama": "Class 1",
+    "siswa": 23
+  },
+  {
+    "nama": "Class 2",
+    "siswa": 24
+  },
+  {
+    "nama": "Class 3",
+    "siswa": 18
+  }
+]
+
+=== 3. Student Projection ===
+{
+  "classes": [
+    {
+      "className": "Class 1",
+      "maleCount": 11,
+      "femaleCount": 12,
+      "totalCount": 23
+    },
+    {
+      "className": "Class 2",
+      "maleCount": 12,
+      "femaleCount": 12,
+      "totalCount": 24
+    },
+    {
+      "className": "Class 3",
+      "maleCount": 9,
+      "femaleCount": 9,
+      "totalCount": 18
+    }
+  ]
+}
+
+=== 4. Canonical AST ===
+{
+  "id": "bab1-table-12",
+  "type": "TABLE",
+  "head": [
+    {
+      "id": "bab1-table-12-header",
+      "type": "TABLE_ROW",
+      "cells": [
+        {
+          "id": "bab1-table-12-h-1",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "Kelas",
+              "id": "bab1-table-12-h-1-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-h-2",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "Laki-laki",
+              "id": "bab1-table-12-h-2-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-h-3",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "Perempuan",
+              "id": "bab1-table-12-h-3-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-h-4",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "Jumlah",
+              "id": "bab1-table-12-h-4-t"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "body": [
+    {
+      "id": "bab1-table-12-row-0",
+      "type": "TABLE_ROW",
+      "cells": [
+        {
+          "id": "bab1-table-12-r-0-c-1",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "Class 1",
+              "id": "bab1-table-12-r-0-c-1-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-r-0-c-2",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "11",
+              "id": "bab1-table-12-r-0-c-2-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-r-0-c-3",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "12",
+              "id": "bab1-table-12-r-0-c-3-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-r-0-c-4",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "23",
+              "id": "bab1-table-12-r-0-c-4-t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bab1-table-12-row-1",
+      "type": "TABLE_ROW",
+      "cells": [
+        {
+          "id": "bab1-table-12-r-1-c-1",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "Class 2",
+              "id": "bab1-table-12-r-1-c-1-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-r-1-c-2",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "12",
+              "id": "bab1-table-12-r-1-c-2-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-r-1-c-3",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "12",
+              "id": "bab1-table-12-r-1-c-3-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-r-1-c-4",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "24",
+              "id": "bab1-table-12-r-1-c-4-t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bab1-table-12-row-2",
+      "type": "TABLE_ROW",
+      "cells": [
+        {
+          "id": "bab1-table-12-r-2-c-1",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "Class 3",
+              "id": "bab1-table-12-r-2-c-1-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-r-2-c-2",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "9",
+              "id": "bab1-table-12-r-2-c-2-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-r-2-c-3",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "9",
+              "id": "bab1-table-12-r-2-c-3-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-r-2-c-4",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "18",
+              "id": "bab1-table-12-r-2-c-4-t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bab1-table-12-footer",
+      "type": "TABLE_ROW",
+      "cells": [
+        {
+          "id": "bab1-table-12-f-1",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "Total",
+              "id": "bab1-table-12-f-1-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-f-2",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "32",
+              "id": "bab1-table-12-f-2-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-f-3",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "33",
+              "id": "bab1-table-12-f-3-t"
+            }
+          ]
+        },
+        {
+          "id": "bab1-table-12-f-4",
+          "type": "TABLE_CELL",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "text": "65",
+              "id": "bab1-table-12-f-4-t"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+**SupervisionObservationSession**
+- File: src/modules/supervision/ui/SupervisionAcademicView.tsx
+- Line: 72
+- Parent Component: SupervisionAcademicViewInternal
+- Navigation event: activeObservationScheduleId state update via onStartObservation
+- Button: "Mulai Observasi" (in SupervisionScheduling)
+
+**SupervisionPostObservationSession**
+- File: src/modules/supervision/ui/SupervisionAcademicView.tsx
+- Line: 68
+- Parent Component: SupervisionAcademicViewInternal
+- Navigation event: activePostObservationScheduleId state update via onStartPostObservation
+- Button: "Tindak Lanjut & Coaching" (in SupervisionScheduling)
+
+**SupervisionRtlSession**
+- File: src/modules/supervision/ui/SupervisionAcademicView.tsx
+- Line: 64
+- Parent Component: SupervisionAcademicViewInternal
+- Navigation event: activeRtlScheduleId state update via onStartRtl
+- Button: "Kelola RTL" (in SupervisionScheduling)

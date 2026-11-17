@@ -1,0 +1,201 @@
+4938:const AnalisisCerdasView = () => {
+4939-  const { settings, updateSetting } = useApp();
+4940-  const analisis = settings.analisis || {
+4941-    status: "Belum Dimulai",
+4942-    lastUpdated: null,
+4943-    data: {
+4944-      ringkasan: "", prioritas: [], akarPenyebab: "", kekuatan: [], kelemahan: [],
+4945-      peluang: [], tantangan: [], tujuan: [], program: [], kegiatan: [], indikator: []
+4946-    }
+4947-  };
+4948-
+4949-  const [isProcessing, setIsProcessing] = useState(false);
+4950-  const [isEditing, setIsEditing] = useState(false);
+4951-  const [formData, setFormData] = useState(analisis.data);
+4952-
+4953-  useEffect(() => {
+4954-    setFormData(analisis.data);
+4955-  }, [analisis.data]);
+4956-
+4957-  const generateAnalisis = () => {
+4958-    const rData = settings.rapor?.data || {};
+4959-    const rTarget = settings.rapor?.target || {};
+4960-    
+4961-    let gaps: any[] = [];
+4962-    let strengths: string[] = [];
+4963-    let weaknesses: string[] = [];
+4964-    
+4965-    RaporDictionary.forEach((dim: any) => {
+4966-      const indValues = dim.indikator.map((ind: any) => Number(rData[ind.id]?.nilai)).filter((v: number) => !isNaN(v) && v > 0);
+4967-      const dimNilai = indValues.length ? Math.round(indValues.reduce((a: number, b: number) => a + b, 0) / indValues.length) : 0;
+4968-      const target = Number(rTarget[dim.dimensi] || 0);
+4969-      
+4970-      if (dimNilai > 0) {
+4971-        if (target > 0 && dimNilai < target) {
+4972-          gaps.push({ dimensi: dim.dimensi, gap: target - dimNilai, nilai: dimNilai, target });
+4973-        }
+4974-        if (dimNilai >= 80) strengths.push(`Capaian baik pada ${dim.dimensi} (${dimNilai})`);
+4975-        else weaknesses.push(`Kelemahan pada ${dim.dimensi} (${dimNilai})`);
+4976-      }
+4977-    });
+4978-    
+4979-    gaps.sort((a: any, b: any) => b.gap - a.gap);
+4980-    const prioritas = gaps.slice(0, 3).map((g: any) => `Meningkatkan capaian ${g.dimensi} untuk mengejar gap sebesar ${g.gap} poin.`);
+4981-    
+4982-    const programs: any[] = [];
+4983-    KnowledgeBase.Policies.v2025.forEach((policy: any) => {
+4984-      if (policy.kategori === "Pembelajaran" || policy.kategori === "Karakter" || policy.kategori === "Budaya Sekolah") {
+4985-          programs.push(...policy.programRekomendasi.map((p: string) => ({ id: `prog-${Math.random()}`, nama: p, kebijakanId: policy.id, namaKebijakan: policy.nama })));
+4986-      }
+4987-    });
+4988-
+4989-    return {
+4990-      ringkasan: `Sekolah ${settings.school.name || "Anda"} telah melakukan evaluasi Rapor Pendidikan. Terdapat ${gaps.length} dimensi utama yang capaiannya masih di bawah target yang telah ditetapkan oleh sekolah.`,
+4991-      prioritas: prioritas.length ? prioritas : ["Mempertahankan tren positif capaian sekolah"],
+4992-      akarPenyebab: "Metode pembelajaran belum sepenuhnya berdiferensiasi dan pemanfaatan teknologi digital belum optimal di semua kelas.",
+4993-      kekuatan: strengths.slice(0, 3).length ? strengths.slice(0, 3) : ["Belum ada data cukup"],
+4994-      kelemahan: weaknesses.slice(0, 3).length ? weaknesses.slice(0, 3) : ["Belum ada data cukup"],
+4995-      peluang: ["Dukungan komite sekolah yang aktif", "Potensi kemitraan dengan instansi pendidikan lokal"],
+4996-      tantangan: ["Terbatasnya sarana pendukung digitalisasi", "Partisipasi aktif orang tua masih perlu ditingkatkan"],
+4997-      tujuan: gaps.slice(0, 3).map((g: any) => `Mencapai target nilai ${g.target} pada dimensi ${g.dimensi}`),
+4998-      program: programs.slice(0, 3),
+4999-      kegiatan: [
+5000-        { id: 'k1', nama: 'Pelatihan guru tentang pembelajaran berdiferensiasi', programId: programs[0]?.id },
+5001-        { id: 'k2', nama: 'Workshop penyusunan perangkat ajar kolaboratif', programId: programs[0]?.id },
+5002-        { id: 'k3', nama: 'Sosialisasi budaya disiplin positif dan kesepakatan kelas', programId: programs[1]?.id },
+5003-      ],
+5004-      indikator: gaps.slice(0, 3).map((g: any) => `Nilai ${g.dimensi} naik minimal ${g.gap > 5 ? 5 : g.gap} poin pada siklus berikutnya`)
+5005-    };
+5006-  };
+5007-
+5008-  const handleRunAI = () => {
+5009-    setIsProcessing(true);
+5010-    updateSetting("analisis", "status", "Sedang Diproses");
+5011-    
+5012-    setTimeout(() => {
+5013-      const generated = generateAnalisis();
+5014-      updateSetting("analisis", "data", generated);
+5015-      updateSetting("analisis", "status", "Selesai");
+5016-      updateSetting("analisis", "lastUpdated", Date.now());
+5017-      setIsProcessing(false);
+5018-    }, 2500);
+5019-  };
+5020-
+5021-  const handleSave = () => {
+5022-    updateSetting("analisis", "data", formData);
+5023-    setIsEditing(false);
+5024-  };
+5025-
+5026-  const handleStatusChange = (newStatus: string) => {
+5027-    updateSetting("analisis", "status", newStatus);
+5028-  };
+5029-
+5030-  const handleArrayChange = (field: string, index: number, value: string) => {
+5031-    const newArr = [...(formData[field as keyof typeof formData] as string[])];
+5032-    newArr[index] = value;
+5033-    setFormData({ ...formData, [field]: newArr });
+5034-  };
+5035-
+5036-  const handleAddArrayItem = (field: string) => {
+5037-    setFormData({ ...formData, [field]: [...(formData[field as keyof typeof formData] as string[]), ""] });
+5038-  };
+5039-
+5040-  const renderEditableList = (title: string, field: string, icon: any) => (
+5041-    <div className="bg-slate-50 p-5 rounded-2xl border border-slate-100">
+5042-      <h3 className="text-sm font-bold text-slate-800 flex items-center gap-2 mb-3">
+5043-        {React.createElement(icon, { className: "w-4 h-4 text-indigo-500" })} {title}
+5044-      </h3>
+5045-      {isEditing ? (
+5046-        <div className="space-y-2">
+5047-          {(formData[field as keyof typeof formData] as string[]).map((item, idx) => (
+5048-            <input 
+5049-              key={idx}
+5050-              value={item}
+5051-              onChange={(e) => handleArrayChange(field, idx, e.target.value)}
+5052-              className="w-full px-3 py-2 text-sm border border-slate-200 rounded-lg outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+5053-            />
+5054-          ))}
+5055-          <Button size="sm" variant="outline" onClick={() => handleAddArrayItem(field)} className="w-full mt-2">+ Tambah Item</Button>
+5056-        </div>
+5057-      ) : (
+5058-        <ul className="space-y-2">
+5059-          {(analisis.data[field as keyof typeof analisis.data] as string[]).map((item: string, idx: number) => (
+5060-            <li key={idx} className="text-sm text-slate-600 flex gap-2">
+5061-              <span className="text-indigo-400 mt-0.5">•</span> {item}
+5062-            </li>
+5063-          ))}
+5064-        </ul>
+5065-      )}
+5066-    </div>
+5067-  );
+5068-
+5069-  return (
+5070-    <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12">
+5071-      <div className="bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 rounded-[32px] p-8 md:p-12 shadow-xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10">
+5072-        <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/20 rounded-full mix-blend-screen filter blur-[80px] opacity-60"></div>
+5073-        
+5074-        <div className="relative z-10 flex-1">
+5075-          <div className="inline-flex items-center px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold tracking-widest uppercase mb-6 text-indigo-200">
+5076-            <BrainCircuit className="w-3.5 h-3.5 mr-2" /> AI Diagnosis Engine
+5077-          </div>
+5078-          <h1 className="text-4xl md:text-5xl font-black tracking-tight mb-4">Mesin Analisis Cerdas Sekolah</h1>
+5079-          <p className="text-indigo-100/80 text-lg max-w-2xl leading-relaxed mb-8">
+5080-            Sistem menganalisis data Rapor Pendidikan, Target Kinerja, dan Kebijakan Nasional untuk menghasilkan rekomendasi program dan prioritas secara presisi.
+5081-          </p>
+5082-          
+5083-          <div className="flex gap-4">
+5084-            <Button 
+5085-              size="lg" 
+5086-              onClick={handleRunAI} 
+5087-              disabled={isProcessing}
+5088-              className="bg-white text-indigo-900 hover:bg-indigo-50 font-bold border-none"
+5089-            >
+5090-              {isProcessing ? (
+5091-                <><RefreshCw className="w-5 h-5 mr-2 animate-spin" /> Menganalisis Data...</>
+5092-              ) : (
+5093-                <><Play className="w-5 h-5 mr-2" /> Jalankan Analisis Cerdas</>
+5094-              )}
+5095-            </Button>
+5096-          </div>
+5097-        </div>
+5098-        
+5099-        <div className="relative z-10 w-full md:w-auto min-w-[280px]">
+5100-          <div className="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl">
+5101-            <p className="text-[11px] font-bold text-indigo-200 uppercase tracking-widest mb-4">Status Analisis</p>
+5102-            
+5103-            <div className="space-y-4">
+5104-              <div className={`p-4 rounded-xl border ${analisis.status === "Belum Dimulai" ? "bg-slate-800/50 border-slate-700 text-slate-300" : "bg-white/5 border-white/10 text-white/50"} flex items-center gap-3`}>
+5105-                <div className={`w-3 h-3 rounded-full ${analisis.status === "Belum Dimulai" ? "bg-slate-400" : "bg-white/20"}`} />
+5106-                <span className="font-bold text-sm">Belum Dimulai</span>
+5107-              </div>
+5108-              <div className={`p-4 rounded-xl border ${["Selesai", "Draft"].includes(analisis.status) ? "bg-amber-500/20 border-amber-500/30 text-amber-100" : "bg-white/5 border-white/10 text-white/50"} flex items-center gap-3`}>
+5109-                <div className={`w-3 h-3 rounded-full ${["Selesai", "Draft"].includes(analisis.status) ? "bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.5)]" : "bg-white/20"}`} />
+5110-                <span className="font-bold text-sm">Selesai (Draft)</span>
+5111-              </div>
+5112-              <div className={`p-4 rounded-xl border ${analisis.status === "Ditinjau" ? "bg-blue-500/20 border-blue-500/30 text-blue-100" : "bg-white/5 border-white/10 text-white/50"} flex items-center gap-3`}>
+5113-                <div className={`w-3 h-3 rounded-full ${analisis.status === "Ditinjau" ? "bg-blue-400 shadow-[0_0_10px_rgba(96,165,250,0.5)]" : "bg-white/20"}`} />
+5114-                <span className="font-bold text-sm">Sedang Ditinjau</span>
+5115-              </div>
+5116-              <div className={`p-4 rounded-xl border ${analisis.status === "Disetujui" ? "bg-emerald-500/20 border-emerald-500/30 text-emerald-100" : "bg-white/5 border-white/10 text-white/50"} flex items-center gap-3`}>
+5117-                <div className={`w-3 h-3 rounded-full ${analisis.status === "Disetujui" ? "bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.5)]" : "bg-white/20"}`} />
+5118-                <span className="font-bold text-sm">Disetujui (Siap RKJM)</span>
+5119-              </div>
+5120-            </div>
+5121-          </div>
+5122-        </div>
+5123-      </div>
+5124-
+5125-      {analisis.status !== "Belum Dimulai" && analisis.status !== "Sedang Diproses" && (
+5126-        <div className="space-y-6">
+5127-          <div className="flex justify-between items-center bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+5128-            <div className="flex items-center gap-4">
+5129-              <span className="text-sm font-bold text-slate-600">Aksi Dokumen:</span>
+5130-              <div className="flex gap-2">
+5131-                <Button size="sm" variant={analisis.status === "Draft" || analisis.status === "Selesai" ? "default" : "outline"} onClick={() => handleStatusChange("Draft")}>Draft</Button>
+5132-                <Button size="sm" variant={analisis.status === "Ditinjau" ? "default" : "outline"} onClick={() => handleStatusChange("Ditinjau")}>Tinjau</Button>
+5133-                <Button size="sm" variant={analisis.status === "Disetujui" ? "default" : "outline"} onClick={() => handleStatusChange("Disetujui")} className={analisis.status === "Disetujui" ? "bg-emerald-600 hover:bg-emerald-700 border-emerald-600" : "hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-200"}>
+5134-                  <CheckCircle2 className="w-4 h-4 mr-2" /> Disetujui
+5135-                </Button>
+5136-              </div>
+5137-            </div>
+5138-            <div>

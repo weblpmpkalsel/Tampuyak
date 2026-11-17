@@ -1,0 +1,23 @@
+22:  LayoutDashboard,
+3827:// DASHBOARD & PLANNING UI
+3830:const DashboardView = ({ navigateToSettings, navigateToView }: any) => {
+4091:// PUSAT DATA DASHBOARD
+4128:const PusatDataDashboard = ({ onNavigate }: any) => {
+9090:          <Card title="Dasbor Status Konten" icon={LayoutDashboard}>
+10784:  const [viewMode, setViewMode] = useState<"dashboard" | "ringkasan" | "lengkap" | "irb" | "riwayat">("dashboard");
+11146:        nextStep="Lengkapi data indikator, periksa dashboard analisis SWOT & IRB, dan validasi kunci." 
+11152:          <h2 className="text-2xl font-black text-[var(--color-eds-text-primary)]">Educational Intelligence Dashboard</h2>
+11180:        {["dashboard", "ringkasan", "lengkap", "irb", "riwayat"].map(tab => (
+11187:      {viewMode === "dashboard" && (
+12805:const DataSekolahView = ({ initialTab = "dashboard" }: any) => {
+12811:    { id: "dashboard", label: "Dashboard Data", icon: LayoutDashboard },
+12827:      case "dashboard":
+12828:        return <PusatDataDashboard onNavigate={setActiveTab} />;
+12943:    initialTab === "dashboard" || initialTab === "school"
+13011:            ctaText="Kembali ke Dashboard"
+13070:  const [settingsTab, setSettingsTab] = useState("dashboard");
+13178:            <LayoutDashboard
+13397:              <DashboardView
+13411:                  settingsTab === "dashboard" || settingsTab === "school"
+13432:            {currentView === "dashboard" && (
+13433:              <DashboardView

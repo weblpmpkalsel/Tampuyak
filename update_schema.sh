@@ -1,0 +1,1 @@
+sed -i 's/export interface UserProfile {/export interface UserProfile {\n  schoolName?: string;\n  principalName?: string;\n  phone?: string;\n  province?: string;\n  district?: string;\n  npsn?: string;\n  workspaceId?: string | null;\n  emailVerified?: boolean;\n  updatedAt?: number;/g' src/services/firestore/userService.ts

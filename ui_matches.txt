@@ -1,0 +1,282 @@
+146: desc: "Input capaian Rapor Pendidikan",
+150: id: "aiDiagnosis",
+151: title: "AI Diagnosis",
+256: ["Selesai", "Ditinjau", "Draft", "Sedang Diproses"].includes(
+275: if (newState["aiDiagnosis"]?.status === PlanningStatus.COMPLETED) {
+467: tujuan: "Hasil capaian nasional",
+471: dokumenTurunan: ["aiDiagnosis"],
+475: nama: "AI Diagnosis Rapor",
+488: input: ["aiDiagnosis", "Visi", "Misi"],
+490: prasyarat: ["aiDiagnosis"],
+518: input: ["masterData", "aiDiagnosis"],
+520: prasyarat: ["aiDiagnosis"],
+632: mustInclude: ["masterData", "raporPendidikan", "aiDiagnosis"],
+644: mustInclude: ["masterData", "aiDiagnosis", "Karakteristik", "Visi", "Misi"],
+676: "In House Training Implementasi Kurikulum",
+700: "capaian literasi numerasi rendah",
+732: "Penilaian Sikap Berbasis Portofolio",
+870: id: "koding-ai",
+873: "Integrasi kompetensi koding dan AI sebagai mata pelajaran pilihan atau ekstrakurikuler (mulai Kelas 4 SD, SMP, SMA).",
+882: "ai",
+894: "Penyediaan Perangkat AI/Koding",
+901: "Kebijakan Lanjutan terkait Peningkatan Mutu dan Keselamatan Sekolah.",
+910: "ketidaksesuaian standar",
+951: nilai: ["Empati", "Toleransi", "Saling Menghargai"],
+1058: `Ganti kata "${term}" dengan "${LanguageEngine.Dictionaries.preferred[idx] || "istilah resmi"}"`,
+1077: "Bahasa pembinaan, terukur, konstruktif, menggunakan instrumen penilaian baku.",
+1079: "Kritis, berbasis indikator pencapaian, menyoroti gap, dan memberikan rekomendasi tindak lanjut.",
+1128: "Kaitkan program dengan kebijakan di menu Perencanaan.",
+1208: "UU, PP, Permendikbudristek terkait Standar Nasional Pendidikan dan PBD.",
+1249: nama: "B. Capaian Rapor Pendidikan",
+1282: tujuan: "Target yang ingin dicapai",
+1284: sumberData: ["Knowledge Base", "AI Diagnosis"],
+1294: deskripsi: "Pembenahan berkelanjutan untuk menutupi gap capaian.",
+1315: deskripsi: "Proyeksi dana BOS dan sumber lainnya.",
+1376: STATIC: "Diambil langsung. Tidak boleh diubah AI.",
+1377: DYNAMIC: "Dihasilkan AI.",
+1379: DOCUMENT: "Dibuat Document Engine.",
+1384: Cover: { type: "DOCUMENT", source: "Document Engine", ai_generate: false },
+1387: source: "Document Engine",
+1392: source: "Document Engine",
+1412: source: "AI + Knowledge Base",
+1415: IndikatorKeberhasilan: { type: "DYNAMIC", source: "AI", ai_generate: true },
+1418: source: "Document Engine",
+1447: Core: "Context-Aware Priority Engine",
+1490: Core: "SMART Target & Strategy Generator",
+1649: "Langkah teknis menyusun dokumen KSP sesuai Permendikbudristek No 12 Tahun 2024.",
+1654: catatan: "Penyesuaian pedoman KOSP sebelumnya",
+1748: namaRegulasi: "Kebijakan Digitalisasi dan AI",
+1749: nomorRegulasi: "Kebijakan AI 2025/2026",
+1757: ringkasan: "Integrasi Koding & AI",
+1758: kataKunci: ["AI", "Koding"],
+1859: workflowRef: "WorkflowEngine.States",
+1881: workflowRef: "WorkflowEngine.States",
+1894: "Belanja Pegawai",
+1900: bagianOpsional: ["Belanja Modal", "Belanja Pegawai"],
+1903: workflowRef: "WorkflowEngine.States",
+1930: workflowRef: "WorkflowEngine.States",
+1970: Core: "Template-Driven Document Generator",
+1990: description: "Menarik data profil sekolah, nama kepsek, dan atribut institusi lainnya.",
+1997: description: "Menyiapkan hasil analisis kondisi untuk dirangkai ke dalam dokumen.",
+1998: actions: ["Memuat capaian Rapor Pendidikan", "Memetakan akar masalah utama", "Menyusun rekapitulasi evaluasi diri"]
+2019: actions: ["Merangkai narasi analisis", "Mengonversi matriks program menjadi teks", "Mengisi semua placeholder dokumen"]
+2025: description: "Pemeriksaan gaya penulisan agar sesuai dengan laras bahasa pemerintahan dan PUEBI.",
+2026: actions: ["Pemeriksaan ejaan dan tanda baca", "Penyesuaian diksi formal", "Pengecekan kejelasan kalimat"]
+2067: "AI",
+2068: "TARGET_ENGINE",
+2070: "DOCUMENT_ENGINE",
+2090: id: "AI",
+2091: label: "AI",
+2093: description: "Dihasilkan AI. Dapat diedit, diregenerasi, disetujui.",
+2100: description: "Ditulis sepenuhnya oleh pengguna. Tidak ditimpa AI.",
+2140: "Decision Engine",
+2150: "Takes target for the active academic year from Target Engine.",
+2160: "AI expands Programs into operational annual activities based on RKJM Programs.",
+2193: "Decision Engine",
+2229: "Targets from Target Engine",
+2242: Core: "Implementation & Monitoring Engine",
+2251: { id: "not_started", label: "Belum Dimulai", color: "slate" },
+2253: { id: "completed", label: "Selesai", color: "emerald" },
+2260: "Kegiatan Belum Dimulai (Overdue)",
+2282: desc: "Kecenderungan peserta didik dalam bersikap dan berperilaku berdasarkan nilai-nilai Pancasila.",
+2292: desc: "Kualitas pengelolaan kelas dan penyelenggaraan pembelajaran interaktif yang sesuai dengan tujuan.",
+2296: nama: "Refleksi dan Perbaikan Pembelajaran oleh Guru",
+2297: desc: "Tingkat aktivitas refleksi dan perbaikan praktik pembelajaran yang dilakukan oleh guru.",
+2302: desc: "Tingkat kepemimpinan kepala sekolah dalam mendukung guru melakukan refleksi dan perbaikan pembelajaran.",
+2312: desc: "Kondisi lingkungan sekolah yang menghargai keragaman agama maupun sosial-budaya dan dukungan kesetaraan hak.",
+2339: status: "Belum Dimulai", // Belum Dimulai | Sedang Diproses | Selesai | Draft | Ditinjau | Disetujui
+2784: console.error("Failed to save", error);
+3358: healthCategory = "Sangat Baik";
+3381: desc: "Realisasi baru mencapai 40% dari target semester.",
+3389: action: () => navigateToView("rkjmPipeline"),
+3392: title: "Kegiatan Numerasi belum dimulai",
+3399: desc: "1 Kegiatan selesai tanpa bukti.",
+3429: onClick={() => navigateToView("rkjmPipeline")}
+3508: onClick={() => navigateToView("rkjmPipeline")}
+3540: onClick={() => navigateToView("targetEngine")}
+3593: <span className="text-slate-600">Selesai</span>
+3605: <span className="text-slate-600">Belum Dimulai</span>
+3662: { label: "RKAS", status: "wait" },
+3665: { label: "Evaluasi", status: "wait" },
+3766: "email",
+4067: label="Tanggal Mulai"
+4070: onChange={(v: any) => updateKomite("tglMulai", v)}
+4107: description="Data Kepala Dinas Pendidikan terkait."
+4137: label="Tanggal Mulai (Opsional)"
+4140: onChange={(v: any) => updateKadis("tglMulai", v)}
+4146: onChange={(v: any) => updateKadis("tglSelesai", v)}
+4389: description="Visi, Misi, Tujuan, dan Nilai-nilai sekolah."
+4498: "nilai",
+4512: id="add-nilai"
+4513: placeholder="Ketik nilai baru..."
+4517: update("nilai", [...(data.nilai || []), e.target.value]);
+4525: "add-nilai",
+4528: update("nilai", [...(data.nilai || []), el.value]);
+4630: "Lainnya",
+4842: label="Email Sekolah"
+4844: onChange={(v: any) => update("email", v)}
+4845: type="email"
+4916: label="Mulai Menjabat"
+4918: onChange={(v: any) => update("mulaiMenjabat", v)}
+4922: label="Email"
+4924: onChange={(v: any) => update("email", v)}
+4925: type="email"
+5122: label="Email"
+5123: type="email"
+5125: onChange={(v: any) => updateItem(g.id, "email", v)}
+5357: label="Email"
+5358: type="email"
+5360: onChange={(v: any) => updateItem(g.id, "email", v)}
+5645: description="Konteks utama pendidikan sebagai nyawa bagi penyusunan narasi dokumen oleh AI."
+6019: if (nilai === "" || nilai === null || nilai === undefined) return "";
+6029: status: "Belum Dimulai",
+6075: if (target > 0 && dimNilai < target) {
+6119: : ["Mempertahankan tren positif capaian sekolah"],
+6176: updateSetting("analisis", "status", "Selesai");
+6292: className={`p-4 rounded-xl border ${analisis.status === "Belum Dimulai" ? "bg-slate-800/50 border-slate-700 text-slate-300" : "bg-white/5 border-white/10 text-white/50"} flex items-center gap-3`}
+6295: className={`w-3 h-3 rounded-full ${analisis.status === "Belum Dimulai" ? "bg-slate-400" : "bg-white/20"}`}
+6297: <span className="font-bold text-sm">Belum Dimulai</span>
+6300: className={`p-4 rounded-xl border ${["Selesai", "Draft"].includes(analisis.status) ? "bg-amber-500/20 border-amber-500/30 text-amber-100" : "bg-white/5 border-white/10 text-white/50"} flex items-center gap-3`}
+6303: className={`w-3 h-3 rounded-full ${["Selesai", "Draft"].includes(analisis.status) ? "bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.5)]" : "bg-white/20"}`}
+6305: <span className="font-bold text-sm">Selesai (Draft)</span>
+6328: {analisis.status !== "Belum Dimulai" &&
+6341: analisis.status === "Selesai"
+6528: {renderEditableList("Tujuan Perbaikan", "tujuan", Target)}
+6682: status: "Belum Dimulai",
+6706: if (dimNilai > 0 && target > 0 && dimNilai < target) {
+6801: updateSetting("decisionEngine", "status", "Sedang Diproses");
+6805: updateSetting("decisionEngine", "data", generated);
+6806: updateSetting("decisionEngine", "status", "Menunggu Persetujuan");
+6807: updateSetting("decisionEngine", "lastUpdated", Date.now());
+6816: updateSetting("decisionEngine", "data", newData);
+6820: updateSetting("decisionEngine", "status", "Disetujui");
+6825: updateSetting("decisionEngine", "data", newData);
+6866: {decision.status !== "Belum Dimulai" &&
+7073: status: "Belum Dimulai",
+7161: status: gap > 0 ? "Perlu Peningkatan" : "Tercapai",
+7178: updateSetting("targetEngine", "status", "Sedang Diproses");
+7182: updateSetting("targetEngine", "data", generated);
+7183: updateSetting("targetEngine", "status", "Menunggu Persetujuan");
+7184: updateSetting("targetEngine", "lastUpdated", Date.now());
+7190: updateSetting("targetEngine", "status", "Disetujui");
+7231: {targetData.status !== "Belum Dimulai" &&
+7287: className={`px-2.5 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider border ${target.status === "Tercapai" ? "bg-emerald-50 text-emerald-700 border-emerald-100" : "bg-amber-50 text-amber-700 border-amber-100"}`}
+7639: {validation.valid ? "Siap Digunakan" : "Perlu Perbaikan"}
+8560: <p className="text-xs text-emerald-600 mb-1">Selesai</p>
+8610: type: "AI",
+8617: type: "AI",
+8632: type: b.type === "AI" ? "MANUAL" : b.type,
+8633: traceability: b.type === "AI" ? "Manual Edit" : b.traceability,
+8812: block.type === "AI" && (
+8880: "AI" && (
+9094: <span className="font-bold text-slate-700">Decision Engine</span>
+9099: <span className="px-3 py-1 bg-rose-100 text-rose-700 rounded-full font-bold">FAILED</span>
+9102: <span className="font-bold text-slate-700">AI Request</span>
+9106: <span className="font-bold text-slate-700">AI Response</span>
+9270: <p className="text-justify mb-12 leading-relaxed">Dokumen {"Rencana Kerja Jangka Menengah"} ini telah direview, disetujui dan disahkan oleh pihak yang berwenang untuk dapat digunakan sebagai acuan kerja sekolah.</p>
+9345: <p className="text-justify mb-6 leading-relaxed indent-8">Seluruh rencana anggaran telah diselaraskan dengan kebutuhan program prioritas dan diinput melalui sistem ARKAS. Rincian anggaran mencakup belanja pegawai, belanja barang dan jasa, serta belanja modal.</p>
+9461: <Button className="bg-emerald-600 hover:bg-emerald-700 text-white" onClick={() => setActiveTab("pratinjau")}>Selesai & Pratinjau</Button>
+9478: <div className="px-3 py-1 bg-slate-100 rounded-md text-xs font-bold text-slate-600">A4 Portrait</div>
+9525: <p className="text-justify mb-16">Dokumen Rencana Kerja Jangka Menengah (RKJM) {settings.school?.name || "Sekolah"} ini disusun sebagai pedoman arah kebijakan dan program strategis sekolah. Telah direview, disetujui, dan disahkan pada...</p>
+9700: <p className="text-slate-400 text-xs font-bold uppercase mb-2">Dokumen Terkait</p>
+9775: <p className="text-sm text-slate-500 mb-6">Format terbaik untuk pencetakan resmi.</p>
+9863: if (field === "nilai") {
+9891: "Saya menyatakan data telah sesuai dengan Rapor Pendidikan. Kunci data sekarang?",
+10049: statusTarget = "Target Tercapai";
+10054: statusTarget = "Hampir Tercapai";
+10058: statusTarget = "Belum Tercapai";
+10198: ? "Tutup Detail"
+10199: : "Lihat Detail"}
+10247: "nilai",
+10337: handleUpdate(ind.id, "nilai", e.target.value)
+10470: onClick={() => setCurrentView("workflowEngine")}
+10505: onClick={() => setCurrentView("complianceEngine")}
+10741: ? [{ id: "ai", label: "Mode Pengembang (AI)", icon: Sparkles }]
+10764: case "ai":
+10833: if (settings.diagnosis?.isLocked) completedSteps.push({ label: "Analisis Prioritas Selesai", desc: "Akar masalah telah teridentifikasi" });
+10841: if (rkjmDoc.status === "Review") attentionItems.push({ label: "RKJM Menunggu Review", desc: "Periksa catatan dari Kepala Sekolah", action: () => navigateToView("documentDetail_rkjm") });
+10842: else attentionItems.push({ label: "Draft RKJM Belum Selesai", desc: "Lanjutkan penyusunan RKJM.", action: () => navigateToView("documentDetail_rkjm") });
+10844: todoSteps.push({ label: "Mulai Susun RKJM", desc: "Kerangka dasar rencana kerja sekolah.", action: () => navigateToView("rkjmPipeline"), icon: FolderOpen, color: "amber" });
+10853: if (rktDoc.status === "Review") attentionItems.push({ label: "RKT Menunggu Review", desc: "Periksa catatan dari Kepala Sekolah", action: () => navigateToView("documentDetail_rkt") });
+10854: else attentionItems.push({ label: "Draft RKT Belum Selesai", desc: "Lanjutkan penyusunan RKT.", action: () => navigateToView("documentDetail_rkt") });
+10856: todoSteps.push({ label: "Mulai Susun RKT", desc: "Turunkan program strategis ke Rencana Tahunan.", action: () => navigateToView("rktDerivation"), icon: FileText, color: "emerald" });
+10915: <h3 className="text-lg font-bold text-emerald-800 mb-2">Semua Tugas Selesai!</h3>
+10916: <p className="text-emerald-700">Anda telah menyelesaikan semua alur perencanaan saat ini.</p>
+10940: <p className="text-slate-500 text-sm italic text-center py-4">Belum ada tahapan yang selesai.</p>
+11019: <Button className="bg-indigo-600 hover:bg-indigo-700 text-white" onClick={() => navigateToView("documentDetail_rkjm")}>
+11032: ["Disetujui", "Terkunci", "Siap Dicetak", "Selesai", "Final"].includes(
+11051: onClick={() => navigateToView && navigateToView("rkjmPipeline")}
+11122: importance="Memastikan setiap langkah tahunan sesuai dengan visi jangka menengah sekolah."
+11123: nextSteps="Lakukan sinkronisasi dari RKJM, sesuaikan target, lalu simpan."
+11429: <Button className="bg-indigo-600 hover:bg-indigo-700 text-white" onClick={() => navigateToView("documentDetail_rkt")}>
+11442: ["Disetujui", "Terkunci", "Siap Dicetak", "Selesai", "Final"].includes(
+11583: importance="Menjamin agar anggaran sesuai kebutuhan prioritas dan mengikuti regulasi BOS/dana lain."
+11905: actionTarget: "documentDetail_rkjm",
+11916: actionTarget: "documentDetail_rkt",
+11927: actionTarget: "documentDetail_rkas",
+11938: actionTarget: "documentDetail_ksp",
+12205: purpose="Melacak pelaksanaan kegiatan, capaian target, dan serapan anggaran secara real-time."
+12550: importance="Membantu pengarsipan yang rapi sebagai bukti dukung saat pengawasan atau akreditasi."
+12551: nextSteps="Unggah dokumen terbaru ke dalam folder yang sesuai."
+12662: { id: "misi", title: "Misi", desc: "Cara mencapai Visi." },
+12725: "1. Menyelenggarakan pembelajaran berbasis proyek yang mengintegrasikan nilai-nilai Pancasila.\n2. Memfasilitasi pengembangan minat dan bakat melalui kegiatan ekstrakurikuler yang beragam.",
+13021: {isPenetapan ? "Lanjut ke Pengesahan" : "Selesaikan KSP"}
+13049: <p className="text-amber-700">Penyusunan Kurikulum Satuan Pendidikan (KSP) membutuhkan hasil dari <b>Analisis Karakteristik & Prioritas</b> sekolah agar kurikulum sesuai dengan kebutuhan spesifik murid.</p>
+13067: navigateToView("publishingCenter");
+13185: onClick={() => navigateToView && navigateToView("targetEngine")}
+13212: status: "Selesai",
+13218: status: "Selesai",
+13230: status: "Selesai",
+13321: className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${doc.status === "Selesai" ? "bg-emerald-100 text-emerald-700" : "bg-amber-100 text-amber-700"}`}
+13537: <Card title="Publishing History" icon={History}>
+13591: ? "Sangat Baik"
+13593: ? "Perlu Perbaikan"
+13613: action: () => navigateToView("targetEngine"),
+13619: action: () => alert("Perbaiki otomatis..."),
+13846: "Kesesuaian dengan Visi Misi",
+13875: placeholder="Masukkan catatan dan rekomendasi perbaikan..."
+13923: importance="Analisis yang baik mencegah perencanaan yang mengarang bebas dan salah sasaran."
+13937: subtitle: "Integrasi data pencapaian sekolah",
+13949: id: "targetEngine",
+14027: next: { id: "documentDetail_rkt", label: "RKT" }
+14035: prev: { id: "documentDetail_rkjm", label: "RKJM" },
+14036: next: { id: "documentDetail_rkas", label: "RKAS" }
+14044: prev: { id: "documentDetail_rkt", label: "RKT" },
+14053: prev: { id: "documentDetail_rkjm", label: "RKJM" },
+14065: action: () => navigateToView(docId === "rkt" ? "rktDerivation" : docId === "rkas" ? "rkasDerivation" : docId === "ksp" ? "kspStudio" : "rkjmPipeline")
+14169: <p className="text-justify mb-12 leading-relaxed">Dokumen {meta.title} ini telah direview, disetujui dan disahkan oleh pihak yang berwenang untuk dapat digunakan sebagai acuan kerja sekolah.</p>
+14244: <p className="text-justify mb-6 leading-relaxed indent-8">Seluruh rencana anggaran telah diselaraskan dengan kebutuhan program prioritas dan diinput melalui sistem ARKAS. Rincian anggaran mencakup belanja pegawai, belanja barang dan jasa, serta belanja modal.</p>
+14362: <Button className="bg-indigo-600 hover:bg-indigo-700" onClick={() => navigateToView(docId === "rkt" ? "rktDerivation" : docId === "rkas" ? "rkasDerivation" : docId === "ksp" ? "kspStudio" : "rkjmPipeline")}>Mulai Penyusunan {meta.title}</Button>
+14387: <Button onClick={() => navigateToView(docId === "rkt" ? "rktDerivation" : docId === "rkas" ? "rkasDerivation" : docId === "ksp" ? "kspStudio" : "rkjmPipeline")} className="w-full bg-indigo-600">Perbaiki {meta.title}</Button>
+14436: <p className="text-sm text-slate-500 mb-6">Format terbaik untuk pencetakan resmi.</p>
+14507: <p className="text-slate-400 text-xs font-bold uppercase mb-2">Dokumen Terkait</p>
+14510: <span key={r} onClick={() => navigateToView("documentDetail_" + r.toLowerCase())} className="cursor-pointer hover:bg-indigo-50 hover:text-indigo-600 px-2 py-1 bg-slate-100 border border-slate-200 text-slate-600 text-xs rounded-md font-bold transition-colors">{r}</span>
+14520: <div className={`p-2 rounded-lg text-xs font-bold flex items-center justify-center ${docId === "rkjm" ? "bg-indigo-100 text-indigo-700 border border-indigo-200" : "bg-slate-50 text-slate-400 cursor-pointer hover:bg-slate-100 border border-slate-100"}`} onClick={() => docId !== "rkjm" && navigateToView("documentDetail_rkjm")}>RKJM</div>
+14522: <div className={`p-2 rounded-lg text-xs font-bold flex items-center justify-center ${docId === "rkt" ? "bg-indigo-100 text-indigo-700 border border-indigo-200" : "bg-slate-50 text-slate-400 cursor-pointer hover:bg-slate-100 border border-slate-100"}`} onClick={() => docId !== "rkt" && navigateToView("documentDetail_rkt")}>RKT</div>
+14524: <div className={`p-2 rounded-lg text-xs font-bold flex items-center justify-center ${docId === "rkas" ? "bg-indigo-100 text-indigo-700 border border-indigo-200" : "bg-slate-50 text-slate-400 cursor-pointer hover:bg-slate-100 border border-slate-100"}`} onClick={() => docId !== "rkas" && navigateToView("documentDetail_rkas")}>RKAS</div>
+14552: <Button className="bg-rose-600 hover:bg-rose-700 text-white" onClick={() => setPrintValidation(null)}>Tutup & Perbaiki</Button>
+14585: navigateToView(docId === "rkt" ? "rktDerivation" : docId === "rkas" ? "rkasDerivation" : docId === "ksp" ? "kspStudio" : "rkjmPipeline");
+14614: const planningViews = ["dataSekolah", "rapor", "diagnosis", "analisis", "rkjmPipeline", "rktDerivation", "rkasDerivation", "monitoring", "kspStudio", "dokumenPerencanaan"];
+14621: "rkjmPipeline": "rkjm",
+14622: "documentDetail_rkjm": "rkjm",
+14624: "documentDetail_rkt": "rkt",
+14626: "documentDetail_rkas": "rkas",
+14629: "documentDetail_ksp": "rkt",
+14634: if (!planningViews.includes(currentView) && !currentView.startsWith("documentDetail_")) return null;
+14647: if (step.id === "rkjm") navigateToView("documentDetail_rkjm");
+14648: else if (step.id === "rkt") navigateToView("documentDetail_rkt");
+14649: else if (step.id === "rkas") navigateToView("documentDetail_rkas");
+14756: className={`w-full flex items-center px-4 py-3 rounded-xl text-[14px] font-bold transition-all duration-300 ${["analisis", "rapor", "diagnosis", "targetEngine"].includes(currentView) ? "bg-slate-900 text-white shadow-md shadow-slate-900/10" : "text-slate-500 hover:bg-slate-100"}`}
+14759: className={`w-5 h-5 mr-3.5 ${["analisis", "rapor", "diagnosis", "targetEngine"].includes(currentView) ? "text-slate-300" : "text-slate-400"}`}
+14766: className={`w-full flex items-center px-4 py-3 rounded-xl text-[14px] font-bold transition-all duration-300 ${["dokumenPerencanaan", "rkjmPipeline", "rkjmBlueprint", "rkjmOrchestrator", "rktDerivation", "rkasDerivation", "kspStudio", "dokumenAdministrasi", "documentEditor", "publishingCenter", "dqaEngine"].includes(currentView) ? "bg-slate-900 text-white shadow-md shadow-slate-900/10" : "text-slate-500 hover:bg-slate-100"}`}
+14769: className={`w-5 h-5 mr-3.5 ${["dokumenPerencanaan", "rkjmPipeline", "rkjmBlueprint", "rkjmOrchestrator", "rktDerivation", "rkasDerivation", "kspStudio", "dokumenAdministrasi", "documentEditor", "publishingCenter", "dqaEngine"].includes(currentView) ? "text-slate-300" : "text-slate-400"}`}
+14839: {currentView.startsWith("documentDetail_") ? (
+14853: : currentView === "rkjmPipeline" ? <><span className="cursor-pointer hover:text-indigo-800 transition-colors" onClick={() => setCurrentView("dokumenPerencanaan")}>Dokumen Sekolah</span><ChevronRight className="w-3 h-3 mx-1 text-slate-300" /><span>Penyusunan RKJM</span></>
+14950: {currentView === "targetEngine" && <TargetPerformanceView />}
+14951: {currentView === "workflowEngine" && <WorkflowEngineView />}
+14956: {currentView === "complianceEngine" && <RegulationComplianceView />}
+14959: {currentView === "rkjmPipeline" && <RKJMPipelineView navigateToView={setCurrentView} />}
+14960: {currentView.startsWith("documentDetail_") && <DocumentWorkspaceView docId={currentView.split("_")[1]} navigateToView={setCurrentView} />}
+14961: {currentView === "rkjmBlueprint" && <RKJMBlueprintView />}
+14973: {currentView === "publishingCenter" && (
+14976: {currentView === "dqaEngine" && (

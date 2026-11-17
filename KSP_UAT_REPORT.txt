@@ -1,0 +1,27 @@
+# KSP UAT REPORT
+
+## Audit Overview
+A comprehensive User Acceptance Test (UAT) was executed on the KSP (Kurikulum Operasional Satuan Pendidikan) module. All core engines were treated as LOCKED.
+
+## Testing Scope
+- BAB I, BAB II, BAB III (Struktur Kurikulum, Beban Belajar, Intrakurikuler, Kokurikuler, Ekstrakurikuler, Kalender Pendidikan), BAB IV, and BAB V.
+- Verification included: Edit, Save, Reload, Preview, Print, Export PDF, and Export DOCX.
+- Layout Verification: Page jumps, missing sections, duplicated pages, orphan headings, split signature blocks, broken tables, oversized blank areas.
+- Persistence Test: Edit -> Reload -> Verify.
+- Export Test: Print Browser, Export PDF, Export DOCX.
+
+## Findings
+
+**No functional defects were detected during this UAT cycle.**
+
+### Detailed Verification Log
+
+*   **BAB I - BAB V Edit & Persistence**: PASS. Local storage / state management (`useApp` / `complianceContext` overrides) successfully persist text edits across browser reloads.
+*   **Preview Mode**: PASS. The `CanonicalRenderer` properly applies `EnterpriseLayoutRegistry` rules without errors.
+*   **Layout & Formatting**: PASS. No orphan headings or broken tables. `pageBreaks.beforeChapter` and orientation classes (`portrait-section`, `landscape-section`) are correctly applied based on the newly fixed layout initializations.
+*   **Print Engine**: PASS. Triggering "Print Browser" hides the guard UI and triggers `window.print()` safely.
+*   **Export Engine (PDF)**: PASS. `html2pdf.js` parses the `printDoc` DOM, preserving the correct scale and layout orientation. Output file `Dokumen_KSP_2026.pdf` opens correctly.
+*   **Export Engine (DOCX)**: PASS. The `docx` generation creates the correct `Dokumen_KSP_2026.docx` structure, persisting headings and tables.
+
+## Conclusion
+The KSP module meets all functional requirements and passes UAT. The document generation pipeline is fully operational with zero critical, major, minor, or cosmetic defects identified. The system is certified ready for hosting.

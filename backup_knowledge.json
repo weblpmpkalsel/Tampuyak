@@ -1,0 +1,124 @@
+[
+  {
+    "id": "panduan-rkjm",
+    "category": "perencanaan",
+    "Title": "Panduan Lengkap Penyusunan RKJM",
+    "Summary": "Rencana Kerja Jangka Menengah (RKJM) adalah peta jalan 4 tahunan sekolah.",
+    "Purpose": "Merencanakan program sekolah untuk jangka waktu 4 tahun ke depan secara komprehensif dan terukur.",
+    "Step-by-step guidance": [
+      "Lakukan evaluasi kondisi awal berdasarkan Rapor Pendidikan.",
+      "Susun visi, misi, dan tujuan jangka menengah.",
+      "Identifikasi isu strategis yang harus diselesaikan dalam 4 tahun.",
+      "Rancang program prioritas beserta indikator keberhasilannya."
+    ],
+    "Common mistakes": [
+      "Menyalin (copy-paste) dokumen sekolah lain tanpa penyesuaian.",
+      "Target tidak terukur atau tidak realistis.",
+      "Program tidak menjawab akar masalah di Rapor Pendidikan."
+    ],
+    "Related regulations": "Permendikbud No. 19 Tahun 2007 tentang Standar Pengelolaan Pendidikan.",
+    "Related templates": ["Template RKJM", "Template Evaluasi Diri Sekolah"],
+    "Related workspace": ["Analisis Sekolah", "Dokumen Sekolah"]
+  },
+  {
+    "id": "panduan-rkt",
+    "category": "perencanaan",
+    "Title": "Penyusunan Rencana Kerja Tahunan (RKT)",
+    "Summary": "RKT adalah turunan tahunan dari RKJM yang memuat program operasional.",
+    "Purpose": "Menjabarkan RKJM ke dalam program dan kegiatan operasional selama 1 tahun ajaran.",
+    "Step-by-step guidance": [
+      "Review capaian program RKJM pada tahun sebelumnya.",
+      "Tentukan prioritas program untuk tahun berjalan.",
+      "Uraikan kegiatan operasional secara detail dan jadwalkan.",
+      "Tentukan penanggung jawab untuk setiap kegiatan."
+    ],
+    "Common mistakes": [
+      "Program RKT tidak sinkron dengan RKJM.",
+      "Jadwal pelaksanaan bertumpuk di akhir tahun."
+    ],
+    "Related regulations": "Permendikbud No. 19 Tahun 2007 tentang Standar Pengelolaan Pendidikan.",
+    "Related templates": ["Template RKT"],
+    "Related workspace": ["Dokumen Sekolah", "Pelaksanaan & Monitoring"]
+  },
+  {
+    "id": "panduan-rkas",
+    "category": "perencanaan",
+    "Title": "Penyusunan Rencana Kegiatan dan Anggaran Sekolah (RKAS)",
+    "Summary": "RKAS memuat rincian anggaran untuk mendukung pelaksanaan RKT.",
+    "Purpose": "Menentukan alokasi dana dan sumber biaya untuk kegiatan dalam RKT secara transparan dan akuntabel.",
+    "Step-by-step guidance": [
+      "Petakan kegiatan RKT yang membutuhkan anggaran.",
+      "Tentukan satuan, volume, dan harga satuan untuk setiap kebutuhan.",
+      "Sesuaikan total anggaran dengan pagu dana yang tersedia (BOS, dll).",
+      "Validasi kode rekening sesuai dengan standar pembiayaan."
+    ],
+    "Common mistakes": [
+      "Membuat RKAS tanpa menyusun RKT dan RKJM terlebih dahulu.",
+      "Penganggaran melebihi batas maksimal yang diizinkan regulasi.",
+      "Mengabaikan standar harga yang berlaku di daerah."
+    ],
+    "Related regulations": "Permendikdasmen No. 63 Tahun 2022 tentang Juknis Pengelolaan Dana BOS.",
+    "Related templates": ["Template RKAS"],
+    "Related workspace": ["Dokumen Sekolah", "Ruang Kerja RKAS"]
+  },
+  {
+    "id": "panduan-ksp",
+    "category": "kurikulum",
+    "Title": "Pengembangan Kurikulum Satuan Pendidikan (KSP)",
+    "Summary": "KSP merupakan kurikulum operasional yang disesuaikan dengan konteks sekolah.",
+    "Purpose": "Mengembangkan kurikulum operasional yang sesuai dengan karakteristik sekolah, kebutuhan peserta didik, dan regulasi nasional.",
+    "Step-by-step guidance": [
+      "Lakukan analisis karakteristik sekolah dan lingkungan sekitar.",
+      "Rancang pengorganisasian pembelajaran (Intrakurikuler, Kokurikuler, Ekstrakurikuler).",
+      "Susun rencana pembelajaran dan asesmen.",
+      "Rencanakan mekanisme evaluasi dan pendampingan kurikulum."
+    ],
+    "Common mistakes": [
+      "Tidak melibatkan komite sekolah, guru, dan orang tua dalam penyusunan.",
+      "Hanya sekadar mengganti cover dokumen tahun lalu tanpa perbaikan konten."
+    ],
+    "Related regulations": "Permendikdasmen No. 12 Tahun 2024 tentang Kurikulum pada PAUD, Jenjang Pendidikan Dasar, dan Menengah.",
+    "Related templates": ["Template KSP"],
+    "Related workspace": ["Dokumen Sekolah", "Penyusunan KSP"]
+  },
+  {
+    "id": "panduan-analisis",
+    "category": "evaluasi",
+    "Title": "Analisis Data Rapor Pendidikan",
+    "Summary": "Menggunakan data Rapor Pendidikan untuk mengidentifikasi masalah prioritas.",
+    "Purpose": "Mengolah data Rapor Pendidikan dan kondisi internal menjadi prioritas program.",
+    "Step-by-step guidance": [
+      "Impor data Rapor Pendidikan terbaru.",
+      "Identifikasi indikator dengan capaian kurang atau menurun.",
+      "Lakukan analisis akar masalah (root cause analysis).",
+      "Tentukan rekomendasi penyelesaian masalah."
+    ],
+    "Common mistakes": [
+      "Mengabaikan indikator yang merah/kuning.",
+      "Menyusun program yang tidak relevan dengan akar masalah."
+    ],
+    "Related regulations": "Permendikdasmen No. 9 Tahun 2022 tentang Evaluasi Sistem Pendidikan.",
+    "Related templates": ["Format Analisis Akar Masalah"],
+    "Related workspace": ["Analisis Sekolah"]
+  },
+  {
+    "id": "panduan-monitoring",
+    "category": "evaluasi",
+    "Title": "Pelaksanaan & Monitoring Program",
+    "Summary": "Memantau keterlaksanaan program RKT dan RKAS secara real-time.",
+    "Purpose": "Melacak pelaksanaan kegiatan, capaian target, dan serapan anggaran secara real-time.",
+    "Step-by-step guidance": [
+      "Kumpulkan bukti pelaksanaan (foto, daftar hadir, kuitansi) untuk setiap kegiatan.",
+      "Unggah bukti ke dalam sistem dan catat serapan anggaran.",
+      "Review status kegiatan secara berkala (Berjalan, Tertunda, Selesai).",
+      "Tindaklanjuti kegiatan yang mengalami keterlambatan."
+    ],
+    "Common mistakes": [
+      "Menunda pengumpulan bukti hingga akhir tahun ajaran.",
+      "Bukti pelaksanaan tidak sesuai dengan standar pelaporan."
+    ],
+    "Related regulations": "Permendikbud No. 19 Tahun 2007 tentang Standar Pengelolaan Pendidikan.",
+    "Related templates": ["Form Monitoring Keterlaksanaan"],
+    "Related workspace": ["Pelaksanaan & Monitoring"]
+  }
+]

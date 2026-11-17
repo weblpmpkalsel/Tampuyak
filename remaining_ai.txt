@@ -1,0 +1,16 @@
+870: id: "koding-ai",
+873: "Integrasi kompetensi koding dan AI sebagai mata pelajaran pilihan atau ekstrakurikuler (mulai Kelas 4 SD, SMP, SMA).",
+882: "ai",
+894: "Penyediaan Perangkat AI/Koding",
+1748: namaRegulasi: "Kebijakan Digitalisasi dan AI",
+1749: nomorRegulasi: "Kebijakan AI 2025/2026",
+1757: ringkasan: "Integrasi Koding & AI",
+1758: kataKunci: ["AI", "Koding"],
+2067: "AI",
+2090: id: "AI",
+8632: type: b.type === "AI" ? "MANUAL" : b.type,
+8633: traceability: b.type === "AI" ? "Manual Edit" : b.traceability,
+8823: block.type === "AI" && (
+8891: "AI" && (
+10752: ? [{ id: "ai", label: "Mode Pengembang", icon: Sparkles }]
+10775: case "ai":

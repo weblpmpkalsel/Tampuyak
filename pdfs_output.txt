@@ -1,0 +1,552 @@
+
+============================
+--- Checking ksp_forced.pdf ---
+============================
+File size: 283792 bytes
+Warning: Setting up fake worker.
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_15_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_15_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_16_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_17_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Page count: 2
+First 150 chars: Dokumen Cetak Monitoring RKAS Buka Buka RKT RKJM PRIORITAS TINGGI Buka Data Lengkapi/ 100 0 2026/2027KESEHATAN SEKOLAH Pelajaran: Tahun
+
+============================
+--- Checking rkjm_forced.pdf ---
+============================
+File size: 283792 bytes
+Warning: Setting up fake worker.
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_15_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_15_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_16_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_17_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Page count: 2
+First 150 chars: Dokumen Cetak Monitoring RKAS Buka Buka RKT RKJM PRIORITAS TINGGI Buka Data Lengkapi/ 100 0 2026/2027KESEHATAN SEKOLAH Pelajaran: Tahun
+
+============================
+--- Checking rkt_forced.pdf ---
+============================
+File size: 283792 bytes
+Warning: Setting up fake worker.
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_15_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_15_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_16_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_17_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Page count: 2
+First 150 chars: Dokumen Cetak Monitoring RKAS Buka Buka RKT RKJM PRIORITAS TINGGI Buka Data Lengkapi/ 100 0 2026/2027KESEHATAN SEKOLAH Pelajaran: Tahun
+
+============================
+--- Checking rkas_forced.pdf ---
+============================
+File size: 283792 bytes
+Warning: Setting up fake worker.
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_14_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_15_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_15_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_16_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_17_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: TODO: graphic state operator SMask
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_75_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_74_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_37_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_13_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_24_0, trying to decode
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Page count: 2
+First 150 chars: Dokumen Cetak Monitoring RKAS Buka Buka RKT RKJM PRIORITAS TINGGI Buka Data Lengkapi/ 100 0 2026/2027KESEHATAN SEKOLAH Pelajaran: Tahun

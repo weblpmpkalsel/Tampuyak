@@ -1,0 +1,31 @@
+# Runtime Root Cause Report
+
+## 1. Root Cause
+The `Uncaught TypeError: getElementById is not a function` exception was caused by variable shadowing in React. The global `window.document` object was shadowed by a local component state variable named `document` which stored the `DocumentModel` (or `CanonicalDocument`).
+
+## 2. Affected File
+`src/enterprise/workspace/preview/KspPreviewWorkspace.tsx`
+
+## 3. Affected Function
+Inline click handler functions attached to the "Print Browser", "Export PDF", and "Export DOCX" action buttons.
+
+## 4. Why getElementById() failed
+The `KspPreviewWorkspace` component initialized a state variable: 
+`const [document] = useState<CanonicalDocument>(...);`
+Inside the action button click handlers, the code executed:
+`const guard = document.getElementById('print-guard');`
+Because `document` referred to the local `CanonicalDocument` object (which represents business data structure and has no DOM methods) rather than the global HTML `Document` object, the `.getElementById()` method did not exist on it, resulting in the runtime TypeError.
+
+## 5. Exact Fix
+Applied the smallest possible fix by explicitly scoping the call to the global window object. 
+Replaced:
+`document.getElementById('print-guard')`
+With:
+`window.document.getElementById('print-guard')`
+in `src/enterprise/workspace/preview/KspPreviewWorkspace.tsx`.
+
+## 6. Regression Results
+- **Print Browser**: Verified button triggers print modal successfully without exceptions.
+- **Export PDF**: Verified button logic executes correctly without exceptions.
+- **Export DOCX**: Verified button logic executes correctly without exceptions.
+- **Console Errors**: No `TypeError` or any other runtime exceptions observed upon button clicks.

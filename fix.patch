@@ -1,0 +1,14 @@
+--- src/index.css
++++ src/index.css
+@@ -204,9 +204,4 @@
+     .print-no-transform {
+       transform: none;
+     }
+-  }
+-}
+-
+-}
+-
+-
++  }
+ @layer utilities {

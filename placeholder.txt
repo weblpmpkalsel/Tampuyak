@@ -1,0 +1,34 @@
+src/Tampuyak.tsx:2228:      actions: ["Sinkronisasi Data Pokok Pendidikan", "Mengisi placeholder identitas", "Mengatur tahun ajaran"]
+src/Tampuyak.tsx:2252:      id: "fill_placeholder",
+src/Tampuyak.tsx:2256:      actions: ["Merangkai narasi analisis", "Mengonversi matriks program menjadi teks", "Mengisi semua placeholder dokumen"]
+src/Tampuyak.tsx:3810:  placeholder,
+src/Tampuyak.tsx:3836:          placeholder={placeholder}
+src/Tampuyak.tsx:3851:  placeholder,
+src/Tampuyak.tsx:3871:        placeholder={placeholder}
+src/Tampuyak.tsx:4725:            <Input label="Nama Lengkap" value={settings.principal?.name || ""} onChange={(v) => updatePrincipal("name", v)} placeholder="Cth: Budi Santoso, S.Pd., M.Pd." />
+src/Tampuyak.tsx:4734:            <Input label="Pangkat/Golongan" value={settings.principal?.group || ""} onChange={(v) => updatePrincipal("group", v)} placeholder="Cth: Pembina / IV.a" />
+src/Tampuyak.tsx:4765:            <Input label="Jabatan" value={settings.kepalaDinas?.jabatan || ""} onChange={(v) => updateKadis("jabatan", v)} placeholder="Cth: Kepala Dinas Pendidikan Kota Banjarmasin" />
+src/Tampuyak.tsx:4802:                <Input label="Tahun Pelajaran" value={newName} onChange={setNewName} placeholder="Contoh: 2024/2025" />
+src/Tampuyak.tsx:4928:              placeholder="Lingkungan sekitar sekolah, potensi wilayah, kondisi sosial, dll."
+src/Tampuyak.tsx:5014:                    placeholder="Misal: Tarian Tradisional, Makanan Khas, dll"
+src/Tampuyak.tsx:5079:                    placeholder="Misal: Sekolah Adiwiyata, Robotik, Literasi"
+src/Tampuyak.tsx:5242:            placeholder="Misal: Cerdas, Terampil, Berakhlak Mulia"
+src/Tampuyak.tsx:5297:                  placeholder={`Tujuan ${idx + 1}`}
+src/Tampuyak.tsx:5344:            placeholder="Misal: S.Pd., M.Pd."
+src/Tampuyak.tsx:5361:            placeholder="Misal: Pembina Tk. I"
+src/Tampuyak.tsx:5367:            placeholder="Misal: IV/b"
+src/Tampuyak.tsx:5469:                placeholder="Cari nama atau NIP..."
+src/Tampuyak.tsx:5716:                placeholder="Cari nama atau NIP..."
+src/Tampuyak.tsx:7106:                placeholder="Contoh: Para siswa merasa sangat wow dengan kurikulum yang canggih ini..."
+src/Tampuyak.tsx:10366:             <p>Proses penyusunan dokumen terhenti di tahap penulisan manual. RKJM ditampilkan tanpa deskripsi naratif (hanya placeholder).</p>
+src/Tampuyak.tsx:11059:                 placeholder="Alasan pembukaan data..."
+src/Tampuyak.tsx:11491:                          placeholder="0-100"
+src/Tampuyak.tsx:11655:              placeholder="Cari dokumen, nomor, atau status..."
+src/Tampuyak.tsx:11898:                  placeholder="Deskripsikan temuan..."
+src/Tampuyak.tsx:12083:      showToast("Dokumen ditolak. Terdapat placeholder atau ketidaksesuaian data. Lihat Laporan Validasi.", "error");
+src/Tampuyak.tsx:12108:        if (lowerStr.includes("lorem ipsum")) issues.push({ type: "Validation Error", message: `Ditemukan teks placeholder (Lorem Ipsum) pada ${location}` });
+src/Tampuyak.tsx:12110:        if (str.includes("[NAMA SEKOLAH]")) issues.push({ type: "Validation Error", message: `Ditemukan placeholder [NAMA SEKOLAH] pada ${location}` });
+src/Tampuyak.tsx:12370:             <input type="text" placeholder="Cari..." className="pl-9 pr-3 py-1.5 bg-slate-100 border-none rounded-xl text-sm w-40 focus:ring-2 focus:ring-blue-500 outline-none" value={searchQuery} onChange={e => setSearchQuery(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); (window as any).find(searchQuery); } }} />
+src/Tampuyak.tsx:13477:              placeholder="Cari dokumen, nomor, program, tahun..." 
+src/Tampuyak.tsx:13478:              className="w-full bg-[var(--color-eds-bg)] border border-[var(--color-eds-border)] text-[14px] rounded-full pl-10 pr-4 py-2 focus:outline-none focus:ring-4 focus:ring-[var(--color-eds-primary)]/10 focus:border-[var(--color-eds-primary)] transition-all font-medium text-[var(--color-eds-text-primary)] placeholder:text-[var(--color-eds-text-secondary)]"
+src/PusatPengetahuan.tsx:63:              placeholder="Cari panduan..."

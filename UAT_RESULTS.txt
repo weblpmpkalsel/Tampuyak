@@ -1,0 +1,25 @@
+FAIL
+
+- Test number: 4
+- File: src/App.tsx
+- Expected: Owner enters /owner.
+- Actual: There is no /owner route defined in the application. The owner is directed to the standard /dashboard.
+- Reproduction steps: Login using the OWNER account. Observe that the user is routed to /dashboard and cannot access an /owner route.
+
+- Test number: 7
+- File: src/workspace/OrganizationSetup.tsx (and src/services/firestore/workspaceService.ts)
+- Expected: Organization Profile is created and Dashboard becomes accessible.
+- Actual: The setup fails with a "No workspace assigned" error. The user is permanently stuck in the setup wizard.
+- Reproduction steps: Log in as an approved school user. Complete the Organization Setup wizard and click "Complete Setup". Observe the error message because `approveWorkspaceRequest` does not assign `workspaceId` to the `UserProfile`.
+
+- Test number: 8
+- File: src/Tampuyak.tsx
+- Expected: Each role receives the correct access based on RBAC.
+- Actual: There are no UI-level role restrictions implemented in the main application.
+- Reproduction steps: Log in as a user with the TEACHER role. Observe that all tabs and features are fully accessible, identical to an ADMIN or HEADMASTER.
+
+- Test number: 9
+- File: src/Tampuyak.tsx
+- Expected: Workspace isolation works (School A cannot access School B).
+- Actual: Data queries and application state are not partitioned by `workspaceId`. Components use hardcoded contexts like `default-workspace`.
+- Reproduction steps: Perform an action in the application as School A. Log in as School B. Observe that School B can access and modify School A's data due to the lack of workspace scoping in the UI.

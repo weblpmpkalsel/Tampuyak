@@ -1,0 +1,462 @@
+export const MasterSNP = [
+  {
+    id: "SNP-1",
+    code: "SKL",
+    officialName: "Standar Kompetensi Lulusan",
+    officialDescription: "Kriteria mengenai kualifikasi kemampuan lulusan yang mencakup sikap, pengetahuan, dan keterampilan.",
+    objectives: ["Meningkatkan karakter siswa", "Meningkatkan literasi dan numerasi", "Mengembangkan keterampilan abad 21"],
+    qualityIndicators: ["Rata-rata nilai ujian", "Persentase kelulusan", "Indeks karakter"],
+    relatedComponents: ["Pengembangan Karakter", "Kegiatan Kesiswaan"],
+    relatedRkasCodeIds: ["02.01.01", "02.02.01", "02.03.01"],
+    relatedRaporIndicatorIds: ["A.1", "A.2", "A.3"]
+  },
+  {
+    id: "SNP-2",
+    code: "ISI",
+    officialName: "Standar Isi",
+    officialDescription: "Kriteria mengenai ruang lingkup materi dan tingkat kompetensi untuk mencapai kompetensi lulusan.",
+    objectives: ["Menyusun kurikulum operasional", "Mengembangkan perangkat pembelajaran"],
+    qualityIndicators: ["Ketersediaan KSP", "Ketersediaan Silabus/Alur Tujuan Pembelajaran"],
+    relatedComponents: ["Pengembangan Kurikulum"],
+    relatedRkasCodeIds: ["03.01.01", "03.02.01"],
+    relatedRaporIndicatorIds: ["D.1", "D.2"]
+  },
+  {
+    id: "SNP-3",
+    code: "PROSES",
+    officialName: "Standar Proses",
+    officialDescription: "Kriteria mengenai pelaksanaan pembelajaran pada satu satuan pendidikan untuk mencapai SKL.",
+    objectives: ["Meningkatkan kualitas pembelajaran", "Mengembangkan pembelajaran aktif dan inovatif"],
+    qualityIndicators: ["Kualitas Interaksi Guru-Siswa", "Penggunaan Metode Beragam"],
+    relatedComponents: ["Kegiatan Pembelajaran", "Ekstrakurikuler"],
+    relatedRkasCodeIds: ["04.01.01", "04.02.01", "04.06.05"],
+    relatedRaporIndicatorIds: ["D.1", "D.3"]
+  },
+  {
+    id: "SNP-4",
+    code: "PENILAIAN",
+    officialName: "Standar Penilaian",
+    officialDescription: "Kriteria mengenai mekanisme, prosedur, dan instrumen penilaian hasil belajar peserta didik.",
+    objectives: ["Meningkatkan kualitas instrumen penilaian", "Melaksanakan evaluasi formatif dan sumatif"],
+    qualityIndicators: ["Ketersediaan Instrumen Penilaian", "Pelaksanaan Ujian/Asesmen"],
+    relatedComponents: ["Evaluasi Pembelajaran"],
+    relatedRkasCodeIds: ["05.01.01", "05.02.01"],
+    relatedRaporIndicatorIds: ["D.4"]
+  },
+  {
+    id: "SNP-5",
+    code: "PTK",
+    officialName: "Standar Pendidik dan Tenaga Kependidikan",
+    officialDescription: "Kriteria mengenai kualifikasi akademik dan kompetensi sebagai agen pembelajaran, sehat jasmani dan rohani, serta memiliki kemampuan untuk mewujudkan tujuan pendidikan nasional.",
+    objectives: ["Meningkatkan kompetensi guru", "Peningkatan kualifikasi akademik"],
+    qualityIndicators: ["Persentase Guru Bersertifikat", "Jumlah Pelatihan yang Diikuti"],
+    relatedComponents: ["Pengembangan Profesi Guru"],
+    relatedRkasCodeIds: ["06.01.01", "06.02.01", "06.03.01"],
+    relatedRaporIndicatorIds: ["C.1", "C.2", "C.3"]
+  },
+  {
+    id: "SNP-6",
+    code: "SARPRAS",
+    officialName: "Standar Sarana dan Prasarana",
+    officialDescription: "Kriteria mengenai ruang belajar, tempat berolahraga, tempat beribadah, perpustakaan, laboratorium, bengkel kerja, tempat bermain, tempat berkreasi dan berekreasi serta sumber belajar lain.",
+    objectives: ["Memenuhi standar ruang kelas", "Melengkapi sarana perpustakaan dan lab"],
+    qualityIndicators: ["Rasio siswa per kelas", "Kondisi bangunan"],
+    relatedComponents: ["Pemeliharaan Sarpras", "Pengadaan Sarana"],
+    relatedRkasCodeIds: ["07.01.01", "07.02.01", "07.03.01", "07.04.01"],
+    relatedRaporIndicatorIds: ["E.1", "E.2"]
+  },
+  {
+    id: "SNP-7",
+    code: "PENGELOLAAN",
+    officialName: "Standar Pengelolaan",
+    officialDescription: "Kriteria mengenai perencanaan, pelaksanaan, dan pengawasan kegiatan pendidikan pada tingkat satuan pendidikan, kabupaten/kota, provinsi, atau nasional agar tercapai efisiensi dan efektivitas penyelenggaraan pendidikan.",
+    objectives: ["Meningkatkan akuntabilitas sekolah", "Melibatkan komite sekolah dan masyarakat"],
+    qualityIndicators: ["Ketersediaan Dokumen Perencanaan (RKJM, RKT, RKAS)", "Keterlibatan Orang Tua"],
+    relatedComponents: ["Manajemen Sekolah", "Penyusunan Program"],
+    relatedRkasCodeIds: ["08.01.01", "08.02.01"],
+    relatedRaporIndicatorIds: ["E.3", "E.4"]
+  },
+  {
+    id: "SNP-8",
+    code: "PEMBIAYAAN",
+    officialName: "Standar Pembiayaan",
+    officialDescription: "Kriteria mengenai komponen dan besarnya biaya operasi satuan pendidikan yang berlaku selama satu tahun.",
+    objectives: ["Meningkatkan efisiensi anggaran", "Melaporkan penggunaan dana tepat waktu"],
+    qualityIndicators: ["Kesesuaian RKAS dengan Realisasi", "Ketepatan Waktu Pelaporan"],
+    relatedComponents: ["Pelaporan Keuangan", "Honorarium"],
+    relatedRkasCodeIds: ["09.01.01", "09.02.01"],
+    relatedRaporIndicatorIds: ["E.5"]
+  }
+];
+
+export const MasterRKAS = [
+  {
+    id: "RKAS-020101",
+    activityCode: "02.01.01",
+    activityName: "Pelaksanaan Ekstrakurikuler Kepramukaan",
+    primarySnpId: "SNP-1",
+    secondarySnpId: "SNP-3",
+    component: "Kegiatan Kesiswaan",
+    budgetCategory: "Barang dan Jasa",
+    fundingSourceId: "BOS_REGULER",
+    officialDescription: "Pembiayaan untuk mendukung kegiatan pramuka wajib di sekolah.",
+    keywords: ["Pramuka", "Ekstrakurikuler", "Karakter", "Kesiswaan"],
+    implementationNotes: "Bisa digunakan untuk honor pembina dan pembelian alat peraga pramuka.",
+    regulationId: "REG-0003",
+    version: "2024.1",
+    effectiveYear: "2024",
+    status: "ACTIVE",
+    relatedRaporIndicatorIds: ["A.3", "D.1"]
+  },
+  {
+    id: "RKAS-030101",
+    activityCode: "03.01.01",
+    activityName: "Penyusunan Kurikulum Satuan Pendidikan (KSP)",
+    primarySnpId: "SNP-2",
+    secondarySnpId: "SNP-7",
+    component: "Pengembangan Kurikulum",
+    budgetCategory: "Barang dan Jasa",
+    fundingSourceId: "BOS_REGULER",
+    officialDescription: "Biaya rapat, konsumsi, dan penggandaan dokumen KSP.",
+    keywords: ["KSP", "Kurikulum", "Rapat", "Penyusunan"],
+    implementationNotes: "Dilaksanakan di awal tahun ajaran. Melibatkan komite dan stakeholder.",
+    regulationId: "REG-0001",
+    version: "2024.1",
+    effectiveYear: "2024",
+    status: "ACTIVE",
+    relatedRaporIndicatorIds: ["D.2", "E.3"]
+  },
+  {
+    id: "RKAS-040605",
+    activityCode: "04.06.05",
+    activityName: "Pelatihan Peningkatan Kompetensi Guru (Literasi dan Numerasi)",
+    primarySnpId: "SNP-5",
+    secondarySnpId: "SNP-3",
+    component: "Pengembangan Profesi Guru",
+    budgetCategory: "Barang dan Jasa",
+    fundingSourceId: "BOS_REGULER",
+    officialDescription: "Kegiatan In-House Training (IHT) atau workshop untuk meningkatkan kemampuan guru dalam pembelajaran literasi dan numerasi.",
+    keywords: ["Pelatihan", "Guru", "Literasi", "Numerasi", "IHT", "Workshop"],
+    implementationNotes: "Bisa untuk mengundang narasumber, biaya konsumsi, dan sertifikat.",
+    regulationId: "REG-0003",
+    version: "2024.1",
+    effectiveYear: "2024",
+    status: "ACTIVE",
+    relatedRaporIndicatorIds: ["A.1", "A.2", "C.1"]
+  },
+  {
+    id: "RKAS-050101",
+    activityCode: "05.01.01",
+    activityName: "Pelaksanaan Penilaian Tengah Semester / Akhir Semester",
+    primarySnpId: "SNP-4",
+    secondarySnpId: "SNP-3",
+    component: "Evaluasi Pembelajaran",
+    budgetCategory: "Barang dan Jasa",
+    fundingSourceId: "BOS_REGULER",
+    officialDescription: "Penggandaan soal, honor proktor/pengawas (jika dibolehkan regulasi daerah).",
+    keywords: ["Ujian", "Asesmen", "PTS", "PAS", "Penilaian"],
+    implementationNotes: "BOS Reguler dapat digunakan untuk penggandaan kertas ujian.",
+    regulationId: "REG-0003",
+    version: "2024.1",
+    effectiveYear: "2024",
+    status: "ACTIVE",
+    relatedRaporIndicatorIds: ["D.4"]
+  },
+  {
+    id: "RKAS-070101",
+    activityCode: "07.01.01",
+    activityName: "Pemeliharaan Ringan Gedung dan Ruang Kelas",
+    primarySnpId: "SNP-6",
+    secondarySnpId: "SNP-8",
+    component: "Pemeliharaan Sarpras",
+    budgetCategory: "Modal/Barang dan Jasa",
+    fundingSourceId: "BOS_REGULER",
+    officialDescription: "Pengecatan, perbaikan atap bocor ringan, perbaikan pintu/jendela.",
+    keywords: ["Pemeliharaan", "Cat", "Gedung", "Ruang Kelas", "Perbaikan"],
+    implementationNotes: "Hanya untuk pemeliharaan ringan, bukan rehabilitasi sedang/berat.",
+    regulationId: "REG-0003",
+    version: "2024.1",
+    effectiveYear: "2024",
+    status: "ACTIVE",
+    relatedRaporIndicatorIds: ["E.1", "E.2"]
+  },
+  {
+    id: "RKAS-070201",
+    activityCode: "07.02.01",
+    activityName: "Pembelian Buku Teks Utama",
+    primarySnpId: "SNP-6",
+    secondarySnpId: "SNP-2",
+    component: "Pengadaan Sarana",
+    budgetCategory: "Belanja Modal",
+    fundingSourceId: "BOS_REGULER",
+    officialDescription: "Pembelian buku teks pelajaran wajib untuk siswa dan guru.",
+    keywords: ["Buku", "Teks", "Perpustakaan", "BOS"],
+    implementationNotes: "Wajib dibeli jika kurikulum berubah atau buku rusak.",
+    regulationId: "REG-0003",
+    version: "2024.1",
+    effectiveYear: "2024",
+    status: "ACTIVE",
+    relatedRaporIndicatorIds: ["E.2", "A.1"]
+  },
+  {
+    id: "RKAS-080101",
+    activityCode: "08.01.01",
+    activityName: "Penyusunan Perencanaan Sekolah (RKJM, RKT, RKAS)",
+    primarySnpId: "SNP-7",
+    secondarySnpId: "SNP-8",
+    component: "Manajemen Sekolah",
+    budgetCategory: "Barang dan Jasa",
+    fundingSourceId: "BOS_REGULER",
+    officialDescription: "Biaya penyusunan dokumen perencanaan dan evaluasi diri sekolah.",
+    keywords: ["RKJM", "RKT", "RKAS", "PBD", "Perencanaan"],
+    implementationNotes: "Mencakup kegiatan FGD/Workshop tim penyusun perencanaan.",
+    regulationId: "REG-0001",
+    version: "2024.1",
+    effectiveYear: "2024",
+    status: "ACTIVE",
+    relatedRaporIndicatorIds: ["E.3", "E.4"]
+  },
+  {
+    id: "RKAS-060101",
+    activityCode: "06.01.01",
+    activityName: "Pembayaran Honor Guru Non-ASN",
+    primarySnpId: "SNP-5",
+    secondarySnpId: "SNP-8",
+    component: "Honorarium",
+    budgetCategory: "Belanja Pegawai",
+    fundingSourceId: "BOS_REGULER",
+    officialDescription: "Honor rutin bulanan untuk guru honorer yang terdaftar di Dapodik.",
+    keywords: ["Honor", "Guru", "Non-ASN", "Gaji"],
+    implementationNotes: "Maksimal persentase sesuai juknis BOS (biasanya 50%).",
+    regulationId: "REG-0003",
+    version: "2024.1",
+    effectiveYear: "2024",
+    status: "ACTIVE",
+    relatedRaporIndicatorIds: ["C.1"]
+  },
+  {
+    id: "RKAS-010101",
+    activityCode: "01.01.01",
+    activityName: "Penerimaan Peserta Didik Baru (PPDB)",
+    primarySnpId: "SNP-7",
+    secondarySnpId: "SNP-1",
+    component: "Manajemen Sekolah",
+    budgetCategory: "Barang dan Jasa",
+    fundingSourceId: "BOS_REGULER",
+    officialDescription: "Biaya pelaksanaan pendaftaran, seleksi, dan pengenalan lingkungan sekolah.",
+    keywords: ["PPDB", "Siswa Baru", "Pendaftaran"],
+    implementationNotes: "Mencakup pencetakan formulir, spanduk, konsumsi panitia.",
+    regulationId: "REG-0003",
+    version: "2024.1",
+    effectiveYear: "2024",
+    status: "ACTIVE",
+    relatedRaporIndicatorIds: ["E.3"]
+  },
+  {
+    id: "RKAS-020401",
+    activityCode: "02.04.01",
+    activityName: "Pelaksanaan Lomba Kesiswaan",
+    primarySnpId: "SNP-1",
+    secondarySnpId: "SNP-3",
+    component: "Kegiatan Kesiswaan",
+    budgetCategory: "Barang dan Jasa",
+    fundingSourceId: "BOS_REGULER",
+    officialDescription: "Biaya pendaftaran dan pembinaan lomba akademik/non-akademik.",
+    keywords: ["Lomba", "Kesiswaan", "OSN", "O2SN", "FLS2N"],
+    implementationNotes: "Mencakup transport siswa dan guru pendamping ke tempat lomba.",
+    regulationId: "REG-0003",
+    version: "2024.1",
+    effectiveYear: "2024",
+    status: "ACTIVE",
+    relatedRaporIndicatorIds: ["A.1", "A.2", "A.3"]
+  }
+];
+
+export const MasterRapor = [
+  {
+    indicatorId: "A.1",
+    dimension: "A. Mutu dan Relevansi Hasil Belajar",
+    category: "Literasi",
+    description: "Kemampuan peserta didik dalam memahami, menggunakan, mengevaluasi, merefleksikan berbagai jenis teks.",
+    recommendedStrategies: ["Peningkatan kapasitas guru membaca intensif", "Pengadaan buku bacaan fiksi dan non-fiksi", "Pembiasaan membaca 15 menit sebelum belajar"],
+    suggestedRkjmObjectives: ["Meningkatkan Skor Literasi Menjadi Kategori Baik", "Menumbuhkan Budaya Literasi Sekolah"],
+    suggestedPrograms: ["Program Gerakan Literasi Sekolah (GLS)", "Peningkatan Kompetensi Guru Bahasa"],
+    suggestedRkasCodeIds: ["04.06.05", "07.02.01"],
+    suggestedMonitoringIndicators: ["Jumlah buku yang dipinjam per bulan", "Laporan kegiatan GLS"],
+    suggestedEvaluationIndicators: ["Peningkatan persentase siswa mahir literasi pada Asesmen Nasional"]
+  },
+  {
+    indicatorId: "A.2",
+    dimension: "A. Mutu dan Relevansi Hasil Belajar",
+    category: "Numerasi",
+    description: "Kemampuan peserta didik untuk berpikir menggunakan konsep, prosedur, fakta, dan alat matematika.",
+    recommendedStrategies: ["Peningkatan kompetensi guru matematika melalui KKG/MGMP", "Penggunaan alat peraga matematika yang inovatif"],
+    suggestedRkjmObjectives: ["Meningkatkan Skor Numerasi Menjadi Kategori Baik", "Peningkatan Kompetensi Logika dan Matematika"],
+    suggestedPrograms: ["Bimbingan Khusus Numerasi", "Workshop Guru Matematika"],
+    suggestedRkasCodeIds: ["04.06.05", "07.02.01"],
+    suggestedMonitoringIndicators: ["Daftar hadir bimbel numerasi", "Sertifikat workshop guru"],
+    suggestedEvaluationIndicators: ["Peningkatan persentase siswa mahir numerasi"]
+  },
+  {
+    indicatorId: "A.3",
+    dimension: "A. Mutu dan Relevansi Hasil Belajar",
+    category: "Karakter",
+    description: "Kecenderungan peserta didik dalam bersikap dan berperilaku berdasarkan nilai-nilai Profil Lulusan.",
+    recommendedStrategies: ["Penguatan Pendidikan Karakter terintegrasi pembelajaran", "Pelaksanaan Ekstrakurikuler Pramuka wajib"],
+    suggestedRkjmObjectives: ["Mewujudkan 8 Dimensi Profil Lulusan", "Menekan Angka Perundungan (Bullying)"],
+    suggestedPrograms: ["Kegiatan Ekstrakurikuler Kepramukaan", "Kampanye Anti-Perundungan"],
+    suggestedRkasCodeIds: ["02.01.01", "02.04.01"],
+    suggestedMonitoringIndicators: ["Jurnal kegiatan pramuka", "Laporan insiden perundungan"],
+    suggestedEvaluationIndicators: ["Skor Indeks Karakter di atas rata-rata nasional"]
+  },
+  {
+    indicatorId: "C.1",
+    dimension: "C. Kompetensi dan Kinerja Guru",
+    category: "Proporsi Guru Bersertifikat Pendidik",
+    description: "Persentase guru yang memiliki Sertifikat Pendidik.",
+    recommendedStrategies: ["Fasilitasi guru mengikuti PPG", "Insentif guru berprestasi"],
+    suggestedRkjmObjectives: ["Peningkatan Kualifikasi Akademik Pendidik"],
+    suggestedPrograms: ["Program Pendampingan Sertifikasi Guru"],
+    suggestedRkasCodeIds: ["06.01.01"],
+    suggestedMonitoringIndicators: ["Jumlah guru yang mendaftar PPG"],
+    suggestedEvaluationIndicators: ["Peningkatan % guru bersertifikat"]
+  },
+  {
+    indicatorId: "D.1",
+    dimension: "D. Mutu Pembelajaran",
+    category: "Kualitas Pembelajaran",
+    description: "Kualitas interaksi guru dengan peserta didik serta dukungan dalam pembelajaran.",
+    recommendedStrategies: ["Supervisi akademik kepala sekolah", "Pelatihan metode pembelajaran berdiferensiasi"],
+    suggestedRkjmObjectives: ["Meningkatkan Kualitas Proses Pembelajaran", "Menerapkan Pembelajaran Berpusat pada Murid"],
+    suggestedPrograms: ["Workshop Pembelajaran Berdiferensiasi", "Supervisi Kelas Rutin"],
+    suggestedRkasCodeIds: ["04.06.05"],
+    suggestedMonitoringIndicators: ["Jadwal dan Laporan Supervisi"],
+    suggestedEvaluationIndicators: ["Skor Iklim Pembelajaran Meningkat"]
+  },
+  {
+    indicatorId: "E.1",
+    dimension: "E. Mutu Pengelolaan Satuan Pendidikan",
+    category: "Partisipasi Warga Sekolah",
+    description: "Keterlibatan orang tua dan masyarakat dalam mendukung program sekolah.",
+    recommendedStrategies: ["Rapat rutin dengan komite sekolah", "Pelibatan orang tua dalam kelas inspirasi"],
+    suggestedRkjmObjectives: ["Meningkatkan Partisipasi Publik dan Komite", "Transparansi dan Akuntabilitas Manajemen"],
+    suggestedPrograms: ["Pertemuan Komite Sekolah", "Sosialisasi Program Sekolah"],
+    suggestedRkasCodeIds: ["08.01.01"],
+    suggestedMonitoringIndicators: ["Daftar hadir orang tua", "Notulen rapat komite"],
+    suggestedEvaluationIndicators: ["Skor Iklim Partisipatif Meningkat"]
+  }
+];
+
+export const MasterRegulations = [
+  {
+    id: "REG-0001",
+    number: "Permendikdasmen No. 12 Tahun 2024",
+    year: 2024,
+    title: "Kurikulum pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar, dan Jenjang Pendidikan Menengah",
+    institution: "Kemendikdasmen",
+    scope: "Nasional",
+    articles: [
+      { articleNumber: "Pasal 2", content: "Kurikulum Merdeka menjadi kurikulum nasional." },
+      { articleNumber: "Pasal 10", content: "KSP disusun melibatkan komite sekolah dan masyarakat." }
+    ],
+    affectedModules: ["KSP", "RKT", "Rapor"],
+    affectedDocuments: ["Dokumen KSP", "Dokumen Perencanaan"],
+    revisionHistory: ["Menggantikan Permendikdasmen No. 262/M/2022"],
+    status: "ACTIVE",
+    version: "2024.1",
+    relatedRegulations: []
+  },
+  {
+    id: "REG-0002",
+    number: "Permendikbud No. 19 Tahun 2007",
+    year: 2007,
+    title: "Standar Pengelolaan Pendidikan",
+    institution: "Kemendikdasmen",
+    scope: "Nasional",
+    articles: [
+      { articleNumber: "Bagian B.1", content: "Sekolah merumuskan dan menetapkan visi serta mengembangkannya." },
+      { articleNumber: "Bagian C.2", content: "Sekolah membuat Rencana Kerja Jangka Menengah (RKJM) 4 tahunan dan Rencana Kerja Tahunan (RKT)." }
+    ],
+    affectedModules: ["RKJM", "RKT", "Tata Kelola"],
+    affectedDocuments: ["Dokumen RKJM", "Dokumen RKT"],
+    revisionHistory: ["Berlaku Sejak 2007"],
+    status: "ACTIVE",
+    version: "2024.1",
+    relatedRegulations: []
+  },
+  {
+    id: "REG-0003",
+    number: "Permendikdasmen No. 63 Tahun 2022",
+    year: 2022,
+    title: "Petunjuk Teknis Pengelolaan Dana Bantuan Operasional Satuan Pendidikan",
+    institution: "Kemendikdasmen",
+    scope: "Nasional",
+    articles: [
+      { articleNumber: "Pasal 12", content: "Penggunaan Dana BOS Reguler diperuntukkan untuk 12 komponen pembiayaan." },
+      { articleNumber: "Pasal 18", content: "Sekolah wajib menyusun RKAS dan melaporkannya tepat waktu." }
+    ],
+    affectedModules: ["RKAS", "Anggaran", "Monitoring"],
+    affectedDocuments: ["Dokumen RKAS", "Laporan Keuangan"],
+    revisionHistory: ["Menggantikan regulasi BOS sebelumnya"],
+    status: "ACTIVE",
+    version: "2024.1",
+    relatedRegulations: ["REG-0002"]
+  },
+  {
+    id: "REG-0004",
+    number: "Permendikdasmen No. 9 Tahun 2022",
+    year: 2022,
+    title: "Evaluasi Sistem Pendidikan oleh Pemerintah Pusat dan Pemerintah Daerah Terhadap PAUD, Dikdas, dan Dikmen",
+    institution: "Kemendikdasmen",
+    scope: "Nasional",
+    articles: [
+      { articleNumber: "Pasal 5", content: "Profil Pendidikan dan Rapor Pendidikan sebagai hasil evaluasi." },
+      { articleNumber: "Pasal 24", content: "Perencanaan Berbasis Data (PBD) wajib dilakukan oleh satuan pendidikan." }
+    ],
+    affectedModules: ["Rapor", "Analisis", "RKJM"],
+    affectedDocuments: ["Dokumen Perencanaan"],
+    revisionHistory: ["Baru"],
+    status: "ACTIVE",
+    version: "2024.1",
+    relatedRegulations: []
+  }
+];
+
+export const MasterTemplates = [
+  {
+    templateId: "RKJM",
+    documentType: "RKJM",
+    version: "2024.1",
+    chapterStructure: ["BAB I: Pendahuluan", "BAB II: Analisis Kondisi (Rapor Pendidikan)", "BAB III: Program Kerja Strategis", "BAB IV: Penutup", "LAMPIRAN"],
+    mandatorySections: ["Visi Misi", "Profil Sekolah", "Analisis Rapor Pendidikan", "Tabel Sasaran 4 Tahun", "Tanda Tangan Kepsek"],
+    printRulesId: "PRINT_RULE_01",
+    certificationRulesId: "CERT_RULE_RKJM_01"
+  },
+  {
+    templateId: "RKT",
+    documentType: "RKT",
+    version: "2024.1",
+    chapterStructure: ["BAB I: Pendahuluan", "BAB II: Evaluasi Tahun Lalu", "BAB III: Rencana Kerja Tahunan", "BAB IV: Penutup", "LAMPIRAN"],
+    mandatorySections: ["Jadwal Pelaksanaan", "Penanggung Jawab (PIC)", "Target Output"],
+    printRulesId: "PRINT_RULE_01",
+    certificationRulesId: "CERT_RULE_RKT_01"
+  },
+  {
+    templateId: "RKAS",
+    documentType: "RKAS",
+    version: "2024.1",
+    chapterStructure: ["LEMBAR PENGESAHAN", "TABEL RINCIAN RKAS", "LAMPIRAN"],
+    mandatorySections: ["Kode Rekening", "Volume", "Harga Satuan", "Total Anggaran", "Sumber Dana"],
+    printRulesId: "PRINT_RULE_02",
+    certificationRulesId: "CERT_RULE_RKAS_01"
+  },
+  {
+    templateId: "KSP",
+    documentType: "KSP",
+    version: "2024.1",
+    chapterStructure: ["BAB I: Karakteristik Sekolah", "BAB II: Visi Misi", "BAB III: Pengorganisasian Pembelajaran", "BAB IV: Perencanaan Pembelajaran", "BAB V: Evaluasi & Pendampingan"],
+    mandatorySections: ["Struktur Kurikulum", "Kalender Pendidikan", "Modul Ajar/Kokurikuler"],
+    printRulesId: "PRINT_RULE_03",
+    certificationRulesId: "CERT_RULE_KSP_01"
+  }
+];

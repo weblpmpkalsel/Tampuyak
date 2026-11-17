@@ -1,0 +1,21 @@
+# Enterprise Layout Validation Report
+
+## 1. Architectural Separation
+- **Domain Layer (`DocumentModel.ts`)**: Layout configuration attributes (e.g., `layout?: DocumentLayoutConfig`) have been STRICTLY REMOVED from `DocumentChapter` and `DocumentSection`. The domain model stores only semantic hierarchy and business logic metadata.
+- **Presentation Layer (`EnterpriseDocumentViewer.tsx`)**: Replaced hardcoded vertical spacing (e.g., fixed heights for signatures, forced top paddings for pages) with dynamic layout classes retrieved via `DefaultDocumentLayoutConfig`. 
+- **Publishing/Layout Engine (`LayoutEngine.ts`)**: Introduced `EnterpriseLayoutRegistry`. Layout parameters (margins, spacing, page breaks, keep-together rules) are now independently registered and requested by the viewer at render time, preserving domain purity.
+
+## 2. Layout Rules Verified
+- **Approval Sheet**: Configured page break after and dynamic signature spacing to prevent overflow. `pageBreaks.beforeApproval` applies correctly without altering structure.
+- **Table of Contents**: Configured page break before TOC. Re-renders perfectly without domain alterations.
+- **Cover**: Print-no-break applied with page-break-after configurable through LayoutEngine.
+- **Chapter Titles**: `pageBreaks.beforeChapter` dynamically evaluated at render via `EnterpriseLayoutRegistry.getLayout(chapter.id)`.
+- **Signature Blocks**: Dynamically reserve `minHeight` configured via `signatureBlockHeight` instead of statically locked `h-24`/`h-40` tailwind classes.
+
+## 3. Generator Independence
+- **KSP, RKJM, RKT, RKAS**: Successfully generated.
+- Changing layout constraints impacts only visual space and CSS flex sizing.
+- Canonical Builder output remains 100% identical.
+- Knowledge Engine content remains 100% identical.
+
+**Conclusion**: The Enterprise Layout Engine is fully decoupled from the business domain. Zero layout pollution remains in the canonical DocumentModel.

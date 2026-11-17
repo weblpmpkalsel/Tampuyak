@@ -1,0 +1,65 @@
+src/execution/ExecutionEngine.ts:8: * The operational execution layer between planning and reporting.
+src/planning/OperationalPlanningEngine.ts:46:   * Orchestration method to store a planning year reference.
+src/planning/OperationalPlanningEngine.ts:47:   * NEVER duplicates actual execution or planning data.
+src/planning/OperationalPlanningEngine.ts:98:   * Returns summary metadata for a given planning year.
+src/planning/PlanningDistributionService.ts:11:   * Determines the planning year ('Y1', 'Y2', 'Y3', 'Y4') for an activity.
+src/planning/PlanningAssignmentService.ts:8:   * Determines the operational planning assignment for an activity based on
+src/planning/PlanningAssignmentService.ts:53:        assignmentReason: distribution ? 'Assigned based on explicitly provided planning distribution.' : 'Default assignment applied.',
+src/rkt/RKTProjectionEngine.ts:4:import { OperationalPlanningActivity } from '../planning/OperationalPlanningActivity';
+src/rkt/RKTProjectionEngine.ts:5:import { PlanningAssignment } from '../planning/PlanningAssignment';
+src/rkt/RKTProjectionEngine.ts:15:   * @param assignments The corresponding planning assignments
+src/intelligence/RuleInjector.ts:5: * Injects Business Rules into every planning request.
+src/intelligence/PromptBuilder.ts:51:      systemPrompt: 'You are an enterprise planning intelligence assistant.',
+src/intelligence/PromptBuilder.ts:53:      userPrompt: 'Provide planning suggestions for the given activity context.',
+src/intelligence/ContextBuilder.ts:13:   * Collect all operational information required for planning.
+src/rules/RuleRegistry.ts:23:      description: 'Defines what constitutes a High Priority planning item.',
+src/rules/RuleRegistry.ts:93:      description: 'Activity planning aligns with internal standards and operational guidelines.',
+src/DocumentSynchronizationEngine.ts:1:import { PlanningAssignmentService } from "./planning/PlanningAssignmentService";
+src/DocumentSynchronizationEngine.ts:2:import { OperationalPlanningMapper } from "./planning/OperationalPlanningMapper";
+src/DocumentSynchronizationEngine.ts:3:import { PlanningDistribution } from "./planning/PlanningDistribution";
+src/DocumentSynchronizationEngine.ts:4:import { PlanningDistributionService } from "./planning/PlanningDistributionService";
+src/DocumentSynchronizationEngine.ts:540:        planning: {
+src/DocumentSynchronizationEngine.ts:541:           ...settings.planning,
+src/EnterpriseDocumentViewer.tsx:1:import { PlanningContextService } from './planning/PlanningContextService';
+src/KnowledgeGraphHydrator.ts:78:    safeAddNode({ id: 'planning-1', type: 'PlanningMethodology', title: 'Metodologi', description: 'Perencanaan disusun melalui pendekatan partisipatif dan berbasis data.', evidence: [], source: 'System', createdBy: 'Admin', generatedBy: 'System', createdAt: Date.now(), updatedAt: Date.now(), childrenIds: [], confidenceScore: 100, status: 'Active', version: 1 });
+src/document/DocumentRouter.ts:6:import { OperationalPlanningActivity } from '../planning/OperationalPlanningActivity';
+src/document/DocumentRouter.ts:7:import { PlanningAssignment } from '../planning/PlanningAssignment';
+src/document/DocumentRouter.ts:8:import { PlanningContextService } from '../planning/PlanningContextService';
+src/document/DocumentRouter.ts:22:        const p = settings.planning || {};
+src/document/DocumentRouter.ts:24:        // Use the centralized planning context
+src/SPKG.ts:315:        id: 'planning-1', type: 'PlanningMethodology', title: 'Metodologi Perencanaan',
+src/EducationalAuditExplorer.tsx:7:  const planning = settings.relationalPlanning || { objectives: [], annualPlans: {} };
+src/EducationalAuditExplorer.tsx:8:  const currentYearPlan = (planning?.annualPlans as any)?.["Y" + activeYear] || { rkt: [], rkas: [], monitoring: [], evaluation: [] };
+src/EducationalAuditExplorer.tsx:20:    const rkjm = planning.objectives?.find((o: any) => o.id === rkt.rkjmObjectiveId);
+src/Tampuyak.tsx:1:import { PlanningAssignmentService } from "./planning/PlanningAssignmentService";
+src/Tampuyak.tsx:2:import { OperationalPlanningMapper } from "./planning/OperationalPlanningMapper";
+src/Tampuyak.tsx:4:import { PlanningSnapshotService } from "./planning/PlanningSnapshotService";
+src/Tampuyak.tsx:5:import { PlanningDistribution } from "./planning/PlanningDistribution";
+src/Tampuyak.tsx:6:import { PlanningDistributionService } from "./planning/PlanningDistributionService";
+src/Tampuyak.tsx:2508:    const hasRkjmObjectives = (settings.planning?.rkjm && settings.planning.rkjm.length > 0) || (settings.relationalPlanning?.objectives && settings.relationalPlanning.objectives.length > 0);
+src/Tampuyak.tsx:2532:    const hasRktActivities = (settings.planning?.rkt && settings.planning.rkt.length > 0) || (settings.relationalPlanning?.annualPlans?.Y1?.rkt && settings.relationalPlanning.annualPlans.Y1.rkt.length > 0);
+src/Tampuyak.tsx:2556:    const hasRkasBudget = (settings.planning?.rkas && settings.planning.rkas.length > 0) || (settings.relationalPlanning?.annualPlans?.Y1?.rkas && settings.relationalPlanning.annualPlans.Y1.rkas.length > 0);
+src/Tampuyak.tsx:2726:    "planning.rkjm.status": settings.documents?.find((d: any) => d.type === "RKJM")?.status || "Belum Ada",
+src/Tampuyak.tsx:2727:    "planning.rkt.status": settings.documents?.find((d: any) => d.type === "RKT")?.status || "Belum Ada",
+src/Tampuyak.tsx:2728:    "planning.rkas.status": settings.documents?.find((d: any) => d.type === "RKAS")?.status || "Belum Ada",
+src/Tampuyak.tsx:3180:  planning: PlanningEngine.createInitialState(),
+src/Tampuyak.tsx:3301:            planning: parsed.planning || PlanningEngine.createInitialState(),
+src/Tampuyak.tsx:3533:    const currentPlanning = settings.planning;
+src/Tampuyak.tsx:3543:      setSettings((prev: any) => ({ ...prev, planning: evaluatedPlanning }));
+src/Tampuyak.tsx:3598:      data.planning || PlanningEngine.createInitialState();
+src/Tampuyak.tsx:3602:      planning: planningMigrated,
+src/Tampuyak.tsx:9993:  const planning = React.useMemo(() => {
+src/Tampuyak.tsx:10185:    const snapshot = snapshotService.createSnapshot(planning);
+src/Tampuyak.tsx:10216:        {planning.objectives.map((obj: any, idx: number) => (
+src/Tampuyak.tsx:10266:  const currentYearPlan = (planning.annualPlans as any)["Y" + activeYear] || { rkt: [], rkas: [], monitoring: [], evaluation: [] };
+src/Tampuyak.tsx:10284:             const parentObj = planning.objectives.find((o:any) => o.id === act.rkjmObjectiveId);
+src/Tampuyak.tsx:10345:             const rkjmObj = planning.objectives.find((o:any) => o.id === parentRkt?.rkjmObjectiveId);
+src/Tampuyak.tsx:10491:               const parentObj = planning.objectives.find((o:any) => o.id === ev.objectiveId);
+src/Tampuyak.tsx:10753:    planning: rkjmDoc && rktDoc && rkasDoc ? "Sesuai" : (rkjmDoc ? "Perlu Perhatian" : "Tidak Sesuai"),
+src/Tampuyak.tsx:10831:    planning: !!rkjmDoc && !!rktDoc,
+src/Tampuyak.tsx:10880:              {key === "planning" ? "Perencanaan" : key === "documentation" ? "Dokumentasi" : key === "workflow" ? "Alur Kerja" : key === "dataSekolah" ? "Data Sekolah" : key === "budget" ? "Anggaran" : "Evaluasi"}
+src/Tampuyak.tsx:10994:                {readiness.planning ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <XCircle className="w-5 h-5 text-[var(--color-eds-text-secondary)]" />}
+src/Tampuyak.tsx:11142:                if (vr.moduleId === 'planning' && isPlanningEmpty) status = 'empty';
+src/Tampuyak.tsx:11219:      planning: updates.planning,
+src/Tampuyak.tsx:12232:import { usePlanningContext } from './planning/PlanningContextService';
+src/Tampuyak.tsx:13276:  // Let's determine if we are in a planning view to show this

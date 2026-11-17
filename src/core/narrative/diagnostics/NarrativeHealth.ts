@@ -1,0 +1,7 @@
+export enum NarrativeHealth {
+  EXCELLENT = 'EXCELLENT',
+  GOOD = 'GOOD',
+  FAIR = 'FAIR',
+  NEEDS_IMPROVEMENT = 'NEEDS_IMPROVEMENT',
+  CRITICAL = 'CRITICAL'
+}

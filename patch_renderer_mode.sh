@@ -1,0 +1,1 @@
+sed -i 's/const \[rkjmRenderer, setRkjmRenderer\] = useState<'\''LEGACY'\'' | '\''CANONICAL'\''>('\''CANONICAL'\'');/const [rkjmRenderer, setRkjmRenderer] = useState<'\''AUTO'\'' | '\''LEGACY'\'' | '\''CANONICAL'\''>('\''AUTO'\'');/g' src/Tampuyak.tsx

@@ -1,0 +1,171 @@
+--- src/Tampuyak.tsx
++++ src/Tampuyak.tsx
+@@ -316,57 +316,28 @@
+     </div>
+   );
+ 
+-  let documentModel: any = null;
+-  let isLandscape = false;
+-  let errorMsg = "";
+-  try {
+-    const kg = KnowledgeGraph.getInstance();
+-    if (settings.canonicalObjects) {
+-      KnowledgeGraphHydrator.hydrate(kg, settings.canonicalObjects);
+-    } else {
+-      seedInitialGraph();
+-    }
+-    documentModel = DocumentRouter.generate(docId, kg, settings);
+-    
+-    const checkLandscape = (sections: any[]) => {
+-      if (!sections) return;
+-      for (const section of sections) {
+-        if (section.tables) {
+-          for (const table of section.tables) {
+-            if (Array.isArray(table.data) && table.data.length > 0) {
+-              const keys = Object.keys(table.data[0]);
+-              if (keys.length > 6) {
+-                isLandscape = true;
+-                return;
+-              }
+-            }
+-          }
+-        }
+-      }
+-    };
+-    if (documentModel) {
+-       ['chapter1', 'chapter2', 'chapter3', 'chapter4', 'chapter5', 'appendix'].forEach(ch => {
+-           if (documentModel[ch]?.sections) {
+-               checkLandscape(documentModel[ch].sections);
+-           }
+-       });
+-    }
+-  } catch (error: any) {
+-    errorMsg = error.message;
+-  }
+-
+   return (
+     <>
+       <DownloadManagerOverlay />
+-      <div id="printable-doc" className={`${isLandscape ? 'w-[297mm]' : 'w-[210mm]'} print:w-auto print:min-h-0 bg-white font-serif text-black relative block p-0 overflow-visible max-h-none mx-auto print:mx-0`}>
+-        {documentModel ? (
+-          <EnterpriseDocumentViewer settings={settings} title={meta.title} document={documentModel} generatedBy={settings.principal?.name || "Kepala Sekolah"} />
+-        ) : (
+-          <div className="flex flex-col items-center justify-center min-h-[400px] bg-rose-50 text-rose-700 rounded-xl border border-rose-200">
+-            <h3 className="text-xl font-bold mb-2">Knowledge Graph Hydration Failure</h3>
+-            <p>{errorMsg}</p>
+-          </div>
+-        )}
++      <div id="printable-doc" className="w-[210mm] print:w-auto print:min-h-0 bg-white font-serif text-black relative block p-0 overflow-visible max-h-none mx-auto print:mx-0">
++        {(() => {
++          try {
++            const kg = KnowledgeGraph.getInstance();
++            if (settings.canonicalObjects) {
++              KnowledgeGraphHydrator.hydrate(kg, settings.canonicalObjects);
++            } else {
++              seedInitialGraph();
++            }
++            const documentModel = DocumentRouter.generate(docId, kg, settings);
++            
++            return <EnterpriseDocumentViewer settings={settings} title={meta.title} document={documentModel} generatedBy={settings.principal?.name || "Kepala Sekolah"} />;
++          } catch (error: any) {
++            return <div className="flex flex-col items-center justify-center min-h-[400px] bg-rose-50 text-rose-700 rounded-xl border border-rose-200">
++              <h3 className="text-xl font-bold mb-2">Knowledge Graph Hydration Failure</h3>
++              <p>{error.message}</p>
++            </div>;
++          }
++        })()}
+       </div>
+     </>
+   );
+@@ -13115,66 +13086,32 @@
+             className={`flex flex-col items-center gap-8 transition-transform origin-top print-no-transform ${activeTab === 'pratinjau' ? 'flex print:block' : 'hidden print:block'}`}
+             style={{ transform: `scale(${zoom / 100})` }}
+           >
+-            {(() => {
+-              let documentModel: any = null;
+-              let isLandscape = false;
+-              let errorMsg = "";
+-              try {
+-                const kg = KnowledgeGraph.getInstance();
+-                if (settings.canonicalObjects) {
+-                  KnowledgeGraphHydrator.hydrate(kg, settings.canonicalObjects);
+-                } else {
+-                  seedInitialGraph();
+-                }
+-                documentModel = DocumentRouter.generate(docId, kg, settings);
+-                
+-                const checkLandscape = (sections: any[]) => {
+-                  if (!sections) return;
+-                  for (const section of sections) {
+-                    if (section.tables) {
+-                      for (const table of section.tables) {
+-                        if (Array.isArray(table.data) && table.data.length > 0) {
+-                          const keys = Object.keys(table.data[0]);
+-                          if (keys.length > 6) {
+-                            isLandscape = true;
+-                            return;
+-                          }
+-                        }
+-                      }
+-                    }
+-                  }
+-                };
+-                
+-                if (documentModel) {
+-                  ['chapter1', 'chapter2', 'chapter3', 'chapter4', 'chapter5', 'appendix'].forEach(ch => {
+-                      if (documentModel[ch]?.sections) {
+-                          checkLandscape(documentModel[ch].sections);
+-                      }
+-                  });
+-                }
+-              } catch (error: any) {
+-                errorMsg = error.message;
+-              }
+-
+-              return (
+-                <div id="printable-doc" className={`${isLandscape ? 'w-[297mm]' : 'w-[210mm]'} bg-white shadow-xl ring-1 ring-slate-900/5 print:shadow-none px-[2cm] py-[2.5cm] print:p-0 font-serif text-black relative block print:w-auto`}>
+-                  {!isPrintReady && (
+-                    <div className="absolute inset-0 z-0 flex items-center justify-center overflow-hidden pointer-events-none opacity-10">
+-                      <div className="text-[15rem] font-black text-[var(--color-eds-text-secondary)] transform -rotate-45 select-none tracking-widest whitespace-nowrap">DRAF</div>
+-                    </div>
+-                  )}
+-                  {documentModel ? (
+-                    <EnterpriseDocumentViewer settings={settings} title={meta.title} document={documentModel} generatedBy={settings.principal?.name || "Kepala Sekolah"} />
+-                  ) : (
+-                    <div className="flex flex-col items-center justify-center min-h-[400px] bg-rose-50 text-rose-700 rounded-xl border border-rose-200">
+-                      <AlertTriangle className="w-12 h-12 mb-4 text-rose-500" />
+-                      <h3 className="text-xl font-bold mb-2">Knowledge Graph Hydration Failure</h3>
+-                      <p>{errorMsg}</p>
+-                    </div>
+-                  )}
+-                </div>
+-              );
+-            })()}
++            <div id="printable-doc" className="w-[210mm] bg-white shadow-xl ring-1 ring-slate-900/5 print:shadow-none px-[2cm] py-[2.5cm] print:p-0 font-serif text-black relative block print:w-auto">
++              {!isPrintReady && (
++                <div className="absolute inset-0 z-0 flex items-center justify-center overflow-hidden pointer-events-none opacity-10">
++                  <div className="text-[15rem] font-black text-[var(--color-eds-text-secondary)] transform -rotate-45 select-none tracking-widest whitespace-nowrap">DRAF</div>
++                </div>
++              )}
++              
++              {(() => {
++                try {
++                  const kg = KnowledgeGraph.getInstance();
++                  if (settings.canonicalObjects) {
++                    KnowledgeGraphHydrator.hydrate(kg, settings.canonicalObjects);
++                  } else {
++                    seedInitialGraph();
++                  }
++                  const documentModel = DocumentRouter.generate(docId, kg, settings);
++                  return <EnterpriseDocumentViewer settings={settings} title={meta.title} document={documentModel} generatedBy={settings.principal?.name || "Kepala Sekolah"} />;
++                } catch (error: any) {
++                  return <div className="flex flex-col items-center justify-center min-h-[400px] bg-rose-50 text-rose-700 rounded-xl border border-rose-200">
++                    <AlertTriangle className="w-12 h-12 mb-4 text-rose-500" />
++                    <h3 className="text-xl font-bold mb-2">Knowledge Graph Hydration Failure</h3>
++                    <p>{error.message}</p>
++                  </div>;
++                }
++              })()}
++            </div>
+           </div>
+         </div>

@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix: Rev Remix: RC 14 Tambahan new",
+  "description": "",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

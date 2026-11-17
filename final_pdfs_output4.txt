@@ -1,0 +1,152 @@
+
+============================
+--- Checking ksp_final.pdf ---
+============================
+File size: 54400 bytes
+Warning: Setting up fake worker.
+Warning: Found Type3 font (custom Glyph) - g_font_4_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_5_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_4_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_5_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_4_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_5_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_4_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_5_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_4_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_5_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_4_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_5_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_4_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_5_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_4_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_6_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_7_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_6_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_7_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_6_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_7_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_6_0, trying to decode
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Page count: 1
+First 150 chars: Guru • Inovator • Praktisi Pendidikan Developed by Deni Ranoptri, S.Pd., M.Pd model. Engine failed to generate a complete document Missing chapter
+
+============================
+--- Checking rkjm_final.pdf ---
+============================
+File size: 232219 bytes
+Warning: Setting up fake worker.
+Warning: Found Type3 font (custom Glyph) - g_font_78_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_79_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_78_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_79_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_78_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_79_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_78_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_79_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_78_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_79_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_78_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_79_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_78_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_79_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_78_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_80_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_81_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_80_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_81_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_80_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_81_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_80_0, trying to decode
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Page count: 35
+First 150 chars: Kecamatan -, -, Pr  ovinsi - NPSN:  - Alamat Sekolah 2026 - 2030 PERIODE (RKJM) JA N G K A  M E N E N G A H R E N C A N A  K E R JA [Logo Inst
+
+============================
+--- Checking rkt_final.pdf ---
+============================
+File size: 173195 bytes
+Warning: Setting up fake worker.
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_57_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_56_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_59_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_58_0, trying to decode
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Page count: 24
+First 150 chars: Kecamatan -, -, Pr  ovinsi - NPSN:  - Alamat Sekolah TAHUN PELAJARAN 2026/2027 TAHUN KE-1 RKJM (RKT) T A H U N A N R E N C A N A  K E R JA [Lo
+
+============================
+--- Checking rkas_final.pdf ---
+============================
+File size: 118118 bytes
+Warning: Setting up fake worker.
+Warning: Found Type3 font (custom Glyph) - g_font_45_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_46_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_45_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_46_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_45_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_46_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_45_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_46_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_45_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_46_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_45_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_46_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_45_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_46_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_45_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_47_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_48_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_47_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_48_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_47_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_48_0, trying to decode
+Warning: Found Type3 font (custom Glyph) - g_font_47_0, trying to decode
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Warning: Unsupported: field.type of Link
+Warning: NOT valid form element
+Page count: 19
+First 150 chars: Kecamatan -, -, Pr  ovinsi - NPSN:  - Alamat Sekolah 2026/2027 TAHUN ANGGARAN (RKAS) A N G G A R A N  S E K O L A H R E N C A N A  K E G IA T A

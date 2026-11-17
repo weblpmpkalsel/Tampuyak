@@ -1,0 +1,190 @@
+  const planning = React.useMemo(() => {
+    // SINGLE SOURCE OF TRUTH: Read from settings.analisis.data
+    const isApproved = settings.analisis?.status === "Disetujui" || settings.analisis?.status === "Selesai" || settings.analisis?.status === "Terkunci";
+    
+    if (!isApproved) {
+      return {
+        isBlocked: true,
+        objectives: [],
+        annualPlans: {
+          "Y1": { rkt: [], rkas: [], monitoring: [], evaluation: [], operationalActivities: [] },
+          "Y2": { rkt: [], rkas: [], monitoring: [], evaluation: [], operationalActivities: [] },
+          "Y3": { rkt: [], rkas: [], monitoring: [], evaluation: [], operationalActivities: [] },
+          "Y4": { rkt: [], rkas: [], monitoring: [], evaluation: [], operationalActivities: [] }
+        }
+      };
+    }
+
+    const analysisData = settings.analisis?.data || {};
+    const irb = analysisData.program || [];
+    const priorities = analysisData.prioritas || [];
+    
+    if (irb.length === 0) {
+      return {
+        isBlocked: false,
+        objectives: [],
+        annualPlans: {
+          "Y1": { rkt: [], rkas: [], monitoring: [], evaluation: [], operationalActivities: [] },
+          "Y2": { rkt: [], rkas: [], monitoring: [], evaluation: [], operationalActivities: [] },
+          "Y3": { rkt: [], rkas: [], monitoring: [], evaluation: [], operationalActivities: [] },
+          "Y4": { rkt: [], rkas: [], monitoring: [], evaluation: [], operationalActivities: [] }
+        }
+      };
+    }
+
+    const objectives = irb.map((action: any, idx: number) => {
+      // action could be just a string, or { id, nama, kebijakanId }
+      const actionName = typeof action === 'string' ? action : (action.nama || action.benahi || `Program ${idx + 1}`);
+      const actionRef = typeof action === 'string' ? "Indikator" : (action.kebijakanId || action.identifikasi?.name || "Rapor Pendidikan");
+      
+      const priority = priorities.find((p: any) => p.name === actionRef || p.id === actionRef || p.nama === actionRef);
+      
+      return {
+        id: `OBJ-IRB-${idx + 1}`,
+        strategicObjective: actionName,
+        performanceIndicator: `Skor ${actionRef} Rapor Pendidikan`,
+        kondisiAwal: priority ? (priority.currentScore?.toString() || priority.nilai || "0") : "0",
+        targetY1: priority ? ((Number(priority.currentScore || priority.nilai || 0) + 5).toString()) : "5",
+        targetY2: priority ? ((Number(priority.currentScore || priority.nilai || 0) + 10).toString()) : "10",
+        targetY3: priority ? ((Number(priority.currentScore || priority.nilai || 0) + 15).toString()) : "15",
+        targetY4: priority ? ((Number(priority.currentScore || priority.nilai || 0) + 20).toString()) : "20",
+        responsibleUnit: "Tim Kurikulum",
+        successIndicator: "Implementasi 100%",
+        associatedSnp: "Standar Proses / Penilaian",
+        risk: "Keterbatasan waktu pendidik",
+        mitigation: "Optimalisasi Komunitas Belajar (Kombel)",
+        evaluationMethod: "Observasi & Rapor Pendidikan",
+        originatingPriority: `Hasil Analisis (${actionRef})`
+      };
+    });
+
+    const annualPlans = {
+      "Y1": { rkt: [] as any[], rkas: [] as any[], monitoring: [] as any[], evaluation: [] as any[], operationalActivities: [] as any[] },
+      "Y2": { rkt: [] as any[], rkas: [] as any[], monitoring: [] as any[], evaluation: [] as any[], operationalActivities: [] as any[] },
+      "Y3": { rkt: [] as any[], rkas: [] as any[], monitoring: [] as any[], evaluation: [] as any[], operationalActivities: [] as any[] },
+      "Y4": { rkt: [] as any[], rkas: [] as any[], monitoring: [] as any[], evaluation: [] as any[], operationalActivities: [] as any[] }
+    };
+
+    const distributionService = new PlanningDistributionService();
+    const assignmentService = new PlanningAssignmentService();
+    const kegiatanList = analysisData.kegiatan || [];
+    
+    kegiatanList.forEach((kegiatan: any, idx: number) => {
+      // Lookup Program
+      const program = irb.find((p: any) => p.id === kegiatan.programId) || { id: 'prog-gen', nama: "Program Pengembangan Kompetensi" };
+      
+      // Lookup Strategic Objective
+      const progIdx = irb.findIndex((p: any) => p.id === kegiatan.programId);
+      const obj = progIdx >= 0 ? objectives[progIdx] : objectives[0];
+      
+      // Create base RKT reference using dynamic assignment (distributes correctly, but allows PlanningAssignmentService to finalize)
+      const distYearStr = distributionService.assignYearToActivity(`RKT-GEN-${idx}`, idx);
+      const rktId = `RKT-${distYearStr}-${idx + 1}`;
+      
+      const q = (idx % 4) + 1;
+      const s = q <= 2 ? 1 : 2;
+      const distribution: PlanningDistribution = {
+          planningYear: parseInt(distYearStr.replace('Y', '')),
+          activityReferenceId: rktId,
+          priorityOrder: 1,
+          dependencyReferences: [],
+          recommendedQuarter: q as 1 | 2 | 3 | 4,
+          recommendedSemester: s as 1 | 2,
+          recommendedSequence: 1
+      };
+      
+      const rktObj = {
+        id: rktId,
+        rkjmObjectiveId: obj ? obj.id : 'OBJ-IRB-0',
+        activity: program.nama,
+        subActivity: kegiatan.nama,
+        target: "Semua Guru & Siswa",
+        status: "synced"
+      };
+      
+      // Resolve PlanningAssignment using AssignmentService
+      const assignmentResult = assignmentService.determineAssignment(rktObj, distribution, undefined, undefined, {});
+      const opActivity = OperationalPlanningMapper.fromDistribution(`OP-${rktId}`, program.id || 'PROG-GEN', distribution);
+      opActivity.metadata = {
+        ...opActivity.metadata,
+        programName: program.nama,
+        activityName: kegiatan.nama,
+        target: rktObj.target,
+        successIndicator: "100% Tercapai",
+        personInCharge: obj ? obj.responsibleUnit : "Tim Pengembang"
+      };
+      if (assignmentResult.success && assignmentResult.assignment) {
+          opActivity.planningYear = assignmentResult.assignment.planningYear;
+      }
+      const targetBucket = `Y${String(opActivity.planningYear).replace(/[^0-9]/g, '')}`; // Normalized to guarantee Y1-Y4
+      const targetYearInt = parseInt(targetBucket.replace('Y', ''));
+      
+      // Initialize bucket if missing
+      if (!annualPlans[targetBucket as keyof typeof annualPlans]) {
+          annualPlans[targetBucket as keyof typeof annualPlans] = { rkt: [], rkas: [], monitoring: [], evaluation: [], operationalActivities: [] } as any;
+      }
+      
+      if (!(annualPlans[targetBucket as keyof typeof annualPlans] as any).operationalActivities) {
+          (annualPlans[targetBucket as keyof typeof annualPlans] as any).operationalActivities = [];
+      }
+      (annualPlans[targetBucket as keyof typeof annualPlans] as any).operationalActivities.push(opActivity);
+      
+      // Push components to the target bucket determined ONLY by PlanningAssignment
+      annualPlans[targetBucket as keyof typeof annualPlans].rkt.push(rktObj);
+      
+      const rkasId = `RKAS-${targetBucket}-${idx + 1}a`;
+      annualPlans[targetBucket as keyof typeof annualPlans].rkas.push({
+        id: rkasId,
+        rktActivityId: rktId,
+        budgetItem: `Biaya Pelaksanaan ${kegiatan.nama}`,
+        accountCode: "5.1.02.01",
+        fundingSource: "BOS Reguler",
+        amount: 2500000,
+        status: "draft"
+      });
+      
+      annualPlans[targetBucket as keyof typeof annualPlans].monitoring.push({
+        id: `MON-${targetBucket}-${idx + 1}`,
+        rkasId: rkasId,
+        evidence: "Daftar Hadir, Laporan Kegiatan, & Dokumentasi",
+        result: "Dalam Proses"
+      });
+      
+      annualPlans[targetBucket as keyof typeof annualPlans].evaluation.push({
+        id: `EV-${targetBucket}-${idx + 1}`,
+        objectiveId: obj ? obj.id : 'OBJ-IRB-0',
+        status: "Berjalan",
+        notes: "Evaluasi dijadwalkan akhir semester."
+      });
+    });
+
+    const flatOperationalActivities = [
+      ...(annualPlans.Y1.operationalActivities || []),
+      ...(annualPlans.Y2.operationalActivities || []),
+      ...(annualPlans.Y3.operationalActivities || []),
+      ...(annualPlans.Y4.operationalActivities || [])
+    ];
+
+    const flatPlanningAssignments = flatOperationalActivities.map(op => ({
+       activityReferenceId: op.activityReferenceId,
+       planningYear: op.planningYear
+    }));
+
+
+    console.log('Object.keys(annualPlans):', Object.keys(annualPlans));
+    console.log('Y1.rkt.length:', annualPlans.Y1.rkt.length);
+    console.log('Y2.rkt.length:', annualPlans.Y2.rkt.length);
+    console.log('Y3.rkt.length:', annualPlans.Y3.rkt.length);
+    console.log('Y4.rkt.length:', annualPlans.Y4.rkt.length);
+    return { 
+      objectives, 
+      programs: irb, 
+      activities: kegiatanList, 
+      annualPlans,
+      operationalActivities: flatOperationalActivities,
+      planningAssignments: flatPlanningAssignments,
+      metadata: { generatedBy: "OperationalPlanningEngine", source: "analysisData" },
+      version: 1
+    };
+  }, [settings.analisis]);
+

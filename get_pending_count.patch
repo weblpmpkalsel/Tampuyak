@@ -1,0 +1,31 @@
+--- src/Tampuyak.tsx
++++ src/Tampuyak.tsx
+@@ -13990,6 +13990,19 @@
+ 
+   const isSuperAdmin = auth.currentUser ? PermissionService.getCache(auth.currentUser.uid)?.role === 'SUPER_ADMIN' : false;
+ 
++  const [pendingUsersCount, setPendingUsersCount] = useState(0);
++  useEffect(() => {
++    if (isSuperAdmin) {
++      import('firebase/firestore').then(({ collection, getDocs, query, where }) => {
++        const q = query(collection(db, 'users'), where('status', '==', 'PENDING'));
++        getDocs(q).then(snap => {
++          setPendingUsersCount(snap.size);
++        }).catch(console.error);
++      });
++    }
++  }, [isSuperAdmin, currentView]);
++
+   const docs = settings?.documents || [];
+   
+   const [hasCompletedOnboarding, setHasCompletedOnboarding] = useState(() => {
+@@ -14444,7 +14457,10 @@
+                 onClick={() => setCurrentView('approvals')}
+                 className="relative p-2.5 rounded-full text-blue-600 hover:bg-blue-50 transition-colors flex items-center gap-1 font-bold text-sm"
+               >
+                 Approvals
++                {pendingUsersCount > 0 && (
++                  <span className="absolute top-1 right-1 flex h-4 w-4 items-center justify-center rounded-full bg-red-500 text-[10px] font-bold text-white shadow-sm">{pendingUsersCount}</span>
++                )}
+               </button>
+             )}

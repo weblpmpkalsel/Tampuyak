@@ -1,0 +1,75 @@
+120:const STORAGE_KEY = "tampuyak.settings";
+121:const MAX_LOGO_SIZE = 1024 * 1024;
+126:const PlanningStatus = {
+133:const PlanningRegistry = [
+213:const PlanningRules = {
+310:const PlanningProgress = {
+333:const PlanningEngine = {
+363:const RegulationRegistry = {
+416:const DocumentSchema = {
+452:const DocumentRegistry = {
+569:const CurriculumRegistry = {
+629:const RuleRegistry = {
+653:const PolicyRegistry = {
+969:const KnowledgeBase = {
+984:const DocumentStandardEngine = {
+1029:const LanguageEngine = {
+1086:const RegulationComplianceEngine = {
+1179:const RKJMBlueprintEngine = {
+1373:const RKJMContentOrchestratorEngine = {
+1444:const DecisionEngine = {
+1487:const TargetPerformanceEngine = {
+1514:const WorkflowEngine = {
+1554:const RegulationGovernanceEngine = {
+1835:const TemplateRegistryEngine = {
+1967:const RKJMPipelineEngine = {
+2047:const DocumentEditorEngine = {
+2104:const RKTDerivationEngine = {
+2156:const RKASDerivationEngine = {
+2209:const ImplementationMonitoringEngine = {
+2234:const RaporDictionary = [
+2296:const DEFAULT_SETTINGS = {
+2500:const CHECKLIST_ITEMS = [
+2509:const AppContext = createContext<any>(undefined);
+2982:const SuccessOverlay = ({ title, message }: any) => {
+3001:const Toast = ({ message, type }) => {
+3020:const Card = ({
+3062:const ContextHelpButton = ({ title, purpose, importance, nextSteps }: any) => {
+3117:const Input = ({
+3156:const Textarea = ({
+3183:const Select = ({ label, value, onChange, options, required }) => {
+3218:const Button = ({
+3248:const GenericModal = ({
+3309:const DashboardView = ({ navigateToSettings, navigateToView }: any) => {
+3708:const PusatDataDashboard = ({ onNavigate }: any) => {
+3950:const SettingsTabs = {
+5870:const StorageTab = () => {
+5967:const calcKategori = (nilai: number | string) => {
+5975:const AnalisisCerdasView = () => {
+6493:const LanguageEngineView = () => {
+6606:const DecisionEngineView = ({ navigateToView }: any) => {
+7801:const DocumentStandardView = () => {
+8084:const RegulationComplianceView = () => {
+8263:const RKJMBlueprintView = () => {
+8408:const RKJMOrchestratorView = () => {
+8528:const DocumentEditorView = () => {
+8961:const RKJMPipelineView = () => {
+9557:const RaporPendidikanView = () => {
+10155:const AboutTab = ({ developerMode, setCurrentView, handleDevClick }: any) => {
+10256:const DataSekolahView = ({ initialTab = "dashboard" }: any) => {
+10447:const SettingsView = ({
+10536:const BerandaView = ({ navigateToView, navigateToSettings }: any) => {
+10902:const RKTDerivationView = ({ navigateToView }: any) => {
+11283:const RKASDerivationView = ({ navigateToView }: any) => {
+11740:const DokumenPerencanaanView = ({ navigateToView }: any) => {
+11888:const MonitoringView = () => {
+12335:const DokumenAdministrasiView = () => {
+12391:const KSP_TEMPLATE_REGISTRY: Record<string, any> = {
+12449:const KSP_STAGES_2025 = [
+12490:const KspStageContent = ({
+12821:const KSPStudioView = ({ navigateToView }: any) => {
+12932:const PublishingCenterView = ({ navigateToView }: any) => {
+13348:const DocumentQualityAssuranceView = ({ navigateToView }: any) => {
+13678:const WorkspaceAnalisisView = ({ navigateToView }: any) => {
+13751:const ProcessStepper = ({ currentView, settings }: any) => {
+13823:const LayoutContainer = () => {
